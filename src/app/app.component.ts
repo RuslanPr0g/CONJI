@@ -71,6 +71,7 @@ export class AppComponent {
       { order: 2, file: 'group-2.json' },
       { order: 3, file: 'group-3.json' },
       { order: 4, file: 'group-4.json' },
+      { order: 5, file: 'group-5.json' },
     ];
 
     const requests = groupFiles.map((g) =>

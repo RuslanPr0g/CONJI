@@ -61,66 +61,6 @@
                     "voi": "vedeți"
                 }
             }
-        },
-        {
-            "infinitive": "avea",
-            "infinitive_translated": [
-                "have"
-            ],
-            "conjugations": {
-                "prezent": {
-                    "eu": "am",
-                    "tu": "ai",
-                    "el/ea": "are",
-                    "noi": "avem",
-                    "voi": "aveți",
-                    "ei/ele": "au"
-                },
-                "perfect_compus": {
-                    "eu": "am avut",
-                    "tu": "ai avut",
-                    "el/ea": "a avut",
-                    "noi": "am avut",
-                    "voi": "ați avut",
-                    "ei/ele": "au avut"
-                },
-                "viitor_literar": {
-                    "eu": "voi avea",
-                    "tu": "vei avea",
-                    "el/ea": "va avea",
-                    "noi": "vom avea",
-                    "voi": "veți avea",
-                    "ei/ele": "vor avea"
-                },
-                "viitor_familiar": {
-                    "eu": "o să am",
-                    "tu": "o să ai",
-                    "el/ea": "o să aibă",
-                    "noi": "o să avem",
-                    "voi": "o să aveți",
-                    "ei/ele": "o să aibă"
-                },
-                "conjunctiv": {
-                    "eu": "să am",
-                    "tu": "să ai",
-                    "el/ea": "să aibă",
-                    "noi": "să avem",
-                    "voi": "să aveți",
-                    "ei/ele": "să aibă"
-                },
-                "conditional": {
-                    "eu": "aș avea",
-                    "tu": "ai avea",
-                    "el/ea": "ar avea",
-                    "noi": "am avea",
-                    "voi": "ați avea",
-                    "ei/ele": "ar avea"
-                },
-                "imperativ": {
-                    "tu": "ai",
-                    "voi": "aveți"
-                }
-            }
         }
     ]
 }
