@@ -1,5 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { take } from 'rxjs';
@@ -44,7 +46,9 @@ export interface ImperativConjugation {
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './app.component.html',
+  styleUrl: './app.component.scss',
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
