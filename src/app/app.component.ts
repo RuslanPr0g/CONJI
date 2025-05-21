@@ -123,8 +123,6 @@ export class AppComponent {
   private regroupVerbs(
     items: { group: string; verb: Verb }[] | Verb[]
   ): VerbGroup[] {
-    // Accepts either flat array of {group, verb} or array of verbs with group info embedded.
-    // Normalize input to array of {group, verb} first:
     let pairs: { group: string; verb: Verb }[] = [];
     if (
       items.length &&
@@ -133,7 +131,6 @@ export class AppComponent {
     ) {
       pairs = items as { group: string; verb: Verb }[];
     } else {
-      // Items are verbs only, find their groups
       pairs = [];
       for (const verb of items as Verb[]) {
         for (const g of this.groupedVerbs) {
@@ -144,17 +141,21 @@ export class AppComponent {
         }
       }
     }
+
     // Group by group name
     const map = new Map<string, Verb[]>();
     for (const { group, verb } of pairs) {
       if (!map.has(group)) map.set(group, []);
       map.get(group)!.push(verb);
     }
-    // Build array
-    return Array.from(map.entries()).map(([group, verbs]) => ({
-      group,
-      verbs,
-    }));
+
+    // Preserve group order from groupedVerbs
+    return this.groupedVerbs
+      .filter((g) => map.has(g.group))
+      .map((g) => ({
+        group: g.group,
+        verbs: map.get(g.group)!,
+      }));
   }
 
   private normalizeText(text: string): string {
