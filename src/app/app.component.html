@@ -1,6 +1,10 @@
 <div class="app-wrapper">
   <div class="search-bar">
-    <input type="text" [formControl]="searchControl" placeholder="Search verbs..." />
+    <input
+      type="text"
+      [formControl]="searchControl"
+      placeholder="Search verbs..."
+    />
   </div>
   <div class="grid-container">
     <div class="group-column" *ngFor="let group of filteredGroups">
@@ -35,6 +39,9 @@
           >
         </div>
       </div>
+    </div>
+    <div *ngIf="filteredGroups.length === 0">
+      <p class="no-results">No matching results found.</p>
     </div>
   </div>
   <div class="verb-hint">Tap a verb block to view full conjugation.</div>

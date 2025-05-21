@@ -94,8 +94,13 @@ textarea {
     font-style: italic;
     z-index: 10;
     pointer-events: none;
-    // box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.3);
-    // background-color: #222;
+}
+
+.no-results {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #777;
+  margin-top: 2rem;
 }
 
 .verb-info {
