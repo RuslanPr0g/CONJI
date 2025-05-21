@@ -60,6 +60,66 @@
                     "voi": "lucrați"
                 }
             }
+        },
+        {
+            "infinitive": "cânta",
+            "infinitive_translated": [
+                "sing"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "cânt",
+                    "tu": "cânți",
+                    "el/ea": "cântă",
+                    "noi": "cântăm",
+                    "voi": "cântați",
+                    "ei/ele": "cântă"
+                },
+                "perfect_compus": {
+                    "eu": "am cântat",
+                    "tu": "ai cântat",
+                    "el/ea": "a cântat",
+                    "noi": "am cântat",
+                    "voi": "ați cântat",
+                    "ei/ele": "au cântat"
+                },
+                "viitor_literar": {
+                    "eu": "voi cânta",
+                    "tu": "vei cânta",
+                    "el/ea": "va cânta",
+                    "noi": "vom cânta",
+                    "voi": "veți cânta",
+                    "ei/ele": "vor cânta"
+                },
+                "viitor_familiar": {
+                    "eu": "o să cânt",
+                    "tu": "o să cânți",
+                    "el/ea": "o să cânte",
+                    "noi": "o să cântăm",
+                    "voi": "o să cântați",
+                    "ei/ele": "o să cânte"
+                },
+                "conjunctiv": {
+                    "eu": "să cânt",
+                    "tu": "să cânți",
+                    "el/ea": "să cânte",
+                    "noi": "să cântăm",
+                    "voi": "să cântați",
+                    "ei/ele": "să cânte"
+                },
+                "conditional": {
+                    "eu": "aș cânta",
+                    "tu": "ai cânta",
+                    "el/ea": "ar cânta",
+                    "noi": "am cânta",
+                    "voi": "ați cânta",
+                    "ei/ele": "ar cânta"
+                },
+                "imperativ": {
+                    "tu": "cântă",
+                    "voi": "cântați"
+                }
+            }
         }
     ]
 }
