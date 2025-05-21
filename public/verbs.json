@@ -4,6 +4,9 @@
         "verbs": [
             {
                 "infinitive": "lucra",
+                "infinitive_translated": [
+                    "work"
+                ],
                 "conjugations": {
                     "prezent": {
                         "eu": "lucrez",
@@ -66,6 +69,10 @@
         "verbs": [
             {
                 "infinitive": "vedea",
+                "infinitive_translated": [
+                    "see",
+                    "observe"
+                ],
                 "conjugations": {
                     "prezent": {
                         "eu": "văd",
@@ -128,6 +135,10 @@
         "verbs": [
             {
                 "infinitive": "merge",
+                "infinitive_translated": [
+                    "go",
+                    "drive"
+                ],
                 "conjugations": {
                     "prezent": {
                         "eu": "merg",
@@ -190,6 +201,10 @@
         "verbs": [
             {
                 "infinitive": "locui",
+                "infinitive_translated": [
+                    "live",
+                    "reside"
+                ],
                 "conjugations": {
                     "prezent": {
                         "eu": "locuiesc",
