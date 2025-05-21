@@ -1,9 +1,9 @@
 <div class="app-wrapper">
   <div class="search-bar">
-    <input type="text" [(ngModel)]="searchText" placeholder="Search verbs..." />
+    <input type="text" [formControl]="searchControl" placeholder="Search verbs..." />
   </div>
   <div class="grid-container">
-    <div class="group-column" *ngFor="let group of groupedVerbs">
+    <div class="group-column" *ngFor="let group of filteredGroups">
       <div class="group-title">{{ group.group }}</div>
       <div
         class="verb-block"

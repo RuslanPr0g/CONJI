@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { take } from 'rxjs';
+import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { debounceTime, distinctUntilChanged, take } from 'rxjs';
 
 type ConjugationKey = keyof Conjugations;
 
@@ -44,14 +44,14 @@ export interface ImperativConjugation {
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, ReactiveFormsModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
   groupedVerbs: VerbGroup[] = [];
-  searchText: string = '';
-  title: string = 'CONJI APP';
+  filteredGroups: VerbGroup[] = [];
+  searchControl = new FormControl('');
   selectedVerb: Verb | null = null;
   conjugationKeys: ConjugationKey[] = [
     'prezent',
@@ -71,6 +71,23 @@ export class AppComponent {
       .pipe(take(1))
       .subscribe((data) => {
         this.groupedVerbs = data;
+        this.filteredGroups = this.getRandomVerbsGroups(data, 15);
+      });
+
+    this.searchControl.valueChanges
+      .pipe(debounceTime(300), distinctUntilChanged())
+      .subscribe((search) => {
+        if (!search?.trim()) {
+          this.filteredGroups = this.getRandomVerbsGroups(
+            this.groupedVerbs,
+            15
+          );
+          return;
+        }
+
+        const filtered = this.filterGroups(this.groupedVerbs, search);
+        const limited = this.limitVerbs(filtered, 15);
+        this.filteredGroups = this.regroupVerbs(limited);
       });
   }
 
@@ -80,5 +97,112 @@ export class AppComponent {
 
   closePopup() {
     this.selectedVerb = null;
+  }
+
+  private getRandomVerbsGroups(
+    groups: VerbGroup[],
+    maxCount: number
+  ): VerbGroup[] {
+    // Flatten all verbs with group reference
+    const allVerbs = groups.flatMap((g) =>
+      g.verbs.map((v) => ({ group: g.group, verb: v }))
+    );
+    // Shuffle
+    const shuffled = [...allVerbs].sort(() => Math.random() - 0.5);
+    // Take up to maxCount
+    const selected = shuffled.slice(0, maxCount);
+    return this.regroupVerbs(selected);
+  }
+
+  private limitVerbs(groups: VerbGroup[], maxCount: number): Verb[] {
+    // Flatten all verbs from filtered groups, limit by maxCount
+    const all = groups.flatMap((g) => g.verbs);
+    return all.slice(0, maxCount);
+  }
+
+  private regroupVerbs(
+    items: { group: string; verb: Verb }[] | Verb[]
+  ): VerbGroup[] {
+    // Accepts either flat array of {group, verb} or array of verbs with group info embedded.
+    // Normalize input to array of {group, verb} first:
+    let pairs: { group: string; verb: Verb }[] = [];
+    if (
+      items.length &&
+      'group' in (items[0] as any) &&
+      'verb' in (items[0] as any)
+    ) {
+      pairs = items as { group: string; verb: Verb }[];
+    } else {
+      // Items are verbs only, find their groups
+      pairs = [];
+      for (const verb of items as Verb[]) {
+        for (const g of this.groupedVerbs) {
+          if (g.verbs.includes(verb)) {
+            pairs.push({ group: g.group, verb });
+            break;
+          }
+        }
+      }
+    }
+    // Group by group name
+    const map = new Map<string, Verb[]>();
+    for (const { group, verb } of pairs) {
+      if (!map.has(group)) map.set(group, []);
+      map.get(group)!.push(verb);
+    }
+    // Build array
+    return Array.from(map.entries()).map(([group, verbs]) => ({
+      group,
+      verbs,
+    }));
+  }
+
+  private normalizeText(text: string): string {
+    return text
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') // remove diacritics (Ă -> A)
+      .replace(/đ/g, 'd')
+      .replace(/Đ/g, 'D')
+      .toLowerCase();
+  }
+
+  private verbMatchesSearch(verb: Verb, search: string): boolean {
+    const normSearch = this.normalizeText(search);
+    if (
+      this.normalizeText(verb.infinitive).includes(normSearch) ||
+      (verb.infinitive_translated &&
+        verb.infinitive_translated.some((t) =>
+          this.normalizeText(t).includes(normSearch)
+        ))
+    ) {
+      return true;
+    }
+    for (const tenseKey of this.conjugationKeys) {
+      const conjugation = verb.conjugations[tenseKey];
+      if (tenseKey !== 'imperativ') {
+        for (const form of Object.values(conjugation as ConjugationSet)) {
+          if (this.normalizeText(form).includes(normSearch)) return true;
+        }
+      } else {
+        for (const form of Object.values(conjugation as ImperativConjugation)) {
+          if (this.normalizeText(form).includes(normSearch)) return true;
+        }
+      }
+    }
+    return false;
+  }
+
+  private filterGroups(groups: VerbGroup[], search: string): VerbGroup[] {
+    const normSearch = search.trim();
+    if (!normSearch) return groups;
+
+    return groups
+      .map((group) => ({
+        group: group.group,
+        verbs: group.verbs.filter((verb) =>
+          this.verbMatchesSearch(verb, normSearch)
+        ),
+      }))
+      .filter((group) => group.verbs.length > 0);
   }
 }
