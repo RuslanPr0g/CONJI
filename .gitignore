@@ -25,9 +25,11 @@ bin/
 Bin/
 obj/
 Obj/
+dist/
 
-# Visual Studio 2015 cache/options directory
 .vs/
+.vscode/
+.angular/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
