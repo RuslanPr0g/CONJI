@@ -1,13 +1,63 @@
+import { CommonModule } from '@angular/common';
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { take } from 'rxjs';
+
+export interface VerbGroup {
+  group: string;
+  verbs: Verb[];
+}
+
+export interface Verb {
+  infinitive: string;
+  conjugations: Conjugations;
+}
+
+export interface Conjugations {
+  prezent: ConjugationSet;
+  perfect_compus: ConjugationSet;
+  viitor_literar: ConjugationSet;
+  viitor_familiar: ConjugationSet;
+  conjunctiv: ConjugationSet;
+  conditional: ConjugationSet;
+  imperativ: ImperativConjugation;
+}
+
+export interface ConjugationSet {
+  eu: string;
+  tu: string;
+  'el/ea': string;
+  noi: string;
+  voi: string;
+  'ei/ele': string;
+}
+
+export interface ImperativConjugation {
+  tu: string;
+  voi: string;
+}
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [CommonModule, FormsModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'conji';
+  groupedVerbs: VerbGroup[] = [];
+  searchText: string = '';
+  title: string = 'CONJI APP';
+
+  constructor(private http: HttpClient) {}
+
+  ngOnInit() {
+    this.http
+      .get<VerbGroup[]>('verbs.json')
+      .pipe(take(1))
+      .subscribe((data) => {
+        this.groupedVerbs = data;
+      });
+  }
 }

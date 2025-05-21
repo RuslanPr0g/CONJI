@@ -1,0 +1,116 @@
+.search-bar {
+    padding: 8px;
+    background: #2c2c2c;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 40%;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #8b3f3f;
+    color: #fff !important;
+}
+
+input,
+select,
+textarea {
+    color: #ff0000;
+}
+
+.group-column {
+    width: 23%;
+    background-color: #1e1e1e;
+    padding: 8px;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+.group-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #8b3f3f, #a84b4b);
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease;
+}
+
+.verb-block {
+    background-color: #2a2a2a;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    text-align: center;
+    color: #f8f8f8;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.verb-info {
+    font-size: 0.95rem;
+    color: #f0f0f0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #111;
+    color: #fff;
+    min-height: 92vh;
+    gap: 12px;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #fafafa89;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #fafafa89;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #fafafa89;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fafafa89;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fafafa89;
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: #fafafa89;
+}
+
+@media (max-width: 824px) {
+    .group-column {
+        width: 48%;
+    }
+}
+
+@media (max-width: 600px) {
+    .group-column {
+        width: 100%;
+    }
+}
