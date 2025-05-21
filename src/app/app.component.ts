@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { debounceTime, distinctUntilChanged, take } from 'rxjs';
+import { debounceTime, distinctUntilChanged, forkJoin, take } from 'rxjs';
 
 type ConjugationKey = keyof Conjugations;
 
@@ -66,13 +66,21 @@ export class AppComponent {
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
-    this.http
-      .get<VerbGroup[]>('verbs.json')
-      .pipe(take(1))
-      .subscribe((data) => {
-        this.groupedVerbs = data;
-        this.filteredGroups = this.getRandomVerbsGroups(data, 15);
-      });
+    const groupFiles = [
+      { order: 1, file: 'group-1.json' },
+      { order: 2, file: 'group-2.json' },
+      { order: 3, file: 'group-3.json' },
+      { order: 4, file: 'group-4.json' },
+    ];
+
+    const requests = groupFiles.map((g) =>
+      this.http.get<VerbGroup>(g.file).pipe(take(1))
+    );
+
+    forkJoin(requests).subscribe((groups) => {
+      this.groupedVerbs = groups;
+      this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs, 15);
+    });
 
     this.searchControl.valueChanges
       .pipe(debounceTime(300), distinctUntilChanged())

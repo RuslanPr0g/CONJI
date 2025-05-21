@@ -1,0 +1,65 @@
+{
+    "group": "Group I - ending in -a",
+    "verbs": [
+        {
+            "infinitive": "lucra",
+            "infinitive_translated": [
+                "work"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "lucrez",
+                    "tu": "lucrezi",
+                    "el/ea": "lucrează",
+                    "noi": "lucrăm",
+                    "voi": "lucrați",
+                    "ei/ele": "lucrează"
+                },
+                "perfect_compus": {
+                    "eu": "am lucrat",
+                    "tu": "ai lucrat",
+                    "el/ea": "a lucrat",
+                    "noi": "am lucrat",
+                    "voi": "ați lucrat",
+                    "ei/ele": "au lucrat"
+                },
+                "viitor_literar": {
+                    "eu": "voi lucra",
+                    "tu": "vei lucra",
+                    "el/ea": "va lucra",
+                    "noi": "vom lucra",
+                    "voi": "veți lucra",
+                    "ei/ele": "vor lucra"
+                },
+                "viitor_familiar": {
+                    "eu": "o să lucrez",
+                    "tu": "o să lucrezi",
+                    "el/ea": "o să lucreze",
+                    "noi": "o să lucrăm",
+                    "voi": "o să lucrați",
+                    "ei/ele": "o să lucreze"
+                },
+                "conjunctiv": {
+                    "eu": "să lucrez",
+                    "tu": "să lucrezi",
+                    "el/ea": "să lucreze",
+                    "noi": "să lucrăm",
+                    "voi": "să lucrați",
+                    "ei/ele": "să lucreze"
+                },
+                "conditional": {
+                    "eu": "aș lucra",
+                    "tu": "ai lucra",
+                    "el/ea": "ar lucra",
+                    "noi": "am lucra",
+                    "voi": "ați lucra",
+                    "ei/ele": "ar lucra"
+                },
+                "imperativ": {
+                    "tu": "lucrează",
+                    "voi": "lucrați"
+                }
+            }
+        }
+    ]
+}
