@@ -43,6 +43,21 @@
     <div class="popup-content" (click)="$event.stopPropagation()">
       <div class="popup-header">
         <h2>{{ selectedVerb.infinitive }}</h2>
+        <div
+          class="popup-translations"
+          *ngIf="selectedVerb.infinitive_translated?.length"
+        >
+          <small>
+            <span
+              *ngFor="
+                let translation of selectedVerb.infinitive_translated;
+                let last = last
+              "
+            >
+              {{ translation }}<span *ngIf="!last"> &#x2022; </span>
+            </span>
+          </small>
+        </div>
         <button class="popup-close" (click)="closePopup()">×</button>
       </div>
       <div class="popup-body">
