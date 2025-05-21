@@ -1,0 +1,66 @@
+{
+    "group": "Group IV - ending in -i/î",
+    "verbs": [
+        {
+            "infinitive": "locui",
+            "infinitive_translated": [
+                "live",
+                "reside"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "locuiesc",
+                    "tu": "locuiești",
+                    "el/ea": "locuiește",
+                    "noi": "locuim",
+                    "voi": "locuiți",
+                    "ei/ele": "locuiesc"
+                },
+                "perfect_compus": {
+                    "eu": "am locuit",
+                    "tu": "ai locuit",
+                    "el/ea": "a locuit",
+                    "noi": "am locuit",
+                    "voi": "ați locuit",
+                    "ei/ele": "au locuit"
+                },
+                "viitor_literar": {
+                    "eu": "voi locui",
+                    "tu": "vei locui",
+                    "el/ea": "va locui",
+                    "noi": "vom locui",
+                    "voi": "veți locui",
+                    "ei/ele": "vor locui"
+                },
+                "viitor_familiar": {
+                    "eu": "o să locuiesc",
+                    "tu": "o să locuiești",
+                    "el/ea": "o să locuiască",
+                    "noi": "o să locuim",
+                    "voi": "o să locuiți",
+                    "ei/ele": "o să locuiască"
+                },
+                "conjunctiv": {
+                    "eu": "să locuiesc",
+                    "tu": "să locuiești",
+                    "el/ea": "să locuiască",
+                    "noi": "să locuim",
+                    "voi": "să locuiți",
+                    "ei/ele": "să locuiască"
+                },
+                "conditional": {
+                    "eu": "aș locui",
+                    "tu": "ai locui",
+                    "el/ea": "ar locui",
+                    "noi": "am locui",
+                    "voi": "ați locui",
+                    "ei/ele": "ar locui"
+                },
+                "imperativ": {
+                    "tu": "locuiește",
+                    "voi": "locuiți"
+                }
+            }
+        }
+    ]
+}

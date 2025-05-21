@@ -1,0 +1,126 @@
+{
+    "group": "Group III - ending in -e",
+    "verbs": [
+        {
+            "infinitive": "merge",
+            "infinitive_translated": [
+                "go",
+                "drive"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "merg",
+                    "tu": "mergi",
+                    "el/ea": "merge",
+                    "noi": "mergem",
+                    "voi": "mergeți",
+                    "ei/ele": "merg"
+                },
+                "perfect_compus": {
+                    "eu": "am mers",
+                    "tu": "ai mers",
+                    "el/ea": "a mers",
+                    "noi": "am mers",
+                    "voi": "ați mers",
+                    "ei/ele": "au mers"
+                },
+                "viitor_literar": {
+                    "eu": "voi merge",
+                    "tu": "vei merge",
+                    "el/ea": "va merge",
+                    "noi": "vom merge",
+                    "voi": "veți merge",
+                    "ei/ele": "vor merge"
+                },
+                "viitor_familiar": {
+                    "eu": "o să merg",
+                    "tu": "o să mergi",
+                    "el/ea": "o să meargă",
+                    "noi": "o să mergem",
+                    "voi": "o să mergeți",
+                    "ei/ele": "o să meargă"
+                },
+                "conjunctiv": {
+                    "eu": "să merg",
+                    "tu": "să mergi",
+                    "el/ea": "să meargă",
+                    "noi": "să mergem",
+                    "voi": "să mergeți",
+                    "ei/ele": "să meargă"
+                },
+                "conditional": {
+                    "eu": "aș merge",
+                    "tu": "ai merge",
+                    "el/ea": "ar merge",
+                    "noi": "am merge",
+                    "voi": "ați merge",
+                    "ei/ele": "ar merge"
+                },
+                "imperativ": {
+                    "tu": "mergi",
+                    "voi": "mergeți"
+                }
+            }
+        },
+        {
+            "infinitive": "scrie",
+            "infinitive_translated": [
+                "write"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "scriu",
+                    "tu": "scrii",
+                    "el/ea": "scrie",
+                    "noi": "scriem",
+                    "voi": "scrieți",
+                    "ei/ele": "scriu"
+                },
+                "perfect_compus": {
+                    "eu": "am scris",
+                    "tu": "ai scris",
+                    "el/ea": "a scris",
+                    "noi": "am scris",
+                    "voi": "ați scris",
+                    "ei/ele": "au scris"
+                },
+                "viitor_literar": {
+                    "eu": "voi scrie",
+                    "tu": "vei scrie",
+                    "el/ea": "va scrie",
+                    "noi": "vom scrie",
+                    "voi": "veți scrie",
+                    "ei/ele": "vor scrie"
+                },
+                "viitor_familiar": {
+                    "eu": "o să scriu",
+                    "tu": "o să scrii",
+                    "el/ea": "o să scrie",
+                    "noi": "o să scriem",
+                    "voi": "o să scrieți",
+                    "ei/ele": "o să scrie"
+                },
+                "conjunctiv": {
+                    "eu": "să scriu",
+                    "tu": "să scrii",
+                    "el/ea": "să scrie",
+                    "noi": "să scriem",
+                    "voi": "să scrieți",
+                    "ei/ele": "să scrie"
+                },
+                "conditional": {
+                    "eu": "aș scrie",
+                    "tu": "ai scrie",
+                    "el/ea": "ar scrie",
+                    "noi": "am scrie",
+                    "voi": "ați scrie",
+                    "ei/ele": "ar scrie"
+                },
+                "imperativ": {
+                    "tu": "scrie",
+                    "voi": "scrieți"
+                }
+            }
+        }
+    ]
+}
