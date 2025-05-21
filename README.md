@@ -1,27 +1,85 @@
-# Conji
+# Conji 🖤
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+Welcome to Conji! A fun project built with **Angular**.
 
-## Development server
+## 🚀 Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 1. Clone the repo
 
-## Code scaffolding
+Start by cloning the repo to your local machine:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+git clone https://github.com/yourusername/conji.git
+cd conji
+```
 
-## Build
+### 2. Install dependencies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Install the project’s dependencies with npm:
 
-## Running unit tests
+```bash
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 3. Start the development server
 
-## Running end-to-end tests
+Run the app locally with the following command:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng serve
+```
 
-## Further help
+Then open your browser and visit [http://localhost:4200](http://localhost:4200). The app should automatically reload if you make any changes to the source files.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🛠 Development Workflow
+
+### 1. Code scaffolding
+
+Need a new component, service, or module? Angular CLI makes it super easy:
+
+```bash
+ng generate component component-name
+# Or for other types:
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
+
+This will create the necessary files and add them to your project.
+
+### 2. Deploying the app
+
+To build the project for production and deploy it to github pages, simply run:
+
+```bash
+./Deploy-App.ps1
+```
+
+This will compile everything into the `dist/` directory, optimized for production and deploy the entire app to github pages.
+
+### 3. Running Unit Tests
+
+Make sure your code is solid by running the unit tests:
+
+```bash
+ng test
+```
+
+This will run the tests using **Karma** and output the results to the terminal.
+
+### 4. Running End-to-End (E2E) Tests
+
+For a full application test (from the user’s perspective), run:
+
+```bash
+ng e2e
+```
+
+This will run the end-to-end tests using your chosen platform. If you haven’t set it up yet, make sure to install the necessary dependencies for E2E testing.
+
+## 📚 More Info
+
+- To get a full list of available commands, run `ng help`.
+- For detailed documentation and guides on Angular CLI commands, check out the official [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli).
+
+## 💬 Need Help?
+
+Feel free to open an issue or contact me if you run into any problems.
