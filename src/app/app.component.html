@@ -1,73 +1,75 @@
-<div class="search-bar">
-  <input type="text" [(ngModel)]="searchText" placeholder="Search verbs..." />
-</div>
-<div class="grid-container">
-  <div class="group-column" *ngFor="let group of groupedVerbs">
-    <div class="group-title">{{ group.group }}</div>
-    <div
-      class="verb-block"
-      *ngFor="let verb of group.verbs"
-      (click)="openPopup(verb)"
-    >
-      <div class="verb-infinitive">{{ verb.infinitive }}</div>
-      <div class="verb-forms">
-        <span><strong>eu:</strong> {{ verb.conjugations.prezent.eu }}</span>
-        <span><strong>tu:</strong> {{ verb.conjugations.prezent.tu }}</span>
-        <span
-          ><strong>el/ea:</strong>
-          {{ verb.conjugations.prezent["el/ea"] }}</span
-        >
+<div class="app-wrapper">
+  <div class="search-bar">
+    <input type="text" [(ngModel)]="searchText" placeholder="Search verbs..." />
+  </div>
+  <div class="grid-container">
+    <div class="group-column" *ngFor="let group of groupedVerbs">
+      <div class="group-title">{{ group.group }}</div>
+      <div
+        class="verb-block"
+        *ngFor="let verb of group.verbs"
+        (click)="openPopup(verb)"
+      >
+        <div class="verb-infinitive">{{ verb.infinitive }}</div>
+        <div class="verb-forms">
+          <span><strong>eu:</strong> {{ verb.conjugations.prezent.eu }}</span>
+          <span><strong>tu:</strong> {{ verb.conjugations.prezent.tu }}</span>
+          <span
+            ><strong>el/ea:</strong>
+            {{ verb.conjugations.prezent["el/ea"] }}</span
+          >
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="verb-hint">Tap a verb block to view full conjugation.</div>
-
-<!-- VERB POPUP -->
-<div class="popup-backdrop" *ngIf="selectedVerb" (click)="closePopup()">
-  <div class="popup-content" (click)="$event.stopPropagation()">
-    <div class="popup-header">
-      <h2>{{ selectedVerb.infinitive }}</h2>
-      <button class="popup-close" (click)="closePopup()">×</button>
-    </div>
-    <div class="popup-body">
-      <div class="conjugation-block" *ngFor="let tense of conjugationKeys">
-        <h3>{{ tense | titlecase }}</h3>
-        <ng-container *ngIf="tense !== 'imperativ'; else imperativeBlock">
-          <ul>
-            <li>
-              <strong>eu:</strong> {{ selectedVerb.conjugations[tense].eu }}
-            </li>
-            <li>
-              <strong>tu:</strong> {{ selectedVerb.conjugations[tense].tu }}
-            </li>
-            <li>
-              <strong>el/ea:</strong>
-              {{ selectedVerb.conjugations[tense]["el/ea"] }}
-            </li>
-            <li>
-              <strong>noi:</strong> {{ selectedVerb.conjugations[tense].noi }}
-            </li>
-            <li>
-              <strong>voi:</strong> {{ selectedVerb.conjugations[tense].voi }}
-            </li>
-            <li>
-              <strong>ei/ele:</strong>
-              {{ selectedVerb.conjugations[tense]["ei/ele"] }}
-            </li>
-          </ul>
-        </ng-container>
-        <ng-template #imperativeBlock>
-          <ul>
-            <li>
-              <strong>tu:</strong> {{ selectedVerb.conjugations.imperativ.tu }}
-            </li>
-            <li>
-              <strong>voi:</strong>
-              {{ selectedVerb.conjugations.imperativ.voi }}
-            </li>
-          </ul>
-        </ng-template>
+  <div class="verb-hint">Tap a verb block to view full conjugation.</div>
+  <!-- VERB POPUP -->
+  <div *ngIf="selectedVerb" class="popup-overlay" (click)="closePopup()">
+    <div class="popup-content" (click)="$event.stopPropagation()">
+      <div class="popup-header">
+        <h2>{{ selectedVerb.infinitive }}</h2>
+        <button class="popup-close" (click)="closePopup()">×</button>
+      </div>
+      <div class="popup-body">
+        <div class="conjugation-block" *ngFor="let tense of conjugationKeys">
+          <h3>{{ tense | titlecase }}</h3>
+          <ng-container *ngIf="tense !== 'imperativ'; else imperativeBlock">
+            <ul>
+              <li>
+                <strong>eu:</strong> {{ selectedVerb.conjugations[tense].eu }}
+              </li>
+              <li>
+                <strong>tu:</strong> {{ selectedVerb.conjugations[tense].tu }}
+              </li>
+              <li>
+                <strong>el/ea:</strong>
+                {{ selectedVerb.conjugations[tense]["el/ea"] }}
+              </li>
+              <li>
+                <strong>noi:</strong> {{ selectedVerb.conjugations[tense].noi }}
+              </li>
+              <li>
+                <strong>voi:</strong> {{ selectedVerb.conjugations[tense].voi }}
+              </li>
+              <li>
+                <strong>ei/ele:</strong>
+                {{ selectedVerb.conjugations[tense]["ei/ele"] }}
+              </li>
+            </ul>
+          </ng-container>
+          <ng-template #imperativeBlock>
+            <ul>
+              <li>
+                <strong>tu:</strong>
+                {{ selectedVerb.conjugations.imperativ.tu }}
+              </li>
+              <li>
+                <strong>voi:</strong>
+                {{ selectedVerb.conjugations.imperativ.voi }}
+              </li>
+            </ul>
+          </ng-template>
+        </div>
       </div>
     </div>
   </div>

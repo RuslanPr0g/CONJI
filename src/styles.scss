@@ -1,5 +1,9 @@
-html {
-    color: #333;
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #2a2a2a;
 }
 
 body {
@@ -7,10 +11,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
-    background-color: #f4f4f4;
-    padding: 0;
-    margin: 0;
 }
 
 h1,
@@ -60,4 +60,10 @@ button {
     &:hover {
         background-color: #0056b3;
     }
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
