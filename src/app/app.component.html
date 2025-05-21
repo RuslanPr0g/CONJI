@@ -11,6 +11,21 @@
         (click)="openPopup(verb)"
       >
         <div class="verb-infinitive">{{ verb.infinitive }}</div>
+        <div
+          class="verb-translations"
+          *ngIf="verb.infinitive_translated?.length"
+        >
+          <small>
+            <span
+              *ngFor="
+                let translation of verb.infinitive_translated;
+                let last = last
+              "
+            >
+              {{ translation }}<span *ngIf="!last"> &#x2022; </span>
+            </span>
+          </small>
+        </div>
         <div class="verb-forms">
           <span><strong>eu:</strong> {{ verb.conjugations.prezent.eu }}</span>
           <span><strong>tu:</strong> {{ verb.conjugations.prezent.tu }}</span>

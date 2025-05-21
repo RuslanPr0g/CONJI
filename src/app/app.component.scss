@@ -59,8 +59,15 @@ textarea {
 .verb-infinitive {
     font-size: 1.1rem;
     font-weight: 600;
-    margin-bottom: 6px;
+    margin-bottom: 0;
     color: #ffd8d8;
+}
+
+.verb-translations {
+    color: #d3d3d3;
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+    text-align: center;
 }
 
 .verb-forms {

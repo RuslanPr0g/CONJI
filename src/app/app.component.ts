@@ -13,6 +13,7 @@ export interface VerbGroup {
 
 export interface Verb {
   infinitive: string;
+  infinitive_translated?: string[];
   conjugations: Conjugations;
 }
 
