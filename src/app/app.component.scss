@@ -96,11 +96,12 @@ textarea {
     pointer-events: none;
 }
 
-.no-results {
-  text-align: center;
-  font-size: 1.1rem;
-  color: #777;
-  margin-top: 2rem;
+.no-results,
+.no-group-verbs {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    padding: 1rem;
 }
 
 .verb-info {
