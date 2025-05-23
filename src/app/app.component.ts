@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, forkJoin, take } from 'rxjs';
+import { environment } from '../environments/environment';
 
 type ConjugationKey = keyof Conjugations;
 
@@ -66,12 +67,18 @@ export class AppComponent {
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
+    const isProd = environment.production;
+
+    console.log(
+      isProd ? 'Running in production mode' : 'Running in development mode'
+    );
+
     const groupFiles = [
-      { order: 1, file: 'group-1.json' },
-      { order: 2, file: 'group-2.json' },
-      { order: 3, file: 'group-3.json' },
-      { order: 4, file: 'group-4.json' },
-      { order: 5, file: 'group-5.json' },
+      { order: 1, file: isProd ? 'group-1.min.json' : 'group-1.json' },
+      { order: 2, file: isProd ? 'group-2.min.json' : 'group-2.json' },
+      { order: 3, file: isProd ? 'group-3.min.json' : 'group-3.json' },
+      { order: 4, file: isProd ? 'group-4.min.json' : 'group-4.json' },
+      { order: 5, file: isProd ? 'group-5.min.json' : 'group-5.json' },
     ];
 
     const requests = groupFiles.map((g) =>

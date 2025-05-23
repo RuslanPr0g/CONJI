@@ -49,8 +49,8 @@ This will create the necessary files and add them to your project.
 
 To build the project for production and deploy it to github pages, simply run:
 
-```bash
-./Deploy-App.ps1
+```powershell
+npm run deploy
 ```
 
 This will compile everything into the `dist/` directory, optimized for production and deploy the entire app to github pages.
