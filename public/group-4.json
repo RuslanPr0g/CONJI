@@ -61,6 +61,67 @@
                     "voi": "locuiți"
                 }
             }
+        },
+        {
+            "infinitive": "vorbi",
+            "infinitive_translated": [
+                "speak",
+                "talk"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "vorbesc",
+                    "tu": "vorbești",
+                    "el/ea": "vorbește",
+                    "noi": "vorbim",
+                    "voi": "vorbiți",
+                    "ei/ele": "vorbesc"
+                },
+                "perfect_compus": {
+                    "eu": "am vorbit",
+                    "tu": "ai vorbit",
+                    "el/ea": "a vorbit",
+                    "noi": "am vorbit",
+                    "voi": "ați vorbit",
+                    "ei/ele": "au vorbit"
+                },
+                "viitor_literar": {
+                    "eu": "voi vorbi",
+                    "tu": "vei vorbi",
+                    "el/ea": "va vorbi",
+                    "noi": "vom vorbi",
+                    "voi": "veți vorbi",
+                    "ei/ele": "vor vorbi"
+                },
+                "viitor_familiar": {
+                    "eu": "o să vorbesc",
+                    "tu": "o să vorbești",
+                    "el/ea": "o să vorbească",
+                    "noi": "o să vorbim",
+                    "voi": "o să vorbiți",
+                    "ei/ele": "o să vorbească"
+                },
+                "conjunctiv": {
+                    "eu": "să vorbesc",
+                    "tu": "să vorbești",
+                    "el/ea": "să vorbească",
+                    "noi": "să vorbim",
+                    "voi": "să vorbiți",
+                    "ei/ele": "să vorbească"
+                },
+                "conditional": {
+                    "eu": "aș vorbi",
+                    "tu": "ai vorbi",
+                    "el/ea": "ar vorbi",
+                    "noi": "am vorbi",
+                    "voi": "ați vorbi",
+                    "ei/ele": "ar vorbi"
+                },
+                "imperativ": {
+                    "tu": "vorbește",
+                    "voi": "vorbiți"
+                }
+            }
         }
     ]
 }
