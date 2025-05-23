@@ -31,8 +31,6 @@ dist/
 .vscode/
 .angular/
 
-*.min.json
-
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
