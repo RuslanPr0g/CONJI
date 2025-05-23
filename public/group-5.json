@@ -120,6 +120,66 @@
                     "voi": "aveți"
                 }
             }
+        },
+        {
+            "infinitive": "lua",
+            "infinitive_translated": [
+                "to take"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "iau",
+                    "tu": "iei",
+                    "el/ea": "ia",
+                    "noi": "luăm",
+                    "voi": "luați",
+                    "ei/ele": "iau"
+                },
+                "perfect_compus": {
+                    "eu": "am luat",
+                    "tu": "ai luat",
+                    "el/ea": "a luat",
+                    "noi": "am luat",
+                    "voi": "ați luat",
+                    "ei/ele": "au luat"
+                },
+                "viitor_literar": {
+                    "eu": "voi lua",
+                    "tu": "vei lua",
+                    "el/ea": "va lua",
+                    "noi": "vom lua",
+                    "voi": "veți lua",
+                    "ei/ele": "vor lua"
+                },
+                "viitor_familiar": {
+                    "eu": "o să iau",
+                    "tu": "o să iei",
+                    "el/ea": "o să ia",
+                    "noi": "o să luăm",
+                    "voi": "o să luați",
+                    "ei/ele": "o să ia"
+                },
+                "conjunctiv": {
+                    "eu": "să iau",
+                    "tu": "să iei",
+                    "el/ea": "să ia",
+                    "noi": "să luăm",
+                    "voi": "să luați",
+                    "ei/ele": "să ia"
+                },
+                "conditional": {
+                    "eu": "aș lua",
+                    "tu": "ai lua",
+                    "el/ea": "ar lua",
+                    "noi": "am lua",
+                    "voi": "ați lua",
+                    "ei/ele": "ar lua"
+                },
+                "imperativ": {
+                    "tu": "ia",
+                    "voi": "luați"
+                }
+            }
         }
     ]
 }
