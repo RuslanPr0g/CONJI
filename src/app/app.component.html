@@ -107,7 +107,23 @@
 
       <div class="popup-body">
         <div class="conjugation-block" *ngFor="let tense of conjugationKeys">
-          <h3>{{ tense | titlecase }}</h3>
+          <h3>
+            {{ tense | titlecase }}
+            <span class="popup-translations">
+              •
+              {{
+                {
+                  prezent: "Present",
+                  perfect_compus: "Present Perfect",
+                  viitor_literar: "Future (Literary)",
+                  viitor_familiar: "Future (Familiar)",
+                  conjunctiv: "Subjunctive",
+                  conditional: "Conditional",
+                  imperativ: "Imperative"
+                }[tense]
+              }}
+            </span>
+          </h3>
 
           <ng-container *ngIf="tense !== 'imperativ'; else imperativeBlock">
             <ul>
