@@ -69,10 +69,6 @@ export class AppComponent {
   ngOnInit() {
     const isProd = environment.production;
 
-    console.log(
-      isProd ? 'Running in production mode' : 'Running in development mode'
-    );
-
     const groupFiles = [
       { order: 1, file: isProd ? 'group-1.min.json' : 'group-1.json' },
       { order: 2, file: isProd ? 'group-2.min.json' : 'group-2.json' },
