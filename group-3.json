@@ -121,6 +121,67 @@
                     "voi": "scrieți"
                 }
             }
+        },
+        {
+            "infinitive": "începe",
+            "infinitive_translated": [
+                "begin",
+                "start"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "încep",
+                    "tu": "începi",
+                    "el/ea": "începe",
+                    "noi": "începem",
+                    "voi": "începeți",
+                    "ei/ele": "încep"
+                },
+                "perfect_compus": {
+                    "eu": "am început",
+                    "tu": "ai început",
+                    "el/ea": "a început",
+                    "noi": "am început",
+                    "voi": "ați început",
+                    "ei/ele": "au început"
+                },
+                "viitor_literar": {
+                    "eu": "voi începe",
+                    "tu": "vei începe",
+                    "el/ea": "va începe",
+                    "noi": "vom începe",
+                    "voi": "veți începe",
+                    "ei/ele": "vor începe"
+                },
+                "viitor_familiar": {
+                    "eu": "o să încep",
+                    "tu": "o să începi",
+                    "el/ea": "o să înceapă",
+                    "noi": "o să începem",
+                    "voi": "o să începeți",
+                    "ei/ele": "o să înceapă"
+                },
+                "conjunctiv": {
+                    "eu": "să încep",
+                    "tu": "să începi",
+                    "el/ea": "să înceapă",
+                    "noi": "să începem",
+                    "voi": "să începeți",
+                    "ei/ele": "să înceapă"
+                },
+                "conditional": {
+                    "eu": "aș începe",
+                    "tu": "ai începe",
+                    "el/ea": "ar începe",
+                    "noi": "am începe",
+                    "voi": "ați începe",
+                    "ei/ele": "ar începe"
+                },
+                "imperativ": {
+                    "tu": "începe",
+                    "voi": "începeți"
+                }
+            }
         }
     ]
 }
