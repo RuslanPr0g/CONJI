@@ -120,6 +120,66 @@
                     "voi": "cântați"
                 }
             }
+        },
+        {
+            "infinitive": "cumpăra",
+            "infinitive_translated": [
+                "to buy"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "cumpăr",
+                    "tu": "cumperi",
+                    "el/ea": "cumpără",
+                    "noi": "cumpărăm",
+                    "voi": "cumpărați",
+                    "ei/ele": "cumpără"
+                },
+                "perfect_compus": {
+                    "eu": "am cumpărat",
+                    "tu": "ai cumpărat",
+                    "el/ea": "a cumpărat",
+                    "noi": "am cumpărat",
+                    "voi": "ați cumpărat",
+                    "ei/ele": "au cumpărat"
+                },
+                "viitor_literar": {
+                    "eu": "voi cumpăra",
+                    "tu": "vei cumpăra",
+                    "el/ea": "va cumpăra",
+                    "noi": "vom cumpăra",
+                    "voi": "veți cumpăra",
+                    "ei/ele": "vor cumpăra"
+                },
+                "viitor_familiar": {
+                    "eu": "o să cumpăr",
+                    "tu": "o să cumperi",
+                    "el/ea": "o să cumpere",
+                    "noi": "o să cumpărăm",
+                    "voi": "o să cumpărați",
+                    "ei/ele": "o să cumpere"
+                },
+                "conjunctiv": {
+                    "eu": "să cumpăr",
+                    "tu": "să cumperi",
+                    "el/ea": "să cumpere",
+                    "noi": "să cumpărăm",
+                    "voi": "să cumpărați",
+                    "ei/ele": "să cumpere"
+                },
+                "conditional": {
+                    "eu": "aș cumpăra",
+                    "tu": "ai cumpăra",
+                    "el/ea": "ar cumpăra",
+                    "noi": "am cumpăra",
+                    "voi": "ați cumpăra",
+                    "ei/ele": "ar cumpăra"
+                },
+                "imperativ": {
+                    "tu": "cumpără",
+                    "voi": "cumpărați"
+                }
+            }
         }
     ]
 }
