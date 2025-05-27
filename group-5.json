@@ -241,6 +241,68 @@
                     "voi": "mergeți"
                 }
             }
+        },
+        {
+            "infinitive": "sta",
+            "infinitive_translated": [
+                "to stay",
+                "to stand",
+                "to live"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "stau",
+                    "tu": "stai",
+                    "el/ea": "stă",
+                    "noi": "stăm",
+                    "voi": "stați",
+                    "ei/ele": "stau"
+                },
+                "perfect_compus": {
+                    "eu": "am stat",
+                    "tu": "ai stat",
+                    "el/ea": "a stat",
+                    "noi": "am stat",
+                    "voi": "ați stat",
+                    "ei/ele": "au stat"
+                },
+                "viitor_literar": {
+                    "eu": "voi sta",
+                    "tu": "vei sta",
+                    "el/ea": "va sta",
+                    "noi": "vom sta",
+                    "voi": "veți sta",
+                    "ei/ele": "vor sta"
+                },
+                "viitor_familiar": {
+                    "eu": "o să stau",
+                    "tu": "o să stai",
+                    "el/ea": "o să stea",
+                    "noi": "o să stăm",
+                    "voi": "o să stați",
+                    "ei/ele": "o să stea"
+                },
+                "conjunctiv": {
+                    "eu": "să stau",
+                    "tu": "să stai",
+                    "el/ea": "să stea",
+                    "noi": "să stăm",
+                    "voi": "să stați",
+                    "ei/ele": "să stea"
+                },
+                "conditional": {
+                    "eu": "aș sta",
+                    "tu": "ai sta",
+                    "el/ea": "ar sta",
+                    "noi": "am sta",
+                    "voi": "ați sta",
+                    "ei/ele": "ar sta"
+                },
+                "imperativ": {
+                    "tu": "stai",
+                    "voi": "stați"
+                }
+            }
         }
     ]
 }
