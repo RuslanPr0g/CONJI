@@ -94,7 +94,8 @@
                 let last = last
               "
             >
-              {{ translation }}<span *ngIf="!last"> &#x2022; </span>
+              {{ translation | addToPrefix
+              }}<span *ngIf="!last"> &#x2022; </span>
             </span>
           </small>
         </div>

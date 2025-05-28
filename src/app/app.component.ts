@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, forkJoin, take } from 'rxjs';
 import { environment } from '../environments/environment';
+import { AddToPrefixPipe } from './pipes/add-to-prefix.pipe';
 
 type ConjugationKey = keyof Conjugations;
 
@@ -45,7 +46,7 @@ export interface ImperativConjugation {
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, FormsModule, ReactiveFormsModule],
+  imports: [AddToPrefixPipe, CommonModule, FormsModule, ReactiveFormsModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
