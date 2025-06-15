@@ -9,4 +9,4 @@ msg="$1"
 
 git add .
 git commit -m "$msg"
-git push
+git push origin master
