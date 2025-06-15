@@ -61,6 +61,67 @@
                     "voi": "vedeți"
                 }
             }
+        },
+        {
+            "infinitive": "părea",
+            "infinitive_translated": [
+                "seem",
+                "appear"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "par",
+                    "tu": "pari",
+                    "el/ea": "pare",
+                    "noi": "părem",
+                    "voi": "păreți",
+                    "ei/ele": "par"
+                },
+                "perfect_compus": {
+                    "eu": "am părut",
+                    "tu": "ai părut",
+                    "el/ea": "a părut",
+                    "noi": "am părut",
+                    "voi": "ați părut",
+                    "ei/ele": "au părut"
+                },
+                "viitor_literar": {
+                    "eu": "voi părea",
+                    "tu": "vei părea",
+                    "el/ea": "va părea",
+                    "noi": "vom părea",
+                    "voi": "veți părea",
+                    "ei/ele": "vor părea"
+                },
+                "viitor_familiar": {
+                    "eu": "o să par",
+                    "tu": "o să pari",
+                    "el/ea": "o să pară",
+                    "noi": "o să părem",
+                    "voi": "o să păreți",
+                    "ei/ele": "o să pară"
+                },
+                "conjunctiv": {
+                    "eu": "să par",
+                    "tu": "să pari",
+                    "el/ea": "să pară",
+                    "noi": "să părem",
+                    "voi": "să păreți",
+                    "ei/ele": "să pară"
+                },
+                "conditional": {
+                    "eu": "aș părea",
+                    "tu": "ai părea",
+                    "el/ea": "ar părea",
+                    "noi": "am părea",
+                    "voi": "ați părea",
+                    "ei/ele": "ar părea"
+                },
+                "imperativ": {
+                    "tu": "par",
+                    "voi": "păreți"
+                }
+            }
         }
     ]
 }
