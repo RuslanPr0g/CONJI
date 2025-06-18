@@ -130,7 +130,8 @@ export class AppComponent {
   private limitVerbs(groups: VerbGroup[], maxCount: number): Verb[] {
     // Flatten all verbs from filtered groups, limit by maxCount
     const all = groups.flatMap((g) => g.verbs);
-    return all.slice(0, maxCount);
+    const count = maxCount === 0 ? 1 : maxCount;
+    return all.slice(0, count);
   }
 
   private regroupVerbs(
