@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "./deploy.sh"
+    "deploy": "./deploy.sh",
+    "prepare": "husky"
   },
   "private": true,
   "dependencies": {
@@ -29,6 +30,7 @@
     "@angular/compiler-cli": "^18.1.0",
     "@types/jasmine": "~5.1.0",
     "angular-cli-ghpages": "^2.0.3",
+    "husky": "^9.1.7",
     "jasmine-core": "~5.1.0",
     "jsonminify": "^0.4.2",
     "karma": "~6.4.0",
