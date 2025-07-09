@@ -122,6 +122,66 @@
                     "voi": "vorbiți"
                 }
             }
+        },
+        {
+            "infinitive": "călători",
+            "infinitive_translated": [
+                "travel"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "călătoresc",
+                    "tu": "călătorești",
+                    "el/ea": "călătorește",
+                    "noi": "călătorim",
+                    "voi": "călătoriți",
+                    "ei/ele": "călătoresc"
+                },
+                "perfect_compus": {
+                    "eu": "am călătorit",
+                    "tu": "ai călătorit",
+                    "el/ea": "a călătorit",
+                    "noi": "am călătorit",
+                    "voi": "ați călătorit",
+                    "ei/ele": "au călătorit"
+                },
+                "viitor_literar": {
+                    "eu": "voi călători",
+                    "tu": "vei călători",
+                    "el/ea": "va călători",
+                    "noi": "vom călători",
+                    "voi": "veți călători",
+                    "ei/ele": "vor călători"
+                },
+                "viitor_familiar": {
+                    "eu": "o să călătoresc",
+                    "tu": "o să călătorești",
+                    "el/ea": "o să călătorească",
+                    "noi": "o să călătorim",
+                    "voi": "o să călătoriți",
+                    "ei/ele": "o să călătorească"
+                },
+                "conjunctiv": {
+                    "eu": "să călătoresc",
+                    "tu": "să călătorești",
+                    "el/ea": "să călătorească",
+                    "noi": "să călătorim",
+                    "voi": "să călătoriți",
+                    "ei/ele": "să călătorească"
+                },
+                "conditional": {
+                    "eu": "aș călători",
+                    "tu": "ai călători",
+                    "el/ea": "ar călători",
+                    "noi": "am călători",
+                    "voi": "ați călători",
+                    "ei/ele": "ar călători"
+                },
+                "imperativ": {
+                    "tu": "călătorește",
+                    "voi": "călătoriți"
+                }
+            }
         }
     ]
 }

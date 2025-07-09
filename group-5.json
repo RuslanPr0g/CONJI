@@ -303,6 +303,66 @@
                     "voi": "stați"
                 }
             }
+        },
+        {
+            "infinitive": "veni",
+            "infinitive_translated": [
+                "come"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "vin",
+                    "tu": "vii",
+                    "el/ea": "vine",
+                    "noi": "venim",
+                    "voi": "veniți",
+                    "ei/ele": "vin"
+                },
+                "perfect_compus": {
+                    "eu": "am venit",
+                    "tu": "ai venit",
+                    "el/ea": "a venit",
+                    "noi": "am venit",
+                    "voi": "ați venit",
+                    "ei/ele": "au venit"
+                },
+                "viitor_literar": {
+                    "eu": "voi veni",
+                    "tu": "vei veni",
+                    "el/ea": "va veni",
+                    "noi": "vom veni",
+                    "voi": "veți veni",
+                    "ei/ele": "vor veni"
+                },
+                "viitor_familiar": {
+                    "eu": "o să vin",
+                    "tu": "o să vii",
+                    "el/ea": "o să vină",
+                    "noi": "o să venim",
+                    "voi": "o să veniți",
+                    "ei/ele": "o să vină"
+                },
+                "conjunctiv": {
+                    "eu": "să vin",
+                    "tu": "să vii",
+                    "el/ea": "să vină",
+                    "noi": "să venim",
+                    "voi": "să veniți",
+                    "ei/ele": "să vină"
+                },
+                "conditional": {
+                    "eu": "aș veni",
+                    "tu": "ai veni",
+                    "el/ea": "ar veni",
+                    "noi": "am veni",
+                    "voi": "ați veni",
+                    "ei/ele": "ar veni"
+                },
+                "imperativ": {
+                    "tu": "vino",
+                    "voi": "veniți"
+                }
+            }
         }
     ]
 }
