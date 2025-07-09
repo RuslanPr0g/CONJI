@@ -301,6 +301,66 @@
           "voi": "căutați"
         }
       }
+    },
+    {
+      "infinitive": "vizita",
+      "infinitive_translated": [
+        "visit"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "vizitez",
+          "tu": "vizitezi",
+          "el/ea": "vizitează",
+          "noi": "vizităm",
+          "voi": "vizitați",
+          "ei/ele": "vizitează"
+        },
+        "perfect_compus": {
+          "eu": "am vizitat",
+          "tu": "ai vizitat",
+          "el/ea": "a vizitat",
+          "noi": "am vizitat",
+          "voi": "ați vizitat",
+          "ei/ele": "au vizitat"
+        },
+        "viitor_literar": {
+          "eu": "voi vizita",
+          "tu": "vei vizita",
+          "el/ea": "va vizita",
+          "noi": "vom vizita",
+          "voi": "veți vizita",
+          "ei/ele": "vor vizita"
+        },
+        "viitor_familiar": {
+          "eu": "o să vizitez",
+          "tu": "o să vizitezi",
+          "el/ea": "o să viziteze",
+          "noi": "o să vizităm",
+          "voi": "o să vizitați",
+          "ei/ele": "o să viziteze"
+        },
+        "conjunctiv": {
+          "eu": "să vizitez",
+          "tu": "să vizitezi",
+          "el/ea": "să viziteze",
+          "noi": "să vizităm",
+          "voi": "să vizitați",
+          "ei/ele": "să viziteze"
+        },
+        "conditional": {
+          "eu": "aș vizita",
+          "tu": "ai vizita",
+          "el/ea": "ar vizita",
+          "noi": "am vizita",
+          "voi": "ați vizita",
+          "ei/ele": "ar vizita"
+        },
+        "imperativ": {
+          "tu": "vizitează",
+          "voi": "vizitați"
+        }
+      }
     }
   ]
 }
