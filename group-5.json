@@ -363,6 +363,67 @@
                     "voi": "veniți"
                 }
             }
+        },
+        {
+            "infinitive": "conduce",
+            "infinitive_translated": [
+                "drive",
+                "lead"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "conduc",
+                    "tu": "conduci",
+                    "el/ea": "conduce",
+                    "noi": "conducem",
+                    "voi": "conduceți",
+                    "ei/ele": "conduc"
+                },
+                "perfect_compus": {
+                    "eu": "am condus",
+                    "tu": "ai condus",
+                    "el/ea": "a condus",
+                    "noi": "am condus",
+                    "voi": "ați condus",
+                    "ei/ele": "au condus"
+                },
+                "viitor_literar": {
+                    "eu": "voi conduce",
+                    "tu": "vei conduce",
+                    "el/ea": "va conduce",
+                    "noi": "vom conduce",
+                    "voi": "veți conduce",
+                    "ei/ele": "vor conduce"
+                },
+                "viitor_familiar": {
+                    "eu": "o să conduc",
+                    "tu": "o să conduci",
+                    "el/ea": "o să conducă",
+                    "noi": "o să conducem",
+                    "voi": "o să conduceți",
+                    "ei/ele": "o să conducă"
+                },
+                "conjunctiv": {
+                    "eu": "să conduc",
+                    "tu": "să conduci",
+                    "el/ea": "să conducă",
+                    "noi": "să conducem",
+                    "voi": "să conduceți",
+                    "ei/ele": "să conducă"
+                },
+                "conditional": {
+                    "eu": "aș conduce",
+                    "tu": "ai conduce",
+                    "el/ea": "ar conduce",
+                    "noi": "am conduce",
+                    "voi": "ați conduce",
+                    "ei/ele": "ar conduce"
+                },
+                "imperativ": {
+                    "tu": "condu",
+                    "voi": "conduceți"
+                }
+            }
         }
     ]
 }
