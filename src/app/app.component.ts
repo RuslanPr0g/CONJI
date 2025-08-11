@@ -65,7 +65,7 @@ export class AppComponent {
     'imperativ',
   ];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
     const isProd = environment.production;
@@ -123,7 +123,7 @@ export class AppComponent {
     // Shuffle
     const shuffled = [...allVerbs].sort(() => Math.random() - 0.5);
     // Take up to maxCount
-    const selected = shuffled.slice(0, maxCount);
+    const selected = shuffled;
     return this.regroupVerbs(selected);
   }
 
