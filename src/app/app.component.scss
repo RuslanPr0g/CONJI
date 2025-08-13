@@ -298,6 +298,57 @@ textarea {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
 }
 
+.copy-toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(55, 200, 113, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    font-size: 0.95rem;
+    z-index: 10000;
+    opacity: 0.95;
+    text-align: center;
+    animation: toast-fade 1.5s forwards;
+}
+
+.conjugation-copy {
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+        border-bottom: #fff 1px solid;
+    }
+}
+
+@keyframes toast-fade {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+    }
+
+    10% {
+        opacity: 0.95;
+        transform: translate(-50%, 0);
+    }
+
+    90% {
+        opacity: 0.95;
+        transform: translate(-50%, 0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+    }
+}
+
+
 @keyframes fadeIn {
     from {
         opacity: 0;

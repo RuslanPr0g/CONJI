@@ -138,42 +138,33 @@
 
           <ng-container *ngIf="tense !== 'imperativ'; else imperativeBlock">
             <ul>
-              <li>
-                <strong>eu:</strong>
-                {{ selectedVerb.conjugations[tense].eu || "—" }}
-              </li>
-              <li>
-                <strong>tu:</strong>
-                {{ selectedVerb.conjugations[tense].tu || "—" }}
-              </li>
-              <li>
-                <strong>el/ea:</strong>
-                {{ selectedVerb.conjugations[tense]["el/ea"] || "—" }}
-              </li>
-              <li>
-                <strong>noi:</strong>
-                {{ selectedVerb.conjugations[tense].noi || "—" }}
-              </li>
-              <li>
-                <strong>voi:</strong>
-                {{ selectedVerb.conjugations[tense].voi || "—" }}
-              </li>
-              <li>
-                <strong>ei/ele:</strong>
-                {{ selectedVerb.conjugations[tense]["ei/ele"] || "—" }}
+              <li
+                *ngFor="
+                  let person of ['eu', 'tu', 'el/ea', 'noi', 'voi', 'ei/ele']
+                "
+              >
+                <strong>{{ person }}:</strong>
+                &nbsp;
+                <span
+                  class="conjugation-copy"
+                  (click)="copyToClipboard(getConjugation(tense, person))"
+                >
+                  {{ getConjugation(tense, person) }}
+                </span>
               </li>
             </ul>
           </ng-container>
 
           <ng-template #imperativeBlock>
             <ul>
-              <li>
-                <strong>tu:</strong>
-                {{ selectedVerb.conjugations.imperativ.tu || "—" }}
-              </li>
-              <li>
-                <strong>voi:</strong>
-                {{ selectedVerb.conjugations.imperativ.voi || "—" }}
+              <li *ngFor="let person of ['tu', 'voi']">
+                <strong>{{ person }}:</strong>
+                <span
+                  class="conjugation-copy"
+                  (click)="copyToClipboard(getConjugation('imperativ', person))"
+                >
+                  {{ getConjugation("imperativ", person) }}
+                </span>
               </li>
             </ul>
           </ng-template>
@@ -182,3 +173,5 @@
     </div>
   </div>
 </div>
+
+<div *ngIf="copiedText" class="copy-toast">Copied: "{{ copiedText }}"</div>

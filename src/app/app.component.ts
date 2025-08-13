@@ -66,6 +66,9 @@ export class AppComponent {
     'imperativ',
   ];
 
+  copiedText: string | null = null;
+  copyTimeout: any;
+
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
@@ -109,6 +112,30 @@ export class AppComponent {
         const limited = this.limitVerbs(filtered, 15);
         this.filteredGroups = this.regroupVerbs(limited);
       });
+  }
+
+  getConjugation(tense: string, person: string): string {
+    const tenseSet =
+      this.selectedVerb?.conjugations[tense as keyof Conjugations];
+    if (!tenseSet) return '—';
+
+    return (
+      tenseSet[person as keyof ConjugationSet as keyof typeof tenseSet] || '—'
+    );
+  }
+
+  copyToClipboard(value: string | null) {
+    if (!value) return;
+
+    navigator.clipboard.writeText(value).then(() => {
+      this.copiedText = value;
+
+      if (this.copyTimeout) clearTimeout(this.copyTimeout);
+
+      this.copyTimeout = setTimeout(() => {
+        this.copiedText = null;
+      }, 1500);
+    });
   }
 
   openPopup(verb: Verb) {
