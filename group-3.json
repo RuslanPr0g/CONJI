@@ -2,7 +2,132 @@
   "group": "Group III - ending in -e",
   "verbs": [
     {
+      "infinitive": "conduce",
+      "type": "irregular",
+      "infinitive_translated": [
+        "drive",
+        "lead"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "conduc",
+          "tu": "conduci",
+          "el/ea": "conduce",
+          "noi": "conducem",
+          "voi": "conduceți",
+          "ei/ele": "conduc"
+        },
+        "perfect_compus": {
+          "eu": "am condus",
+          "tu": "ai condus",
+          "el/ea": "a condus",
+          "noi": "am condus",
+          "voi": "ați condus",
+          "ei/ele": "au condus"
+        },
+        "viitor_literar": {
+          "eu": "voi conduce",
+          "tu": "vei conduce",
+          "el/ea": "va conduce",
+          "noi": "vom conduce",
+          "voi": "veți conduce",
+          "ei/ele": "vor conduce"
+        },
+        "viitor_familiar": {
+          "eu": "o să conduc",
+          "tu": "o să conduci",
+          "el/ea": "o să conducă",
+          "noi": "o să conducem",
+          "voi": "o să conduceți",
+          "ei/ele": "o să conducă"
+        },
+        "conjunctiv": {
+          "eu": "să conduc",
+          "tu": "să conduci",
+          "el/ea": "să conducă",
+          "noi": "să conducem",
+          "voi": "să conduceți",
+          "ei/ele": "să conducă"
+        },
+        "conditional": {
+          "eu": "aș conduce",
+          "tu": "ai conduce",
+          "el/ea": "ar conduce",
+          "noi": "am conduce",
+          "voi": "ați conduce",
+          "ei/ele": "ar conduce"
+        },
+        "imperativ": {
+          "tu": "condu",
+          "voi": "conduceți"
+        }
+      }
+    },
+    {
+      "infinitive": "merge",
+      "type": "irregular",
+      "infinitive_translated": [
+        "go",
+        "drive"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "merg",
+          "tu": "mergi",
+          "el/ea": "merge",
+          "noi": "mergem",
+          "voi": "mergeți",
+          "ei/ele": "merg"
+        },
+        "perfect_compus": {
+          "eu": "am mers",
+          "tu": "ai mers",
+          "el/ea": "a mers",
+          "noi": "am mers",
+          "voi": "ați mers",
+          "ei/ele": "au mers"
+        },
+        "viitor_literar": {
+          "eu": "voi merge",
+          "tu": "vei merge",
+          "el/ea": "va merge",
+          "noi": "vom merge",
+          "voi": "veți merge",
+          "ei/ele": "vor merge"
+        },
+        "viitor_familiar": {
+          "eu": "o să merg",
+          "tu": "o să mergi",
+          "el/ea": "o să meargă",
+          "noi": "o să mergem",
+          "voi": "o să mergeți",
+          "ei/ele": "o să meargă"
+        },
+        "conjunctiv": {
+          "eu": "să merg",
+          "tu": "să mergi",
+          "el/ea": "să meargă",
+          "noi": "să mergem",
+          "voi": "să mergeți",
+          "ei/ele": "să meargă"
+        },
+        "conditional": {
+          "eu": "aș merge",
+          "tu": "ai merge",
+          "el/ea": "ar merge",
+          "noi": "am merge",
+          "voi": "ați merge",
+          "ei/ele": "ar merge"
+        },
+        "imperativ": {
+          "tu": "mergi",
+          "voi": "mergeți"
+        }
+      }
+    },
+    {
       "infinitive": "scrie",
+      "type": "irregular",
       "infinitive_translated": [
         "write"
       ],
@@ -63,6 +188,7 @@
     },
     {
       "infinitive": "începe",
+      "type": "irregular",
       "infinitive_translated": [
         "begin",
         "start"
@@ -124,6 +250,7 @@
     },
     {
       "infinitive": "petrece",
+      "type": "irregular",
       "infinitive_translated": [
         "to spend (time)",
         "to celebrate"
@@ -185,6 +312,7 @@
     },
     {
       "infinitive": "ajunge",
+      "type": "irregular",
       "infinitive_translated": [
         "to arrive"
       ],
