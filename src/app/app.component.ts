@@ -17,6 +17,7 @@ export interface Verb {
   infinitive: string;
   infinitive_translated?: string[];
   conjugations: Conjugations;
+  type?: 'regular' | 'irregular';
 }
 
 export interface Conjugations {
@@ -65,7 +66,7 @@ export class AppComponent {
     'imperativ',
   ];
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   ngOnInit() {
     const isProd = environment.production;
@@ -75,7 +76,6 @@ export class AppComponent {
       { order: 2, file: isProd ? 'group-2.min.json' : 'group-2.json' },
       { order: 3, file: isProd ? 'group-3.min.json' : 'group-3.json' },
       { order: 4, file: isProd ? 'group-4.min.json' : 'group-4.json' },
-      { order: 5, file: isProd ? 'group-5.min.json' : 'group-5.json' },
     ];
 
     const requests = groupFiles.map((g) =>
@@ -83,6 +83,13 @@ export class AppComponent {
     );
 
     forkJoin(requests).subscribe((groups) => {
+      for (const group of groups) {
+        for (const verb of group.verbs) {
+          if (!verb.type) {
+            verb.type = 'regular';
+          }
+        }
+      }
       this.groupedVerbs = groups;
       this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs, 15);
     });

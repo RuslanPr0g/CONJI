@@ -2,7 +2,71 @@
   "group": "Group I - ending in -a",
   "verbs": [
     {
+      "infinitive": "sta",
+      "type": "irregular",
+      "infinitive_translated": [
+        "to stay",
+        "to stand",
+        "to live"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "stau",
+          "tu": "stai",
+          "el/ea": "stă",
+          "noi": "stăm",
+          "voi": "stați",
+          "ei/ele": "stau"
+        },
+        "perfect_compus": {
+          "eu": "am stat",
+          "tu": "ai stat",
+          "el/ea": "a stat",
+          "noi": "am stat",
+          "voi": "ați stat",
+          "ei/ele": "au stat"
+        },
+        "viitor_literar": {
+          "eu": "voi sta",
+          "tu": "vei sta",
+          "el/ea": "va sta",
+          "noi": "vom sta",
+          "voi": "veți sta",
+          "ei/ele": "vor sta"
+        },
+        "viitor_familiar": {
+          "eu": "o să stau",
+          "tu": "o să stai",
+          "el/ea": "o să stea",
+          "noi": "o să stăm",
+          "voi": "o să stați",
+          "ei/ele": "o să stea"
+        },
+        "conjunctiv": {
+          "eu": "să stau",
+          "tu": "să stai",
+          "el/ea": "să stea",
+          "noi": "să stăm",
+          "voi": "să stați",
+          "ei/ele": "să stea"
+        },
+        "conditional": {
+          "eu": "aș sta",
+          "tu": "ai sta",
+          "el/ea": "ar sta",
+          "noi": "am sta",
+          "voi": "ați sta",
+          "ei/ele": "ar sta"
+        },
+        "imperativ": {
+          "tu": "stai",
+          "voi": "stați"
+        }
+      }
+    },
+    {
       "infinitive": "lucra",
+      "type": "regular",
       "infinitive_translated": [
         "work"
       ],
@@ -63,6 +127,7 @@
     },
     {
       "infinitive": "cânta",
+      "type": "regular",
       "infinitive_translated": [
         "sing"
       ],
@@ -123,6 +188,7 @@
     },
     {
       "infinitive": "cumpăra",
+      "type": "regular",
       "infinitive_translated": [
         "to buy"
       ],
@@ -183,6 +249,7 @@
     },
     {
       "infinitive": "studia",
+      "type": "regular",
       "infinitive_translated": [
         "to study"
       ],
@@ -243,6 +310,7 @@
     },
     {
       "infinitive": "căuta",
+      "type": "regular",
       "infinitive_translated": [
         "to search",
         "to look for"
@@ -304,6 +372,7 @@
     },
     {
       "infinitive": "vizita",
+      "type": "regular",
       "infinitive_translated": [
         "visit"
       ],
@@ -364,6 +433,7 @@
     },
     {
       "infinitive": "zbura",
+      "type": "regular",
       "infinitive_translated": [
         "fly"
       ],
@@ -424,6 +494,7 @@
     },
     {
       "infinitive": "discuta",
+      "type": "regular",
       "infinitive_translated": [
         "discuss"
       ],
@@ -484,6 +555,7 @@
     },
     {
       "infinitive": "escalada",
+      "type": "regular",
       "infinitive_translated": [
         "climb"
       ],
@@ -544,6 +616,7 @@
     },
     {
       "infinitive": "prefera",
+      "type": "regular",
       "infinitive_translated": [
         "prefer"
       ],
@@ -599,6 +672,190 @@
         "imperativ": {
           "tu": "preferă",
           "voi": "preferați"
+        }
+      }
+    },
+    {
+      "infinitive": "pleca",
+      "type": "regular",
+      "infinitive_translated": [
+        "leave",
+        "go"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "plec",
+          "tu": "pleci",
+          "el/ea": "pleacă",
+          "noi": "plecăm",
+          "voi": "plecați",
+          "ei/ele": "pleacă"
+        },
+        "perfect_compus": {
+          "eu": "am plecat",
+          "tu": "ai plecat",
+          "el/ea": "a plecat",
+          "noi": "am plecat",
+          "voi": "ați plecat",
+          "ei/ele": "au plecat"
+        },
+        "viitor_literar": {
+          "eu": "voi pleca",
+          "tu": "vei pleca",
+          "el/ea": "va pleca",
+          "noi": "vom pleca",
+          "voi": "veți pleca",
+          "ei/ele": "vor pleca"
+        },
+        "viitor_familiar": {
+          "eu": "o să plec",
+          "tu": "o să pleci",
+          "el/ea": "o să plece",
+          "noi": "o să plecăm",
+          "voi": "o să plecați",
+          "ei/ele": "o să plece"
+        },
+        "conjunctiv": {
+          "eu": "să plec",
+          "tu": "să pleci",
+          "el/ea": "să plece",
+          "noi": "să plecăm",
+          "voi": "să plecați",
+          "ei/ele": "să plece"
+        },
+        "conditional": {
+          "eu": "aș pleca",
+          "tu": "ai pleca",
+          "el/ea": "ar pleca",
+          "noi": "am pleca",
+          "voi": "ați pleca",
+          "ei/ele": "ar pleca"
+        },
+        "imperativ": {
+          "tu": "pleacă",
+          "voi": "plecați"
+        }
+      }
+    },
+    {
+      "infinitive": "traversa",
+      "type": "regular",
+      "infinitive_translated": [
+        "cross"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "traversez",
+          "tu": "traversezi",
+          "el/ea": "traversează",
+          "noi": "traversăm",
+          "voi": "traversați",
+          "ei/ele": "traversează"
+        },
+        "perfect_compus": {
+          "eu": "am traversat",
+          "tu": "ai traversat",
+          "el/ea": "a traversat",
+          "noi": "am traversat",
+          "voi": "ați traversat",
+          "ei/ele": "au traversat"
+        },
+        "viitor_literar": {
+          "eu": "voi traversa",
+          "tu": "vei traversa",
+          "el/ea": "va traversa",
+          "noi": "vom traversa",
+          "voi": "veți traversa",
+          "ei/ele": "vor traversa"
+        },
+        "viitor_familiar": {
+          "eu": "o să traversez",
+          "tu": "o să traversezi",
+          "el/ea": "o să traverseze",
+          "noi": "o să traversăm",
+          "voi": "o să traversați",
+          "ei/ele": "o să traverseze"
+        },
+        "conjunctiv": {
+          "eu": "să traversez",
+          "tu": "să traversezi",
+          "el/ea": "să traverseze",
+          "noi": "să traversăm",
+          "voi": "să traversați",
+          "ei/ele": "să traverseze"
+        },
+        "conditional": {
+          "eu": "aș traversa",
+          "tu": "ai traversa",
+          "el/ea": "ar traversa",
+          "noi": "am traversa",
+          "voi": "ați traversa",
+          "ei/ele": "ar traversa"
+        },
+        "imperativ": {
+          "tu": "traversează",
+          "voi": "traversați"
+        }
+      }
+    },
+    {
+      "infinitive": "lua",
+      "type": "irregular",
+      "infinitive_translated": [
+        "to take"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "iau",
+          "tu": "iei",
+          "el/ea": "ia",
+          "noi": "luăm",
+          "voi": "luați",
+          "ei/ele": "iau"
+        },
+        "perfect_compus": {
+          "eu": "am luat",
+          "tu": "ai luat",
+          "el/ea": "a luat",
+          "noi": "am luat",
+          "voi": "ați luat",
+          "ei/ele": "au luat"
+        },
+        "viitor_literar": {
+          "eu": "voi lua",
+          "tu": "vei lua",
+          "el/ea": "va lua",
+          "noi": "vom lua",
+          "voi": "veți lua",
+          "ei/ele": "vor lua"
+        },
+        "viitor_familiar": {
+          "eu": "o să iau",
+          "tu": "o să iei",
+          "el/ea": "o să ia",
+          "noi": "o să luăm",
+          "voi": "o să luați",
+          "ei/ele": "o să ia"
+        },
+        "conjunctiv": {
+          "eu": "să iau",
+          "tu": "să iei",
+          "el/ea": "să ia",
+          "noi": "să luăm",
+          "voi": "să luați",
+          "ei/ele": "să ia"
+        },
+        "conditional": {
+          "eu": "aș lua",
+          "tu": "ai lua",
+          "el/ea": "ar lua",
+          "noi": "am lua",
+          "voi": "ați lua",
+          "ei/ele": "ar lua"
+        },
+        "imperativ": {
+          "tu": "ia",
+          "voi": "luați"
         }
       }
     }

@@ -18,7 +18,11 @@
             *ngFor="let verb of group.verbs"
             (click)="openPopup(verb)"
           >
-            <div class="verb-infinitive">{{ verb.infinitive }}</div>
+            <div class="verb-type" [ngClass]="verb.type"></div>
+
+            <div class="verb-infinitive">
+              {{ verb.infinitive }}
+            </div>
 
             <div
               class="verb-translations"
@@ -35,7 +39,8 @@
                     let last = last
                   "
                 >
-                  {{ translation | addToPrefix }}<span *ngIf="!last"> &#x2022; </span>
+                  {{ translation | addToPrefix
+                  }}<span *ngIf="!last"> &#x2022; </span>
                 </span>
               </small>
             </div>
@@ -77,7 +82,12 @@
   <div *ngIf="selectedVerb" class="popup-overlay" (click)="closePopup()">
     <div class="popup-content" (click)="$event.stopPropagation()">
       <div class="popup-header">
-        <h2>{{ selectedVerb.infinitive }}</h2>
+        <h2>
+          {{ selectedVerb.infinitive }} &#x2022;
+          <span class="verb-type" [ngClass]="selectedVerb.type">{{
+            selectedVerb.type
+          }}</span>
+        </h2>
 
         <div
           class="popup-translations"

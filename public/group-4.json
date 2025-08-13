@@ -2,7 +2,130 @@
     "group": "Group IV - ending in -i/î",
     "verbs": [
         {
+            "infinitive": "fi",
+            "type": "irregular",
+            "infinitive_translated": [
+                "to be"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "sunt",
+                    "tu": "ești",
+                    "el/ea": "este",
+                    "noi": "suntem",
+                    "voi": "sunteți",
+                    "ei/ele": "sunt"
+                },
+                "perfect_compus": {
+                    "eu": "am fost",
+                    "tu": "ai fost",
+                    "el/ea": "a fost",
+                    "noi": "am fost",
+                    "voi": "ați fost",
+                    "ei/ele": "au fost"
+                },
+                "viitor_literar": {
+                    "eu": "voi fi",
+                    "tu": "vei fi",
+                    "el/ea": "va fi",
+                    "noi": "vom fi",
+                    "voi": "veți fi",
+                    "ei/ele": "vor fi"
+                },
+                "viitor_familiar": {
+                    "eu": "o să fiu",
+                    "tu": "o să fii",
+                    "el/ea": "o să fie",
+                    "noi": "o să fim",
+                    "voi": "o să fiți",
+                    "ei/ele": "o să fie"
+                },
+                "conjunctiv": {
+                    "eu": "să fiu",
+                    "tu": "să fii",
+                    "el/ea": "să fie",
+                    "noi": "să fim",
+                    "voi": "să fiți",
+                    "ei/ele": "să fie"
+                },
+                "conditional": {
+                    "eu": "aș fi",
+                    "tu": "ai fi",
+                    "el/ea": "ar fi",
+                    "noi": "am fi",
+                    "voi": "ați fi",
+                    "ei/ele": "ar fi"
+                },
+                "imperativ": {
+                    "tu": "fii",
+                    "voi": "fiți"
+                }
+            }
+        },
+        {
+            "infinitive": "veni",
+            "type": "irregular",
+            "infinitive_translated": [
+                "come"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "vin",
+                    "tu": "vii",
+                    "el/ea": "vine",
+                    "noi": "venim",
+                    "voi": "veniți",
+                    "ei/ele": "vin"
+                },
+                "perfect_compus": {
+                    "eu": "am venit",
+                    "tu": "ai venit",
+                    "el/ea": "a venit",
+                    "noi": "am venit",
+                    "voi": "ați venit",
+                    "ei/ele": "au venit"
+                },
+                "viitor_literar": {
+                    "eu": "voi veni",
+                    "tu": "vei veni",
+                    "el/ea": "va veni",
+                    "noi": "vom veni",
+                    "voi": "veți veni",
+                    "ei/ele": "vor veni"
+                },
+                "viitor_familiar": {
+                    "eu": "o să vin",
+                    "tu": "o să vii",
+                    "el/ea": "o să vină",
+                    "noi": "o să venim",
+                    "voi": "o să veniți",
+                    "ei/ele": "o să vină"
+                },
+                "conjunctiv": {
+                    "eu": "să vin",
+                    "tu": "să vii",
+                    "el/ea": "să vină",
+                    "noi": "să venim",
+                    "voi": "să veniți",
+                    "ei/ele": "să vină"
+                },
+                "conditional": {
+                    "eu": "aș veni",
+                    "tu": "ai veni",
+                    "el/ea": "ar veni",
+                    "noi": "am veni",
+                    "voi": "ați veni",
+                    "ei/ele": "ar veni"
+                },
+                "imperativ": {
+                    "tu": "vino",
+                    "voi": "veniți"
+                }
+            }
+        },
+        {
             "infinitive": "locui",
+            "type": "regular",
             "infinitive_translated": [
                 "live",
                 "reside"
@@ -64,6 +187,7 @@
         },
         {
             "infinitive": "vorbi",
+            "type": "regular",
             "infinitive_translated": [
                 "speak",
                 "talk"
@@ -125,6 +249,7 @@
         },
         {
             "infinitive": "călători",
+            "type": "regular",
             "infinitive_translated": [
                 "travel"
             ],
