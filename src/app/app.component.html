@@ -18,8 +18,6 @@
             *ngFor="let verb of group.verbs"
             (click)="openPopup(verb)"
           >
-            <div class="verb-type" [ngClass]="verb.type"></div>
-
             <div class="verb-infinitive">{{ verb.infinitive }}</div>
 
             <div
@@ -62,6 +60,7 @@
               <div
                 class="verb-group-info"
                 *ngIf="getGroupInfo(verb) as groupInfo"
+                [ngClass]="getSubgroupColorClass(verb)"
               >
                 <div
                   *ngIf="getSubgroupInfo(verb) as subgroupInfo"
@@ -74,17 +73,13 @@
                   }}</span>
                 </div>
 
-                <ng-container
-                  *ngIf="getSubgroupInfo(verb)?.examples as examples"
-                >
-                  <ng-container *ngIf="getOtherExamples(verb) as otherExamples">
-                    <div class="examples" *ngIf="otherExamples.length > 0">
-                      <em>Alte:</em>
-                      <span *ngFor="let ex of otherExamples; let last = last">
-                        {{ ex }}<span *ngIf="!last">, </span>
-                      </span>
-                    </div>
-                  </ng-container>
+                <ng-container *ngIf="getOtherExamples(verb) as otherExamples">
+                  <div class="examples" *ngIf="otherExamples.length > 0">
+                    <em>Alte:</em>
+                    <span *ngFor="let ex of otherExamples; let last = last">
+                      {{ ex }}<span *ngIf="!last">, </span>
+                    </span>
+                  </div>
                 </ng-container>
               </div>
             </div>

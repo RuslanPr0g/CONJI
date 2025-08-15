@@ -167,6 +167,25 @@ export class AppComponent {
     );
   }
 
+  getSubgroupColorClass(verb: any): string {
+    const subgroup = this.getSubgroupInfo(verb);
+    if (!subgroup) return '';
+
+    switch (subgroup.subgroup) {
+      case 1:
+        return 'group-green';
+      case 2:
+        return 'group-yellow';
+      case 3:
+        return 'group-orange';
+      case 4:
+        return 'group-red';
+      case 5:
+      default:
+        return 'group-irregular';
+    }
+  }
+
   copyToClipboard(value: string | null) {
     if (!value) return;
 
