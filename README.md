@@ -1,6 +1,6 @@
 # Conji 🖤
 
-Welcome to Conji! A fun project built with **Angular**.
+Welcome to Conji! A fun project built with **Angular**!
 
 ## 🚀 Getting Started
 
