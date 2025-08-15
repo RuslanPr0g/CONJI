@@ -3,7 +3,7 @@
     <input
       type="text"
       [formControl]="searchControl"
-      placeholder="Search verbs..."
+      placeholder="Caută verbe..."
     />
   </div>
 
@@ -63,17 +63,21 @@
         </ng-container>
 
         <ng-template #noGroupVerbs>
-          <p class="no-group-verbs"><em>No verbs found in this group.</em></p>
+          <p class="no-group-verbs">
+            <em>Nu au fost găsite verbe în acest grup. </em>
+          </p>
         </ng-template>
       </div>
     </ng-container>
 
     <ng-template #noResults>
-      <p class="no-results"><em>No matching results found.</em></p>
+      <p class="no-results"><em>Niciun rezultat corespunzător găsit. </em></p>
     </ng-template>
   </div>
 
-  <div class="verb-hint">Tap a verb block to view full conjugation.</div>
+  <div class="verb-hint">
+    Atinge un bloc de verb pentru a vedea conjugarea completă.
+  </div>
 
   <!-- VERB POPUP -->
   <div *ngIf="selectedVerb" class="popup-overlay" (click)="closePopup()">
@@ -174,4 +178,4 @@
   </div>
 </div>
 
-<div *ngIf="copiedText" class="copy-toast">Copied: "{{ copiedText }}"</div>
+<div *ngIf="copiedText" class="copy-toast">Copiat: "{{ copiedText }}"</div>
