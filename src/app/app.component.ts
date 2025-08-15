@@ -5,6 +5,7 @@ import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, forkJoin, take } from 'rxjs';
 import { environment } from '../environments/environment';
 import { AddToPrefixPipe } from './pipes/add-to-prefix.pipe';
+import { GuessVerbsComponent } from './guess-verbs/guess-verbs.component';
 
 export interface VerbInformationSubgroup {
   subgroup: number;
@@ -31,6 +32,8 @@ export interface Verb {
   infinitive_translated?: string[];
   conjugations: Conjugations;
   type?: 'regular' | 'irregular';
+  group: number;
+  subgroup: number;
 }
 
 export interface Conjugations {
@@ -60,7 +63,13 @@ export interface ImperativConjugation {
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [AddToPrefixPipe, CommonModule, FormsModule, ReactiveFormsModule],
+  imports: [
+    AddToPrefixPipe,
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    GuessVerbsComponent,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
@@ -83,6 +92,8 @@ export class AppComponent {
   copyTimeout: any;
 
   groupInformation: VerbInformationGroup[] = [];
+
+  isGamingMode = false;
 
   constructor(private http: HttpClient) {}
 
@@ -206,6 +217,11 @@ export class AppComponent {
 
   closePopup() {
     this.selectedVerb = null;
+    this.isGamingMode = false;
+  }
+
+  activateGamingMode(): void {
+    this.isGamingMode = true;
   }
 
   private getRandomVerbsGroups(

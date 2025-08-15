@@ -1,0 +1,75 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: linear-gradient(135deg, #1a1a1a, #121212);
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.card {
+    background: rgba(30, 30, 30, 0.6);
+    backdrop-filter: blur(15px);
+    border-radius: 1rem;
+    padding: 2rem 2.5rem;
+    text-align: center;
+    width: 50%;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+    &:hover {
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.7);
+    }
+}
+
+.verb-display {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.guess-input {
+    padding: 0.7rem 1rem;
+    border-radius: 0.6rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: center;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &:focus {
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+}
+
+.message {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    min-height: 1.5rem;
+
+    &.correct {
+        color: #4ade80;
+    }
+
+    &.wrong {
+        color: #f87171;
+    }
+}
+
+.counter {
+    font-size: 0.95rem;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

@@ -104,11 +104,47 @@
   </div>
 
   <!-- VERB POPUP -->
-  <div *ngIf="selectedVerb" class="popup-overlay" (click)="closePopup()">
+  <div
+    *ngIf="selectedVerb || isGamingMode"
+    class="popup-overlay"
+    (click)="closePopup()"
+  >
+    <ng-container *ngIf="!isGamingMode; else gamingMode">
+      <ng-container *ngTemplateOutlet="verbInfo"></ng-container>
+    </ng-container>
+    <ng-template #gamingMode>
+      <ng-container *ngTemplateOutlet="gamingScreen"></ng-container>
+    </ng-template>
+  </div>
+
+  <ng-template #gamingScreen>
+    <div class="popup-content glass-card" (click)="$event.stopPropagation()">
+      <div class="popup-header">
+        <h2>Joacă</h2>
+
+        <div class="popup-translations">
+          Încearcă să ghiceşti care este verbul
+        </div>
+        <ng-template #noPopupTranslations>
+          <small><em>—</em></small>
+        </ng-template>
+
+        <button class="popup-close" (click)="closePopup()">×</button>
+      </div>
+
+      <div class="popup-body">
+        <div class="glass-card">
+          <app-guess-verbs [groups]="filteredGroups"> </app-guess-verbs>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+  <ng-template #verbInfo>
     <div class="popup-content glass-card" (click)="$event.stopPropagation()">
       <div class="popup-header">
         <h2>
-          {{ selectedVerb.infinitive }}
+          {{ selectedVerb?.infinitive }}
           <div
             class="popup-subgroup small"
             *ngIf="getSubgroupInfo(selectedVerb) as subgroupInfo"
@@ -119,21 +155,21 @@
             <span *ngIf="subgroupInfo.description">
               • {{ subgroupInfo.description }}</span
             >
-            • {{ selectedVerb.type }}
+            • {{ selectedVerb?.type }}
           </div>
         </h2>
 
         <div
           class="popup-translations"
           *ngIf="
-            selectedVerb.infinitive_translated?.length ?? 0 > 0;
+            selectedVerb?.infinitive_translated?.length ?? 0 > 0;
             else noPopupTranslations
           "
         >
           <small>
             <span
               *ngFor="
-                let translation of selectedVerb.infinitive_translated;
+                let translation of selectedVerb?.infinitive_translated;
                 let last = last
               "
             >
@@ -206,7 +242,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </ng-template>
 </div>
 
 <div *ngIf="copiedText" class="copy-toast">Copiat: "{{ copiedText }}"</div>
+
+<button class="play-game-btn" (click)="activateGamingMode()">Joacă!</button>

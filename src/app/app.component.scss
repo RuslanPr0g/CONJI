@@ -399,3 +399,55 @@ $group-colors: (
         transform: translateY(0);
     }
 }
+
+.play-game-btn {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    transform: translate(-50%, -50%);
+
+    height: 70px;
+    width: 70px;
+    font-family: 'Press Start 2P', monospace;
+    font-size: .5rem;
+    text-transform: uppercase;
+    line-height: 15px;
+    text-align: center;
+
+    color: #fff;
+    background: linear-gradient(145deg, #dae107, #1d240b);
+    background-size: 400% 400%;
+    border: 3px solid #fff;
+    border-radius: 12px;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    box-shadow: 4px 4px 0px #000;
+
+    animation: gradientShift 3s ease infinite;
+}
+
+.play-game-btn:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+    box-shadow: 6px 6px 0px #000;
+}
+
+.play-game-btn:active {
+    transform: translate(-50%, -50%) scale(0.95);
+    box-shadow: 2px 2px 0px #000;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
