@@ -108,12 +108,19 @@
     <div class="popup-content glass-card" (click)="$event.stopPropagation()">
       <div class="popup-header">
         <h2>
-          {{ selectedVerb.infinitive }} •
-          <span
-            class="verb-type verb-type__text"
-            [ngClass]="selectedVerb.type"
-            >{{ selectedVerb.type }}</span
+          {{ selectedVerb.infinitive }}
+          <div
+            class="popup-subgroup small"
+            *ngIf="getSubgroupInfo(selectedVerb) as subgroupInfo"
           >
+            <span
+              ><strong>{{ subgroupInfo.code }}</strong></span
+            >
+            <span *ngIf="subgroupInfo.description">
+              • {{ subgroupInfo.description }}</span
+            >
+            • {{ selectedVerb.type }}
+          </div>
         </h2>
 
         <div

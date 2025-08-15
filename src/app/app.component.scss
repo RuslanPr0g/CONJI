@@ -366,6 +366,12 @@ $group-colors: (
     }
 }
 
+.popup-subgroup {
+    font-size: .5em;
+    margin-top: .2rem;
+    color: #ccc;
+}
+
 @keyframes toast-fade {
     0% {
         opacity: 0;
