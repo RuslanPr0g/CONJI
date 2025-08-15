@@ -1,9 +1,11 @@
 {
-    "group": "Group IV - ending in -i/î",
+    "group": "Grupa a IV-a - terminat în -i/î",
     "verbs": [
         {
             "infinitive": "fi",
             "type": "irregular",
+            "group": 4,
+            "subgroup": 99,
             "infinitive_translated": [
                 "to be"
             ],
@@ -64,7 +66,9 @@
         },
         {
             "infinitive": "veni",
-            "type": "irregular",
+            "type": "regular",
+            "group": 4,
+            "subgroup": 2,
             "infinitive_translated": [
                 "come"
             ],
@@ -126,6 +130,8 @@
         {
             "infinitive": "locui",
             "type": "regular",
+            "group": 4,
+            "subgroup": 1,
             "infinitive_translated": [
                 "live",
                 "reside"
@@ -188,6 +194,8 @@
         {
             "infinitive": "vorbi",
             "type": "regular",
+            "group": 4,
+            "subgroup": 1,
             "infinitive_translated": [
                 "speak",
                 "talk"
@@ -250,6 +258,8 @@
         {
             "infinitive": "călători",
             "type": "regular",
+            "group": 4,
+            "subgroup": 1,
             "infinitive_translated": [
                 "travel"
             ],

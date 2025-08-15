@@ -1,0 +1,134 @@
+[
+    {
+        "group": 1,
+        "description": "Verbe care se termină în -a (cu excepția -ea)",
+        "subgroups": [
+            {
+                "subgroup": 1,
+                "code": "I-A",
+                "description": "-ez",
+                "examples": [
+                    "a lucra",
+                    "a traversa"
+                ]
+            },
+            {
+                "subgroup": 2,
+                "code": "I-B",
+                "description": "Fără -ez",
+                "examples": [
+                    "a cânta"
+                ]
+            },
+            {
+                "subgroup": 3,
+                "code": "I-C",
+                "description": "Schimbare de vocală în rădăcină",
+                "examples": [
+                    "a pleca → pleacă",
+                    "a chema → cheamă"
+                ]
+            },
+            {
+                "subgroup": 99,
+                "code": "I-Irreg",
+                "description": "Verbe neregulate",
+                "examples": [
+                    "a da",
+                    "a sta",
+                    "a lua"
+                ]
+            }
+        ]
+    },
+    {
+        "group": 2,
+        "description": "Verbe care se termină în -ea",
+        "subgroups": [
+            {
+                "subgroup": 1,
+                "code": "II-A",
+                "description": "-ez / -ează",
+                "examples": [
+                    "a crea → creez"
+                ]
+            },
+            {
+                "subgroup": 2,
+                "code": "II-B",
+                "description": "Schimbare de vocală în rădăcină",
+                "examples": [
+                    "a vedea → văd"
+                ]
+            },
+            {
+                "subgroup": 99,
+                "code": "II-Irreg",
+                "description": "Verbe neregulate",
+                "examples": [
+                    "a bea"
+                ]
+            }
+        ]
+    },
+    {
+        "group": 3,
+        "description": "Verbe care se termină în -e",
+        "subgroups": [
+            {
+                "subgroup": 1,
+                "code": "III-A",
+                "description": "Verbe regulate",
+                "examples": [
+                    "a crede"
+                ]
+            },
+            {
+                "subgroup": 2,
+                "code": "III-B",
+                "description": "Schimbare de consoană în rădăcină",
+                "examples": [
+                    "a înțelege → înțeleg"
+                ]
+            },
+            {
+                "subgroup": 99,
+                "code": "III-Irreg",
+                "description": "Verbe neregulate",
+                "examples": [
+                    "a scrie"
+                ]
+            }
+        ]
+    },
+    {
+        "group": 4,
+        "description": "Verbe care se termină în -i / -î",
+        "subgroups": [
+            {
+                "subgroup": 1,
+                "code": "IV-A",
+                "description": "Verbe regulate -esc",
+                "examples": [
+                    "a locui"
+                ]
+            },
+            {
+                "subgroup": 2,
+                "code": "IV-B",
+                "description": "Schimbare de rădăcină",
+                "examples": [
+                    "a veni → vin"
+                ]
+            },
+            {
+                "subgroup": 99,
+                "code": "IV-Irreg",
+                "description": "Verbe neregulate",
+                "examples": [
+                    "a fi"
+                ]
+            }
+        ]
+    }
+]

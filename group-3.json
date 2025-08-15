@@ -1,9 +1,11 @@
 {
-  "group": "Group III - ending in -e",
+  "group": "Grupa a III-a - terminat în -e",
   "verbs": [
     {
       "infinitive": "conduce",
-      "type": "irregular",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
       "infinitive_translated": [
         "drive",
         "lead"
@@ -65,7 +67,9 @@
     },
     {
       "infinitive": "merge",
-      "type": "irregular",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
       "infinitive_translated": [
         "go",
         "drive"
@@ -128,6 +132,8 @@
     {
       "infinitive": "scrie",
       "type": "irregular",
+      "group": 3,
+      "subgroup": 99,
       "infinitive_translated": [
         "write"
       ],
@@ -188,7 +194,9 @@
     },
     {
       "infinitive": "începe",
-      "type": "irregular",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
       "infinitive_translated": [
         "begin",
         "start"
@@ -250,7 +258,9 @@
     },
     {
       "infinitive": "petrece",
-      "type": "irregular",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
       "infinitive_translated": [
         "to spend (time)",
         "to celebrate"
@@ -312,7 +322,9 @@
     },
     {
       "infinitive": "ajunge",
-      "type": "irregular",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
       "infinitive_translated": [
         "to arrive"
       ],

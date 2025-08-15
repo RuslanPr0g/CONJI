@@ -1,9 +1,11 @@
 {
-    "group": "Group II - ending in -ea",
+    "group": "Grupa a II-a - terminat în -ea",
     "verbs": [
         {
             "infinitive": "avea",
             "type": "irregular",
+            "group": 2,
+            "subgroup": 99,
             "infinitive_translated": [
                 "to have"
             ],
@@ -64,7 +66,9 @@
         },
         {
             "infinitive": "vedea",
-            "type": "irregular",
+            "type": "regular",
+            "group": 2,
+            "subgroup": 2,
             "infinitive_translated": [
                 "see",
                 "observe"
@@ -127,6 +131,8 @@
         {
             "infinitive": "părea",
             "type": "regular",
+            "group": 2,
+            "subgroup": 2,
             "infinitive_translated": [
                 "seem",
                 "appear"
