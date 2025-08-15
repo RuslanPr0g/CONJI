@@ -74,20 +74,18 @@
                   }}</span>
                 </div>
 
-                <div
-                  class="examples"
-                  *ngIf="getSubgroupInfo(verb)?.examples?.length ?? 0 > 0"
+                <ng-container
+                  *ngIf="getSubgroupInfo(verb)?.examples as examples"
                 >
-                  <em>Alte:</em>
-                  <span
-                    *ngFor="
-                      let ex of getSubgroupInfo(verb)?.examples ?? [];
-                      let last = last
-                    "
-                  >
-                    {{ ex }}<span *ngIf="!last">, </span>
-                  </span>
-                </div>
+                  <ng-container *ngIf="getOtherExamples(verb) as otherExamples">
+                    <div class="examples" *ngIf="otherExamples.length > 0">
+                      <em>Alte:</em>
+                      <span *ngFor="let ex of otherExamples; let last = last">
+                        {{ ex }}<span *ngIf="!last">, </span>
+                      </span>
+                    </div>
+                  </ng-container>
+                </ng-container>
               </div>
             </div>
           </div>

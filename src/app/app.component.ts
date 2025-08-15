@@ -140,6 +140,14 @@ export class AppComponent {
       });
   }
 
+  getOtherExamples(verb: any): string[] {
+    const subgroup = this.getSubgroupInfo(verb);
+    if (!subgroup || !subgroup.examples) return [];
+    return subgroup.examples.filter(
+      (ex) => !ex.includes(verb.infinitive) && !verb.infinitive.includes(ex)
+    );
+  }
+
   getGroupInfo(verb: any): VerbInformationGroup | undefined {
     return this.groupInformation.find((g) => g.group === verb.group);
   }
