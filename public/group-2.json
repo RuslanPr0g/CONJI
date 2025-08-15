@@ -5,7 +5,7 @@
             "infinitive": "avea",
             "type": "irregular",
             "group": 2,
-            "subgroup": 1,
+            "subgroup": 99,
             "infinitive_translated": [
                 "to have"
             ],
@@ -68,7 +68,7 @@
             "infinitive": "vedea",
             "type": "irregular",
             "group": 2,
-            "subgroup": 1,
+            "subgroup": 99,
             "infinitive_translated": [
                 "see",
                 "observe"
@@ -132,7 +132,7 @@
             "infinitive": "părea",
             "type": "regular",
             "group": 2,
-            "subgroup": 1,
+            "subgroup": 2,
             "infinitive_translated": [
                 "seem",
                 "appear"

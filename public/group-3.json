@@ -3,7 +3,7 @@
   "verbs": [
     {
       "infinitive": "conduce",
-      "type": "irregular",
+      "type": "regular",
       "group": 3,
       "subgroup": 1,
       "infinitive_translated": [
@@ -67,7 +67,7 @@
     },
     {
       "infinitive": "merge",
-      "type": "irregular",
+      "type": "regular",
       "group": 3,
       "subgroup": 1,
       "infinitive_translated": [
@@ -133,7 +133,7 @@
       "infinitive": "scrie",
       "type": "irregular",
       "group": 3,
-      "subgroup": 1,
+      "subgroup": 99,
       "infinitive_translated": [
         "write"
       ],
@@ -194,7 +194,7 @@
     },
     {
       "infinitive": "începe",
-      "type": "irregular",
+      "type": "regular",
       "group": 3,
       "subgroup": 1,
       "infinitive_translated": [
@@ -258,7 +258,7 @@
     },
     {
       "infinitive": "petrece",
-      "type": "irregular",
+      "type": "regular",
       "group": 3,
       "subgroup": 1,
       "infinitive_translated": [
@@ -322,7 +322,7 @@
     },
     {
       "infinitive": "ajunge",
-      "type": "irregular",
+      "type": "regular",
       "group": 3,
       "subgroup": 1,
       "infinitive_translated": [

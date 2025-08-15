@@ -5,7 +5,7 @@
       "infinitive": "sta",
       "type": "irregular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 99,
       "infinitive_translated": [
         "to stay",
         "to stand",
@@ -133,7 +133,7 @@
       "infinitive": "cânta",
       "type": "regular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 2,
       "infinitive_translated": [
         "sing"
       ],
@@ -196,7 +196,7 @@
       "infinitive": "cumpăra",
       "type": "regular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 2,
       "infinitive_translated": [
         "to buy"
       ],
@@ -322,7 +322,7 @@
       "infinitive": "căuta",
       "type": "regular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 2,
       "infinitive_translated": [
         "to search",
         "to look for"
@@ -449,7 +449,7 @@
       "infinitive": "zbura",
       "type": "regular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 3,
       "infinitive_translated": [
         "fly"
       ],
@@ -512,7 +512,7 @@
       "infinitive": "discuta",
       "type": "regular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 2,
       "infinitive_translated": [
         "discuss"
       ],
@@ -638,7 +638,7 @@
       "infinitive": "prefera",
       "type": "regular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 2,
       "infinitive_translated": [
         "prefer"
       ],
@@ -701,7 +701,7 @@
       "infinitive": "pleca",
       "type": "regular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 3,
       "infinitive_translated": [
         "leave",
         "go"
@@ -828,7 +828,7 @@
       "infinitive": "lua",
       "type": "irregular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 99,
       "infinitive_translated": [
         "to take"
       ],

@@ -5,7 +5,7 @@
             "infinitive": "fi",
             "type": "irregular",
             "group": 4,
-            "subgroup": 1,
+            "subgroup": 99,
             "infinitive_translated": [
                 "to be"
             ],
@@ -66,9 +66,9 @@
         },
         {
             "infinitive": "veni",
-            "type": "irregular",
+            "type": "regular",
             "group": 4,
-            "subgroup": 1,
+            "subgroup": 2,
             "infinitive_translated": [
                 "come"
             ],
