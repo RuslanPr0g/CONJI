@@ -19,6 +19,7 @@ export class GuessVerbsComponent implements OnInit {
   message: string = '';
   guessed = 0;
   missed = 0;
+  loading = false;
   showEnglish = true;
 
   lastTried: string | null = null;
@@ -38,6 +39,7 @@ export class GuessVerbsComponent implements OnInit {
     this.showEnglish = Math.random() > 0.5;
     this.guess = '';
     this.message = '';
+    this.loading = false;
   }
 
   trySubmit(): boolean {
@@ -52,7 +54,7 @@ export class GuessVerbsComponent implements OnInit {
 
     const userInput = normalize(this.guess);
 
-    if (!userInput) {
+    if (!userInput || this.loading) {
       return false;
     }
 
@@ -70,6 +72,10 @@ export class GuessVerbsComponent implements OnInit {
   }
 
   submitGuess() {
+    if (this.loading) {
+      return;
+    }
+
     if (!this.guess) {
       this.nextVerb();
       return;
@@ -93,6 +99,7 @@ export class GuessVerbsComponent implements OnInit {
   private guessTheWord() {
     this.guessed++;
     this.message = 'Corect!';
-    setTimeout(() => this.nextVerb(), 1000);
+    this.loading = true;
+    setTimeout(() => this.nextVerb(), 1500);
   }
 }
