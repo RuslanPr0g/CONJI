@@ -4,6 +4,8 @@
     {
       "infinitive": "conduce",
       "type": "irregular",
+      "group": 3,
+      "subgroup": 1,
       "infinitive_translated": [
         "drive",
         "lead"
@@ -66,6 +68,8 @@
     {
       "infinitive": "merge",
       "type": "irregular",
+      "group": 3,
+      "subgroup": 1,
       "infinitive_translated": [
         "go",
         "drive"
@@ -128,6 +132,8 @@
     {
       "infinitive": "scrie",
       "type": "irregular",
+      "group": 3,
+      "subgroup": 1,
       "infinitive_translated": [
         "write"
       ],
@@ -189,6 +195,8 @@
     {
       "infinitive": "începe",
       "type": "irregular",
+      "group": 3,
+      "subgroup": 1,
       "infinitive_translated": [
         "begin",
         "start"
@@ -251,6 +259,8 @@
     {
       "infinitive": "petrece",
       "type": "irregular",
+      "group": 3,
+      "subgroup": 1,
       "infinitive_translated": [
         "to spend (time)",
         "to celebrate"
@@ -313,6 +323,8 @@
     {
       "infinitive": "ajunge",
       "type": "irregular",
+      "group": 3,
+      "subgroup": 1,
       "infinitive_translated": [
         "to arrive"
       ],

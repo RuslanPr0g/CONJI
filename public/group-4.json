@@ -4,6 +4,8 @@
         {
             "infinitive": "fi",
             "type": "irregular",
+            "group": 4,
+            "subgroup": 1,
             "infinitive_translated": [
                 "to be"
             ],
@@ -65,6 +67,8 @@
         {
             "infinitive": "veni",
             "type": "irregular",
+            "group": 4,
+            "subgroup": 1,
             "infinitive_translated": [
                 "come"
             ],
@@ -126,6 +130,8 @@
         {
             "infinitive": "locui",
             "type": "regular",
+            "group": 4,
+            "subgroup": 1,
             "infinitive_translated": [
                 "live",
                 "reside"
@@ -188,6 +194,8 @@
         {
             "infinitive": "vorbi",
             "type": "regular",
+            "group": 4,
+            "subgroup": 1,
             "infinitive_translated": [
                 "speak",
                 "talk"
@@ -250,6 +258,8 @@
         {
             "infinitive": "călători",
             "type": "regular",
+            "group": 4,
+            "subgroup": 1,
             "infinitive_translated": [
                 "travel"
             ],

@@ -6,6 +6,19 @@ import { debounceTime, distinctUntilChanged, forkJoin, take } from 'rxjs';
 import { environment } from '../environments/environment';
 import { AddToPrefixPipe } from './pipes/add-to-prefix.pipe';
 
+export interface VerbInformationSubgroup {
+  subgroup: number;
+  code: string;
+  description: string;
+  examples: string[];
+}
+
+export interface VerbInformationGroup {
+  group: number;
+  description: string;
+  subgroups: VerbInformationSubgroup[];
+}
+
 type ConjugationKey = keyof Conjugations;
 
 export interface VerbGroup {
@@ -69,6 +82,8 @@ export class AppComponent {
   copiedText: string | null = null;
   copyTimeout: any;
 
+  groupInformation: VerbInformationGroup[] = [];
+
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
@@ -80,6 +95,10 @@ export class AppComponent {
       { order: 3, file: isProd ? 'group-3.min.json' : 'group-3.json' },
       { order: 4, file: isProd ? 'group-4.min.json' : 'group-4.json' },
     ];
+
+    const groupInformationFile = isProd
+      ? 'group-information.min.json'
+      : 'group-information.json';
 
     const requests = groupFiles.map((g) =>
       this.http.get<VerbGroup>(g.file).pipe(take(1))
@@ -96,6 +115,22 @@ export class AppComponent {
       this.groupedVerbs = groups;
       this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs, 15);
     });
+
+    this.http
+      .get<VerbInformationGroup[]>(groupInformationFile)
+      .pipe(take(1))
+      .subscribe((info) => {
+        for (const group of info) {
+          for (const subgroup of group.subgroups) {
+            subgroup.examples = subgroup.examples.map(
+              (e) => e + (e.endsWith('.') ? '' : '.')
+            );
+          }
+        }
+
+        this.groupInformation = info;
+        console.warn(this.groupInformation);
+      });
 
     this.searchControl.valueChanges
       .pipe(debounceTime(300), distinctUntilChanged())

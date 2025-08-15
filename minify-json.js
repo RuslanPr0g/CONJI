@@ -3,9 +3,17 @@ const path = require("path");
 const jsonminify = require("jsonminify");
 
 const folderPath = path.resolve(__dirname, "public");
-const files = fs
-  .readdirSync(folderPath)
-  .filter((f) => /^group-\d+\.json$/.test(f));
+
+const allFiles = fs.readdirSync(folderPath);
+for (const file of allFiles) {
+  if (file.endsWith(".min.json")) {
+    fs.unlinkSync(path.join(folderPath, file));
+  }
+}
+
+const files = allFiles.filter(
+  (f) => f.endsWith(".json") && !f.endsWith(".min.json")
+);
 
 for (const file of files) {
   const filePath = path.join(folderPath, file);

@@ -4,6 +4,8 @@
         {
             "infinitive": "avea",
             "type": "irregular",
+            "group": 2,
+            "subgroup": 1,
             "infinitive_translated": [
                 "to have"
             ],
@@ -65,6 +67,8 @@
         {
             "infinitive": "vedea",
             "type": "irregular",
+            "group": 2,
+            "subgroup": 1,
             "infinitive_translated": [
                 "see",
                 "observe"
@@ -127,6 +131,8 @@
         {
             "infinitive": "părea",
             "type": "regular",
+            "group": 2,
+            "subgroup": 1,
             "infinitive_translated": [
                 "seem",
                 "appear"
