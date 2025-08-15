@@ -66,9 +66,9 @@
         },
         {
             "infinitive": "vedea",
-            "type": "irregular",
+            "type": "regular",
             "group": 2,
-            "subgroup": 99,
+            "subgroup": 2,
             "infinitive_translated": [
                 "see",
                 "observe"

@@ -23,7 +23,7 @@
             {
                 "subgroup": 3,
                 "code": "I-C",
-                "description": "Schimbare de vocală la persoana a 3-a sg/pl",
+                "description": "Schimbare de vocală în rădăcină",
                 "examples": [
                     "a pleca → pleacă",
                     "a chema → cheamă"
@@ -96,8 +96,7 @@
                 "code": "III-Irreg",
                 "description": "Verbe neregulate",
                 "examples": [
-                    "a face",
-                    "a zice"
+                    "a scrie"
                 ]
             }
         ]
