@@ -45,19 +45,50 @@
               <small><em>—</em></small>
             </ng-template>
 
-            <div class="verb-forms" *ngIf="verb.conjugations?.prezent">
-              <span
-                ><strong>eu:</strong>
-                {{ verb.conjugations.prezent.eu || "—" }}</span
+            <div class="verb-meta-grid">
+              <div class="verb-forms" *ngIf="verb.conjugations?.prezent">
+                <div>
+                  <strong>eu:</strong> {{ verb.conjugations.prezent.eu || "—" }}
+                </div>
+                <div>
+                  <strong>tu:</strong> {{ verb.conjugations.prezent.tu || "—" }}
+                </div>
+                <div>
+                  <strong>el/ea:</strong>
+                  {{ verb.conjugations.prezent["el/ea"] || "—" }}
+                </div>
+              </div>
+
+              <div
+                class="verb-group-info"
+                *ngIf="getGroupInfo(verb) as groupInfo"
               >
-              <span
-                ><strong>tu:</strong>
-                {{ verb.conjugations.prezent.tu || "—" }}</span
-              >
-              <span
-                ><strong>el/ea:</strong>
-                {{ verb.conjugations.prezent["el/ea"] || "—" }}</span
-              >
+                <div
+                  *ngIf="getSubgroupInfo(verb) as subgroupInfo"
+                  class="subgroup-desc"
+                >
+                  <strong>{{ subgroupInfo.code }}</strong>
+                  &#x2022;
+                  <span *ngIf="subgroupInfo.description">{{
+                    subgroupInfo.description
+                  }}</span>
+                </div>
+
+                <div
+                  class="examples"
+                  *ngIf="getSubgroupInfo(verb)?.examples?.length ?? 0 > 0"
+                >
+                  <em>Alte:</em>
+                  <span
+                    *ngFor="
+                      let ex of getSubgroupInfo(verb)?.examples ?? [];
+                      let last = last
+                    "
+                  >
+                    {{ ex }}<span *ngIf="!last">, </span>
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </ng-container>

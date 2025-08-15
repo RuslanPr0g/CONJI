@@ -326,6 +326,41 @@ textarea {
     }
 }
 
+.verb-group-info {
+    font-size: 0.85em;
+    margin-top: 8px;
+    color: #666;
+}
+
+.verb-meta-grid {
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    align-items: flex-start;
+}
+
+.verb-forms,
+.verb-group-info {
+    flex: 1 1 200px;
+    font-size: 0.9em;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 0.75rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.verb-group-info .group-desc,
+.verb-group-info .subgroup-desc {
+    margin-bottom: 0.4rem;
+}
+
+.verb-group-info .examples {
+    font-size: 0.85em;
+    color: #bbb;
+}
+
 @keyframes toast-fade {
     0% {
         opacity: 0;

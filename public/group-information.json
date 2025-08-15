@@ -1,12 +1,12 @@
 [
     {
         "group": 1,
-        "description": "Verbs ending in -a (except -ea)",
+        "description": "Verbe care se termină în -a (cu excepția -ea)",
         "subgroups": [
             {
                 "subgroup": 1,
                 "code": "I-A",
-                "description": "-ez / -ează regular verbs",
+                "description": "-ez / -ează",
                 "examples": [
                     "a lucra",
                     "a traversa"
@@ -15,7 +15,7 @@
             {
                 "subgroup": 2,
                 "code": "I-B",
-                "description": "Simple regular verbs without -ez",
+                "description": "Fără -ez",
                 "examples": [
                     "a cânta"
                 ]
@@ -23,7 +23,7 @@
             {
                 "subgroup": 3,
                 "code": "I-C",
-                "description": "Vowel change in 3rd person sg/pl",
+                "description": "Schimbare de vocală la persoana a 3-a sg/pl",
                 "examples": [
                     "a pleca → pleacă",
                     "a chema → cheamă"
@@ -32,7 +32,7 @@
             {
                 "subgroup": 99,
                 "code": "I-Irreg",
-                "description": "Irregular stems",
+                "description": "Verbe neregulate",
                 "examples": [
                     "a da",
                     "a sta",
@@ -43,12 +43,12 @@
     },
     {
         "group": 2,
-        "description": "Verbs ending in -ea",
+        "description": "Verbe care se termină în -ea",
         "subgroups": [
             {
                 "subgroup": 1,
                 "code": "II-A",
-                "description": "-ez / -ează regular verbs",
+                "description": "-ez / -ează",
                 "examples": [
                     "a crea → creez"
                 ]
@@ -56,7 +56,7 @@
             {
                 "subgroup": 2,
                 "code": "II-B",
-                "description": "Stem vowel shift",
+                "description": "Schimbare de vocală în rădăcină",
                 "examples": [
                     "a vedea → văd"
                 ]
@@ -64,7 +64,7 @@
             {
                 "subgroup": 99,
                 "code": "II-Irreg",
-                "description": "Irregular verbs",
+                "description": "Verbe neregulate",
                 "examples": [
                     "a bea"
                 ]
@@ -73,12 +73,12 @@
     },
     {
         "group": 3,
-        "description": "Verbs ending in -e",
+        "description": "Verbe care se termină în -e",
         "subgroups": [
             {
                 "subgroup": 1,
                 "code": "III-A",
-                "description": "Regular verbs",
+                "description": "Verbe regulate",
                 "examples": [
                     "a crede"
                 ]
@@ -86,7 +86,7 @@
             {
                 "subgroup": 2,
                 "code": "III-B",
-                "description": "Stem consonant change",
+                "description": "Schimbare de consoană în rădăcină",
                 "examples": [
                     "a înțelege → înțeleg"
                 ]
@@ -94,7 +94,7 @@
             {
                 "subgroup": 99,
                 "code": "III-Irreg",
-                "description": "Irregular verbs",
+                "description": "Verbe neregulate",
                 "examples": [
                     "a face",
                     "a zice"
@@ -104,12 +104,12 @@
     },
     {
         "group": 4,
-        "description": "Verbs ending in -i / -î",
+        "description": "Verbe care se termină în -i / -î",
         "subgroups": [
             {
                 "subgroup": 1,
                 "code": "IV-A",
-                "description": "Regular verbs",
+                "description": "Verbe regulate",
                 "examples": [
                     "a dormi"
                 ]
@@ -117,7 +117,7 @@
             {
                 "subgroup": 2,
                 "code": "IV-B",
-                "description": "Stem change",
+                "description": "Schimbare de rădăcină",
                 "examples": [
                     "a veni → vin"
                 ]
@@ -125,7 +125,7 @@
             {
                 "subgroup": 99,
                 "code": "IV-Irreg",
-                "description": "Highly irregular verbs",
+                "description": "Verbe neregulate",
                 "examples": [
                     "a fi"
                 ]

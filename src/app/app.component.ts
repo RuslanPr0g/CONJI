@@ -120,16 +120,7 @@ export class AppComponent {
       .get<VerbInformationGroup[]>(groupInformationFile)
       .pipe(take(1))
       .subscribe((info) => {
-        for (const group of info) {
-          for (const subgroup of group.subgroups) {
-            subgroup.examples = subgroup.examples.map(
-              (e) => e + (e.endsWith('.') ? '' : '.')
-            );
-          }
-        }
-
         this.groupInformation = info;
-        console.warn(this.groupInformation);
       });
 
     this.searchControl.valueChanges
@@ -147,6 +138,15 @@ export class AppComponent {
         const limited = this.limitVerbs(filtered, 15);
         this.filteredGroups = this.regroupVerbs(limited);
       });
+  }
+
+  getGroupInfo(verb: any): VerbInformationGroup | undefined {
+    return this.groupInformation.find((g) => g.group === verb.group);
+  }
+
+  getSubgroupInfo(verb: any): VerbInformationSubgroup | undefined {
+    const group = this.getGroupInfo(verb);
+    return group?.subgroups.find((sg) => sg.subgroup === verb.subgroup);
   }
 
   getConjugation(tense: string, person: string): string {
