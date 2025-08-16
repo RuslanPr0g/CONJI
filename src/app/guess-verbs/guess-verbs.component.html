@@ -1,19 +1,15 @@
 <div class="game-container">
   <div class="card">
     <div class="verb-display">
-      <span
-        *ngIf="showEnglish"
-        >{{ currentVerb.infinitive_translated?.[0]! | addToPrefix }}</span
-      >
-      <span *ngIf="!showEnglish">a {{ currentVerb.infinitive }}</span>
+      {{ currentExercise.question }}
     </div>
 
     <input
       [(ngModel)]="guess"
       (keyup.enter)="submitGuess()"
       (keyup)="trySubmit()"
-      [maxlength]="20"
-      placeholder="Tastează traducerea"
+      [maxlength]="50"
+      placeholder="Tastează răspunsul"
       class="guess-input"
     />
 

@@ -207,11 +207,15 @@ textarea {
 
 .popup-translations {
     color: #f0caca;
-    font-size: 0.9rem;
+    font-size: .9rem;
     margin-top: 4px;
     margin-bottom: 12px;
     text-align: center;
     user-select: none;
+
+    @media (max-width: 480px) {
+        font-size: .6rem;
+    }
 }
 
 .popup-close {
@@ -353,7 +357,7 @@ $group-colors: (
     background: rgba(255, 255, 255, 0.05);
 
     @each $name, $bg in $group-colors {
-        &.group-#{$name} {
+        &.group-#{"" + $name} {
             background-color: $bg;
         }
     }

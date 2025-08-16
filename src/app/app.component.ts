@@ -124,7 +124,7 @@ export class AppComponent {
         }
       }
       this.groupedVerbs = groups;
-      this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs, 15);
+      this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs);
     });
 
     this.http
@@ -138,10 +138,7 @@ export class AppComponent {
       .pipe(debounceTime(300), distinctUntilChanged())
       .subscribe((search) => {
         if (!search?.trim()) {
-          this.filteredGroups = this.getRandomVerbsGroups(
-            this.groupedVerbs,
-            15
-          );
+          this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs);
           return;
         }
 
@@ -224,17 +221,11 @@ export class AppComponent {
     this.isGamingMode = true;
   }
 
-  private getRandomVerbsGroups(
-    groups: VerbGroup[],
-    maxCount: number
-  ): VerbGroup[] {
-    // Flatten all verbs with group reference
+  private getRandomVerbsGroups(groups: VerbGroup[]): VerbGroup[] {
     const allVerbs = groups.flatMap((g) =>
       g.verbs.map((v) => ({ group: g.group, verb: v }))
     );
-    // Shuffle
     const shuffled = [...allVerbs].sort(() => Math.random() - 0.5);
-    // Take up to maxCount
     const selected = shuffled;
     return this.regroupVerbs(selected);
   }

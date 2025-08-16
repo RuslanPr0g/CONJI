@@ -18,6 +18,10 @@ $font-family-main: 'Segoe UI', 'Roboto', sans-serif;
     background: linear-gradient(135deg, $color-bg-gradient-start, $color-bg-gradient-end);
     font-family: $font-family-main;
     padding: 1rem;
+
+    @media (max-width: 480px) {
+        padding: 4px;
+    }
 }
 
 .card {
@@ -34,18 +38,18 @@ $font-family-main: 'Segoe UI', 'Roboto', sans-serif;
     &:hover {
         box-shadow: 0 15px 50px $shadow-card-hover;
     }
+
+    @media (max-width: 480px) {
+        padding: 1rem 1rem;
+    }
 }
 
 .verb-display {
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
     color: $color-text-main;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-
-    @media (max-width: 480px) {
-        font-size: 1.5rem;
-    }
 }
 
 .guess-input {
