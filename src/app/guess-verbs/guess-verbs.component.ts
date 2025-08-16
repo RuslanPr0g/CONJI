@@ -38,7 +38,6 @@ export class GuessVerbsComponent implements OnInit {
   handleCtrlD(event: KeyboardEvent): void {
     if (event.ctrlKey && event.key === 'd' && !environment.production) {
       event.preventDefault();
-
       console.warn(this.currentExercise);
     }
   }
@@ -54,7 +53,6 @@ export class GuessVerbsComponent implements OnInit {
           correctAnswers: [verb.infinitive],
           type: 'translate-to-ro',
         });
-
         exs.push({
           question: `Traducere în engleză: a ${verb.infinitive}`,
           correctAnswers: verb.infinitive_translated.map((t) =>
@@ -72,7 +70,6 @@ export class GuessVerbsComponent implements OnInit {
           correctAnswers: [verb.conjugations.prezent[p]],
           type: 'conjugate-prezent',
         });
-
         exs.push({
           question: `(Perfect compus): ${p} ___ (${verb.infinitive})`,
           correctAnswers: [verb.conjugations.perfect_compus[p]],
@@ -132,8 +129,18 @@ export class GuessVerbsComponent implements OnInit {
   }
 
   private nextExercise() {
-    this.currentExercise =
-      this.exercises[Math.floor(Math.random() * this.exercises.length)];
+    if (!this.exercises.length) {
+      this.buildExercises();
+    }
+
+    const index = Math.floor(Math.random() * this.exercises.length);
+    this.currentExercise = this.exercises[index];
+    this.exercises.splice(index, 1);
+
+    if (!this.exercises.length) {
+      this.buildExercises();
+    }
+
     this.guess = '';
     this.message = '';
     this.loading = false;
@@ -168,12 +175,9 @@ export class GuessVerbsComponent implements OnInit {
       return;
     }
     const isCorrect = this.trySubmit();
-    if (isCorrect) {
-      this.guessTheWord();
-    } else {
-      if (this.lastTried !== this.currentExercise.question) this.missed++;
-      this.message = `Greșit! Try again.`;
-    }
+    if (isCorrect) return;
+    if (this.lastTried !== this.currentExercise.question) this.missed++;
+    this.message = `Greșit! Try again.`;
     this.lastTried = this.currentExercise.question;
   }
 
