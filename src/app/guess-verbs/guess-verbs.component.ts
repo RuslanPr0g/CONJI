@@ -1,4 +1,11 @@
-import { Component, HostListener, Input, OnInit } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  HostListener,
+  Input,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
 import { VerbGroup, Verb } from '../app.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
@@ -18,7 +25,7 @@ interface Exercise {
   styleUrls: ['./guess-verbs.component.scss'],
 })
 export class GuessVerbsComponent implements OnInit {
-  @Input() groups: VerbGroup[] = [];
+  @ViewChild('guessInput') inputRef!: ElementRef<HTMLInputElement>;
 
   exercises: Exercise[] = [];
   currentExercise!: Exercise;
@@ -28,6 +35,8 @@ export class GuessVerbsComponent implements OnInit {
   missed = 0;
   loading = false;
   lastTried: string | null = null;
+
+  @Input() groups: VerbGroup[] = [];
 
   ngOnInit() {
     this.buildExercises();
@@ -144,6 +153,11 @@ export class GuessVerbsComponent implements OnInit {
     this.guess = '';
     this.message = '';
     this.loading = false;
+
+    setTimeout(() => {
+      this.inputRef.nativeElement.focus();
+      this.inputRef.nativeElement.select();
+    }, 300);
   }
 
   private normalize(text?: string) {

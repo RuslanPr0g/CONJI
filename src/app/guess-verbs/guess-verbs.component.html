@@ -5,12 +5,14 @@
     </div>
 
     <input
+      #guessInput
       [(ngModel)]="guess"
       (keyup.enter)="submitGuess()"
       (keyup)="trySubmit()"
       [maxlength]="50"
       placeholder="Tastează răspunsul"
       class="guess-input"
+      [disabled]="loading"
     />
 
     <div
