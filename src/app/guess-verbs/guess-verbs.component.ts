@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { VerbGroup, Verb, ConjugationSet } from '../app.component';
+import { VerbGroup, Verb } from '../app.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
@@ -127,8 +127,6 @@ export class GuessVerbsComponent implements OnInit {
     this.guess = '';
     this.message = '';
     this.loading = false;
-
-    console.log(this.currentExercise);
   }
 
   private normalize(text?: string) {
