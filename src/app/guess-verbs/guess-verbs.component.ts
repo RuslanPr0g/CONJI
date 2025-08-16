@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { VerbGroup, Verb } from '../app.component';
+import { VerbGroup, Verb, ConjugationSet } from '../app.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
@@ -73,17 +73,39 @@ export class GuessVerbsComponent implements OnInit {
         if (vrea) {
           exs.push({
             question: `${p} ___ să ___ (${verb.infinitive}) (prezent, cu "a vrea")`,
-            correctAnswers: [
-              `${vrea.conjugations.prezent[p]} ${verb.conjugations.conjunctiv[p]}`,
-            ],
+            correctAnswers: Array.from(
+              new Set([
+                ...p
+                  .split('/')
+                  .map(
+                    (splitted) =>
+                      `${splitted} ${vrea.conjugations.prezent[p]} ${verb.conjugations.conjunctiv[p]}`
+                  ),
+                `${p} ${vrea.conjugations.prezent[p]} ${verb.conjugations.conjunctiv[p]}`,
+                `${vrea.conjugations.prezent[p]}${verb.conjugations.conjunctiv[
+                  p
+                ].replace('să', '')}`,
+              ])
+            ),
             type: 'vrea-prezent',
           });
 
           exs.push({
             question: `${p} ___ să ___ (${verb.infinitive}) (trecut, cu "a vrea")`,
-            correctAnswers: [
-              `${vrea.conjugations.perfect_compus[p]} ${verb.conjugations.conjunctiv[p]}`,
-            ],
+            correctAnswers: Array.from(
+              new Set([
+                ...p
+                  .split('/')
+                  .map(
+                    (splitted) =>
+                      `${splitted} ${vrea.conjugations.perfect_compus[p]} ${verb.conjugations.conjunctiv[p]}`
+                  ),
+                `${p} ${vrea.conjugations.perfect_compus[p]} ${verb.conjugations.conjunctiv[p]}`,
+                `${
+                  vrea.conjugations.perfect_compus[p]
+                }${verb.conjugations.conjunctiv[p].replace('să', '')}`,
+              ])
+            ),
             type: 'vrea-past',
           });
         }
@@ -105,6 +127,8 @@ export class GuessVerbsComponent implements OnInit {
     this.guess = '';
     this.message = '';
     this.loading = false;
+
+    console.log(this.currentExercise);
   }
 
   private normalize(text?: string) {
