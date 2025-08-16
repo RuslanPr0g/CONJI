@@ -122,6 +122,69 @@
                     "ei/ele": "ar vrea"
                 },
                 "imperativ": {
+                    "tu": "vrei",
+                    "voi": "vreați"
+                }
+            }
+        },
+        {
+            "infinitive": "vrea",
+            "type": "irregular",
+            "group": 2,
+            "subgroup": 99,
+            "infinitive_translated": [
+                "to want"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "vreau",
+                    "tu": "vrei",
+                    "el/ea": "vrea",
+                    "noi": "vrem",
+                    "voi": "vreți",
+                    "ei/ele": "vor"
+                },
+                "perfect_compus": {
+                    "eu": "am vrut",
+                    "tu": "ai vrut",
+                    "el/ea": "a vrut",
+                    "noi": "am vrut",
+                    "voi": "ați vrut",
+                    "ei/ele": "au vrut"
+                },
+                "viitor_literar": {
+                    "eu": "voi vrea",
+                    "tu": "vei vrea",
+                    "el/ea": "va vrea",
+                    "noi": "vom vrea",
+                    "voi": "veți vrea",
+                    "ei/ele": "vor vrea"
+                },
+                "viitor_familiar": {
+                    "eu": "o să vreau",
+                    "tu": "o să vrei",
+                    "el/ea": "o să vrea",
+                    "noi": "o să vrem",
+                    "voi": "o să vreți",
+                    "ei/ele": "o să vrea"
+                },
+                "conjunctiv": {
+                    "eu": "să vreau",
+                    "tu": "să vrei",
+                    "el/ea": "să vrea",
+                    "noi": "să vrem",
+                    "voi": "să vreți",
+                    "ei/ele": "să vrea"
+                },
+                "conditional": {
+                    "eu": "aș vrea",
+                    "tu": "ai vrea",
+                    "el/ea": "ar vrea",
+                    "noi": "am vrea",
+                    "voi": "ați vrea",
+                    "ei/ele": "ar vrea"
+                },
+                "imperativ": {
                     "tu": "-",
                     "voi": "vreți"
                 }
@@ -252,6 +315,69 @@
                 "imperativ": {
                     "tu": "par",
                     "voi": "păreți"
+                }
+            }
+        },
+        {
+            "infinitive": "crea",
+            "type": "regular",
+            "group": 2,
+            "subgroup": 1,
+            "infinitive_translated": [
+                "to create"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "creez",
+                    "tu": "creezi",
+                    "el/ea": "creează",
+                    "noi": "creăm",
+                    "voi": "creați",
+                    "ei/ele": "creează"
+                },
+                "perfect_compus": {
+                    "eu": "am creat",
+                    "tu": "ai creat",
+                    "el/ea": "a creat",
+                    "noi": "am creat",
+                    "voi": "ați creat",
+                    "ei/ele": "au creat"
+                },
+                "viitor_literar": {
+                    "eu": "voi crea",
+                    "tu": "vei crea",
+                    "el/ea": "va crea",
+                    "noi": "vom crea",
+                    "voi": "veți crea",
+                    "ei/ele": "vor crea"
+                },
+                "viitor_familiar": {
+                    "eu": "o să creez",
+                    "tu": "o să creezi",
+                    "el/ea": "o să creeze",
+                    "noi": "o să creăm",
+                    "voi": "o să creați",
+                    "ei/ele": "o să creeze"
+                },
+                "conjunctiv": {
+                    "eu": "să creez",
+                    "tu": "să creezi",
+                    "el/ea": "să creeze",
+                    "noi": "să creăm",
+                    "voi": "să creați",
+                    "ei/ele": "să creeze"
+                },
+                "conditional": {
+                    "eu": "aș crea",
+                    "tu": "ai crea",
+                    "el/ea": "ar crea",
+                    "noi": "am crea",
+                    "voi": "ați crea",
+                    "ei/ele": "ar crea"
+                },
+                "imperativ": {
+                    "tu": "creează",
+                    "voi": "creați"
                 }
             }
         }

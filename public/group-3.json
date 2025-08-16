@@ -193,6 +193,69 @@
       }
     },
     {
+      "infinitive": "înțelege",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 2,
+      "infinitive_translated": [
+        "to understand"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "înțeleg",
+          "tu": "înțelegi",
+          "el/ea": "înțelege",
+          "noi": "înțelegem",
+          "voi": "înțelegeți",
+          "ei/ele": "înțeleg"
+        },
+        "perfect_compus": {
+          "eu": "am înțeles",
+          "tu": "ai înțeles",
+          "el/ea": "a înțeles",
+          "noi": "am înțeles",
+          "voi": "ați înțeles",
+          "ei/ele": "au înțeles"
+        },
+        "viitor_literar": {
+          "eu": "voi înțelege",
+          "tu": "vei înțelege",
+          "el/ea": "va înțelege",
+          "noi": "vom înțelege",
+          "voi": "veți înțelege",
+          "ei/ele": "vor înțelege"
+        },
+        "viitor_familiar": {
+          "eu": "o să înțeleg",
+          "tu": "o să înțelegi",
+          "el/ea": "o să înțeleagă",
+          "noi": "o să înțelegem",
+          "voi": "o să înțelegeți",
+          "ei/ele": "o să înțeleagă"
+        },
+        "conjunctiv": {
+          "eu": "să înțeleg",
+          "tu": "să înțelegi",
+          "el/ea": "să înțeleagă",
+          "noi": "să înțelegem",
+          "voi": "să înțelegeți",
+          "ei/ele": "să înțeleagă"
+        },
+        "conditional": {
+          "eu": "aș înțelege",
+          "tu": "ai înțelege",
+          "el/ea": "ar înțelege",
+          "noi": "am înțelege",
+          "voi": "ați înțelege",
+          "ei/ele": "ar înțelege"
+        },
+        "imperativ": {
+          "tu": "înțelege",
+          "voi": "înțelegeți"
+        }
+      }
+    },
+    {
       "infinitive": "începe",
       "type": "regular",
       "group": 3,
@@ -317,6 +380,69 @@
         "imperativ": {
           "tu": "petrece",
           "voi": "petreceți"
+        }
+      }
+    },
+    {
+      "infinitive": "crede",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": [
+        "to believe"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "cred",
+          "tu": "crezi",
+          "el/ea": "crede",
+          "noi": "credem",
+          "voi": "credeți",
+          "ei/ele": "cred"
+        },
+        "perfect_compus": {
+          "eu": "am crezut",
+          "tu": "ai crezut",
+          "el/ea": "a crezut",
+          "noi": "am crezut",
+          "voi": "ați crezut",
+          "ei/ele": "au crezut"
+        },
+        "viitor_literar": {
+          "eu": "voi crede",
+          "tu": "vei crede",
+          "el/ea": "va crede",
+          "noi": "vom crede",
+          "voi": "veți crede",
+          "ei/ele": "vor crede"
+        },
+        "viitor_familiar": {
+          "eu": "o să cred",
+          "tu": "o să crezi",
+          "el/ea": "o să creadă",
+          "noi": "o să credem",
+          "voi": "o să credeți",
+          "ei/ele": "o să creadă"
+        },
+        "conjunctiv": {
+          "eu": "să cred",
+          "tu": "să crezi",
+          "el/ea": "să creadă",
+          "noi": "să credem",
+          "voi": "să credeți",
+          "ei/ele": "să creadă"
+        },
+        "conditional": {
+          "eu": "aș crede",
+          "tu": "ai crede",
+          "el/ea": "ar crede",
+          "noi": "am crede",
+          "voi": "ați crede",
+          "ei/ele": "ar crede"
+        },
+        "imperativ": {
+          "tu": "crede",
+          "voi": "credeți"
         }
       }
     },

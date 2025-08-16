@@ -140,11 +140,18 @@ export class AppComponent {
 
     forkJoin(requests).subscribe((groups) => {
       for (const group of groups) {
-        for (const verb of group.verbs) {
-          if (!verb.type) {
-            verb.type = 'regular';
+        const seen = new Set<string>();
+        group.verbs = group.verbs.filter((verb) => {
+          const key = verb.infinitive || JSON.stringify(verb);
+          if (!seen.has(key)) {
+            seen.add(key);
+            if (!verb.type) {
+              verb.type = 'regular';
+            }
+            return true;
           }
-        }
+          return false;
+        });
       }
       this.groupedVerbs = groups;
       this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs);
