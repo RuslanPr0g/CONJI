@@ -256,6 +256,69 @@
             }
         },
         {
+            "infinitive": "dormi",
+            "type": "regular",
+            "group": 4,
+            "subgroup": 2,
+            "infinitive_translated": [
+                "to sleep"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "dorm",
+                    "tu": "dormi",
+                    "el/ea": "doarme",
+                    "noi": "dormim",
+                    "voi": "dormiți",
+                    "ei/ele": "dorm"
+                },
+                "perfect_compus": {
+                    "eu": "am dormit",
+                    "tu": "ai dormit",
+                    "el/ea": "a dormit",
+                    "noi": "am dormit",
+                    "voi": "ați dormit",
+                    "ei/ele": "au dormit"
+                },
+                "viitor_literar": {
+                    "eu": "voi dormi",
+                    "tu": "vei dormi",
+                    "el/ea": "va dormi",
+                    "noi": "vom dormi",
+                    "voi": "veți dormi",
+                    "ei/ele": "vor dormi"
+                },
+                "viitor_familiar": {
+                    "eu": "o să dorm",
+                    "tu": "o să dormi",
+                    "el/ea": "o să doarmă",
+                    "noi": "o să dormim",
+                    "voi": "o să dormiți",
+                    "ei/ele": "o să doarmă"
+                },
+                "conjunctiv": {
+                    "eu": "să dorm",
+                    "tu": "să dormi",
+                    "el/ea": "să doarmă",
+                    "noi": "să dormim",
+                    "voi": "să dormiți",
+                    "ei/ele": "să doarmă"
+                },
+                "conditional": {
+                    "eu": "aș dormi",
+                    "tu": "ai dormi",
+                    "el/ea": "ar dormi",
+                    "noi": "am dormi",
+                    "voi": "ați dormi",
+                    "ei/ele": "ar dormi"
+                },
+                "imperativ": {
+                    "tu": "doarme",
+                    "voi": "dormiți"
+                }
+            }
+        },
+        {
             "infinitive": "călători",
             "type": "regular",
             "group": 4,
