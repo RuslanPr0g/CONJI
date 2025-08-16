@@ -65,6 +65,69 @@
             }
         },
         {
+            "infinitive": "vrea",
+            "type": "irregular",
+            "group": 2,
+            "subgroup": 99,
+            "infinitive_translated": [
+                "to want"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "vreau",
+                    "tu": "vrei",
+                    "el/ea": "vrea",
+                    "noi": "vrem",
+                    "voi": "vreți",
+                    "ei/ele": "vor"
+                },
+                "perfect_compus": {
+                    "eu": "am vrut",
+                    "tu": "ai vrut",
+                    "el/ea": "a vrut",
+                    "noi": "am vrut",
+                    "voi": "ați vrut",
+                    "ei/ele": "au vrut"
+                },
+                "viitor_literar": {
+                    "eu": "voi vrea",
+                    "tu": "vei vrea",
+                    "el/ea": "va vrea",
+                    "noi": "vom vrea",
+                    "voi": "veți vrea",
+                    "ei/ele": "vor vrea"
+                },
+                "viitor_familiar": {
+                    "eu": "o să vreau",
+                    "tu": "o să vrei",
+                    "el/ea": "o să vrea",
+                    "noi": "o să vrem",
+                    "voi": "o să vreți",
+                    "ei/ele": "o să vrea"
+                },
+                "conjunctiv": {
+                    "eu": "să vreau",
+                    "tu": "să vrei",
+                    "el/ea": "să vrea",
+                    "noi": "să vrem",
+                    "voi": "să vreți",
+                    "ei/ele": "să vrea"
+                },
+                "conditional": {
+                    "eu": "aș vrea",
+                    "tu": "ai vrea",
+                    "el/ea": "ar vrea",
+                    "noi": "am vrea",
+                    "voi": "ați vrea",
+                    "ei/ele": "ar vrea"
+                },
+                "imperativ": {
+                    "tu": "-",
+                    "voi": "vreți"
+                }
+            }
+        },
+        {
             "infinitive": "vedea",
             "type": "regular",
             "group": 2,

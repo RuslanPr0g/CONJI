@@ -74,7 +74,7 @@ export class GuessVerbsComponent implements OnInit {
           exs.push({
             question: `${p} ___ să ___ (${verb.infinitive}) (prezent, cu "a vrea")`,
             correctAnswers: [
-              `${vrea.conjugations.prezent[p]} să ${verb.conjugations.conjunctiv[p]}`,
+              `${vrea.conjugations.prezent[p]} ${verb.conjugations.conjunctiv[p]}`,
             ],
             type: 'vrea-prezent',
           });
@@ -82,7 +82,7 @@ export class GuessVerbsComponent implements OnInit {
           exs.push({
             question: `${p} ___ să ___ (${verb.infinitive}) (trecut, cu "a vrea")`,
             correctAnswers: [
-              `${vrea.conjugations.prezent[p]} să ${verb.conjugations.perfect_compus[p]}`,
+              `${vrea.conjugations.perfect_compus[p]} ${verb.conjugations.conjunctiv[p]}`,
             ],
             type: 'vrea-past',
           });

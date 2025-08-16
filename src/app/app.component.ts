@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, forkJoin, take } from 'rxjs';
 import { environment } from '../environments/environment';
@@ -74,6 +74,8 @@ export interface ImperativConjugation {
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
+  @ViewChild('searchInput') inputRef!: ElementRef<HTMLInputElement>;
+
   groupedVerbs: VerbGroup[] = [];
   filteredGroups: VerbGroup[] = [];
   searchControl = new FormControl('');
@@ -96,6 +98,27 @@ export class AppComponent {
   isGamingMode = false;
 
   constructor(private http: HttpClient) {}
+
+  @HostListener('document:keydown.escape', ['$event'])
+  onEscapePress(): void {
+    if (!this.isGamingMode) {
+      this.closePopup();
+      this.inputRef.nativeElement.blur();
+    }
+  }
+
+  @HostListener('document:keydown', ['$event'])
+  handleCtrlF(event: KeyboardEvent): void {
+    if (event.ctrlKey && event.key === 'f') {
+      event.preventDefault();
+
+      if (this.selectedVerb || this.isGamingMode) {
+        return;
+      }
+
+      this.inputRef.nativeElement.focus();
+    }
+  }
 
   ngOnInit() {
     const isProd = environment.production;
