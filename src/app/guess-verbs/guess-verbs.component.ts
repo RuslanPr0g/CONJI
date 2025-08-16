@@ -1,7 +1,8 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, HostListener, Input, OnInit } from '@angular/core';
 import { VerbGroup, Verb } from '../app.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { environment } from '../../environments/environment';
 
 interface Exercise {
   question: string;
@@ -31,6 +32,15 @@ export class GuessVerbsComponent implements OnInit {
   ngOnInit() {
     this.buildExercises();
     this.nextExercise();
+  }
+
+  @HostListener('document:keydown', ['$event'])
+  handleCtrlD(event: KeyboardEvent): void {
+    if (event.ctrlKey && event.key === 'd' && !environment.production) {
+      event.preventDefault();
+
+      console.warn(this.currentExercise);
+    }
   }
 
   private buildExercises() {
