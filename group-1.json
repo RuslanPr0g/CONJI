@@ -698,6 +698,69 @@
       }
     },
     {
+      "infinitive": "aștepta",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 3,
+      "infinitive_translated": [
+        "to wait"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "aștept",
+          "tu": "aștepți",
+          "el/ea": "așteaptă",
+          "noi": "așteptăm",
+          "voi": "așteptați",
+          "ei/ele": "așteaptă"
+        },
+        "perfect_compus": {
+          "eu": "am așteptat",
+          "tu": "ai așteptat",
+          "el/ea": "a așteptat",
+          "noi": "am așteptat",
+          "voi": "ați așteptat",
+          "ei/ele": "au așteptat"
+        },
+        "viitor_literar": {
+          "eu": "voi aștepta",
+          "tu": "vei aștepta",
+          "el/ea": "va aștepta",
+          "noi": "vom aștepta",
+          "voi": "veți aștepta",
+          "ei/ele": "vor aștepta"
+        },
+        "viitor_familiar": {
+          "eu": "o să aștept",
+          "tu": "o să aștepți",
+          "el/ea": "o să aștepte",
+          "noi": "o să așteptăm",
+          "voi": "o să așteptați",
+          "ei/ele": "o să aștepte"
+        },
+        "conjunctiv": {
+          "eu": "să aștept",
+          "tu": "să aștepți",
+          "el/ea": "să aștepte",
+          "noi": "să așteptăm",
+          "voi": "să așteptați",
+          "ei/ele": "să aștepte"
+        },
+        "conditional": {
+          "eu": "aș aștepta",
+          "tu": "ai aștepta",
+          "el/ea": "ar aștepta",
+          "noi": "am aștepta",
+          "voi": "ați aștepta",
+          "ei/ele": "ar aștepta"
+        },
+        "imperativ": {
+          "tu": "așteaptă",
+          "voi": "așteptați"
+        }
+      }
+    },
+    {
       "infinitive": "pleca",
       "type": "regular",
       "group": 1,
