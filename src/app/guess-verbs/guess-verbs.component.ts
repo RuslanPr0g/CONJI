@@ -51,6 +51,10 @@ export class GuessVerbsComponent implements OnInit {
     }
   }
 
+  get exercisesLeftAmount() {
+    return this.exercises.length;
+  }
+
   private buildExercises() {
     const verbs = this.groups.flatMap((g) => g.verbs);
     const exs: Exercise[] = [];
@@ -137,14 +141,14 @@ export class GuessVerbsComponent implements OnInit {
       .find((v) => v.infinitive === infinitive);
   }
 
-  private nextExercise() {
+  private nextExercise(shouldRemove: boolean = false) {
     if (!this.exercises.length) {
       this.buildExercises();
     }
 
     const index = Math.floor(Math.random() * this.exercises.length);
     this.currentExercise = this.exercises[index];
-    this.exercises.splice(index, 1);
+    shouldRemove && this.exercises.splice(index, 1);
 
     if (!this.exercises.length) {
       this.buildExercises();
@@ -199,6 +203,6 @@ export class GuessVerbsComponent implements OnInit {
     this.guessed++;
     this.message = 'Corect!';
     this.loading = true;
-    setTimeout(() => this.nextExercise(), 1500);
+    setTimeout(() => this.nextExercise(true), 1500);
   }
 }
