@@ -67,6 +67,69 @@
       }
     },
     {
+      "infinitive": "mânca",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": [
+        "to eat"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "mănânc",
+          "tu": "mănânci",
+          "el/ea": "mănâncă",
+          "noi": "mâncăm",
+          "voi": "mâncați",
+          "ei/ele": "mănâncă"
+        },
+        "perfect_compus": {
+          "eu": "am mâncat",
+          "tu": "ai mâncat",
+          "el/ea": "a mâncat",
+          "noi": "am mâncat",
+          "voi": "ați mâncat",
+          "ei/ele": "au mâncat"
+        },
+        "viitor_literar": {
+          "eu": "voi mânca",
+          "tu": "vei mânca",
+          "el/ea": "va mânca",
+          "noi": "vom mânca",
+          "voi": "veți mânca",
+          "ei/ele": "vor mânca"
+        },
+        "viitor_familiar": {
+          "eu": "o să mănânc",
+          "tu": "o să mănânci",
+          "el/ea": "o să mănânce",
+          "noi": "o să mâncăm",
+          "voi": "o să mâncați",
+          "ei/ele": "o să mănânce"
+        },
+        "conjunctiv": {
+          "eu": "să mănânc",
+          "tu": "să mănânci",
+          "el/ea": "să mănânce",
+          "noi": "să mâncăm",
+          "voi": "să mâncați",
+          "ei/ele": "să mănânce"
+        },
+        "conditional": {
+          "eu": "aș mânca",
+          "tu": "ai mânca",
+          "el/ea": "ar mânca",
+          "noi": "am mânca",
+          "voi": "ați mânca",
+          "ei/ele": "ar mânca"
+        },
+        "imperativ": {
+          "tu": "mănâncă",
+          "voi": "mâncați"
+        }
+      }
+    },
+    {
       "infinitive": "lucra",
       "type": "regular",
       "group": 1,
