@@ -26,4 +26,4 @@ jobs:
 
       - name: Clean install dependencies
         working-directory: .
-        run: npm ci
+        run: npm install
