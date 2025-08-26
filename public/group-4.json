@@ -380,6 +380,259 @@
                     "voi": "călătoriți"
                 }
             }
+        },
+        {
+            "infinitive": "trăi",
+            "type": "regular",
+            "group": 4,
+            "subgroup": 1,
+            "infinitive_translated": [
+                "to live"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "trăiesc",
+                    "tu": "trăiești",
+                    "el/ea": "trăiește",
+                    "noi": "trăim",
+                    "voi": "trăiți",
+                    "ei/ele": "trăiesc"
+                },
+                "perfect_compus": {
+                    "eu": "am trăit",
+                    "tu": "ai trăit",
+                    "el/ea": "a trăit",
+                    "noi": "am trăit",
+                    "voi": "ați trăit",
+                    "ei/ele": "au trăit"
+                },
+                "viitor_literar": {
+                    "eu": "voi trei",
+                    "tu": "vei trei",
+                    "el/ea": "va trei",
+                    "noi": "vom trei",
+                    "voi": "veți trei",
+                    "ei/ele": "vor trei"
+                },
+                "viitor_familiar": {
+                    "eu": "o să trăiesc",
+                    "tu": "o să trăiești",
+                    "el/ea": "o să trăiască",
+                    "noi": "o să trăim",
+                    "voi": "o să trăiți",
+                    "ei/ele": "o să trăiască"
+                },
+                "conjunctiv": {
+                    "eu": "să trăiesc",
+                    "tu": "să trăiești",
+                    "el/ea": "să trăiască",
+                    "noi": "să trăim",
+                    "voi": "să trăiți",
+                    "ei/ele": "să trăiască"
+                },
+                "conditional": {
+                    "eu": "aș trăi",
+                    "tu": "ai trăi",
+                    "el/ea": "ar trăi",
+                    "noi": "am trăi",
+                    "voi": "ați trăi",
+                    "ei/ele": "ar trăi"
+                },
+                "imperativ": {
+                    "tu": "trăiește",
+                    "voi": "trăiți"
+                }
+            }
+        },
+        {
+            "infinitive": "găti",
+            "type": "regular",
+            "group": 4,
+            "subgroup": 1,
+            "infinitive_translated": [
+                "to cook"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "gătesc",
+                    "tu": "gătești",
+                    "el/ea": "gătește",
+                    "noi": "gătim",
+                    "voi": "gătiți",
+                    "ei/ele": "gătesc"
+                },
+                "perfect_compus": {
+                    "eu": "am gătit",
+                    "tu": "ai gătit",
+                    "el/ea": "a gătit",
+                    "noi": "am gătit",
+                    "voi": "ați gătit",
+                    "ei/ele": "au gătit"
+                },
+                "viitor_literar": {
+                    "eu": "voi găti",
+                    "tu": "vei găti",
+                    "el/ea": "va găti",
+                    "noi": "vom găti",
+                    "voi": "veți găti",
+                    "ei/ele": "vor găti"
+                },
+                "viitor_familiar": {
+                    "eu": "o să gătesc",
+                    "tu": "o să gătești",
+                    "el/ea": "o să gătească",
+                    "noi": "o să gătim",
+                    "voi": "o să gătiți",
+                    "ei/ele": "o să gătească"
+                },
+                "conjunctiv": {
+                    "eu": "să gătesc",
+                    "tu": "să gătești",
+                    "el/ea": "să gătească",
+                    "noi": "să gătim",
+                    "voi": "să gătiți",
+                    "ei/ele": "să gătească"
+                },
+                "conditional": {
+                    "eu": "aș găti",
+                    "tu": "ai găti",
+                    "el/ea": "ar găti",
+                    "noi": "am găti",
+                    "voi": "ați găti",
+                    "ei/ele": "ar găti"
+                },
+                "imperativ": {
+                    "tu": "gătește",
+                    "voi": "gătiți"
+                }
+            }
+        },
+        {
+            "infinitive": "auzi",
+            "type": "regular",
+            "group": 4,
+            "subgroup": 2,
+            "infinitive_translated": [
+                "to hear",
+                "to listen"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "aud",
+                    "tu": "auzi",
+                    "el/ea": "audă",
+                    "noi": "auzim",
+                    "voi": "auziți",
+                    "ei/ele": "audă"
+                },
+                "perfect_compus": {
+                    "eu": "am auzit",
+                    "tu": "ai auzit",
+                    "el/ea": "a auzit",
+                    "noi": "am auzit",
+                    "voi": "ați auzit",
+                    "ei/ele": "au auzit"
+                },
+                "viitor_literar": {
+                    "eu": "voi auzi",
+                    "tu": "vei auzi",
+                    "el/ea": "va auzi",
+                    "noi": "vom auzi",
+                    "voi": "veți auzi",
+                    "ei/ele": "vor auzi"
+                },
+                "viitor_familiar": {
+                    "eu": "o să aud",
+                    "tu": "o să auzi",
+                    "el/ea": "o să audă",
+                    "noi": "o să auzim",
+                    "voi": "o să auziți", 
+                    "ei/ele": "o să audă"
+                },
+                "conjunctiv": {
+                    "eu": "să aud",
+                    "tu": "să auzi",
+                    "el/ea": "să audă",
+                    "noi": "să auzim",
+                    "voi": "să auziți",
+                    "ei/ele": "să audă"
+                },
+                "conditional": {
+                    "eu": "aș auzi",
+                    "tu": "ai auzi",
+                    "el/ea": "ar auzi",
+                    "noi": "am auzi",
+                    "voi": "ați auzi",
+                    "ei/ele": "ar auzi"
+                },
+                "imperativ": {
+                    "tu": "aude",
+                    "voi": "auziți"
+                }
+            }
+        },
+        {
+            "infinitive": "ști",
+            "type": "irregular",
+            "group": 4,
+            "subgroup": 99,
+            "infinitive_translated": [
+                "to know"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "știu",
+                    "tu": "știi",
+                    "el/ea": "știe",
+                    "noi": "știm",
+                    "voi": "știți",
+                    "ei/ele": "știu"
+                },
+                "perfect_compus": {
+                    "eu": "am știut",
+                    "tu": "ai știut",
+                    "el/ea": "a știut",
+                    "noi": "am știut",
+                    "voi": "ați știut",
+                    "ei/ele": "au știut"
+                },
+                "viitor_literar": {
+                    "eu": "voi ști",
+                    "tu": "vei ști",
+                    "el/ea": "va ști",
+                    "noi": "vom ști",
+                    "voi": "veți ști",
+                    "ei/ele": "vor ști"
+                },
+                "viitor_familiar": {
+                    "eu": "o să știu",
+                    "tu": "o să știi",
+                    "el/ea": "o să știe",
+                    "noi": "o să știm",
+                    "voi": "o să știți",
+                    "ei/ele": "o să știe"
+                },
+                "conjunctiv": {
+                    "eu": "să știu",
+                    "tu": "să știi",
+                    "el/ea": "să știe",
+                    "noi": "să știm",
+                    "voi": "să știți",
+                    "ei/ele": "să știe"
+                },
+                "conditional": {
+                    "eu": "aș ști",
+                    "tu": "ai ști",
+                    "el/ea": "ar ști",
+                    "noi": "am ști",
+                    "voi": "ați ști",
+                    "ei/ele": "ar ști"
+                },
+                "imperativ": {
+                    "tu": "știe",
+                    "voi": "știți"
+                }
+            }
         }
     ]
 }
