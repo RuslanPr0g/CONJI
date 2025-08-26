@@ -2,6 +2,10 @@
 
 Welcome to Conji! A fun project built with **Angular**!
 
+[![CI](https://github.com/RuslanPr0g/CONJI/actions/workflows/ci.yml/badge.svg)](https://github.com/RuslanPr0g/CONJI/actions/workflows/ci.yml)
+
+[![CD](https://github.com/RuslanPr0g/CONJI/actions/workflows/cd.yml/badge.svg)](https://github.com/RuslanPr0g/CONJI/actions/workflows/cd.yml)
+
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
