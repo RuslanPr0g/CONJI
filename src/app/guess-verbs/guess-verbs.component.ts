@@ -29,8 +29,8 @@ export class GuessVerbsComponent implements OnInit {
 
   exercises: Exercise[] = [];
   currentExercise!: Exercise;
-  guess: string = '';
-  message: string = '';
+  guess = '';
+  message = '';
   guessed = 0;
   missed = 0;
   loading = false;
@@ -141,14 +141,17 @@ export class GuessVerbsComponent implements OnInit {
       .find((v) => v.infinitive === infinitive);
   }
 
-  private nextExercise(shouldRemove: boolean = false) {
+  private nextExercise(shouldRemove = false) {
     if (!this.exercises.length) {
       this.buildExercises();
     }
 
     const index = Math.floor(Math.random() * this.exercises.length);
     this.currentExercise = this.exercises[index];
-    shouldRemove && this.exercises.splice(index, 1);
+
+    if (shouldRemove) {
+      this.exercises.splice(index, 1);
+    }
 
     if (!this.exercises.length) {
       this.buildExercises();

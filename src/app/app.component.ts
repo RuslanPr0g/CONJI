@@ -1,11 +1,18 @@
-import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
-import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {
+  Component,
+  ElementRef,
+  HostListener,
+  inject,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
 import { debounceTime, distinctUntilChanged, forkJoin, take } from 'rxjs';
 import { environment } from '../environments/environment';
 import { AddToPrefixPipe } from './pipes/add-to-prefix.pipe';
 import { GuessVerbsComponent } from './guess-verbs/guess-verbs.component';
+import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule, FormControl } from '@angular/forms';
 
 export interface VerbInformationSubgroup {
   subgroup: number;
@@ -73,7 +80,7 @@ export interface ImperativConjugation {
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   @ViewChild('searchInput') inputRef!: ElementRef<HTMLInputElement>;
 
   groupedVerbs: VerbGroup[] = [];
@@ -91,13 +98,13 @@ export class AppComponent {
   ];
 
   copiedText: string | null = null;
-  copyTimeout: any;
+  copyTimeout: ReturnType<typeof setTimeout> | null = null;
 
   groupInformation: VerbInformationGroup[] = [];
 
   isGamingMode = false;
 
-  constructor(private http: HttpClient) {}
+  http = inject(HttpClient);
 
   @HostListener('document:keydown.escape', ['$event'])
   onEscapePress(): void {
@@ -120,7 +127,7 @@ export class AppComponent {
     }
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     const isProd = environment.production;
 
     const groupFiles = [
@@ -138,7 +145,7 @@ export class AppComponent {
       this.http.get<VerbGroup>(g.file).pipe(take(1))
     );
 
-    forkJoin(requests).subscribe((groups) => {
+    forkJoin(requests).subscribe((groups: VerbGroup[]) => {
       for (const group of groups) {
         const seen = new Set<string>();
         group.verbs = group.verbs.filter((verb) => {
@@ -160,13 +167,13 @@ export class AppComponent {
     this.http
       .get<VerbInformationGroup[]>(groupInformationFile)
       .pipe(take(1))
-      .subscribe((info) => {
+      .subscribe((info: VerbInformationGroup[]) => {
         this.groupInformation = info;
       });
 
     this.searchControl.valueChanges
       .pipe(debounceTime(300), distinctUntilChanged())
-      .subscribe((search) => {
+      .subscribe((search: string | null) => {
         if (!search?.trim()) {
           this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs);
           return;
@@ -178,7 +185,7 @@ export class AppComponent {
       });
   }
 
-  getOtherExamples(verb: any): string[] {
+  getOtherExamples(verb: Verb): string[] {
     const subgroup = this.getSubgroupInfo(verb);
     if (!subgroup || !subgroup.examples) return [];
     return subgroup.examples.filter(
@@ -186,18 +193,29 @@ export class AppComponent {
     );
   }
 
-  getGroupInfo(verb: any): VerbInformationGroup | undefined {
+  getGroupInfo(verb: Verb): VerbInformationGroup | undefined {
     return this.groupInformation.find((g) => g.group === verb.group);
   }
 
-  getSubgroupInfo(verb: any): VerbInformationSubgroup | undefined {
+  getSubgroupInfo(verb: Verb | null): VerbInformationSubgroup | null {
+    if (!verb) return null;
+
     const group = this.getGroupInfo(verb);
-    return group?.subgroups.find((sg) => sg.subgroup === verb.subgroup);
+    return group?.subgroups.find((sg) => sg.subgroup === verb.subgroup) ?? null;
   }
 
-  getConjugation(tense: string, person: string): string {
-    const tenseSet =
-      this.selectedVerb?.conjugations[tense as keyof Conjugations];
+  getConjugationAsString(tense: ConjugationKey, person: string): string {
+    return this.getConjugation(
+      tense,
+      person as keyof ConjugationSet | keyof ImperativConjugation
+    );
+  }
+
+  getConjugation(
+    tense: ConjugationKey,
+    person: keyof ConjugationSet | keyof ImperativConjugation
+  ): string {
+    const tenseSet = this.selectedVerb?.conjugations[tense];
     if (!tenseSet) return '—';
 
     return (
@@ -205,7 +223,7 @@ export class AppComponent {
     );
   }
 
-  getSubgroupColorClass(verb: any): string {
+  getSubgroupColorClass(verb: Verb): string {
     const subgroup = this.getSubgroupInfo(verb);
     if (!subgroup) return '';
 
@@ -224,7 +242,7 @@ export class AppComponent {
     }
   }
 
-  copyToClipboard(value: string | null) {
+  copyToClipboard(value: string | null): void {
     if (!value) return;
 
     navigator.clipboard.writeText(value).then(() => {
@@ -238,11 +256,11 @@ export class AppComponent {
     });
   }
 
-  openPopup(verb: Verb) {
+  openPopup(verb: Verb): void {
     this.selectedVerb = verb;
   }
 
-  closePopup() {
+  closePopup(): void {
     this.selectedVerb = null;
     this.isGamingMode = false;
   }
@@ -261,22 +279,25 @@ export class AppComponent {
   }
 
   private limitVerbs(groups: VerbGroup[], maxCount: number): Verb[] {
+    if (maxCount > 500) {
+      console.warn('maxCount too high, limiting to 500');
+      maxCount = 500;
+    }
+
     const all = groups.flatMap((g) => g.verbs);
     return all;
-
-    // Flatten all verbs from filtered groups, limit by maxCount
-    const count = maxCount === 0 ? 1 : maxCount;
-    return all.slice(0, count);
   }
 
   private regroupVerbs(
     items: { group: string; verb: Verb }[] | Verb[]
   ): VerbGroup[] {
     let pairs: { group: string; verb: Verb }[] = [];
+
     if (
       items.length &&
-      'group' in (items[0] as any) &&
-      'verb' in (items[0] as any)
+      typeof items[0] === 'object' &&
+      'group' in items[0] &&
+      'verb' in items[0]
     ) {
       pairs = items as { group: string; verb: Verb }[];
     } else {
@@ -291,14 +312,12 @@ export class AppComponent {
       }
     }
 
-    // Group by group name
     const map = new Map<string, Verb[]>();
     for (const { group, verb } of pairs) {
       if (!map.has(group)) map.set(group, []);
       map.get(group)!.push(verb);
     }
 
-    // Preserve group order from groupedVerbs
     return this.groupedVerbs
       .filter((g) => map.has(g.group))
       .map((g) => ({
@@ -310,7 +329,7 @@ export class AppComponent {
   private normalizeText(text: string): string {
     return text
       .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '') // remove diacritics (Ă -> A)
+      .replace(/[\u0300-\u036f]/g, '')
       .replace(/đ/g, 'd')
       .replace(/Đ/g, 'D')
       .toLowerCase();
@@ -327,18 +346,21 @@ export class AppComponent {
     ) {
       return true;
     }
+
     for (const tenseKey of this.conjugationKeys) {
       const conjugation = verb.conjugations[tenseKey];
-      if (tenseKey !== 'imperativ') {
-        for (const form of Object.values(conjugation as ConjugationSet)) {
-          if (this.normalizeText(form).includes(normSearch)) return true;
-        }
-      } else {
-        for (const form of Object.values(conjugation as ImperativConjugation)) {
-          if (this.normalizeText(form).includes(normSearch)) return true;
-        }
+      const values =
+        tenseKey !== 'imperativ'
+          ? Object.values(conjugation as ConjugationSet)
+          : Object.values(conjugation as ImperativConjugation);
+
+      if (
+        values.some((form) => this.normalizeText(form).includes(normSearch))
+      ) {
+        return true;
       }
     }
+
     return false;
   }
 

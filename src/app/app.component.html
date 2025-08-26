@@ -18,6 +18,9 @@
             class="verb-block glass-card"
             *ngFor="let verb of group.verbs"
             (click)="openPopup(verb)"
+            (keydown.enter)="openPopup(verb)"
+            tabindex="0"
+            role="button"
           >
             <div class="verb-infinitive">{{ verb.infinitive }}</div>
 
@@ -104,11 +107,12 @@
     Atinge un bloc de verb pentru a vedea conjugarea completă
   </div>
 
-  <!-- VERB POPUP -->
   <div
     *ngIf="selectedVerb || isGamingMode"
     class="popup-overlay"
     (click)="closePopup()"
+    (keydown.enter)="closePopup()"
+    tabindex="0"
   >
     <ng-container *ngIf="!isGamingMode; else gamingMode">
       <ng-container *ngTemplateOutlet="verbInfo"></ng-container>
@@ -119,7 +123,12 @@
   </div>
 
   <ng-template #gamingScreen>
-    <div class="popup-content glass-card" (click)="$event.stopPropagation()">
+    <div
+      class="popup-content glass-card"
+      (click)="$event.stopPropagation()"
+      (keydown.enter)="$event.stopPropagation()"
+      tabindex="0"
+    >
       <div class="popup-header">
         <h2>Joacă</h2>
 
@@ -130,7 +139,14 @@
           <small><em>—</em></small>
         </ng-template>
 
-        <button class="popup-close" (click)="closePopup()">×</button>
+        <button
+          class="popup-close"
+          (click)="closePopup()"
+          (keydown.enter)="closePopup()"
+          tabindex="0"
+        >
+          ×
+        </button>
       </div>
 
       <div class="popup-body">
@@ -142,10 +158,15 @@
   </ng-template>
 
   <ng-template #verbInfo>
-    <div class="popup-content glass-card" (click)="$event.stopPropagation()">
+    <div
+      class="popup-content glass-card"
+      (click)="$event.stopPropagation()"
+      (keydown.enter)="$event.stopPropagation()"
+      tabindex="0"
+    >
       <div class="popup-header">
         <h2>
-          {{ selectedVerb?.infinitive }}
+          {{ selectedVerb?.infinitive ?? "-" }}
           <div
             class="popup-subgroup small"
             *ngIf="getSubgroupInfo(selectedVerb) as subgroupInfo"
@@ -182,7 +203,13 @@
           <small><em>—</em></small>
         </ng-template>
 
-        <button class="popup-close" (click)="closePopup()">×</button>
+        <button
+          class="popup-close"
+          (click)="closePopup()"
+          (keydown.enter)="closePopup()"
+        >
+          ×
+        </button>
       </div>
 
       <div class="popup-body">
@@ -219,9 +246,16 @@
                 &nbsp;
                 <span
                   class="conjugation-copy"
-                  (click)="copyToClipboard(getConjugation(tense, person))"
+                  (click)="
+                    copyToClipboard(getConjugationAsString(tense, person))
+                  "
+                  (keydown.enter)="
+                    copyToClipboard(getConjugationAsString(tense, person))
+                  "
+                  tabindex="0"
+                  role="button"
                 >
-                  {{ getConjugation(tense, person) }}
+                  {{ getConjugationAsString(tense, person) }}
                 </span>
               </li>
             </ul>
@@ -233,9 +267,16 @@
                 <strong>{{ person }}:</strong>
                 <span
                   class="conjugation-copy"
-                  (click)="copyToClipboard(getConjugation('imperativ', person))"
+                  (click)="
+                    copyToClipboard(getConjugationAsString('imperativ', person))
+                  "
+                  (keydown.enter)="
+                    copyToClipboard(getConjugationAsString('imperativ', person))
+                  "
+                  tabindex="0"
+                  role="button"
                 >
-                  {{ getConjugation("imperativ", person) }}
+                  {{ getConjugationAsString("imperativ", person) }}
                 </span>
               </li>
             </ul>
@@ -248,4 +289,10 @@
 
 <div *ngIf="copiedText" class="copy-toast">Copiat: "{{ copiedText }}"</div>
 
-<button class="play-game-btn" (click)="activateGamingMode()">Joacă!</button>
+<button
+  class="play-game-btn"
+  (click)="activateGamingMode()"
+  (keydown.enter)="activateGamingMode()"
+>
+  Joacă!
+</button>
