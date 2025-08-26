@@ -508,6 +508,198 @@
           "voi": "ajungeți"
         }
       }
+    },
+    {
+      "infinitive": "face",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": [
+        "to do",
+        "to make"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "fac",
+          "tu": "faci",
+          "el/ea": "face",
+          "noi": "facem",
+          "voi": "faceți",
+          "ei/ele": "fac"
+        },
+        "perfect_compus": {
+          "eu": "am făcut",
+          "tu": "ai făcut",
+          "el/ea": "a făcut",
+          "noi": "am făcut",
+          "voi": "ați făcut",
+          "ei/ele": "au făcut"
+        },
+        "viitor_literar": {
+          "eu": "voi face",
+          "tu": "vei face",
+          "el/ea": "va face",
+          "noi": "vom face",
+          "voi": "veți face",
+          "ei/ele": "vor face"
+        },
+        "viitor_familiar": {
+          "eu": "o să fac",
+          "tu": "o să faci",
+          "el/ea": "o să facă",
+          "noi": "o să facem",
+          "voi": "o să faceți",
+          "ei/ele": "o să facă"
+        },
+        "conjunctiv": {
+          "eu": "să fac",
+          "tu": "să faci",
+          "el/ea": "să facă",
+          "noi": "să facem",
+          "voi": "să faceți",
+          "ei/ele": "să facă"
+        },
+        "conditional": {
+          "eu": "aș face",
+          "tu": "ai face",
+          "el/ea": "ar face",
+          "noi": "am face",
+          "voi": "ați face",
+          "ei/ele": "ar face"
+        },
+        "imperativ": {
+          "tu": "fă",
+          "voi": "faceți"
+        }
+      }
+    },
+    {
+      "infinitive": "spune",
+      "type": "irregular",
+      "group": 3,
+      "subgroup": 99,
+      "infinitive_translated": [
+        "to say",
+        "to tell"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "spun",
+          "tu": "spui",
+          "el/ea": "spune",
+          "noi": "spunem",
+          "voi": "spuneți",
+          "ei/ele": "spun"
+        },
+        "perfect_compus": {
+          "eu": "am spus",
+          "tu": "ai spus",
+          "el/ea": "a spus",
+          "noi": "am spus",
+          "voi": "ați spus",
+          "ei/ele": "au spus"
+        },
+        "viitor_literar": {
+          "eu": "voi spune",
+          "tu": "vei spune",
+          "el/ea": "va spune",
+          "noi": "vom spune",
+          "voi": "veți spune",
+          "ei/ele": "vor spune"
+        },
+        "viitor_familiar": {
+          "eu": "o să spun",
+          "tu": "o să spui",
+          "el/ea": "o să spună",
+          "noi": "o să spunem",
+          "voi": "o să spuneți",
+          "ei/ele": "o să spună"
+        },
+        "conjunctiv": {
+          "eu": "să spun",
+          "tu": "să spui",
+          "el/ea": "să spună",
+          "noi": "să spunem",
+          "voi": "să spuneți",
+          "ei/ele": "să spună"
+        },
+        "conditional": {
+          "eu": "aș spune",
+          "tu": "ai spune",
+          "el/ea": "ar spune",
+          "noi": "am spune",
+          "voi": "ați spune",
+          "ei/ele": "ar spune"
+        },
+        "imperativ": {
+          "tu": "spune",
+          "voi": "spuneți"
+        }
+      }
+    },
+    {
+      "infinitive": "răspunde",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 2,
+      "infinitive_translated": [
+        "to respond",
+        "to reply"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "răspund",
+          "tu": "răspunzi",
+          "el/ea": "răspunde",
+          "noi": "răspundem",
+          "voi": "răspundeți",
+          "ei/ele": "răspund"
+        },
+        "perfect_compus": {
+          "eu": "am răspuns",
+          "tu": "ai răspuns",
+          "el/ea": "a răspuns",
+          "noi": "am răspuns",
+          "voi": "ați răspuns",
+          "ei/ele": "au răspuns"
+        },
+        "viitor_literar": {
+          "eu": "voi răspunde",
+          "tu": "vei răspunde",
+          "el/ea": "va răspunde",
+          "noi": "vom răspunde",
+          "voi": "veți răspunde",
+          "ei/ele": "vor răspunde"
+        },
+        "viitor_familiar": {
+          "eu": "o să răspund",
+          "tu": "o să răspunzi",
+          "el/ea": "o să răspundă",
+          "noi": "o să răspundem",
+          "voi": "o să răspundeți",
+          "ei/ele": "o să răspundă"
+        },
+        "conjunctiv": {
+          "eu": "să răspund",
+          "tu": "să răspunzi",
+          "el/ea": "să răspundă",
+          "noi": "să răspundem",
+          "voi": "să răspundeți",
+          "ei/ele": "să răspundă"
+        },
+        "conditional": {
+          "eu": "aș răspunde",
+          "tu": "ai răspunde",
+          "el/ea": "ar răspunde",
+          "noi": "am răspunde",
+          "voi": "ați răspunde",
+          "ei/ele": "ar răspunde"
+        },
+        "imperativ": {
+          "tu": "răspunde",
+          "voi": "răspundeți"
+        }
+      }
     }
   ]
 }

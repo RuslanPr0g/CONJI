@@ -1012,6 +1012,133 @@
           "voi": "luați"
         }
       }
+    },
+    {
+      "infinitive": "verifica",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": [
+        "to verify"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "verific",
+          "tu": "verifici",
+          "el/ea": "verifică",
+          "noi": "verificăm",
+          "voi": "verificați",
+          "ei/ele": "verifică"
+        },
+        "perfect_compus": {
+          "eu": "am verificat",
+          "tu": "ai verificat",
+          "el/ea": "a verificat",
+          "noi": "am verificat",
+          "voi": "ați verificat",
+          "ei/ele": "au verificat"
+        },
+        "viitor_literar": {
+          "eu": "voi verifica",
+          "tu": "vei verifica",
+          "el/ea": "va verifica",
+          "noi": "vom verifica",
+          "voi": "veți verifica",
+          "ei/ele": "vor verifica"
+        },
+        "viitor_familiar": {
+          "eu": "o să verific",
+          "tu": "o să verifici",
+          "el/ea": "o să verifice",
+          "noi": "o să verificăm",
+          "voi": "o să verificați",
+          "ei/ele": "o să verifice"
+        },
+        "conjunctiv": {
+          "eu": "să verific",
+          "tu": "să verifici",
+          "el/ea": "să verifice",
+          "noi": "să verificăm",
+          "voi": "să verificați",
+          "ei/ele": "să verifice"
+        },
+        "conditional": {
+          "eu": "aș verifica",
+          "tu": "ai verifica",
+          "el/ea": "ar verifica",
+          "noi": "am verifica",
+          "voi": "ați verifica",
+          "ei/ele": "ar verifica"
+        },
+        "imperativ": {
+          "tu": "verifică",
+          "voi": "verificați"
+        }
+      }
+    },
+    {
+      "infinitive": "termina",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": [
+        "to finish",
+        "to terminate"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "termin",
+          "tu": "termini",
+          "el/ea": "termină",
+          "noi": "terminăm",
+          "voi": "terminați",
+          "ei/ele": "termină"
+        },
+        "perfect_compus": {
+          "eu": "am terminat",
+          "tu": "ai terminat",
+          "el/ea": "a terminat",
+          "noi": "am terminat",
+          "voi": "ați terminat",
+          "ei/ele": "au terminat"
+        },
+        "viitor_literar": {
+          "eu": "voi termina",
+          "tu": "vei termina",
+          "el/ea": "va termina",
+          "noi": "vom termina",
+          "voi": "veți termina",
+          "ei/ele": "vor termina"
+        },
+        "viitor_familiar": {
+          "eu": "o să termin",
+          "tu": "o să termini",
+          "el/ea": "o să termine",
+          "noi": "o să terminăm",
+          "voi": "o să terminați",
+          "ei/ele": "o să termine"
+        },
+        "conjunctiv": {
+          "eu": "să termin",
+          "tu": "să termini",
+          "el/ea": "să termine",
+          "noi": "să terminăm",
+          "voi": "să terminați",
+          "ei/ele": "să termine"
+        },
+        "conditional": {
+          "eu": "aș termina",
+          "tu": "ai termina",
+          "el/ea": "ar termina",
+          "noi": "am termina",
+          "voi": "ați termina",
+          "ei/ele": "ar termina"
+        },
+        "imperativ": {
+          "tu": "termină",
+          "voi": "terminați"
+        }
+      }
     }
   ]
 }

@@ -380,6 +380,132 @@
                     "voi": "creați"
                 }
             }
+        },
+        {
+            "infinitive": "putea",
+            "type": "irregular",
+            "group": 2,
+            "subgroup": 99,
+            "infinitive_translated": [
+                "to be able to"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "pot",
+                    "tu": "poți",
+                    "el/ea": "poate",
+                    "noi": "putem",
+                    "voi": "puteți",
+                    "ei/ele": "pot"
+                },
+                "perfect_compus": {
+                    "eu": "am putut",
+                    "tu": "ai putut",
+                    "el/ea": "a putut",
+                    "noi": "am putut",
+                    "voi": "ați putut",
+                    "ei/ele": "au putut"
+                },
+                "viitor_literar": {
+                    "eu": "voi putea",
+                    "tu": "vei putea",
+                    "el/ea": "va putea",
+                    "noi": "vom putea",
+                    "voi": "veți putea",
+                    "ei/ele": "vor putea"
+                },
+                "viitor_familiar": {
+                    "eu": "o să pot",
+                    "tu": "o să poți",
+                    "el/ea": "o să poată",
+                    "noi": "o să putem",
+                    "voi": "o să puteți",
+                    "ei/ele": "o să poată"
+                },
+                "conjunctiv": {
+                    "eu": "să pot",
+                    "tu": "să poți",
+                    "el/ea": "să poată",
+                    "noi": "să putem",
+                    "voi": "să puteți",
+                    "ei/ele": "să poată"
+                },
+                "conditional": {
+                    "eu": "aș putea",
+                    "tu": "ai putea",
+                    "el/ea": "ar putea",
+                    "noi": "am putea",
+                    "voi": "ați putea",
+                    "ei/ele": "ar putea"
+                },
+                "imperativ": {
+                    "tu": "poate",
+                    "voi": "puteți"
+                }
+            }
+        },
+        {
+            "infinitive": "bea",
+            "type": "irregular",
+            "group": 2,
+            "subgroup": 99,
+            "infinitive_translated": [
+                "to drink"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "beau",
+                    "tu": "bei",
+                    "el/ea": "bea",
+                    "noi": "bem",
+                    "voi": "beți",
+                    "ei/ele": "beau"
+                },
+                "perfect_compus": {
+                    "eu": "am băut",
+                    "tu": "ai băut",
+                    "el/ea": "a băut",
+                    "noi": "am băut",
+                    "voi": "ați băut",
+                    "ei/ele": "au băut"
+                },
+                "viitor_literar": {
+                    "eu": "voi bea",
+                    "tu": "vei bea",
+                    "el/ea": "va bea",
+                    "noi": "vom bea",
+                    "voi": "veți bea",
+                    "ei/ele": "vor bea"
+                },
+                "viitor_familiar": {
+                    "eu": "o să beau",
+                    "tu": "o să bei",
+                    "el/ea": "o să bea",
+                    "noi": "o să bem",
+                    "voi": "o să beți",
+                    "ei/ele": "o să bea"
+                },
+                "conjunctiv": {
+                    "eu": "să beau",
+                    "tu": "să bei",
+                    "el/ea": "să bea",
+                    "noi": "să bem",
+                    "voi": "să beți",
+                    "ei/ele": "să bea"
+                },
+                "conditional": {
+                    "eu": "aș bea",
+                    "tu": "ai bea",
+                    "el/ea": "ar bea",
+                    "noi": "am bea",
+                    "voi": "ați bea",
+                    "ei/ele": "ar bea"
+                },
+                "imperativ": {
+                    "tu": "bea",
+                    "voi": "beți"
+                }
+            }
         }
     ]
 }
