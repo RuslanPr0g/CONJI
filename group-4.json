@@ -513,8 +513,7 @@
             "group": 4,
             "subgroup": 2,
             "infinitive_translated": [
-                "to hear",
-                "to listen"
+                "to hear"
             ],
             "conjugations": {
                 "prezent": {
@@ -546,7 +545,7 @@
                     "tu": "o să auzi",
                     "el/ea": "o să audă",
                     "noi": "o să auzim",
-                    "voi": "o să auziți", 
+                    "voi": "o să auziți",
                     "ei/ele": "o să audă"
                 },
                 "conjunctiv": {
