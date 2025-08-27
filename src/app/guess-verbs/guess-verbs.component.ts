@@ -104,7 +104,10 @@ export class GuessVerbsComponent implements OnInit {
                 `${p} ${vrea.conjugations.prezent[p]} ${verb.conjugations.conjunctiv[p]}`,
                 `${vrea.conjugations.prezent[p]}${verb.conjugations.conjunctiv[
                   p
-                ].replace('să', '')}`,
+                ]
+                  .replace('să', '')
+                  .replace('  ', ' ')}`,
+                `${vrea.conjugations.prezent[p]} ${verb.conjugations.conjunctiv[p]}`,
               ])
             ),
             type: 'vrea-prezent',
@@ -123,7 +126,10 @@ export class GuessVerbsComponent implements OnInit {
                 `${p} ${vrea.conjugations.perfect_compus[p]} ${verb.conjugations.conjunctiv[p]}`,
                 `${
                   vrea.conjugations.perfect_compus[p]
-                }${verb.conjugations.conjunctiv[p].replace('să', '')}`,
+                }${verb.conjugations.conjunctiv[p]
+                  .replace('să', '')
+                  .replace('  ', ' ')}`,
+                `${vrea.conjugations.perfect_compus[p]} ${verb.conjugations.conjunctiv[p]}`,
               ])
             ),
             type: 'vrea-past',
