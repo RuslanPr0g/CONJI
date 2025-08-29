@@ -193,6 +193,70 @@
       }
     },
     {
+      "infinitive": "permite",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": [
+        "to allow",
+        "to permit"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "permit",
+          "tu": "permiți",
+          "el/ea": "permite",
+          "noi": "permitem",
+          "voi": "permiteți",
+          "ei/ele": "permit"
+        },
+        "perfect_compus": {
+          "eu": "am permis",
+          "tu": "ai permis",
+          "el/ea": "a permis",
+          "noi": "am permis",
+          "voi": "ați permis",
+          "ei/ele": "au permis"
+        },
+        "viitor_literar": {
+          "eu": "voi permite",
+          "tu": "vei permite",
+          "el/ea": "va permite",
+          "noi": "vom permite",
+          "voi": "veți permite",
+          "ei/ele": "vor permite"
+        },
+        "viitor_familiar": {
+          "eu": "o să permit",
+          "tu": "o să permiți",
+          "el/ea": "o să permită",
+          "noi": "o să permitem",
+          "voi": "o să permiteți",
+          "ei/ele": "o să permită"
+        },
+        "conjunctiv": {
+          "eu": "să permit",
+          "tu": "să permiți",
+          "el/ea": "să permită",
+          "noi": "să permitem",
+          "voi": "să permiteți",
+          "ei/ele": "să permită"
+        },
+        "conditional": {
+          "eu": "aș permite",
+          "tu": "ai permite",
+          "el/ea": "ar permite",
+          "noi": "am permite",
+          "voi": "ați permite",
+          "ei/ele": "ar permite"
+        },
+        "imperativ": {
+          "tu": "permite",
+          "voi": "permiteți"
+        }
+      }
+    },
+    {
       "infinitive": "înțelege",
       "type": "regular",
       "group": 3,
