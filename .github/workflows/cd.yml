@@ -31,10 +31,7 @@ jobs:
 
       - name: Set release version in Angular environment
         run: |
-          echo "export const environment = {" > src/environments/environment.release.ts
-          echo "  production: true," >> src/environments/environment.release.ts
-          echo "  releaseVersion: '${GITHUB_REF#refs/tags/}'" >> src/environments/environment.release.ts
-          echo "};" >> src/environments/environment.release.ts
+          sed "s/__RELEASE_VERSION__/${GITHUB_REF#refs/tags\/}/" src/environments/environment.prod.ts.template > src/environments/environment.prod.ts
 
       - name: Run deployment
         run: npm run deploy
