@@ -106,6 +106,8 @@ export class AppComponent implements OnInit {
 
   http = inject(HttpClient);
 
+  releaseVersion = environment.releaseVersion;
+
   @HostListener('document:keydown.escape', ['$event'])
   onEscapePress(): void {
     if (!this.isGamingMode) {
