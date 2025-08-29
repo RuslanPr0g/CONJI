@@ -44,8 +44,6 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
-*.min.json
-
 *_i.c
 *_p.c
 *_i.h
