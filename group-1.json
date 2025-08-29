@@ -1139,6 +1139,69 @@
           "voi": "terminați"
         }
       }
+    },
+    {
+      "infinitive": "înota",
+      "type": "irregular",
+      "group": 1,
+      "subgroup": 99,
+      "infinitive_translated": [
+        "to swim"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "înot",
+          "tu": "înoți",
+          "el/ea": "înoață",
+          "noi": "înotăm",
+          "voi": "înotați",
+          "ei/ele": "înoată"
+        },
+        "perfect_compus": {
+          "eu": "am înotat",
+          "tu": "ai înotat",
+          "el/ea": "a înotat",
+          "noi": "am înotat",
+          "voi": "ați înotat",
+          "ei/ele": "au înotat"
+        },
+        "viitor_literar": {
+          "eu": "voi înota",
+          "tu": "vei înota",
+          "el/ea": "va înota",
+          "noi": "vom înota",
+          "voi": "veți înota",
+          "ei/ele": "vor înota"
+        },
+        "viitor_familiar": {
+          "eu": "o să înot",
+          "tu": "o să înoti",
+          "el/ea": "o să înoate",
+          "noi": "o să înotăm",
+          "voi": "o să înotați",
+          "ei/ele": "o să înoate"
+        },
+        "conjunctiv": {
+          "eu": "să înot",
+          "tu": "să înoti",
+          "el/ea": "să înoate",
+          "noi": "să înotăm",
+          "voi": "să înotați",
+          "ei/ele": "să înoate"
+        },
+        "conditional": {
+          "eu": "aș înota",
+          "tu": "ai înota",
+          "el/ea": "ar înota",
+          "noi": "am înota",
+          "voi": "ați înota",
+          "ei/ele": "ar înota"
+        },
+        "imperativ": {
+          "tu": "înoată",
+          "voi": "înotați"
+        }
+      }
     }
   ]
 }
