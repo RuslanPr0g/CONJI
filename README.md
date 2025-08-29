@@ -51,13 +51,9 @@ This will create the necessary files and add them to your project.
 
 ### 2. Deploying the app
 
-To build the project for production and deploy it to github pages, simply run:
+To deploy a specific version of the app to GitHub Pages, simply create a new tag in your GitHub repository. This will automatically trigger the deployment workflow and publish the selected version to GitHub Pages.
 
-```powershell
-npm run deploy
-```
-
-This will compile everything into the `dist/` directory, optimized for production and deploy the entire app to github pages.
+You can access the deployed app [https://ruslanpr0g.github.io/CONJI/](here)
 
 ### 3. Running Unit Tests
 
@@ -68,22 +64,3 @@ ng test
 ```
 
 This will run the tests using **Karma** and output the results to the terminal.
-
-### 4. Running End-to-End (E2E) Tests
-
-For a full application test (from the user’s perspective), run:
-
-```bash
-ng e2e
-```
-
-This will run the end-to-end tests using your chosen platform. If you haven’t set it up yet, make sure to install the necessary dependencies for E2E testing.
-
-## 📚 More Info
-
-- To get a full list of available commands, run `ng help`.
-- For detailed documentation and guides on Angular CLI commands, check out the official [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli).
-
-## 💬 Need Help?
-
-Feel free to open an issue or contact me if you run into any problems.
