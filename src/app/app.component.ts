@@ -129,6 +129,19 @@ export class AppComponent implements OnInit {
     }
   }
 
+  @HostListener('document:keydown', ['$event'])
+  handleCtrlP(event: KeyboardEvent): void {
+    if (event.ctrlKey && event.key === 'p') {
+      event.preventDefault();
+
+      if (this.selectedVerb || this.isGamingMode) {
+        return;
+      }
+
+      this.activateGamingMode();
+    }
+  }
+
   ngOnInit(): void {
     const isProd = environment.production;
 
