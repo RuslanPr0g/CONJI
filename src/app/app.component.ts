@@ -117,7 +117,7 @@ export class AppComponent implements OnInit {
   }
 
   @HostListener('document:keydown', ['$event'])
-  handleCtrlF(event: KeyboardEvent): void {
+  handleGlobalShortcuts(event: KeyboardEvent): void {
     if (event.ctrlKey && event.key === 'f') {
       event.preventDefault();
 
@@ -126,12 +126,7 @@ export class AppComponent implements OnInit {
       }
 
       this.inputRef.nativeElement.focus();
-    }
-  }
-
-  @HostListener('document:keydown', ['$event'])
-  handleCtrlP(event: KeyboardEvent): void {
-    if (event.ctrlKey && event.key === 'p') {
+    } else if (event.ctrlKey && event.key === 'p') {
       event.preventDefault();
 
       if (this.selectedVerb || this.isGamingMode) {
