@@ -276,7 +276,9 @@ export class AppComponent implements OnInit {
   }
 
   activateGamingMode(): void {
-    this.isGamingMode = true;
+    if (this.filteredGroups.length > 0) {
+      this.isGamingMode = true;
+    }
   }
 
   private getRandomVerbsGroups(groups: VerbGroup[]): VerbGroup[] {

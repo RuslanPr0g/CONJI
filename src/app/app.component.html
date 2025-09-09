@@ -292,10 +292,12 @@
 
 <div *ngIf="copiedText" class="copy-toast">Copiat: "{{ copiedText }}"</div>
 
-<button
-  class="play-game-btn"
-  (click)="activateGamingMode()"
-  (keydown.enter)="activateGamingMode()"
->
-  Joacă!
-</button>
+<ng-container *ngIf="filteredGroups.length > 0">
+  <button
+    class="play-game-btn"
+    (click)="activateGamingMode()"
+    (keydown.enter)="activateGamingMode()"
+  >
+    Joacă!
+  </button>
+</ng-container>
