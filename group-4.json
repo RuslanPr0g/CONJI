@@ -65,6 +65,69 @@
             }
         },
         {
+            "infinitive": "a reveni",
+            "type": "regular",
+            "group": 4,
+            "subgroup": 2,
+            "infinitive_translated": [
+                "to return"
+            ],
+            "conjugations": {
+                "prezent": {
+                    "eu": "revin",
+                    "tu": "revii",
+                    "el/ea": "revine",
+                    "noi": "revenim",
+                    "voi": "reveniți",
+                    "ei/ele": "revin"
+                },
+                "perfect_compus": {
+                    "eu": "am revenit",
+                    "tu": "ai revenit",
+                    "el/ea": "a revenit",
+                    "noi": "am revenit",
+                    "voi": "ați revenit",
+                    "ei/ele": "au revenit"
+                },
+                "viitor_literar": {
+                    "eu": "voi reveni",
+                    "tu": "vei reveni",
+                    "el/ea": "va reveni",
+                    "noi": "vom reveni",
+                    "voi": "veți reveni",
+                    "ei/ele": "vor reveni"
+                },
+                "viitor_familiar": {
+                    "eu": "o să revin",
+                    "tu": "o să revii",
+                    "el/ea": "o să revină",
+                    "noi": "o să revenim",
+                    "voi": "o să reveniți",
+                    "ei/ele": "o să revină"
+                },
+                "conjunctiv": {
+                    "eu": "să revin",
+                    "tu": "să revii",
+                    "el/ea": "să revină",
+                    "noi": "să revenim",
+                    "voi": "să reveniți",
+                    "ei/ele": "să revină"
+                },
+                "conditional": {
+                    "eu": "aș reveni",
+                    "tu": "ai reveni",
+                    "el/ea": "ar reveni",
+                    "noi": "am reveni",
+                    "voi": "ați reveni",
+                    "ei/ele": "ar reveni"
+                },
+                "imperativ": {
+                    "tu": "reveni",
+                    "voi": "reveniți"
+                }
+            }
+        },
+        {
             "infinitive": "veni",
             "type": "regular",
             "group": 4,
