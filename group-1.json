@@ -2,15 +2,223 @@
   "group": "Grupa I - terminat în -a",
   "verbs": [
     {
+      "infinitive": "parca",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to park"],
+      "conjugations": {
+        "prezent": {
+          "eu": "parchez",
+          "tu": "parchezi",
+          "el/ea": "parchează",
+          "noi": "parcăm",
+          "voi": "parcați",
+          "ei/ele": "parchează"
+        },
+        "perfect_compus": {
+          "eu": "am parcat",
+          "tu": "ai parcat",
+          "el/ea": "a parcat",
+          "noi": "am parcat",
+          "voi": "ați parcat",
+          "ei/ele": "au parcat"
+        },
+        "viitor_literar": {
+          "eu": "voi parca",
+          "tu": "vei parca",
+          "el/ea": "va parca",
+          "noi": "vom parca",
+          "voi": "veți parca",
+          "ei/ele": "vor parca"
+        },
+        "conjunctiv": {
+          "eu": "să parchez",
+          "tu": "să parchezi",
+          "el/ea": "să parcheze",
+          "noi": "să parcăm",
+          "voi": "să parcați",
+          "ei/ele": "să parcheze"
+        },
+        "conditional": {
+          "eu": "aș parca",
+          "tu": "ai parca",
+          "el/ea": "ar parca",
+          "noi": "am parca",
+          "voi": "ați parca",
+          "ei/ele": "ar parca"
+        },
+        "imperativ": {
+          "tu": "parchează",
+          "voi": "parcați"
+        }
+      }
+    },
+    {
+      "infinitive": "a se caza",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to check in", "to lodge"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă cazez",
+          "tu": "te cazezi",
+          "el/ea": "se cazează",
+          "noi": "ne cazăm",
+          "voi": "vă cazați",
+          "ei/ele": "se cazează"
+        },
+        "perfect_compus": {
+          "eu": "m-am cazat",
+          "tu": "te-ai cazat",
+          "el/ea": "s-a cazat",
+          "noi": "ne-am cazat",
+          "voi": "v-ați cazat",
+          "ei/ele": "s-au cazat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi caza",
+          "tu": "te vei caza",
+          "el/ea": "se va caza",
+          "noi": "ne vom caza",
+          "voi": "vă veți caza",
+          "ei/ele": "se vor caza"
+        },
+        "conjunctiv": {
+          "eu": "să mă cazez",
+          "tu": "să te cazezi",
+          "el/ea": "să se cazeze",
+          "noi": "să ne cazăm",
+          "voi": "să vă cazați",
+          "ei/ele": "să se cazeze"
+        },
+        "conditional": {
+          "eu": "m-aș caza",
+          "tu": "te-ai caza",
+          "el/ea": "s-ar caza",
+          "noi": "ne-am caza",
+          "voi": "v-ați caza",
+          "ei/ele": "s-ar caza"
+        },
+        "imperativ": {
+          "tu": "cazează-te",
+          "voi": "cazați-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "elibera",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to release", "to free"],
+      "conjugations": {
+        "prezent": {
+          "eu": "eliberez",
+          "tu": "eliberezi",
+          "el/ea": "eliberează",
+          "noi": "eliberăm",
+          "voi": "eliberați",
+          "ei/ele": "eliberează"
+        },
+        "perfect_compus": {
+          "eu": "am eliberat",
+          "tu": "ai eliberat",
+          "el/ea": "a eliberat",
+          "noi": "am eliberat",
+          "voi": "ați eliberat",
+          "ei/ele": "au eliberat"
+        },
+        "viitor_literar": {
+          "eu": "voi elibera",
+          "tu": "vei elibera",
+          "el/ea": "va elibera",
+          "noi": "vom elibera",
+          "voi": "veți elibera",
+          "ei/ele": "vor elibera"
+        },
+        "conjunctiv": {
+          "eu": "să eliberez",
+          "tu": "să eliberezi",
+          "el/ea": "să elibereze",
+          "noi": "să eliberăm",
+          "voi": "să eliberați",
+          "ei/ele": "să elibereze"
+        },
+        "conditional": {
+          "eu": "aș elibera",
+          "tu": "ai elibera",
+          "el/ea": "ar elibera",
+          "noi": "am elibera",
+          "voi": "ați elibera",
+          "ei/ele": "ar elibera"
+        },
+        "imperativ": {
+          "tu": "eliberează",
+          "voi": "eliberați"
+        }
+      }
+    },
+    {
+      "infinitive": "anula",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to cancel"],
+      "conjugations": {
+        "prezent": {
+          "eu": "anulez",
+          "tu": "anulezi",
+          "el/ea": "anulează",
+          "noi": "anulăm",
+          "voi": "anulați",
+          "ei/ele": "anulează"
+        },
+        "perfect_compus": {
+          "eu": "am anulat",
+          "tu": "ai anulat",
+          "el/ea": "a anulat",
+          "noi": "am anulat",
+          "voi": "ați anulat",
+          "ei/ele": "au anulat"
+        },
+        "viitor_literar": {
+          "eu": "voi anula",
+          "tu": "vei anula",
+          "el/ea": "va anula",
+          "noi": "vom anula",
+          "voi": "veți anula",
+          "ei/ele": "vor anula"
+        },
+        "conjunctiv": {
+          "eu": "să anulez",
+          "tu": "să anulezi",
+          "el/ea": "să anuleze",
+          "noi": "să anulăm",
+          "voi": "să anulați",
+          "ei/ele": "să anuleze"
+        },
+        "conditional": {
+          "eu": "aș anula",
+          "tu": "ai anula",
+          "el/ea": "ar anula",
+          "noi": "am anula",
+          "voi": "ați anula",
+          "ei/ele": "ar anula"
+        },
+        "imperativ": {
+          "tu": "anulează",
+          "voi": "anulați"
+        }
+      }
+    },
+    {
       "infinitive": "sta",
       "type": "irregular",
       "group": 1,
       "subgroup": 99,
-      "infinitive_translated": [
-        "to stay",
-        "to stand",
-        "to live"
-      ],
+      "infinitive_translated": ["to stay", "to stand", "to live"],
       "conjugations": {
         "prezent": {
           "eu": "stau",
@@ -71,9 +279,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": [
-        "to eat"
-      ],
+      "infinitive_translated": ["to eat"],
       "conjugations": {
         "prezent": {
           "eu": "mănânc",
@@ -134,9 +340,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": [
-        "work"
-      ],
+      "infinitive_translated": ["work"],
       "conjugations": {
         "prezent": {
           "eu": "lucrez",
@@ -197,9 +401,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": [
-        "sing"
-      ],
+      "infinitive_translated": ["sing"],
       "conjugations": {
         "prezent": {
           "eu": "cânt",
@@ -260,9 +462,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": [
-        "to buy"
-      ],
+      "infinitive_translated": ["to buy"],
       "conjugations": {
         "prezent": {
           "eu": "cumpăr",
@@ -323,9 +523,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": [
-        "to study"
-      ],
+      "infinitive_translated": ["to study"],
       "conjugations": {
         "prezent": {
           "eu": "studiez",
@@ -386,10 +584,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": [
-        "to search",
-        "to look for"
-      ],
+      "infinitive_translated": ["to search", "to look for"],
       "conjugations": {
         "prezent": {
           "eu": "caut",
@@ -450,9 +645,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": [
-        "visit"
-      ],
+      "infinitive_translated": ["visit"],
       "conjugations": {
         "prezent": {
           "eu": "vizitez",
@@ -513,9 +706,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": [
-        "fly"
-      ],
+      "infinitive_translated": ["fly"],
       "conjugations": {
         "prezent": {
           "eu": "zbor",
@@ -576,9 +767,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": [
-        "discuss"
-      ],
+      "infinitive_translated": ["discuss"],
       "conjugations": {
         "prezent": {
           "eu": "discut",
@@ -639,9 +828,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": [
-        "climb"
-      ],
+      "infinitive_translated": ["climb"],
       "conjugations": {
         "prezent": {
           "eu": "escaladez",
@@ -702,9 +889,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": [
-        "prefer"
-      ],
+      "infinitive_translated": ["prefer"],
       "conjugations": {
         "prezent": {
           "eu": "prefer",
@@ -765,9 +950,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": [
-        "to wait"
-      ],
+      "infinitive_translated": ["to wait"],
       "conjugations": {
         "prezent": {
           "eu": "aștept",
@@ -828,10 +1011,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": [
-        "leave",
-        "go"
-      ],
+      "infinitive_translated": ["leave", "go"],
       "conjugations": {
         "prezent": {
           "eu": "plec",
@@ -892,9 +1072,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": [
-        "cross"
-      ],
+      "infinitive_translated": ["cross"],
       "conjugations": {
         "prezent": {
           "eu": "traversez",
@@ -955,9 +1133,7 @@
       "type": "irregular",
       "group": 1,
       "subgroup": 99,
-      "infinitive_translated": [
-        "to take"
-      ],
+      "infinitive_translated": ["to take"],
       "conjugations": {
         "prezent": {
           "eu": "iau",
@@ -1018,9 +1194,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": [
-        "to verify"
-      ],
+      "infinitive_translated": ["to verify"],
       "conjugations": {
         "prezent": {
           "eu": "verific",
@@ -1081,10 +1255,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": [
-        "to finish",
-        "to terminate"
-      ],
+      "infinitive_translated": ["to finish", "to terminate"],
       "conjugations": {
         "prezent": {
           "eu": "termin",
@@ -1145,9 +1316,7 @@
       "type": "irregular",
       "group": 1,
       "subgroup": 99,
-      "infinitive_translated": [
-        "to swim"
-      ],
+      "infinitive_translated": ["to swim"],
       "conjugations": {
         "prezent": {
           "eu": "înot",
