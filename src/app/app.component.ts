@@ -361,6 +361,11 @@ export class AppComponent implements OnInit {
 
     for (const tenseKey of this.conjugationKeys) {
       const conjugation = verb.conjugations[tenseKey];
+
+      if (!conjugation) {
+        continue;
+      }
+
       const values =
         tenseKey !== 'imperativ'
           ? Object.values(conjugation as ConjugationSet)
