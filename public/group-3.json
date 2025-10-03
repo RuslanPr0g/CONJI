@@ -2,14 +2,117 @@
   "group": "Grupa a III-a - terminat în -e",
   "verbs": [
     {
+      "infinitive": "propune",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to propose", "to suggest"],
+      "conjugations": {
+        "prezent": {
+          "eu": "propun",
+          "tu": "propui",
+          "el/ea": "propune",
+          "noi": "propunem",
+          "voi": "propuneți",
+          "ei/ele": "propun"
+        },
+        "perfect_compus": {
+          "eu": "am propus",
+          "tu": "ai propus",
+          "el/ea": "a propus",
+          "noi": "am propus",
+          "voi": "ați propus",
+          "ei/ele": "au propus"
+        },
+        "viitor_literar": {
+          "eu": "voi propune",
+          "tu": "vei propune",
+          "el/ea": "va propune",
+          "noi": "vom propune",
+          "voi": "veți propune",
+          "ei/ele": "vor propune"
+        },
+        "conjunctiv": {
+          "eu": "să propun",
+          "tu": "să propui",
+          "el/ea": "să propună",
+          "noi": "să propunem",
+          "voi": "să propuneți",
+          "ei/ele": "să propună"
+        },
+        "conditional": {
+          "eu": "aș propune",
+          "tu": "ai propune",
+          "el/ea": "ar propune",
+          "noi": "am propune",
+          "voi": "ați propune",
+          "ei/ele": "ar propune"
+        },
+        "imperativ": {
+          "tu": "propune",
+          "voi": "propuneți"
+        }
+      }
+    },
+    {
+      "infinitive": "pierde",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to lose"],
+      "conjugations": {
+        "prezent": {
+          "eu": "pierd",
+          "tu": "pierzi",
+          "el/ea": "pierde",
+          "noi": "pierdem",
+          "voi": "pierdeți",
+          "ei/ele": "pierd"
+        },
+        "perfect_compus": {
+          "eu": "am pierdut",
+          "tu": "ai pierdut",
+          "el/ea": "a pierdut",
+          "noi": "am pierdut",
+          "voi": "ați pierdut",
+          "ei/ele": "au pierdut"
+        },
+        "viitor_literar": {
+          "eu": "voi pierde",
+          "tu": "vei pierde",
+          "el/ea": "va pierde",
+          "noi": "vom pierde",
+          "voi": "veți pierde",
+          "ei/ele": "vor pierde"
+        },
+        "conjunctiv": {
+          "eu": "să pierd",
+          "tu": "să pierzi",
+          "el/ea": "să piardă",
+          "noi": "să pierdem",
+          "voi": "să pierdeți",
+          "ei/ele": "să piardă"
+        },
+        "conditional": {
+          "eu": "aș pierde",
+          "tu": "ai pierde",
+          "el/ea": "ar pierde",
+          "noi": "am pierde",
+          "voi": "ați pierde",
+          "ei/ele": "ar pierde"
+        },
+        "imperativ": {
+          "tu": "pierde",
+          "voi": "pierdeți"
+        }
+      }
+    },
+    {
       "infinitive": "conduce",
       "type": "regular",
       "group": 3,
       "subgroup": 1,
-      "infinitive_translated": [
-        "drive",
-        "lead"
-      ],
+      "infinitive_translated": ["drive", "lead"],
       "conjugations": {
         "prezent": {
           "eu": "conduc",
@@ -70,10 +173,7 @@
       "type": "regular",
       "group": 3,
       "subgroup": 1,
-      "infinitive_translated": [
-        "go",
-        "drive"
-      ],
+      "infinitive_translated": ["go", "drive"],
       "conjugations": {
         "prezent": {
           "eu": "merg",
@@ -134,9 +234,7 @@
       "type": "irregular",
       "group": 3,
       "subgroup": 99,
-      "infinitive_translated": [
-        "write"
-      ],
+      "infinitive_translated": ["write"],
       "conjugations": {
         "prezent": {
           "eu": "scriu",
@@ -197,10 +295,7 @@
       "type": "regular",
       "group": 3,
       "subgroup": 1,
-      "infinitive_translated": [
-        "to allow",
-        "to permit"
-      ],
+      "infinitive_translated": ["to allow", "to permit"],
       "conjugations": {
         "prezent": {
           "eu": "permit",
@@ -261,9 +356,7 @@
       "type": "regular",
       "group": 3,
       "subgroup": 2,
-      "infinitive_translated": [
-        "to understand"
-      ],
+      "infinitive_translated": ["to understand"],
       "conjugations": {
         "prezent": {
           "eu": "înțeleg",
@@ -324,10 +417,7 @@
       "type": "regular",
       "group": 3,
       "subgroup": 1,
-      "infinitive_translated": [
-        "begin",
-        "start"
-      ],
+      "infinitive_translated": ["begin", "start"],
       "conjugations": {
         "prezent": {
           "eu": "încep",
@@ -388,10 +478,7 @@
       "type": "regular",
       "group": 3,
       "subgroup": 1,
-      "infinitive_translated": [
-        "to spend (time)",
-        "to celebrate"
-      ],
+      "infinitive_translated": ["to spend (time)", "to celebrate"],
       "conjugations": {
         "prezent": {
           "eu": "petrec",
@@ -452,9 +539,7 @@
       "type": "regular",
       "group": 3,
       "subgroup": 1,
-      "infinitive_translated": [
-        "to believe"
-      ],
+      "infinitive_translated": ["to believe"],
       "conjugations": {
         "prezent": {
           "eu": "cred",
@@ -515,9 +600,7 @@
       "type": "regular",
       "group": 3,
       "subgroup": 1,
-      "infinitive_translated": [
-        "to arrive"
-      ],
+      "infinitive_translated": ["to arrive"],
       "conjugations": {
         "prezent": {
           "eu": "ajung",
@@ -578,10 +661,7 @@
       "type": "regular",
       "group": 3,
       "subgroup": 1,
-      "infinitive_translated": [
-        "to do",
-        "to make"
-      ],
+      "infinitive_translated": ["to do", "to make"],
       "conjugations": {
         "prezent": {
           "eu": "fac",
@@ -642,10 +722,7 @@
       "type": "irregular",
       "group": 3,
       "subgroup": 99,
-      "infinitive_translated": [
-        "to say",
-        "to tell"
-      ],
+      "infinitive_translated": ["to say", "to tell"],
       "conjugations": {
         "prezent": {
           "eu": "spun",
@@ -706,10 +783,7 @@
       "type": "regular",
       "group": 3,
       "subgroup": 2,
-      "infinitive_translated": [
-        "to respond",
-        "to reply"
-      ],
+      "infinitive_translated": ["to respond", "to reply"],
       "conjugations": {
         "prezent": {
           "eu": "răspund",
