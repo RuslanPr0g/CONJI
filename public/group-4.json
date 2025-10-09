@@ -2,6 +2,59 @@
   "group": "Grupa a IV-a - terminat în -i/î",
   "verbs": [
     {
+      "infinitive": "plăti",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to pay"],
+      "conjugations": {
+        "prezent": {
+          "eu": "plătesc",
+          "tu": "plătești",
+          "el/ea": "plătește",
+          "noi": "plătim",
+          "voi": "plătiți",
+          "ei/ele": "plătesc"
+        },
+        "perfect_compus": {
+          "eu": "am plătit",
+          "tu": "ai plătit",
+          "el/ea": "a plătit",
+          "noi": "am plătit",
+          "voi": "ați plătit",
+          "ei/ele": "au plătit"
+        },
+        "viitor_literar": {
+          "eu": "voi plăti",
+          "tu": "vei plăti",
+          "el/ea": "va plăti",
+          "noi": "vom plăti",
+          "voi": "veți plăti",
+          "ei/ele": "vor plăti"
+        },
+        "conjunctiv": {
+          "eu": "să plătesc",
+          "tu": "să plătești",
+          "el/ea": "să plătească",
+          "noi": "să plătim",
+          "voi": "să plătiți",
+          "ei/ele": "să plătească"
+        },
+        "conditional": {
+          "eu": "aș plăti",
+          "tu": "ai plăti",
+          "el/ea": "ar plăti",
+          "noi": "am plăti",
+          "voi": "ați plăti",
+          "ei/ele": "ar plăti"
+        },
+        "imperativ": {
+          "tu": "plătește",
+          "voi": "plătiți"
+        }
+      }
+    },
+    {
       "infinitive": "fi",
       "type": "irregular",
       "group": 4,

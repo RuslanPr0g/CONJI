@@ -2,6 +2,59 @@
   "group": "Grupa I - terminat în -a",
   "verbs": [
     {
+      "infinitive": "întreba",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to ask"],
+      "conjugations": {
+        "prezent": {
+          "eu": "întreb",
+          "tu": "întrebi",
+          "el/ea": "întreabă",
+          "noi": "întrebăm",
+          "voi": "întrebați",
+          "ei/ele": "întreabă"
+        },
+        "perfect_compus": {
+          "eu": "am întrebat",
+          "tu": "ai întrebat",
+          "el/ea": "a întrebat",
+          "noi": "am întrebat",
+          "voi": "ați întrebat",
+          "ei/ele": "au întrebat"
+        },
+        "viitor_literar": {
+          "eu": "voi întreba",
+          "tu": "vei întreba",
+          "el/ea": "va întreba",
+          "noi": "vom întreba",
+          "voi": "veți întreba",
+          "ei/ele": "vor întreba"
+        },
+        "conjunctiv": {
+          "eu": "să întreb",
+          "tu": "să întrebi",
+          "el/ea": "să întrebe",
+          "noi": "să întrebăm",
+          "voi": "să întrebați",
+          "ei/ele": "să întrebe"
+        },
+        "conditional": {
+          "eu": "aș întreba",
+          "tu": "ai întreba",
+          "el/ea": "ar întreba",
+          "noi": "am întreba",
+          "voi": "ați întreba",
+          "ei/ele": "ar întreba"
+        },
+        "imperativ": {
+          "tu": "întreabă",
+          "voi": "întrebați"
+        }
+      }
+    },
+    {
       "infinitive": "parca",
       "type": "regular",
       "group": 1,
