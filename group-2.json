@@ -2,6 +2,372 @@
   "group": "Grupa a II-a - terminat în -ea",
   "verbs": [
     {
+      "infinitive": "a dispărea",
+      "type": "regular",
+      "group": 2,
+      "subgroup": 2,
+      "infinitive_translated": ["to disappear"],
+      "conjugations": {
+        "prezent": {
+          "eu": "dispar",
+          "tu": "dispari",
+          "el/ea": "dispare",
+          "noi": "dispărem",
+          "voi": "dispăreți",
+          "ei/ele": "dispar"
+        },
+        "perfect_compus": {
+          "eu": "am dispărut",
+          "tu": "ai dispărut",
+          "el/ea": "a dispărut",
+          "noi": "am dispărut",
+          "voi": "ați dispărut",
+          "ei/ele": "au dispărut"
+        },
+        "viitor_literar": {
+          "eu": "voi dispărea",
+          "tu": "vei dispărea",
+          "el/ea": "va dispărea",
+          "noi": "vom dispărea",
+          "voi": "veți dispărea",
+          "ei/ele": "vor dispărea"
+        },
+        "viitor_familiar": {
+          "eu": "o să dispar",
+          "tu": "o să dispari",
+          "el/ea": "o să dispară",
+          "noi": "o să dispărem",
+          "voi": "o să dispăreți",
+          "ei/ele": "o să dispară"
+        },
+        "conjunctiv": {
+          "eu": "să dispar",
+          "tu": "să dispari",
+          "el/ea": "să dispară",
+          "noi": "să dispărem",
+          "voi": "să dispăreți",
+          "ei/ele": "să dispară"
+        },
+        "conditional": {
+          "eu": "aș dispărea",
+          "tu": "ai dispărea",
+          "el/ea": "ar dispărea",
+          "noi": "am dispărea",
+          "voi": "ați dispărea",
+          "ei/ele": "ar dispărea"
+        },
+        "imperativ": {
+          "tu": "dispari",
+          "voi": "dispăreți"
+        }
+      }
+    },
+    {
+      "infinitive": "a cădea",
+      "type": "regular",
+      "group": 2,
+      "subgroup": 2,
+      "infinitive_translated": ["to fall"],
+      "conjugations": {
+        "prezent": {
+          "eu": "cad",
+          "tu": "cazi",
+          "el/ea": "cade",
+          "noi": "cădem",
+          "voi": "cădeți",
+          "ei/ele": "cad"
+        },
+        "perfect_compus": {
+          "eu": "am căzut",
+          "tu": "ai căzut",
+          "el/ea": "a căzut",
+          "noi": "am căzut",
+          "voi": "ați căzut",
+          "ei/ele": "au căzut"
+        },
+        "viitor_literar": {
+          "eu": "voi cădea",
+          "tu": "vei cădea",
+          "el/ea": "va cădea",
+          "noi": "vom cădea",
+          "voi": "veți cădea",
+          "ei/ele": "vor cădea"
+        },
+        "viitor_familiar": {
+          "eu": "o să cad",
+          "tu": "o să cazi",
+          "el/ea": "o să cadă",
+          "noi": "o să cădem",
+          "voi": "o să cădeți",
+          "ei/ele": "o să cadă"
+        },
+        "conjunctiv": {
+          "eu": "să cad",
+          "tu": "să cazi",
+          "el/ea": "să cadă",
+          "noi": "să cădem",
+          "voi": "să cădeți",
+          "ei/ele": "să cadă"
+        },
+        "conditional": {
+          "eu": "aș cădea",
+          "tu": "ai cădea",
+          "el/ea": "ar cădea",
+          "noi": "am cădea",
+          "voi": "ați cădea",
+          "ei/ele": "ar cădea"
+        },
+        "imperativ": {
+          "tu": "cazi",
+          "voi": "cădeți"
+        }
+      }
+    },
+    {
+      "infinitive": "scădea",
+      "type": "regular",
+      "group": 2,
+      "subgroup": 2,
+      "infinitive_translated": ["to decrease", "to lower"],
+      "conjugations": {
+        "prezent": {
+          "eu": "scad",
+          "tu": "scazi",
+          "el/ea": "scade",
+          "noi": "scădem",
+          "voi": "scădeți",
+          "ei/ele": "scad"
+        },
+        "perfect_compus": {
+          "eu": "am scăzut",
+          "tu": "ai scăzut",
+          "el/ea": "a scăzut",
+          "noi": "am scăzut",
+          "voi": "ați scăzut",
+          "ei/ele": "au scăzut"
+        },
+        "viitor_literar": {
+          "eu": "voi scădea",
+          "tu": "vei scădea",
+          "el/ea": "va scădea",
+          "noi": "vom scădea",
+          "voi": "veți scădea",
+          "ei/ele": "vor scădea"
+        },
+        "viitor_familiar": {
+          "eu": "o să scad",
+          "tu": "o să scazi",
+          "el/ea": "o să scadă",
+          "noi": "o să scădem",
+          "voi": "o să scădeți",
+          "ei/ele": "o să scadă"
+        },
+        "conjunctiv": {
+          "eu": "să scad",
+          "tu": "să scazi",
+          "el/ea": "să scadă",
+          "noi": "să scădem",
+          "voi": "să scădeți",
+          "ei/ele": "să scadă"
+        },
+        "conditional": {
+          "eu": "aș scădea",
+          "tu": "ai scădea",
+          "el/ea": "ar scădea",
+          "noi": "am scădea",
+          "voi": "ați scădea",
+          "ei/ele": "ar scădea"
+        },
+        "imperativ": {
+          "tu": "scade",
+          "voi": "scădeți"
+        }
+      }
+    },
+    {
+      "infinitive": "apărea",
+      "type": "regular",
+      "group": 2,
+      "subgroup": 2,
+      "infinitive_translated": ["to appear"],
+      "conjugations": {
+        "prezent": {
+          "eu": "apar",
+          "tu": "apari",
+          "el/ea": "apare",
+          "noi": "apărem",
+          "voi": "apăreți",
+          "ei/ele": "apar"
+        },
+        "perfect_compus": {
+          "eu": "am apărut",
+          "tu": "ai apărut",
+          "el/ea": "a apărut",
+          "noi": "am apărut",
+          "voi": "ați apărut",
+          "ei/ele": "au apărut"
+        },
+        "viitor_literar": {
+          "eu": "voi apărea",
+          "tu": "vei apărea",
+          "el/ea": "va apărea",
+          "noi": "vom apărea",
+          "voi": "veți apărea",
+          "ei/ele": "vor apărea"
+        },
+        "viitor_familiar": {
+          "eu": "o să apar",
+          "tu": "o să apari",
+          "el/ea": "o să apară",
+          "noi": "o să apărem",
+          "voi": "o să apăreți",
+          "ei/ele": "o să apară"
+        },
+        "conjunctiv": {
+          "eu": "să apar",
+          "tu": "să apari",
+          "el/ea": "să apară",
+          "noi": "să apărem",
+          "voi": "să apăreți",
+          "ei/ele": "să apară"
+        },
+        "conditional": {
+          "eu": "aș apărea",
+          "tu": "ai apărea",
+          "el/ea": "ar apărea",
+          "noi": "am apărea",
+          "voi": "ați apărea",
+          "ei/ele": "ar apărea"
+        },
+        "imperativ": {
+          "tu": "apari",
+          "voi": "apăreți"
+        }
+      }
+    },
+    {
+      "infinitive": "dispărea",
+      "type": "regular",
+      "group": 2,
+      "subgroup": 2,
+      "infinitive_translated": ["to disappear"],
+      "conjugations": {
+        "prezent": {
+          "eu": "dispar",
+          "tu": "dispari",
+          "el/ea": "dispare",
+          "noi": "dispărem",
+          "voi": "dispăreți",
+          "ei/ele": "dispar"
+        },
+        "perfect_compus": {
+          "eu": "am dispărut",
+          "tu": "ai dispărut",
+          "el/ea": "a dispărut",
+          "noi": "am dispărut",
+          "voi": "ați dispărut",
+          "ei/ele": "au dispărut"
+        },
+        "viitor_literar": {
+          "eu": "voi dispărea",
+          "tu": "vei dispărea",
+          "el/ea": "va dispărea",
+          "noi": "vom dispărea",
+          "voi": "veți dispărea",
+          "ei/ele": "vor dispărea"
+        },
+        "viitor_familiar": {
+          "eu": "o să dispar",
+          "tu": "o să dispari",
+          "el/ea": "o să dispară",
+          "noi": "o să dispărem",
+          "voi": "o să dispăreți",
+          "ei/ele": "o să dispară"
+        },
+        "conjunctiv": {
+          "eu": "să dispar",
+          "tu": "să dispari",
+          "el/ea": "să dispară",
+          "noi": "să dispărem",
+          "voi": "să dispăreți",
+          "ei/ele": "să dispară"
+        },
+        "conditional": {
+          "eu": "aș dispărea",
+          "tu": "ai dispărea",
+          "el/ea": "ar dispărea",
+          "noi": "am dispărea",
+          "voi": "ați dispărea",
+          "ei/ele": "ar dispărea"
+        },
+        "imperativ": {
+          "tu": "dispari",
+          "voi": "dispăreți"
+        }
+      }
+    },
+    {
+      "infinitive": "tăcea",
+      "type": "regular",
+      "group": 2,
+      "subgroup": 2,
+      "infinitive_translated": ["to be silent"],
+      "conjugations": {
+        "prezent": {
+          "eu": "tac",
+          "tu": "taci",
+          "el/ea": "tace",
+          "noi": "tăcem",
+          "voi": "tăceți",
+          "ei/ele": "tac"
+        },
+        "perfect_compus": {
+          "eu": "am tăcut",
+          "tu": "ai tăcut",
+          "el/ea": "a tăcut",
+          "noi": "am tăcut",
+          "voi": "ați tăcut",
+          "ei/ele": "au tăcut"
+        },
+        "viitor_literar": {
+          "eu": "voi tăcea",
+          "tu": "vei tăcea",
+          "el/ea": "va tăcea",
+          "noi": "vom tăcea",
+          "voi": "veți tăcea",
+          "ei/ele": "vor tăcea"
+        },
+        "viitor_familiar": {
+          "eu": "o să tac",
+          "tu": "o să taci",
+          "el/ea": "o să tacă",
+          "noi": "o să tăcem",
+          "voi": "o să tăceți",
+          "ei/ele": "o să tacă"
+        },
+        "conjunctiv": {
+          "eu": "să tac",
+          "tu": "să taci",
+          "el/ea": "să tacă",
+          "noi": "să tăcem",
+          "voi": "să tăceți",
+          "ei/ele": "să tacă"
+        },
+        "conditional": {
+          "eu": "aș tăcea",
+          "tu": "ai tăcea",
+          "el/ea": "ar tăcea",
+          "noi": "am tăcea",
+          "voi": "ați tăcea",
+          "ei/ele": "ar tăcea"
+        },
+        "imperativ": {
+          "tu": "taci",
+          "voi": "tăceți"
+        }
+      }
+    },
+    {
       "infinitive": "avea",
       "type": "irregular",
       "group": 2,

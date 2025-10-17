@@ -2,6 +2,425 @@
   "group": "Grupa a III-a - terminat în -e",
   "verbs": [
     {
+      "infinitive": "a alege",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to choose"],
+      "conjugations": {
+        "prezent": {
+          "eu": "aleg",
+          "tu": "alegi",
+          "el/ea": "alege",
+          "noi": "alegem",
+          "voi": "alegeți",
+          "ei/ele": "aleg"
+        },
+        "perfect_compus": {
+          "eu": "am ales",
+          "tu": "ai ales",
+          "el/ea": "a ales",
+          "noi": "am ales",
+          "voi": "ați ales",
+          "ei/ele": "au ales"
+        },
+        "viitor_literar": {
+          "eu": "voi alege",
+          "tu": "vei alege",
+          "el/ea": "va alege",
+          "noi": "vom alege",
+          "voi": "veți alege",
+          "ei/ele": "vor alege"
+        },
+        "viitor_familiar": {
+          "eu": "o să aleg",
+          "tu": "o să alegi",
+          "el/ea": "o să aleagă",
+          "noi": "o să alegem",
+          "voi": "o să alegeți",
+          "ei/ele": "o să aleagă"
+        },
+        "conjunctiv": {
+          "eu": "să aleg",
+          "tu": "să alegi",
+          "el/ea": "să aleagă",
+          "noi": "să alegem",
+          "voi": "să alegeți",
+          "ei/ele": "să aleagă"
+        },
+        "conditional": {
+          "eu": "aș alege",
+          "tu": "ai alege",
+          "el/ea": "ar alege",
+          "noi": "am alege",
+          "voi": "ați alege",
+          "ei/ele": "ar alege"
+        },
+        "imperativ": {
+          "tu": "alege",
+          "voi": "alegeți"
+        }
+      }
+    },
+    {
+      "infinitive": "a aduce",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to bring"],
+      "conjugations": {
+        "prezent": {
+          "eu": "aduc",
+          "tu": "aduci",
+          "el/ea": "aduce",
+          "noi": "aducem",
+          "voi": "aduceți",
+          "ei/ele": "aduc"
+        },
+        "perfect_compus": {
+          "eu": "am adus",
+          "tu": "ai adus",
+          "el/ea": "a adus",
+          "noi": "am adus",
+          "voi": "ați adus",
+          "ei/ele": "au adus"
+        },
+        "viitor_literar": {
+          "eu": "voi aduce",
+          "tu": "vei aduce",
+          "el/ea": "va aduce",
+          "noi": "vom aduce",
+          "voi": "veți aduce",
+          "ei/ele": "vor aduce"
+        },
+        "viitor_familiar": {
+          "eu": "o să aduc",
+          "tu": "o să aduci",
+          "el/ea": "o să aducă",
+          "noi": "o să aducem",
+          "voi": "o să aduceți",
+          "ei/ele": "o să aducă"
+        },
+        "conjunctiv": {
+          "eu": "să aduc",
+          "tu": "să aduci",
+          "el/ea": "să aducă",
+          "noi": "să aducem",
+          "voi": "să aduceți",
+          "ei/ele": "să aducă"
+        },
+        "conditional": {
+          "eu": "aș aduce",
+          "tu": "ai aduce",
+          "el/ea": "ar aduce",
+          "noi": "am aduce",
+          "voi": "ați aduce",
+          "ei/ele": "ar aduce"
+        },
+        "imperativ": {
+          "tu": "adu",
+          "voi": "aduceți"
+        }
+      }
+    },
+    {
+      "infinitive": "a închide",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to close"],
+      "conjugations": {
+        "prezent": {
+          "eu": "închid",
+          "tu": "închizi",
+          "el/ea": "închide",
+          "noi": "închidem",
+          "voi": "închideți",
+          "ei/ele": "închid"
+        },
+        "perfect_compus": {
+          "eu": "am închis",
+          "tu": "ai închis",
+          "el/ea": "a închis",
+          "noi": "am închis",
+          "voi": "ați închis",
+          "ei/ele": "au închis"
+        },
+        "viitor_literar": {
+          "eu": "voi închide",
+          "tu": "vei închide",
+          "el/ea": "va închide",
+          "noi": "vom închide",
+          "voi": "veți închide",
+          "ei/ele": "vor închide"
+        },
+        "viitor_familiar": {
+          "eu": "o să închid",
+          "tu": "o să închizi",
+          "el/ea": "o să închidă",
+          "noi": "o să închidem",
+          "voi": "o să închideți",
+          "ei/ele": "o să închidă"
+        },
+        "conjunctiv": {
+          "eu": "să închid",
+          "tu": "să închizi",
+          "el/ea": "să închidă",
+          "noi": "să închidem",
+          "voi": "să închideți",
+          "ei/ele": "să închidă"
+        },
+        "conditional": {
+          "eu": "aș închide",
+          "tu": "ai închide",
+          "el/ea": "ar închide",
+          "noi": "am închide",
+          "voi": "ați închide",
+          "ei/ele": "ar închide"
+        },
+        "imperativ": {
+          "tu": "închide",
+          "voi": "închideți"
+        }
+      }
+    },
+    {
+      "infinitive": "a deschide",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to open"],
+      "conjugations": {
+        "prezent": {
+          "eu": "deschid",
+          "tu": "deschizi",
+          "el/ea": "deschide",
+          "noi": "deschidem",
+          "voi": "deschideți",
+          "ei/ele": "deschid"
+        },
+        "perfect_compus": {
+          "eu": "am deschis",
+          "tu": "ai deschis",
+          "el/ea": "a deschis",
+          "noi": "am deschis",
+          "voi": "ați deschis",
+          "ei/ele": "au deschis"
+        },
+        "viitor_literar": {
+          "eu": "voi deschide",
+          "tu": "vei deschide",
+          "el/ea": "va deschide",
+          "noi": "vom deschide",
+          "voi": "veți deschide",
+          "ei/ele": "vor deschide"
+        },
+        "viitor_familiar": {
+          "eu": "o să deschid",
+          "tu": "o să deschizi",
+          "el/ea": "o să deschidă",
+          "noi": "o să deschidem",
+          "voi": "o să deschideți",
+          "ei/ele": "o să deschidă"
+        },
+        "conjunctiv": {
+          "eu": "să deschid",
+          "tu": "să deschizi",
+          "el/ea": "să deschidă",
+          "noi": "să deschidem",
+          "voi": "să deschideți",
+          "ei/ele": "să deschidă"
+        },
+        "conditional": {
+          "eu": "aș deschide",
+          "tu": "ai deschide",
+          "el/ea": "ar deschide",
+          "noi": "am deschide",
+          "voi": "ați deschide",
+          "ei/ele": "ar deschide"
+        },
+        "imperativ": {
+          "tu": "deschide",
+          "voi": "deschideți"
+        }
+      }
+    },
+    {
+      "infinitive": "cere",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to ask", "to request"],
+      "conjugations": {
+        "prezent": {
+          "eu": "cer",
+          "tu": "ceri",
+          "el/ea": "cere",
+          "noi": "cerem",
+          "voi": "cereți",
+          "ei/ele": "cer"
+        },
+        "perfect_compus": {
+          "eu": "am cerut",
+          "tu": "ai cerut",
+          "el/ea": "a cerut",
+          "noi": "am cerut",
+          "voi": "ați cerut",
+          "ei/ele": "au cerut"
+        },
+        "viitor_literar": {
+          "eu": "voi cere",
+          "tu": "vei cere",
+          "el/ea": "va cere",
+          "noi": "vom cere",
+          "voi": "veți cere",
+          "ei/ele": "vor cere"
+        },
+        "viitor_familiar": {
+          "eu": "o să cer",
+          "tu": "o să ceri",
+          "el/ea": "o să ceară",
+          "noi": "o să cerem",
+          "voi": "o să cereți",
+          "ei/ele": "o să ceară"
+        },
+        "conjunctiv": {
+          "eu": "să cer",
+          "tu": "să ceri",
+          "el/ea": "să ceară",
+          "noi": "să cerem",
+          "voi": "să cereți",
+          "ei/ele": "să ceară"
+        },
+        "conditional": {
+          "eu": "aș cere",
+          "tu": "ai cere",
+          "el/ea": "ar cere",
+          "noi": "am cere",
+          "voi": "ați cere",
+          "ei/ele": "ar cere"
+        },
+        "imperativ": {
+          "tu": "cere",
+          "voi": "cereți"
+        }
+      }
+    },
+    {
+      "infinitive": "trimite",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to send"],
+      "conjugations": {
+        "prezent": {
+          "eu": "trimit",
+          "tu": "trimiți",
+          "el/ea": "trimite",
+          "noi": "trimitem",
+          "voi": "trimiteți",
+          "ei/ele": "trimit"
+        },
+        "perfect_compus": {
+          "eu": "am trimis",
+          "tu": "ai trimis",
+          "el/ea": "a trimis",
+          "noi": "am trimis",
+          "voi": "ați trimis",
+          "ei/ele": "au trimis"
+        },
+        "viitor_literar": {
+          "eu": "voi trimite",
+          "tu": "vei trimite",
+          "el/ea": "va trimite",
+          "noi": "vom trimite",
+          "voi": "veți trimite",
+          "ei/ele": "vor trimite"
+        },
+        "viitor_familiar": {
+          "eu": "o să trimit",
+          "tu": "o să trimiți",
+          "el/ea": "o să trimită",
+          "noi": "o să trimitem",
+          "voi": "o să trimiteți",
+          "ei/ele": "o să trimită"
+        },
+        "conjunctiv": {
+          "eu": "să trimit",
+          "tu": "să trimiți",
+          "el/ea": "să trimită",
+          "noi": "să trimitem",
+          "voi": "să trimiteți",
+          "ei/ele": "să trimită"
+        },
+        "conditional": {
+          "eu": "aș trimite",
+          "tu": "ai trimite",
+          "el/ea": "ar trimite",
+          "noi": "am trimite",
+          "voi": "ați trimite",
+          "ei/ele": "ar trimite"
+        },
+        "imperativ": {
+          "tu": "trimite",
+          "voi": "trimiteți"
+        }
+      }
+    },
+    {
+      "infinitive": "promite",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to promise"],
+      "conjugations": {
+        "prezent": {
+          "eu": "promit",
+          "tu": "promiți",
+          "el/ea": "promite",
+          "noi": "promitem",
+          "voi": "promiteți",
+          "ei/ele": "promit"
+        },
+        "perfect_compus": {
+          "eu": "am promis",
+          "tu": "ai promis",
+          "el/ea": "a promis",
+          "noi": "am promis",
+          "voi": "ați promis",
+          "ei/ele": "au promis"
+        },
+        "viitor_literar": {
+          "eu": "voi promite",
+          "tu": "vei promite",
+          "el/ea": "va promite",
+          "noi": "vom promite",
+          "voi": "veți promite",
+          "ei/ele": "vor promite"
+        },
+        "conjunctiv": {
+          "eu": "să promit",
+          "tu": "să promiți",
+          "el/ea": "să promită",
+          "noi": "să promitem",
+          "voi": "să promiteți",
+          "ei/ele": "să promită"
+        },
+        "conditional": {
+          "eu": "aș promite",
+          "tu": "ai promite",
+          "el/ea": "ar promite",
+          "noi": "am promite",
+          "voi": "ați promite",
+          "ei/ele": "ar promite"
+        },
+        "imperativ": {
+          "tu": "promite",
+          "voi": "promiteți"
+        }
+      }
+    },
+    {
       "infinitive": "propune",
       "type": "regular",
       "group": 3,
