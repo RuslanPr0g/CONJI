@@ -3,7 +3,7 @@ name: CD
 on:
   push:
     tags:
-      - "v*"
+      - 'v*'
 
 jobs:
   deploy:
@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: "npm"
+          cache: 'npm'
           cache-dependency-path: package-lock.json
 
       - name: Configure Git user and authentication
@@ -31,7 +31,7 @@ jobs:
 
       - name: Set release version in Angular environment
         run: |
-          sed "s/__RELEASE_VERSION__/${GITHUB_REF#refs/tags\/}/" src/environments/environment.prod.ts.template > src/environments/environment.prod.ts
+          sed "s/__RELEASE_VERSION__/${GITHUB_REF#refs/tags\/}/" apps/conji/src/environments/environment.prod.ts.template > apps/conji/src/environments/environment.prod.ts
 
       - name: Run deployment
         run: npm run deploy
