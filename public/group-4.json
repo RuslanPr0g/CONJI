@@ -2,6 +2,218 @@
   "group": "Grupa a IV-a - terminat în -i/î",
   "verbs": [
     {
+      "infinitive": "oferi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 2,
+      "infinitive_translated": ["to offer"],
+      "conjugations": {
+        "prezent": {
+          "eu": "ofer",
+          "tu": "oferi",
+          "el/ea": "oferă",
+          "noi": "oferim",
+          "voi": "oferiți",
+          "ei/ele": "oferă"
+        },
+        "perfect_compus": {
+          "eu": "am oferit",
+          "tu": "ai oferit",
+          "el/ea": "a oferit",
+          "noi": "am oferit",
+          "voi": "ați oferit",
+          "ei/ele": "au oferit"
+        },
+        "viitor_literar": {
+          "eu": "voi oferi",
+          "tu": "vei oferi",
+          "el/ea": "va oferi",
+          "noi": "vom oferi",
+          "voi": "veți oferi",
+          "ei/ele": "vor oferi"
+        },
+        "conjunctiv": {
+          "eu": "să ofer",
+          "tu": "să oferi",
+          "el/ea": "să ofere",
+          "noi": "să oferim",
+          "voi": "să oferiți",
+          "ei/ele": "să ofere"
+        },
+        "conditional": {
+          "eu": "aș oferi",
+          "tu": "ai oferi",
+          "el/ea": "ar oferi",
+          "noi": "am oferi",
+          "voi": "ați oferi",
+          "ei/ele": "ar oferi"
+        },
+        "imperativ": {
+          "tu": "oferă",
+          "voi": "oferiți"
+        }
+      }
+    },
+    {
+      "infinitive": "omorî",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 2,
+      "infinitive_translated": ["to kill"],
+      "conjugations": {
+        "prezent": {
+          "eu": "omor",
+          "tu": "omori",
+          "el/ea": "omoară",
+          "noi": "omorâm",
+          "voi": "omorâți",
+          "ei/ele": "omoară"
+        },
+        "perfect_compus": {
+          "eu": "am omorât",
+          "tu": "ai omorât",
+          "el/ea": "a omorât",
+          "noi": "am omorât",
+          "voi": "ați omorât",
+          "ei/ele": "au omorât"
+        },
+        "viitor_literar": {
+          "eu": "voi omorî",
+          "tu": "vei omorî",
+          "el/ea": "va omorî",
+          "noi": "vom omorî",
+          "voi": "veți omorî",
+          "ei/ele": "vor omorî"
+        },
+        "conjunctiv": {
+          "eu": "să omor",
+          "tu": "să omori",
+          "el/ea": "să omoare",
+          "noi": "să omorâm",
+          "voi": "să omorâți",
+          "ei/ele": "să omoare"
+        },
+        "conditional": {
+          "eu": "aș omorî",
+          "tu": "ai omorî",
+          "el/ea": "ar omorî",
+          "noi": "am omorî",
+          "voi": "ați omorî",
+          "ei/ele": "ar omorî"
+        },
+        "imperativ": {
+          "tu": "omoară",
+          "voi": "omorâți"
+        }
+      }
+    },
+    {
+      "infinitive": "coborî",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 2,
+      "infinitive_translated": ["to go down", "to descend"],
+      "conjugations": {
+        "prezent": {
+          "eu": "cobor",
+          "tu": "cobori",
+          "el/ea": "coboară",
+          "noi": "coborâm",
+          "voi": "coborâți",
+          "ei/ele": "coboară"
+        },
+        "perfect_compus": {
+          "eu": "am coborât",
+          "tu": "ai coborât",
+          "el/ea": "a coborât",
+          "noi": "am coborât",
+          "voi": "ați coborât",
+          "ei/ele": "au coborât"
+        },
+        "viitor_literar": {
+          "eu": "voi coborî",
+          "tu": "vei coborî",
+          "el/ea": "va coborî",
+          "noi": "vom coborî",
+          "voi": "veți coborî",
+          "ei/ele": "vor coborî"
+        },
+        "conjunctiv": {
+          "eu": "să cobor",
+          "tu": "să cobori",
+          "el/ea": "să coboare",
+          "noi": "să coborâm",
+          "voi": "să coborâți",
+          "ei/ele": "să coboare"
+        },
+        "conditional": {
+          "eu": "aș coborî",
+          "tu": "ai coborî",
+          "el/ea": "ar coborî",
+          "noi": "am coborî",
+          "voi": "ați coborî",
+          "ei/ele": "ar coborî"
+        },
+        "imperativ": {
+          "tu": "coboară",
+          "voi": "coborâți"
+        }
+      }
+    },
+    {
+      "infinitive": "construi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to build"],
+      "conjugations": {
+        "prezent": {
+          "eu": "construiesc",
+          "tu": "construiești",
+          "el/ea": "construiește",
+          "noi": "construim",
+          "voi": "construiți",
+          "ei/ele": "construiesc"
+        },
+        "perfect_compus": {
+          "eu": "am construit",
+          "tu": "ai construit",
+          "el/ea": "a construit",
+          "noi": "am construit",
+          "voi": "ați construit",
+          "ei/ele": "au construit"
+        },
+        "viitor_literar": {
+          "eu": "voi construi",
+          "tu": "vei construi",
+          "el/ea": "va construi",
+          "noi": "vom construi",
+          "voi": "veți construi",
+          "ei/ele": "vor construi"
+        },
+        "conjunctiv": {
+          "eu": "să construiesc",
+          "tu": "să construiești",
+          "el/ea": "să construiască",
+          "noi": "să construim",
+          "voi": "să construiți",
+          "ei/ele": "să construiască"
+        },
+        "conditional": {
+          "eu": "aș construi",
+          "tu": "ai construi",
+          "el/ea": "ar construi",
+          "noi": "am construi",
+          "voi": "ați construi",
+          "ei/ele": "ar construi"
+        },
+        "imperativ": {
+          "tu": "construiește",
+          "voi": "construiți"
+        }
+      }
+    },
+    {
       "infinitive": "plăti",
       "type": "regular",
       "group": 4,
