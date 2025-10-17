@@ -1,7 +1,7 @@
 {
-  "extends": "./tsconfig.json",
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "./out-tsc/spec",
+    "outDir": "../../dist/out-tsc",
     "types": ["jasmine"],
     "target": "ES2022",
     "module": "ES2022",

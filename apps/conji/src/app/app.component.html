@@ -53,14 +53,14 @@
             <div class="verb-meta-grid">
               <div class="verb-forms" *ngIf="verb.conjugations?.prezent">
                 <div>
-                  <strong>eu:</strong> {{ verb.conjugations.prezent.eu || "—" }}
+                  <strong>eu:</strong> {{ verb.conjugations.prezent.eu || '—' }}
                 </div>
                 <div>
-                  <strong>tu:</strong> {{ verb.conjugations.prezent.tu || "—" }}
+                  <strong>tu:</strong> {{ verb.conjugations.prezent.tu || '—' }}
                 </div>
                 <div>
                   <strong>el/ea:</strong>
-                  {{ verb.conjugations.prezent["el/ea"] || "—" }}
+                  {{ verb.conjugations.prezent['el/ea'] || '—' }}
                 </div>
               </div>
 
@@ -169,7 +169,7 @@
     >
       <div class="popup-header">
         <h2>
-          {{ selectedVerb?.infinitive ?? "-" }}
+          {{ selectedVerb?.infinitive ?? '-' }}
           <div
             class="popup-subgroup small"
             *ngIf="getSubgroupInfo(selectedVerb) as subgroupInfo"
@@ -226,13 +226,13 @@
               •
               {{
                 {
-                  prezent: "Present",
-                  perfect_compus: "Present Perfect",
-                  viitor_literar: "Future (Literary)",
-                  viitor_familiar: "Future (Familiar)",
-                  conjunctiv: "Subjunctive",
-                  conditional: "Conditional",
-                  imperativ: "Imperative"
+                  prezent: 'Present',
+                  perfect_compus: 'Present Perfect',
+                  viitor_literar: 'Future (Literary)',
+                  viitor_familiar: 'Future (Familiar)',
+                  conjunctiv: 'Subjunctive',
+                  conditional: 'Conditional',
+                  imperativ: 'Imperative'
                 }[tense]
               }}
             </span>
@@ -279,7 +279,7 @@
                   tabindex="0"
                   role="button"
                 >
-                  {{ getConjugationAsString("imperativ", person) }}
+                  {{ getConjugationAsString('imperativ', person) }}
                 </span>
               </li>
             </ul>

@@ -3,13 +3,18 @@
   "version": "1.0.0-alpha.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "start": "nx serve conji",
+    "watch": "nx build conji --watch --configuration development",
+    "test": "nx test conji",
+    "reset": "nx reset",
+    "lintall": "npx eslint . --ignore-pattern \".angular/*\"",
+    "lint": "nx lint conji --fix",
+    "test:ci": "nx test --watch=false",
+    "build": "nx build conji",
+    "show-config": "cd apps/conji & tsc --showConfig",
+    "update": "nx migrate latest",
     "deploy": "node deploy/deploy.js",
-    "prepare": "husky",
-    "lint": "ng lint"
+    "prepare": "husky"
   },
   "private": true,
   "dependencies": {
@@ -28,8 +33,17 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.1.2",
+    "@angular-devkit/core": "^18.1.2",
+    "@angular-devkit/schematics": "^18.1.2",
     "@angular/cli": "^18.1.2",
     "@angular/compiler-cli": "^18.1.0",
+    "@nx/angular": "21.6.5",
+    "@nx/js": "21.6.5",
+    "@nx/workspace": "21.6.5",
+    "@schematics/angular": "^18.1.2",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
     "@types/jasmine": "~5.1.0",
     "angular-cli-ghpages": "^2.0.3",
     "angular-eslint": "20.2.0",
@@ -42,6 +56,8 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "nx": "21.6.5",
+    "prettier": "^2.6.2",
     "typescript": "~5.5.2",
     "typescript-eslint": "8.40.0"
   }

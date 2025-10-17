@@ -1,0 +1,111 @@
+{
+  "name": "conji",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "generators": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  },
+  "sourceRoot": "apps/conji/src",
+  "prefix": "app",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:application",
+      "options": {
+        "outputPath": "dist/apps/conji",
+        "index": "apps/conji/src/index.html",
+        "browser": "apps/conji/src/main.ts",
+        "polyfills": ["zone.js"],
+        "tsConfig": "apps/conji/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "apps/conji/public"
+          }
+        ],
+        "styles": ["apps/conji/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/conji/src/environments/environment.ts",
+              "with": "apps/conji/src/environments/environment.prod.ts"
+            }
+          ],
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "1500kB",
+              "maximumError": "16MB"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kB",
+              "maximumError": "32kB"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "optimization": false,
+          "extractLicenses": false,
+          "sourceMap": true
+        },
+        "release": {
+          "fileReplacements": [
+            {
+              "replace": "apps/conji/src/environments/environment.ts",
+              "with": "apps/conji/src/environments/environment.release.ts"
+            }
+          ]
+        }
+      },
+      "defaultConfiguration": "production",
+      "outputs": ["{options.outputPath}"]
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "buildTarget": "conji:build:production"
+        },
+        "development": {
+          "buildTarget": "conji:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n"
+    },
+    "test": {
+      "executor": "@angular-devkit/build-angular:karma",
+      "options": {
+        "polyfills": ["zone.js", "zone.js/testing"],
+        "tsConfig": "apps/conji/tsconfig.spec.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "apps/conji/public"
+          }
+        ],
+        "styles": ["apps/conji/src/styles.scss"],
+        "scripts": []
+      }
+    },
+    "deploy": {
+      "executor": "angular-cli-ghpages:deploy"
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "options": {
+        "lintFilePatterns": ["apps/conji/**/*.ts", "apps/conji/**/*.html"]
+      }
+    }
+  }
+}

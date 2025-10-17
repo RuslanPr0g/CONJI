@@ -8,9 +8,8 @@ describe('GuessVerbsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [GuessVerbsComponent]
-    })
-    .compileComponents();
+      imports: [GuessVerbsComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(GuessVerbsComponent);
     component = fixture.componentInstance;

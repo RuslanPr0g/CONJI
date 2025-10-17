@@ -25,12 +25,16 @@
     "useDefineForClassFields": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "paths": {},
+    "baseUrl": ".",
+    "rootDir": "."
   },
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
     "enableI18nLegacyMessageIdFormat": false
-  }
+  },
+  "exclude": ["node_modules", "tmp"]
 }
