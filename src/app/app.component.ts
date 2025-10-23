@@ -36,6 +36,7 @@ export interface VerbGroup {
 
 export interface Verb {
   infinitive: string;
+  ignoreInGames?: 'conjugation'[];
   infinitive_translated?: string[];
   conjugations: Conjugations;
   type?: 'regular' | 'irregular';

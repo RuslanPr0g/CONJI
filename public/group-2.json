@@ -2,6 +2,56 @@
   "group": "Grupa a II-a - terminat în -ea",
   "verbs": [
     {
+      "infinitive": "a se durea",
+      "type": "irregular",
+      "group": 2,
+      "subgroup": 2,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to hurt", "to ache"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă doare",
+          "tu": "te doare",
+          "el/ea": "îl/o doare",
+          "noi": "ne doare",
+          "voi": "vă doare",
+          "ei/ele": "îi/Le dor"
+        },
+        "perfect_compus": {
+          "eu": "m-a durut",
+          "tu": "te-a durut",
+          "el/ea": "l-a/o a durut",
+          "noi": "ne-a durut",
+          "voi": "v-a durut",
+          "ei/ele": "i-au durut"
+        },
+        "viitor_literar": {
+          "eu": "mă va durea",
+          "tu": "te va durea",
+          "el/ea": "îl/o va durea",
+          "noi": "ne va durea",
+          "voi": "vă va durea",
+          "ei/ele": "îi vor durea"
+        },
+        "conjunctiv": {
+          "eu": "să mă doară",
+          "tu": "să te doară",
+          "el/ea": "să-l/o doară",
+          "noi": "să ne doară",
+          "voi": "să vă doară",
+          "ei/ele": "să-i doară"
+        },
+        "conditional": {
+          "eu": "m-ar durea",
+          "tu": "te-ar durea",
+          "el/ea": "l-ar/o ar durea",
+          "noi": "ne-ar durea",
+          "voi": "v-ar durea",
+          "ei/ele": "i-ar durea"
+        }
+      }
+    },
+    {
       "infinitive": "a dispărea",
       "type": "regular",
       "group": 2,

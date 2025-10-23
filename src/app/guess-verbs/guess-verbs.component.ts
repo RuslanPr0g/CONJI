@@ -56,7 +56,9 @@ export class GuessVerbsComponent implements OnInit {
   }
 
   private buildExercises() {
-    const verbs = this.groups.flatMap((g) => g.verbs);
+    const verbs = this.groups
+      .flatMap((g) => g.verbs)
+      .filter((v) => !v.ignoreInGames?.length);
     const exs: Exercise[] = [];
 
     for (const verb of verbs) {

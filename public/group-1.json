@@ -2,10 +2,63 @@
   "group": "Grupa I - terminat în -a",
   "verbs": [
     {
+      "infinitive": "a lăsa",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to leave", "to let"],
+      "conjugations": {
+        "prezent": {
+          "eu": "las",
+          "tu": "lași",
+          "el/ea": "lasă",
+          "noi": "lăsăm",
+          "voi": "lăsați",
+          "ei/ele": "lasă"
+        },
+        "perfect_compus": {
+          "eu": "am lăsat",
+          "tu": "ai lăsat",
+          "el/ea": "a lăsat",
+          "noi": "am lăsat",
+          "voi": "ați lăsat",
+          "ei/ele": "au lăsat"
+        },
+        "viitor_literar": {
+          "eu": "voi lăsa",
+          "tu": "vei lăsa",
+          "el/ea": "va lăsa",
+          "noi": "vom lăsa",
+          "voi": "veți lăsa",
+          "ei/ele": "vor lăsa"
+        },
+        "conjunctiv": {
+          "eu": "să las",
+          "tu": "să lași",
+          "el/ea": "să lase",
+          "noi": "să lăsăm",
+          "voi": "să lăsați",
+          "ei/ele": "să lase"
+        },
+        "conditional": {
+          "eu": "aș lăsa",
+          "tu": "ai lăsa",
+          "el/ea": "ar lăsa",
+          "noi": "am lăsa",
+          "voi": "ați lăsa",
+          "ei/ele": "ar lăsa"
+        },
+        "imperativ": {
+          "tu": "lasă",
+          "voi": "lăsați"
+        }
+      }
+    },
+    {
       "infinitive": "întreba",
       "type": "regular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 2,
       "infinitive_translated": ["to ask"],
       "conjugations": {
         "prezent": {
@@ -112,6 +165,7 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
+      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to check in", "to lodge"],
       "conjugations": {
         "prezent": {

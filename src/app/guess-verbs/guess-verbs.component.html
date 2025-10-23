@@ -1,5 +1,6 @@
 <div class="game-container">
   <div class="card">
+    @if (currentExercise) {
     <div class="verb-display">
       {{ currentExercise.question }}
     </div>
@@ -26,5 +27,6 @@
     </div>
 
     <div class="counter">Rămas de rezolvat: {{ exercisesLeftAmount }}</div>
+    } @else { Nu au fost găsite exerciții. }
   </div>
 </div>
