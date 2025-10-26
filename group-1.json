@@ -2,6 +2,67 @@
   "group": "Grupa I - terminat în -a",
   "verbs": [
     {
+      "infinitive": "a achita",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to pay", "to settle (a payment)"],
+      "conjugations": {
+        "prezent": {
+          "eu": "achit",
+          "tu": "achiți",
+          "el/ea": "achită",
+          "noi": "achităm",
+          "voi": "achitați",
+          "ei/ele": "achită"
+        },
+        "perfect_compus": {
+          "eu": "am achitat",
+          "tu": "ai achitat",
+          "el/ea": "a achitat",
+          "noi": "am achitat",
+          "voi": "ați achitat",
+          "ei/ele": "au achitat"
+        },
+        "viitor_literar": {
+          "eu": "voi achita",
+          "tu": "vei achita",
+          "el/ea": "va achita",
+          "noi": "vom achita",
+          "voi": "veți achita",
+          "ei/ele": "vor achita"
+        },
+        "viitor_familiar": {
+          "eu": "o să achit",
+          "tu": "o să achiți",
+          "el/ea": "o să achite",
+          "noi": "o să achităm",
+          "voi": "o să achitați",
+          "ei/ele": "o să achite"
+        },
+        "conjunctiv": {
+          "eu": "să achit",
+          "tu": "să achiți",
+          "el/ea": "să achite",
+          "noi": "să achităm",
+          "voi": "să achitați",
+          "ei/ele": "să achite"
+        },
+        "conditional": {
+          "eu": "aș achita",
+          "tu": "ai achita",
+          "el/ea": "ar achita",
+          "noi": "am achita",
+          "voi": "ați achita",
+          "ei/ele": "ar achita"
+        },
+        "imperativ": {
+          "tu": "achită",
+          "voi": "achitați"
+        }
+      }
+    },
+    {
       "infinitive": "a lăsa",
       "type": "regular",
       "group": 1,
