@@ -2,6 +2,68 @@
   "group": "Grupa I - terminat în -a",
   "verbs": [
     {
+      "infinitive": "a se uita",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to look", "to watch"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă uit",
+          "tu": "te uiți",
+          "el/ea": "se uită",
+          "noi": "ne uităm",
+          "voi": "vă uitați",
+          "ei/ele": "se uită"
+        },
+        "perfect_compus": {
+          "eu": "m-am uitat",
+          "tu": "te-ai uitat",
+          "el/ea": "s-a uitat",
+          "noi": "ne-am uitat",
+          "voi": "v-ați uitat",
+          "ei/ele": "s-au uitat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi uita",
+          "tu": "te vei uita",
+          "el/ea": "se va uita",
+          "noi": "ne vom uita",
+          "voi": "vă veți uita",
+          "ei/ele": "se vor uita"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă uit",
+          "tu": "o să te uiți",
+          "el/ea": "o să se uite",
+          "noi": "o să ne uităm",
+          "voi": "o să vă uitați",
+          "ei/ele": "o să se uite"
+        },
+        "conjunctiv": {
+          "eu": "să mă uit",
+          "tu": "să te uiți",
+          "el/ea": "să se uite",
+          "noi": "să ne uităm",
+          "voi": "să vă uitați",
+          "ei/ele": "să se uite"
+        },
+        "conditional": {
+          "eu": "m-aș uita",
+          "tu": "te-ai uita",
+          "el/ea": "s-ar uita",
+          "noi": "ne-am uita",
+          "voi": "v-ați uita",
+          "ei/ele": "s-ar uita"
+        },
+        "imperativ": {
+          "tu": "uită-te",
+          "voi": "uitați-vă"
+        }
+      }
+    },
+    {
       "infinitive": "a achita",
       "type": "regular",
       "group": 1,

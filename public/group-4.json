@@ -2,6 +2,68 @@
   "group": "Grupa a IV-a - terminat în -i/î",
   "verbs": [
     {
+      "infinitive": "a se simți",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to feel"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă simt",
+          "tu": "te simți",
+          "el/ea": "se simte",
+          "noi": "ne simțim",
+          "voi": "vă simțiți",
+          "ei/ele": "se simt"
+        },
+        "perfect_compus": {
+          "eu": "m-am simțit",
+          "tu": "te-ai simțit",
+          "el/ea": "s-a simțit",
+          "noi": "ne-am simțit",
+          "voi": "v-ați simțit",
+          "ei/ele": "s-au simțit"
+        },
+        "viitor_literar": {
+          "eu": "mă voi simți",
+          "tu": "te vei simți",
+          "el/ea": "se va simți",
+          "noi": "ne vom simți",
+          "voi": "vă veți simți",
+          "ei/ele": "se vor simți"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă simt",
+          "tu": "o să te simți",
+          "el/ea": "o să se simtă",
+          "noi": "o să ne simțim",
+          "voi": "o să vă simțiți",
+          "ei/ele": "o să se simtă"
+        },
+        "conjunctiv": {
+          "eu": "să mă simt",
+          "tu": "să te simți",
+          "el/ea": "să se simtă",
+          "noi": "să ne simțim",
+          "voi": "să vă simțiți",
+          "ei/ele": "să se simtă"
+        },
+        "conditional": {
+          "eu": "m-aș simți",
+          "tu": "te-ai simți",
+          "el/ea": "s-ar simți",
+          "noi": "ne-am simți",
+          "voi": "v-ați simți",
+          "ei/ele": "s-ar simți"
+        },
+        "imperativ": {
+          "tu": "simte-te",
+          "voi": "simțiți-vă"
+        }
+      }
+    },
+    {
       "infinitive": "oferi",
       "type": "regular",
       "group": 4,
