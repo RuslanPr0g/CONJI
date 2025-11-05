@@ -8,11 +8,12 @@ on:
 
 jobs:
   angular:
-    name: Angular Build
+    name: Angular Build & Test
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [20.x]
+
     steps:
       - name: Checkout the source code
         uses: actions/checkout@v3
@@ -25,5 +26,10 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Clean install dependencies
-        working-directory: .
-        run: npm install
+        run: npm ci
+
+      - name: Run Angular tests
+        run: npm run test -- --watch=false --browsers=ChromeHeadless
+
+      - name: Build Angular app
+        run: npm run build -- --configuration production
