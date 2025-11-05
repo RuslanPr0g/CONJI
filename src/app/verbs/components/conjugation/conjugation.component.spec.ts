@@ -10,6 +10,7 @@ import {
   getGroupFileNames,
   getGroupInformationFileName,
 } from '../../const/files.const';
+import { LoadVerbResourcesService } from '../../services/load-verb-resources.service';
 
 describe('ConjugationComponent', () => {
   let httpMock: HttpTestingController;
@@ -17,7 +18,11 @@ describe('ConjugationComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [ConjugationComponent],
-      providers: [provideHttpClient(), provideHttpClientTesting()],
+      providers: [
+        provideHttpClient(),
+        provideHttpClientTesting(),
+        LoadVerbResourcesService,
+      ],
     }).compileComponents();
 
     httpMock = TestBed.inject(HttpTestingController);
