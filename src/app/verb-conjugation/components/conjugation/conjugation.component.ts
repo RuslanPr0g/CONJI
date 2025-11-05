@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import {
   Component,
   ElementRef,
@@ -7,7 +6,7 @@ import {
   OnInit,
   ViewChild,
 } from '@angular/core';
-import { debounceTime, distinctUntilChanged, forkJoin, take } from 'rxjs';
+import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule, FormControl } from '@angular/forms';
 import { environment } from '../../../../environments/environment';
@@ -20,6 +19,11 @@ import { VerbInformationGroup } from '../../models/verb-information-group.model'
 import { VerbInformationSubgroup } from '../../models/verb-information-subgroup.model';
 import { Verb } from '../../models/verb.model';
 import { GuessVerbsComponent } from '../guess-verbs/guess-verbs.component';
+import { LoadResourcesService } from '../../services/load-verb-resources.service';
+import {
+  getGroupFileNames,
+  getGroupInformationFileName,
+} from '../../const/files.const';
 
 @Component({
   selector: 'app-conjugation',
@@ -58,7 +62,7 @@ export class ConjugationComponent implements OnInit {
 
   isGamingMode = false;
 
-  http = inject(HttpClient);
+  loadVerbsService = inject(LoadResourcesService);
 
   releaseVersion = environment.releaseVersion;
 
@@ -94,43 +98,15 @@ export class ConjugationComponent implements OnInit {
   ngOnInit(): void {
     const isProd = environment.production;
 
-    const groupFiles = [
-      { order: 1, file: isProd ? 'group-1.min.json' : 'group-1.json' },
-      { order: 2, file: isProd ? 'group-2.min.json' : 'group-2.json' },
-      { order: 3, file: isProd ? 'group-3.min.json' : 'group-3.json' },
-      { order: 4, file: isProd ? 'group-4.min.json' : 'group-4.json' },
-    ];
+    this.loadVerbsService
+      .getVerbGroups(getGroupFileNames(isProd).map((f) => f.file))
+      .subscribe((groups: VerbGroup[]) => {
+        this.groupedVerbs = groups;
+        this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs);
+      });
 
-    const groupInformationFile = isProd
-      ? 'group-information.min.json'
-      : 'group-information.json';
-
-    const requests = groupFiles.map((g) =>
-      this.http.get<VerbGroup>(g.file).pipe(take(1))
-    );
-
-    forkJoin(requests).subscribe((groups: VerbGroup[]) => {
-      for (const group of groups) {
-        const seen = new Set<string>();
-        group.verbs = group.verbs.filter((verb) => {
-          const key = verb.infinitive || JSON.stringify(verb);
-          if (!seen.has(key)) {
-            seen.add(key);
-            if (!verb.type) {
-              verb.type = 'regular';
-            }
-            return true;
-          }
-          return false;
-        });
-      }
-      this.groupedVerbs = groups;
-      this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs);
-    });
-
-    this.http
-      .get<VerbInformationGroup[]>(groupInformationFile)
-      .pipe(take(1))
+    this.loadVerbsService
+      .getGroupInformation(getGroupInformationFileName(isProd))
       .subscribe((info: VerbInformationGroup[]) => {
         this.groupInformation = info;
       });

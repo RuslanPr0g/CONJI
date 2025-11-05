@@ -7,6 +7,10 @@ import { fakeAsync, TestBed, tick } from '@angular/core/testing';
 import { VerbGroup } from '../../models/verb-group.model';
 import { VerbInformationGroup } from '../../models/verb-information-group.model';
 import { ConjugationComponent } from './conjugation.component';
+import {
+  getGroupFileNames,
+  getGroupInformationFileName,
+} from '../../const/files.const';
 
 describe('ConjugationComponent', () => {
   let httpMock: HttpTestingController;
@@ -276,40 +280,47 @@ describe('ConjugationComponent', () => {
     expect(filtered).not.toContain('a vedea');
   }));
 
-  describe('Public assets loading', () => {
-    let http: HttpClient;
-
-    beforeEach(async () => {
-      await TestBed.configureTestingModule({
-        providers: [provideHttpClient()],
-      }).compileComponents();
-
-      http = TestBed.inject(HttpClient);
-    });
-
-    const publicFiles = [
-      'group-1.json',
-      'group-2.json',
-      'group-3.json',
-      'group-4.json',
-      'group-information.json',
-    ];
-
-    for (const file of publicFiles) {
-      it(`should load ${file} from the public/assets folder`, (done) => {
-        http.get(`/${file}`).subscribe({
-          next: (data) => {
-            expect(data).toBeTruthy();
-            done();
-          },
-          error: () => {
-            fail(
-              `${file} could not be loaded from /public or /assets — check angular.json "assets" config`
-            );
-            done();
-          },
-        });
-      });
-    }
+  describe('Public assets loading for dev env', () => {
+    testPublicAssetsLoading(false);
   });
+
+  describe('Public assets loading for prod env', () => {
+    testPublicAssetsLoading(true);
+  });
+
+  function testPublicAssetsLoading(isProd: boolean) {
+    describe(`Public assets loading for ${isProd ? 'prod' : 'dev'} env`, () => {
+      let http: HttpClient;
+
+      beforeEach(async () => {
+        await TestBed.configureTestingModule({
+          providers: [provideHttpClient()],
+        }).compileComponents();
+
+        http = TestBed.inject(HttpClient);
+      });
+
+      const publicFiles = [
+        ...getGroupInformationFileName(isProd),
+        ...getGroupFileNames(isProd).map((o) => o.file),
+      ];
+
+      for (const file of publicFiles) {
+        it(`should load ${file} from the public/assets folder`, (done) => {
+          http.get(`/${file}`).subscribe({
+            next: (data) => {
+              expect(data).toBeTruthy();
+              done();
+            },
+            error: () => {
+              fail(
+                `${file} could not be loaded from /public or /assets — check angular.json "assets" config`
+              );
+              done();
+            },
+          });
+        });
+      }
+    });
+  }
 });

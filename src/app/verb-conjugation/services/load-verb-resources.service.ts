@@ -1,12 +1,20 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { VerbGroup } from '../models/verb-group.model';
-import { forkJoin, map, Observable } from 'rxjs';
+import { forkJoin, map, Observable, take } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+import { VerbInformationGroup } from '../models/verb-information-group.model';
 
 @Injectable({
   providedIn: 'root',
 })
 export class LoadResourcesService {
-  getVerbGroups(requests: Observable<VerbGroup>[]) {
+  http = inject(HttpClient);
+
+  getVerbGroups(files: string[]) {
+    const requests = files.map((file) =>
+      this.http.get<VerbGroup>(file).pipe(take(1))
+    );
+
     return forkJoin(requests).pipe(
       map((groups) =>
         groups.map((group) => {
@@ -24,5 +32,9 @@ export class LoadResourcesService {
         })
       )
     );
+  }
+
+  getGroupInformation(file: string): Observable<VerbInformationGroup[]> {
+    return this.http.get<VerbInformationGroup[]>(file).pipe(take(1));
   }
 }
