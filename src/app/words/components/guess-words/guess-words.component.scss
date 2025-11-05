@@ -1,0 +1,119 @@
+$color-bg-gradient-start: #1a1a1a;
+$color-bg-gradient-end: #121212;
+$color-card-bg: rgba(30, 30, 30, 0.6);
+$color-text-main: #ffffff;
+$color-text-placeholder: rgba(255, 255, 255, 0.5);
+$color-correct: #4ade80;
+$color-wrong: #f87171;
+$color-counter: #e0e0e0;
+$shadow-card: rgba(0, 0, 0, 0.5);
+$shadow-card-hover: rgba(0, 0, 0, 0.7);
+$font-family-main: "Segoe UI", "Roboto", sans-serif;
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background: linear-gradient(
+    135deg,
+    $color-bg-gradient-start,
+    $color-bg-gradient-end
+  );
+  font-family: $font-family-main;
+  padding: 1rem;
+
+  @media (max-width: 480px) {
+    padding: 4px;
+  }
+}
+
+.card {
+  background: $color-card-bg;
+  backdrop-filter: blur(15px);
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 40px $shadow-card;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    box-shadow: 0 15px 50px $shadow-card-hover;
+    transform: translateY(-3px);
+  }
+
+  @media (max-width: 480px) {
+    padding: 1rem 1rem;
+  }
+}
+
+.verb-display {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: $color-text-main;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.guess-input {
+  width: 70%;
+  padding: 0.7rem 1rem;
+  border-radius: 0.6rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: $color-text-main;
+  text-align: center;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+
+  &::placeholder {
+    color: $color-text-placeholder;
+  }
+
+  &:focus {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+  }
+}
+
+.message {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  min-height: 1.5rem;
+
+  &.correct {
+    color: $color-correct;
+    text-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+  }
+
+  &.wrong {
+    color: $color-wrong;
+    text-shadow: 0 0 10px rgba(248, 113, 113, 0.5);
+  }
+}
+
+.counter {
+  font-size: 0.95rem;
+  color: $color-counter;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+
+  @media (max-width: 480px) {
+    font-size: 0.85rem;
+  }
+}

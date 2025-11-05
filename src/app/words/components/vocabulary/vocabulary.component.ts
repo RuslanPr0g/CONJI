@@ -10,17 +10,17 @@ import { CommonModule } from '@angular/common';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { environment } from '../../../../environments/environment';
-import { AddToPrefixPipe } from '../../../shared/pipes/add-to-prefix.pipe';
 import { LoadWordResourcesService } from '../../services/load-word-resources.service';
 import { getWordsFileName } from '../../const/files.const';
 import { Word } from '../../models/word.model';
 import { Router } from '@angular/router';
 import { NavigationConst } from '../../../shared/const/navigation.const';
+import { GuessWordsComponent } from '../guess-words/guess-words.component';
 
 @Component({
   selector: 'app-vocabulary',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule, AddToPrefixPipe],
+  imports: [CommonModule, ReactiveFormsModule, GuessWordsComponent],
   templateUrl: './vocabulary.component.html',
   styleUrl: './vocabulary.component.scss',
 })
@@ -35,6 +35,8 @@ export class VocabularyComponent implements OnInit {
 
   releaseVersion = environment.releaseVersion;
 
+  isGamingMode = false;
+
   private loadService = inject(LoadWordResourcesService);
 
   private router = inject(Router);
@@ -42,6 +44,19 @@ export class VocabularyComponent implements OnInit {
   @HostListener('document:keydown.escape')
   onEscapePress(): void {
     this.inputRef?.nativeElement.blur();
+  }
+
+  @HostListener('document:keydown', ['$event'])
+  handleGlobalShortcuts(event: KeyboardEvent): void {
+    if (event.ctrlKey && event.key === 'f') {
+      event.preventDefault();
+
+      this.inputRef.nativeElement.focus();
+    } else if (event.ctrlKey && event.key === 'p') {
+      event.preventDefault();
+
+      this.activateGamingMode();
+    }
   }
 
   ngOnInit(): void {
@@ -81,10 +96,14 @@ export class VocabularyComponent implements OnInit {
     });
   }
 
+  closePopup(): void {
+    this.isGamingMode = false;
+  }
+
   activateGamingMode(): void {
-    // if (this.filteredGroups.length > 0) {
-    //   this.isGamingMode = true;
-    // }
+    if (this.filteredWords.length > 0) {
+      this.isGamingMode = true;
+    }
   }
 
   navigateToVerbs(): void {

@@ -47,17 +47,62 @@
   </div>
 </div>
 
+<div
+  *ngIf="isGamingMode"
+  class="popup-overlay"
+  (click)="closePopup()"
+  (keydown.enter)="closePopup()"
+  tabindex="0"
+>
+  <ng-container *ngTemplateOutlet="gamingScreen"></ng-container>
+</div>
+
+<ng-template #gamingScreen>
+  <div
+    class="popup-content glass-card"
+    (click)="$event.stopPropagation()"
+    (keydown.enter)="$event.stopPropagation()"
+    tabindex="0"
+  >
+    <div class="popup-header">
+      <h2>Joacă</h2>
+
+      <div class="popup-translations">
+        Încearcă să ghicești care este cuvântu
+      </div>
+      <ng-template #noPopupTranslations>
+        <small><em>—</em></small>
+      </ng-template>
+
+      <button
+        class="popup-close"
+        (click)="closePopup()"
+        (keydown.enter)="closePopup()"
+        tabindex="0"
+      >
+        ×
+      </button>
+    </div>
+
+    <div class="popup-body">
+      <div class="glass-card">
+        <app-guess-words [words]="filteredWords"> </app-guess-words>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
 <div *ngIf="copiedText" class="copy-toast">Copiat: „{{ copiedText }}”</div>
 
 <ng-container *ngIf="filteredWords.length > 0">
   <div class="float-btn">
-    <!-- <button
+    <button
       class="float-btn-item"
       (click)="activateGamingMode()"
       (keydown.enter)="activateGamingMode()"
     >
       Joacă!
-    </button> -->
+    </button>
 
     <button
       class="float-btn-item verbs-btn"

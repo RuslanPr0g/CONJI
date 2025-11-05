@@ -1,0 +1,32 @@
+<div class="game-container">
+  <div class="card">
+    @if (currentExercise) {
+    <div class="verb-display">
+      {{ currentExercise.question }}
+    </div>
+
+    <input
+      #guessInput
+      [(ngModel)]="guess"
+      (keyup.enter)="submitGuess()"
+      (keyup)="trySubmit()"
+      [maxlength]="50"
+      placeholder="Tastează răspunsul"
+      class="guess-input"
+      [disabled]="loading"
+    />
+
+    <div
+      class="message"
+      [ngClass]="{
+        correct: message === 'Corect!',
+        wrong: message.startsWith('Greșit')
+      }"
+    >
+      {{ message }}
+    </div>
+
+    <div class="counter">Rămas de rezolvat: {{ exercisesLeftAmount }}</div>
+    } @else { Nu au fost găsite exerciții. }
+  </div>
+</div>
