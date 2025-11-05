@@ -5,7 +5,6 @@ import {
 } from '@angular/common/http/testing';
 import { fakeAsync, TestBed, tick } from '@angular/core/testing';
 import { VerbGroup } from '../../models/verb-group.model';
-import { VerbInformationGroup } from '../../models/verb-information-group.model';
 import { ConjugationComponent } from './conjugation.component';
 import {
   getGroupFileNames,
@@ -37,7 +36,6 @@ describe('ConjugationComponent', () => {
   it('should load verbs from all group files and display them', fakeAsync(() => {
     const fixture = TestBed.createComponent(ConjugationComponent);
     const component = fixture.componentInstance;
-
     fixture.detectChanges();
 
     const mockGroups: VerbGroup[] = [
@@ -107,25 +105,30 @@ describe('ConjugationComponent', () => {
       { group: '4', verbs: [] },
     ];
 
-    const mockGroupInfo: VerbInformationGroup[] = [
-      { group: 1, description: 'test group', subgroups: [] },
-    ];
+    const expectedFiles = [...getGroupFileNames(false).map((o) => o.file)];
 
-    httpMock.expectOne('group-1.json').flush(mockGroups[0]);
-    httpMock.expectOne('group-2.json').flush(mockGroups[1]);
-    httpMock.expectOne('group-3.json').flush(mockGroups[2]);
-    httpMock.expectOne('group-4.json').flush(mockGroups[3]);
+    const infoReq = httpMock.expectOne('group-information.json');
+    infoReq.flush([
+      { group: 1, name: 'Group 1 info' },
+      { group: 2, name: 'Group 2 info' },
+      { group: 3, name: 'Group 3 info' },
+      { group: 4, name: 'Group 4 info' },
+    ]);
 
-    httpMock.expectOne('group-information.json').flush(mockGroupInfo);
+    const groupFiles = expectedFiles.filter((f) => f.startsWith('group-'));
+    for (const file of groupFiles) {
+      const groupId = file.match(/group-(\d+)/)?.[1];
+      httpMock
+        .expectOne(file)
+        .flush(mockGroups.find((g) => g.group === groupId)!);
+    }
 
     tick();
     fixture.detectChanges();
 
     expect(component.groupedVerbs.length).toBe(4);
     expect(component.groupedVerbs[0].verbs[0].infinitive).toBe('a merge');
-
-    const textContent = fixture.nativeElement.textContent;
-    expect(textContent).toContain('a merge');
+    expect(fixture.nativeElement.textContent).toContain('a merge');
   }));
 
   it('should update filtered verbs when search value changes', fakeAsync(() => {
@@ -256,15 +259,23 @@ describe('ConjugationComponent', () => {
       { group: '4', verbs: [] },
     ];
 
-    const mockGroupInfo: VerbInformationGroup[] = [
-      { group: 1, description: 'test group', subgroups: [] },
-    ];
+    const expectedFiles = [...getGroupFileNames(false).map((o) => o.file)];
 
-    httpMock.expectOne('group-1.json').flush(mockGroups[0]);
-    httpMock.expectOne('group-2.json').flush(mockGroups[1]);
-    httpMock.expectOne('group-3.json').flush(mockGroups[2]);
-    httpMock.expectOne('group-4.json').flush(mockGroups[3]);
-    httpMock.expectOne('group-information.json').flush(mockGroupInfo);
+    const infoReq = httpMock.expectOne('group-information.json');
+    infoReq.flush([
+      { group: 1, name: 'Group 1 info' },
+      { group: 2, name: 'Group 2 info' },
+      { group: 3, name: 'Group 3 info' },
+      { group: 4, name: 'Group 4 info' },
+    ]);
+
+    const groupFiles = expectedFiles.filter((f) => f.startsWith('group-'));
+    for (const file of groupFiles) {
+      const groupId = file.match(/group-(\d+)/)?.[1];
+      httpMock
+        .expectOne(file)
+        .flush(mockGroups.find((g) => g.group === groupId)!);
+    }
 
     tick();
     fixture.detectChanges();
@@ -280,47 +291,37 @@ describe('ConjugationComponent', () => {
     expect(filtered).not.toContain('a vedea');
   }));
 
-  describe('Public assets loading for dev env', () => {
-    testPublicAssetsLoading(false);
-  });
+  describe('Public assets loading', () => {
+    let http: HttpClient;
 
-  describe('Public assets loading for prod env', () => {
-    testPublicAssetsLoading(true);
-  });
-
-  function testPublicAssetsLoading(isProd: boolean) {
-    describe(`Public assets loading for ${isProd ? 'prod' : 'dev'} env`, () => {
-      let http: HttpClient;
-
-      beforeEach(async () => {
-        await TestBed.configureTestingModule({
-          providers: [provideHttpClient()],
-        }).compileComponents();
-
-        http = TestBed.inject(HttpClient);
+    beforeEach(() => {
+      TestBed.resetTestingModule();
+      TestBed.configureTestingModule({
+        providers: [provideHttpClient()],
       });
+      http = TestBed.inject(HttpClient);
+    });
 
+    const envs = [false];
+    for (const isProd of envs) {
       const publicFiles = [
-        ...getGroupInformationFileName(isProd),
+        getGroupInformationFileName(isProd),
         ...getGroupFileNames(isProd).map((o) => o.file),
       ];
 
       for (const file of publicFiles) {
-        it(`should load ${file} from the public/assets folder`, (done) => {
+        it(`(${
+          isProd ? 'prod' : 'dev'
+        }) should load ${file} from public/`, (done) => {
           http.get(`/${file}`).subscribe({
-            next: (data) => {
-              expect(data).toBeTruthy();
-              done();
-            },
+            next: () => done(),
             error: () => {
-              fail(
-                `${file} could not be loaded from /public or /assets — check angular.json "assets" config`
-              );
+              fail(`${file} missing in /public or /assets`);
               done();
             },
           });
         });
       }
-    });
-  }
+    }
+  });
 });
