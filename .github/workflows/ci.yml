@@ -26,7 +26,8 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Clean install dependencies
-        run: npm ci
+        working-directory: .
+        run: npm install
 
       - name: Run Angular tests
         run: npm run test -- --watch=false --browsers=ChromeHeadless
