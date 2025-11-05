@@ -302,7 +302,7 @@ describe('ConjugationComponent', () => {
             expect(data).toBeTruthy();
             done();
           },
-          error: (err) => {
+          error: () => {
             fail(
               `${file} could not be loaded from /public or /assets — check angular.json "assets" config`
             );

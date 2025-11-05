@@ -1,6 +1,6 @@
 export const getGroupFileNames = (
   isProd: boolean
-): Array<{ order: number; file: string }> => [
+): { order: number; file: string }[] => [
   { order: 1, file: isProd ? 'group-1.min.json' : 'group-1.json' },
   { order: 2, file: isProd ? 'group-2.min.json' : 'group-2.json' },
   { order: 3, file: isProd ? 'group-3.min.json' : 'group-3.json' },
