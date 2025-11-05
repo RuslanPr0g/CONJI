@@ -134,6 +134,10 @@ export class ConjugationComponent implements OnInit {
   }
 
   getGroupInfo(verb: Verb): VerbInformationGroup | undefined {
+    if (!Array.isArray(this.groupInformation)) {
+      return undefined;
+    }
+
     return this.groupInformation.find((g) => g.group === verb.group);
   }
 
@@ -141,7 +145,9 @@ export class ConjugationComponent implements OnInit {
     if (!verb) return null;
 
     const group = this.getGroupInfo(verb);
-    return group?.subgroups.find((sg) => sg.subgroup === verb.subgroup) ?? null;
+    return (
+      group?.subgroups?.find((sg) => sg.subgroup === verb.subgroup) ?? null
+    );
   }
 
   getConjugationAsString(tense: ConjugationKey, person: string): string {
