@@ -109,7 +109,7 @@ export class AppComponent implements OnInit {
 
   releaseVersion = environment.releaseVersion;
 
-  @HostListener('document:keydown.escape', ['$event'])
+  @HostListener('document:keydown.escape')
   onEscapePress(): void {
     if (!this.isGamingMode) {
       this.closePopup();
