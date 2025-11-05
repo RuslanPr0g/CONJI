@@ -2,6 +2,67 @@
   "group": "Grupa a IV-a - terminat în -i/î",
   "verbs": [
     {
+      "infinitive": "a ieși",
+      "type": "irregular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to go out", "to exit"],
+      "conjugations": {
+        "prezent": {
+          "eu": "ies",
+          "tu": "ieși",
+          "el/ea": "iese",
+          "noi": "ieșim",
+          "voi": "ieșiți",
+          "ei/ele": "ies"
+        },
+        "perfect_compus": {
+          "eu": "am ieșit",
+          "tu": "ai ieșit",
+          "el/ea": "a ieșit",
+          "noi": "am ieșit",
+          "voi": "ați ieșit",
+          "ei/ele": "au ieșit"
+        },
+        "viitor_literar": {
+          "eu": "voi ieși",
+          "tu": "vei ieși",
+          "el/ea": "va ieși",
+          "noi": "vom ieși",
+          "voi": "veți ieși",
+          "ei/ele": "vor ieși"
+        },
+        "viitor_familiar": {
+          "eu": "o să ies",
+          "tu": "o să ieși",
+          "el/ea": "o să iasă",
+          "noi": "o să ieșim",
+          "voi": "o să ieșiți",
+          "ei/ele": "o să iasă"
+        },
+        "conjunctiv": {
+          "eu": "să ies",
+          "tu": "să ieși",
+          "el/ea": "să iasă",
+          "noi": "să ieșim",
+          "voi": "să ieșiți",
+          "ei/ele": "să iasă"
+        },
+        "conditional": {
+          "eu": "aș ieși",
+          "tu": "ai ieși",
+          "el/ea": "ar ieși",
+          "noi": "am ieși",
+          "voi": "ați ieși",
+          "ei/ele": "ar ieși"
+        },
+        "imperativ": {
+          "tu": "ieși",
+          "voi": "ieșiți"
+        }
+      }
+    },
+    {
       "infinitive": "a se simți",
       "type": "regular",
       "group": 4,
