@@ -110,8 +110,8 @@ export class VocabularyComponent implements OnInit {
     this.router.navigate([NavigationConst.Conjugation]);
   }
 
-  private getRandomWords(words: Word[], count = 30): Word[] {
-    return [...words].sort(() => Math.random() - 0.5).slice(0, count);
+  private getRandomWords(words: Word[]): Word[] {
+    return [...words].sort(() => Math.random() - 0.5);
   }
 
   private normalize(text: string): string {
