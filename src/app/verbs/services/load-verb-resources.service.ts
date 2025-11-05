@@ -7,7 +7,7 @@ import { VerbInformationGroup } from '../models/verb-information-group.model';
 @Injectable({
   providedIn: 'root',
 })
-export class LoadResourcesService {
+export class LoadVerbResourcesService {
   http = inject(HttpClient);
 
   getVerbGroups(files: string[]) {

@@ -19,11 +19,13 @@ import { VerbInformationGroup } from '../../models/verb-information-group.model'
 import { VerbInformationSubgroup } from '../../models/verb-information-subgroup.model';
 import { Verb } from '../../models/verb.model';
 import { GuessVerbsComponent } from '../guess-verbs/guess-verbs.component';
-import { LoadResourcesService } from '../../services/load-verb-resources.service';
+import { LoadVerbResourcesService } from '../../services/load-verb-resources.service';
 import {
   getGroupFileNames,
   getGroupInformationFileName,
 } from '../../const/files.const';
+import { Router } from '@angular/router';
+import { NavigationConst } from '../../../shared/const/navigation.const';
 
 @Component({
   selector: 'app-conjugation',
@@ -62,7 +64,9 @@ export class ConjugationComponent implements OnInit {
 
   isGamingMode = false;
 
-  loadVerbsService = inject(LoadResourcesService);
+  loadVerbsService = inject(LoadVerbResourcesService);
+
+  router = inject(Router);
 
   releaseVersion = environment.releaseVersion;
 
@@ -215,6 +219,10 @@ export class ConjugationComponent implements OnInit {
     if (this.filteredGroups.length > 0) {
       this.isGamingMode = true;
     }
+  }
+
+  navigateToWords(): void {
+    this.router.navigate([NavigationConst.Vocabulary]);
   }
 
   private getRandomVerbsGroups(groups: VerbGroup[]): VerbGroup[] {

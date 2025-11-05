@@ -1,0 +1,70 @@
+<div class="version">{{ releaseVersion }}</div>
+
+<div class="app-wrapper">
+  <div class="search-bar glass-card">
+    <input
+      #searchInput
+      type="text"
+      [formControl]="searchControl"
+      placeholder="Caută cuvinte"
+    />
+  </div>
+
+  <div class="grid-container">
+    <ng-container *ngIf="filteredWords.length > 0; else noResults">
+      <div
+        class="word-block glass-card"
+        *ngFor="let word of filteredWords"
+        (click)="copyToClipboard(word.value)"
+        tabindex="0"
+        role="button"
+      >
+        <div class="word-value">{{ word.value }}</div>
+        <div
+          class="word-translations"
+          *ngIf="
+            !word.translations || word.translations.length > 0;
+            else noTranslations
+          "
+        >
+          <small>
+            <span
+              *ngFor="let translation of word.translations; let last = last"
+            >
+              {{ translation }}<span *ngIf="!last"> • </span>
+            </span>
+          </small>
+        </div>
+        <ng-template #noTranslations>
+          <small><em>—</em></small>
+        </ng-template>
+      </div>
+    </ng-container>
+
+    <ng-template #noResults>
+      <p class="no-results"><em>Niciun rezultat găsit</em></p>
+    </ng-template>
+  </div>
+</div>
+
+<div *ngIf="copiedText" class="copy-toast">Copiat: „{{ copiedText }}”</div>
+
+<ng-container *ngIf="filteredWords.length > 0">
+  <div class="float-btn">
+    <!-- <button
+      class="float-btn-item"
+      (click)="activateGamingMode()"
+      (keydown.enter)="activateGamingMode()"
+    >
+      Joacă!
+    </button> -->
+
+    <button
+      class="float-btn-item verbs-btn"
+      (click)="navigateToVerbs()"
+      (keydown.enter)="navigateToVerbs()"
+    >
+      Verbe
+    </button>
+  </div>
+</ng-container>
