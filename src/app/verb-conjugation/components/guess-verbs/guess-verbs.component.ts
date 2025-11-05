@@ -6,10 +6,11 @@ import {
   OnInit,
   ViewChild,
 } from '@angular/core';
-import { VerbGroup, Verb } from '../app.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { environment } from '../../environments/environment';
+import { environment } from '../../../../environments/environment';
+import { VerbGroup } from '../../models/verb-group.model';
+import { Verb } from '../../models/verb.model';
 
 interface Exercise {
   question: string;
