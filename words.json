@@ -1,4 +1,11 @@
 [
+  { "value": "fiindcă", "translations": ["because", "since"] },
+  {
+    "value": "din cauză că",
+    "translations": ["because", "due to the fact that"]
+  },
+  { "value": "deoarece", "translations": ["because", "as", "since"] },
+  { "value": "deasupra", "translations": ["above", "over", "on top of"] },
   { "value": "seara", "translations": ["evening"] },
   { "value": "dimineața", "translations": ["morning"] },
   { "value": "carte", "translations": ["book"] },
