@@ -16,6 +16,7 @@ import { Word } from '../../models/word.model';
 import { Router } from '@angular/router';
 import { NavigationConst } from '../../../shared/const/navigation.const';
 import { GuessWordsComponent } from '../guess-words/guess-words.component';
+import { normalize } from '../../../shared/helpers/string.helper';
 
 @Component({
   selector: 'app-vocabulary',
@@ -77,12 +78,12 @@ export class VocabularyComponent implements OnInit {
           return;
         }
 
-        const norm = this.normalize(search);
+        const norm = normalize(search);
         this.filteredWords = this.allWords.filter(
           (w) =>
-            this.normalize(w.value).includes(norm) ||
+            normalize(w.value).includes(norm) ||
             w.translations
-              .map((t) => this.normalize(t))
+              .map((t) => normalize(t))
               .some((t) => t.includes(norm))
         );
       });
@@ -112,12 +113,5 @@ export class VocabularyComponent implements OnInit {
 
   private getRandomWords(words: Word[]): Word[] {
     return [...words].sort(() => Math.random() - 0.5);
-  }
-
-  private normalize(text: string): string {
-    return text
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
   }
 }

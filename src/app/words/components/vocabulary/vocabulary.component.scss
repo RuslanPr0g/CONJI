@@ -291,3 +291,15 @@ textarea {
   color: #888;
   z-index: 1001;
 }
+
+.similar-words {
+  margin-top: 6px;
+  color: #b0dfff;
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+.similar-words .label {
+  font-weight: 600;
+  color: #00bfff;
+}

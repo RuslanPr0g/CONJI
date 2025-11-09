@@ -38,6 +38,17 @@
         <ng-template #noTranslations>
           <small><em>—</em></small>
         </ng-template>
+        <div
+          class="similar-words"
+          *ngIf="word.similarWords && word.similarWords.length > 0"
+        >
+          <small>
+            <span class="label">Exemple similare:</span>
+            <span *ngFor="let similar of word.similarWords; let last = last">
+              {{ similar }}<span *ngIf="!last"> • </span>
+            </span>
+          </small>
+        </div>
       </div>
     </ng-container>
 

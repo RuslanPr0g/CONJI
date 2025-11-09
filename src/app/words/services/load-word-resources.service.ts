@@ -2,6 +2,7 @@ import { inject, Injectable } from '@angular/core';
 import { forkJoin, map, take } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { Word } from '../models/word.model';
+import { normalize } from '../../shared/helpers/string.helper';
 
 @Injectable({
   providedIn: 'root',
@@ -15,20 +16,42 @@ export class LoadWordResourcesService {
     );
 
     return forkJoin(requests).pipe(
-      map((words) => {
+      map((results) => {
+        const flatWords = results.flat();
         const seen = new Set<string>();
-        let flatWords = words.flatMap((word) => word);
-        flatWords = flatWords.filter((word) => {
-          const key = word.value || JSON.stringify(word);
-          if (!seen.has(key)) {
-            seen.add(key);
-            word.translations ??= [];
-            return true;
-          }
-          return false;
-        });
-        return flatWords;
+        const uniqueWords: Word[] = [];
+
+        for (const word of flatWords) {
+          const key = word.value?.trim().toLowerCase();
+          if (!key || seen.has(key)) continue;
+
+          seen.add(key);
+          word.translations ??= [];
+          uniqueWords.push(word);
+        }
+
+        for (const word of uniqueWords) {
+          word.similarWords = this.findSimilarWords(word, uniqueWords);
+        }
+
+        return uniqueWords;
       })
     );
+  }
+
+  private findSimilarWords(word: Word, allWords: Word[]): string[] {
+    if (!word.translations?.length) return [];
+
+    const related = allWords
+      .filter((other) => {
+        if (other.value === word.value) return false;
+        return other.translations.some((t) =>
+          word.translations.some((wt) => normalize(t) === normalize(wt))
+        );
+      })
+      .slice(0, 5)
+      .map((w) => w.value);
+
+    return related;
   }
 }
