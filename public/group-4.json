@@ -2,6 +2,254 @@
   "group": "Grupa a IV-a - terminat în -i/î",
   "verbs": [
     {
+      "infinitive": "a se odihni",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to rest"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă odihnesc",
+          "tu": "te odihnești",
+          "el/ea": "se odihnește",
+          "noi": "ne odihnim",
+          "voi": "vă odihniți",
+          "ei/ele": "se odihnesc"
+        },
+        "perfect_compus": {
+          "eu": "m-am odihnit",
+          "tu": "te-ai odihnit",
+          "el/ea": "s-a odihnit",
+          "noi": "ne-am odihnit",
+          "voi": "v-ați odihnit",
+          "ei/ele": "s-au odihnit"
+        },
+        "viitor_literar": {
+          "eu": "mă voi odihni",
+          "tu": "te vei odihni",
+          "el/ea": "se va odihni",
+          "noi": "ne vom odihni",
+          "voi": "vă veți odihni",
+          "ei/ele": "se vor odihni"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă odihnesc",
+          "tu": "o să te odihnești",
+          "el/ea": "o să se odihnească",
+          "noi": "o să ne odihnim",
+          "voi": "o să vă odihniți",
+          "ei/ele": "o să se odihnească"
+        },
+        "conjunctiv": {
+          "eu": "să mă odihnesc",
+          "tu": "să te odihnești",
+          "el/ea": "să se odihnească",
+          "noi": "să ne odihnim",
+          "voi": "să vă odihniți",
+          "ei/ele": "să se odihnească"
+        },
+        "conditional": {
+          "eu": "m-aș odihni",
+          "tu": "te-ai odihni",
+          "el/ea": "s-ar odihni",
+          "noi": "ne-am odihni",
+          "voi": "v-ați odihni",
+          "ei/ele": "s-ar odihni"
+        },
+        "imperativ": {
+          "tu": "odihnește-te",
+          "voi": "odihniți-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a se gândi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to think"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă gândesc",
+          "tu": "te gândești",
+          "el/ea": "se gândește",
+          "noi": "ne gândim",
+          "voi": "vă gândiți",
+          "ei/ele": "se gândesc"
+        },
+        "perfect_compus": {
+          "eu": "m-am gândit",
+          "tu": "te-ai gândit",
+          "el/ea": "s-a gândit",
+          "noi": "ne-am gândit",
+          "voi": "v-ați gândit",
+          "ei/ele": "s-au gândit"
+        },
+        "viitor_literar": {
+          "eu": "mă voi gândi",
+          "tu": "te vei gândi",
+          "el/ea": "se va gândi",
+          "noi": "ne vom gândi",
+          "voi": "vă veți gândi",
+          "ei/ele": "se vor gândi"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă gândesc",
+          "tu": "o să te gândești",
+          "el/ea": "o să se gândească",
+          "noi": "o să ne gândim",
+          "voi": "o să vă gândiți",
+          "ei/ele": "o să se gândească"
+        },
+        "conjunctiv": {
+          "eu": "să mă gândesc",
+          "tu": "să te gândești",
+          "el/ea": "să se gândească",
+          "noi": "să ne gândim",
+          "voi": "să vă gândiți",
+          "ei/ele": "să se gândească"
+        },
+        "conditional": {
+          "eu": "m-aș gândi",
+          "tu": "te-ai gândi",
+          "el/ea": "s-ar gândi",
+          "noi": "ne-am gândi",
+          "voi": "v-ați gândi",
+          "ei/ele": "s-ar gândi"
+        },
+        "imperativ": {
+          "tu": "gândește-te",
+          "voi": "gândiți-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a se întâlni",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to meet"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă întâlnesc",
+          "tu": "te întâlnești",
+          "el/ea": "se întâlnește",
+          "noi": "ne întâlnim",
+          "voi": "vă întâlniți",
+          "ei/ele": "se întâlnesc"
+        },
+        "perfect_compus": {
+          "eu": "m-am întâlnit",
+          "tu": "te-ai întâlnit",
+          "el/ea": "s-a întâlnit",
+          "noi": "ne-am întâlnit",
+          "voi": "v-ați întâlnit",
+          "ei/ele": "s-au întâlnit"
+        },
+        "viitor_literar": {
+          "eu": "mă voi întâlni",
+          "tu": "te vei întâlni",
+          "el/ea": "se va întâlni",
+          "noi": "ne vom întâlni",
+          "voi": "vă veți întâlni",
+          "ei/ele": "se vor întâlni"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă întâlnesc",
+          "tu": "o să te întâlnești",
+          "el/ea": "o să se întâlnească",
+          "noi": "o să ne întâlnim",
+          "voi": "o să vă întâlniți",
+          "ei/ele": "o să se întâlnească"
+        },
+        "conjunctiv": {
+          "eu": "să mă întâlnesc",
+          "tu": "să te întâlnești",
+          "el/ea": "să se întâlnească",
+          "noi": "să ne întâlnim",
+          "voi": "să vă întâlniți",
+          "ei/ele": "să se întâlnească"
+        },
+        "conditional": {
+          "eu": "m-aș întâlni",
+          "tu": "te-ai întâlni",
+          "el/ea": "s-ar întâlni",
+          "noi": "ne-am întâlni",
+          "voi": "v-ați întâlni",
+          "ei/ele": "s-ar întâlni"
+        },
+        "imperativ": {
+          "tu": "întâlnește-te",
+          "voi": "întâlniți-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a se trezi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to wake up"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă trezesc",
+          "tu": "te trezești",
+          "el/ea": "se trezește",
+          "noi": "ne trezim",
+          "voi": "vă treziți",
+          "ei/ele": "se trezesc"
+        },
+        "perfect_compus": {
+          "eu": "m-am trezit",
+          "tu": "te-ai trezit",
+          "el/ea": "s-a trezit",
+          "noi": "ne-am trezit",
+          "voi": "v-ați trezit",
+          "ei/ele": "s-au trezit"
+        },
+        "viitor_literar": {
+          "eu": "mă voi trezi",
+          "tu": "te vei trezi",
+          "el/ea": "se va trezi",
+          "noi": "ne vom trezi",
+          "voi": "vă veți trezi",
+          "ei/ele": "se vor trezi"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă trezesc",
+          "tu": "o să te trezești",
+          "el/ea": "o să se trezească",
+          "noi": "o să ne trezim",
+          "voi": "o să vă treziți",
+          "ei/ele": "o să se trezească"
+        },
+        "conjunctiv": {
+          "eu": "să mă trezesc",
+          "tu": "să te trezești",
+          "el/ea": "să se trezească",
+          "noi": "să ne trezim",
+          "voi": "să vă treziți",
+          "ei/ele": "să se trezească"
+        },
+        "conditional": {
+          "eu": "m-aș trezi",
+          "tu": "te-ai trezi",
+          "el/ea": "s-ar trezi",
+          "noi": "ne-am trezi",
+          "voi": "v-ați trezi",
+          "ei/ele": "s-ar trezi"
+        },
+        "imperativ": {
+          "tu": "trezește-te",
+          "voi": "treziți-vă"
+        }
+      }
+    },
+    {
       "infinitive": "a ieși",
       "type": "irregular",
       "group": 4,

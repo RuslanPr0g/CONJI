@@ -2,6 +2,68 @@
   "group": "Grupa a III-a - terminat în -e",
   "verbs": [
     {
+      "infinitive": "a se întoarce",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to return"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă întorc",
+          "tu": "te întorci",
+          "el/ea": "se întoarce",
+          "noi": "ne întoarcem",
+          "voi": "vă întoarceți",
+          "ei/ele": "se întorc"
+        },
+        "perfect_compus": {
+          "eu": "m-am întors",
+          "tu": "te-ai întors",
+          "el/ea": "s-a întors",
+          "noi": "ne-am întors",
+          "voi": "v-ați întors",
+          "ei/ele": "s-au întors"
+        },
+        "viitor_literar": {
+          "eu": "mă voi întoarce",
+          "tu": "te vei întoarce",
+          "el/ea": "se va întoarce",
+          "noi": "ne vom întoarce",
+          "voi": "vă veți întoarce",
+          "ei/ele": "se vor întoarce"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă întorc",
+          "tu": "o să te întorci",
+          "el/ea": "o să se întoarcă",
+          "noi": "o să ne întoarcem",
+          "voi": "o să vă întoarceți",
+          "ei/ele": "o să se întoarcă"
+        },
+        "conjunctiv": {
+          "eu": "să mă întorc",
+          "tu": "să te întorci",
+          "el/ea": "să se întoarcă",
+          "noi": "să ne întoarcem",
+          "voi": "să vă întoarceți",
+          "ei/ele": "să se întoarcă"
+        },
+        "conditional": {
+          "eu": "m-aș întoarce",
+          "tu": "te-ai întoarce",
+          "el/ea": "s-ar întoarce",
+          "noi": "ne-am întoarce",
+          "voi": "v-ați întoarce",
+          "ei/ele": "s-ar întoarce"
+        },
+        "imperativ": {
+          "tu": "întoarce-te",
+          "voi": "întoarceți-vă"
+        }
+      }
+    },
+    {
       "infinitive": "a alege",
       "type": "regular",
       "group": 3,
