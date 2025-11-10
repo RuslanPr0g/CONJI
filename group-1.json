@@ -2,6 +2,254 @@
   "group": "Grupa I - terminat în -a",
   "verbs": [
     {
+      "infinitive": "a se plimba",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to take a walk"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă plimb",
+          "tu": "te plimbi",
+          "el/ea": "se plimbă",
+          "noi": "ne plimbăm",
+          "voi": "vă plimbați",
+          "ei/ele": "se plimbă"
+        },
+        "perfect_compus": {
+          "eu": "m-am plimbat",
+          "tu": "te-ai plimbat",
+          "el/ea": "s-a plimbat",
+          "noi": "ne-am plimbat",
+          "voi": "v-ați plimbat",
+          "ei/ele": "s-au plimbat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi plimba",
+          "tu": "te vei plimba",
+          "el/ea": "se va plimba",
+          "noi": "ne vom plimba",
+          "voi": "vă veți plimba",
+          "ei/ele": "se vor plimba"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă plimb",
+          "tu": "o să te plimbi",
+          "el/ea": "o să se plimbe",
+          "noi": "o să ne plimbăm",
+          "voi": "o să vă plimbați",
+          "ei/ele": "o să se plimbe"
+        },
+        "conjunctiv": {
+          "eu": "să mă plimb",
+          "tu": "să te plimbi",
+          "el/ea": "să se plimbe",
+          "noi": "să ne plimbăm",
+          "voi": "să vă plimbați",
+          "ei/ele": "să se plimbe"
+        },
+        "conditional": {
+          "eu": "m-aș plimba",
+          "tu": "te-ai plimba",
+          "el/ea": "s-ar plimba",
+          "noi": "ne-am plimba",
+          "voi": "v-ați plimba",
+          "ei/ele": "s-ar plimba"
+        },
+        "imperativ": {
+          "tu": "plimbă-te",
+          "voi": "plimbați-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a se spăla",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to wash oneself"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă spăl",
+          "tu": "te speli",
+          "el/ea": "se spală",
+          "noi": "ne spălăm",
+          "voi": "vă spălați",
+          "ei/ele": "se spală"
+        },
+        "perfect_compus": {
+          "eu": "m-am spălat",
+          "tu": "te-ai spălat",
+          "el/ea": "s-a spălat",
+          "noi": "ne-am spălat",
+          "voi": "v-ați spălat",
+          "ei/ele": "s-au spălat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi spăla",
+          "tu": "te vei spăla",
+          "el/ea": "se va spăla",
+          "noi": "ne vom spăla",
+          "voi": "vă veți spăla",
+          "ei/ele": "se vor spăla"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă spăl",
+          "tu": "o să te speli",
+          "el/ea": "o să se spele",
+          "noi": "o să ne spălăm",
+          "voi": "o să vă spălați",
+          "ei/ele": "o să se spele"
+        },
+        "conjunctiv": {
+          "eu": "să mă spăl",
+          "tu": "să te speli",
+          "el/ea": "să se spele",
+          "noi": "să ne spălăm",
+          "voi": "să vă spălați",
+          "ei/ele": "să se spele"
+        },
+        "conditional": {
+          "eu": "m-aș spăla",
+          "tu": "te-ai spăla",
+          "el/ea": "s-ar spăla",
+          "noi": "ne-am spăla",
+          "voi": "v-ați spăla",
+          "ei/ele": "s-ar spăla"
+        },
+        "imperativ": {
+          "tu": "spală-te",
+          "voi": "spălați-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a se îmbrăca",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to get dressed"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă îmbrac",
+          "tu": "te îmbraci",
+          "el/ea": "se îmbracă",
+          "noi": "ne îmbrăcăm",
+          "voi": "vă îmbrăcați",
+          "ei/ele": "se îmbracă"
+        },
+        "perfect_compus": {
+          "eu": "m-am îmbrăcat",
+          "tu": "te-ai îmbrăcat",
+          "el/ea": "s-a îmbrăcat",
+          "noi": "ne-am îmbrăcat",
+          "voi": "v-ați îmbrăcat",
+          "ei/ele": "s-au îmbrăcat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi îmbrăca",
+          "tu": "te vei îmbrăca",
+          "el/ea": "se va îmbrăca",
+          "noi": "ne vom îmbrăca",
+          "voi": "vă veți îmbrăca",
+          "ei/ele": "se vor îmbrăca"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă îmbrac",
+          "tu": "o să te îmbraci",
+          "el/ea": "o să se îmbrace",
+          "noi": "o să ne îmbrăcăm",
+          "voi": "o să vă îmbrăcați",
+          "ei/ele": "o să se îmbrace"
+        },
+        "conjunctiv": {
+          "eu": "să mă îmbrac",
+          "tu": "să te îmbraci",
+          "el/ea": "să se îmbrace",
+          "noi": "să ne îmbrăcăm",
+          "voi": "să vă îmbrăcați",
+          "ei/ele": "să se îmbrace"
+        },
+        "conditional": {
+          "eu": "m-aș îmbrăca",
+          "tu": "te-ai îmbrăca",
+          "el/ea": "s-ar îmbrăca",
+          "noi": "ne-am îmbrăca",
+          "voi": "v-ați îmbrăca",
+          "ei/ele": "s-ar îmbrăca"
+        },
+        "imperativ": {
+          "tu": "îmbracă-te",
+          "voi": "îmbrăcați-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a se culca",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to go to bed"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă culc",
+          "tu": "te culci",
+          "el/ea": "se culcă",
+          "noi": "ne culcăm",
+          "voi": "vă culcați",
+          "ei/ele": "se culcă"
+        },
+        "perfect_compus": {
+          "eu": "m-am culcat",
+          "tu": "te-ai culcat",
+          "el/ea": "s-a culcat",
+          "noi": "ne-am culcat",
+          "voi": "v-ați culcat",
+          "ei/ele": "s-au culcat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi culca",
+          "tu": "te vei culca",
+          "el/ea": "se va culca",
+          "noi": "ne vom culca",
+          "voi": "vă veți culca",
+          "ei/ele": "se vor culca"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă culc",
+          "tu": "o să te culci",
+          "el/ea": "o să se culce",
+          "noi": "o să ne culcăm",
+          "voi": "o să vă culcați",
+          "ei/ele": "o să se culce"
+        },
+        "conjunctiv": {
+          "eu": "să mă culc",
+          "tu": "să te culci",
+          "el/ea": "să se culce",
+          "noi": "să ne culcăm",
+          "voi": "să vă culcați",
+          "ei/ele": "să se culce"
+        },
+        "conditional": {
+          "eu": "m-aș culca",
+          "tu": "te-ai culca",
+          "el/ea": "s-ar culca",
+          "noi": "ne-am culca",
+          "voi": "v-ați culca",
+          "ei/ele": "s-ar culca"
+        },
+        "imperativ": {
+          "tu": "culcă-te",
+          "voi": "culcați-vă"
+        }
+      }
+    },
+    {
       "infinitive": "a se uita",
       "type": "regular",
       "group": 1,
