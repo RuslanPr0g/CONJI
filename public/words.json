@@ -7,6 +7,7 @@
   { "value": "deoarece", "translations": ["because", "as", "since"] },
   { "value": "deasupra", "translations": ["above", "over", "on top of"] },
   { "value": "seara", "translations": ["evening"] },
+  { "value": "devreme", "translations": ["early"] },
   { "value": "dimineața", "translations": ["morning"] },
   { "value": "carte", "translations": ["book"] },
   { "value": "masă", "translations": ["table"] },
