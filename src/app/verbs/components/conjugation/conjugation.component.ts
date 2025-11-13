@@ -26,6 +26,7 @@ import {
 } from '../../const/files.const';
 import { Router } from '@angular/router';
 import { NavigationConst } from '../../../shared/const/navigation.const';
+import { normalize } from '../../../shared/helpers/string.helper';
 
 @Component({
   selector: 'app-conjugation',
@@ -282,22 +283,13 @@ export class ConjugationComponent implements OnInit {
       }));
   }
 
-  private normalizeText(text: string): string {
-    return text
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .replace(/đ/g, 'd')
-      .replace(/Đ/g, 'D')
-      .toLowerCase();
-  }
-
   private verbMatchesSearch(verb: Verb, search: string): boolean {
-    const normSearch = this.normalizeText(search);
+    const normSearch = normalize(search);
     if (
-      this.normalizeText(verb.infinitive).includes(normSearch) ||
+      normalize(verb.infinitive).includes(normSearch) ||
       (verb.infinitive_translated &&
         verb.infinitive_translated.some((t) =>
-          this.normalizeText(t).includes(normSearch)
+          normalize(t).includes(normSearch)
         ))
     ) {
       return true;
@@ -315,9 +307,7 @@ export class ConjugationComponent implements OnInit {
           ? Object.values(conjugation as ConjugationSet)
           : Object.values(conjugation as ImperativConjugation);
 
-      if (
-        values.some((form) => this.normalizeText(form).includes(normSearch))
-      ) {
+      if (values.some((form) => normalize(form).includes(normSearch))) {
         return true;
       }
     }

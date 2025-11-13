@@ -3,5 +3,7 @@ export const normalize = (text: string): string => {
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .trim()
+    .replace(/đ/g, 'd')
+    .replace(/Đ/g, 'D')
     .toLowerCase();
 };
