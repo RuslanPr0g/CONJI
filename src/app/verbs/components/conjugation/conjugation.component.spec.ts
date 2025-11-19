@@ -4,13 +4,13 @@ import {
   provideHttpClientTesting,
 } from '@angular/common/http/testing';
 import { fakeAsync, TestBed, tick } from '@angular/core/testing';
-import { VerbGroup } from '../../models/verb-group.model';
-import { ConjugationComponent } from './conjugation.component';
+import { LoadVerbResourcesService } from '../../../shared/services/load-verb-resources.service';
 import {
   getGroupFileNames,
   getGroupInformationFileName,
-} from '../../const/files.const';
-import { LoadVerbResourcesService } from '../../../shared/services/load-verb-resources.service';
+} from '../../../shared/const/files.const';
+import { VerbGroup } from '../../../shared/models/verbs/verb-group.model';
+import { ConjugationComponent } from './conjugation.component';
 
 describe('ConjugationComponent', () => {
   let httpMock: HttpTestingController;

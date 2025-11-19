@@ -6,9 +6,9 @@ import {
 } from '@angular/common/http/testing';
 import { VocabularyComponent } from './vocabulary.component';
 import { environment } from '../../../../environments/environment';
-import { getWordsFileName } from '../../const/files.const';
 import { Word } from '../../../shared/models/words/word.model';
 import { LoadWordResourcesService } from '../../../shared/services/load-word-resources.service';
+import { getWordsFileName } from '../../../shared/const/files.const';
 
 describe('VocabularyComponent', () => {
   let httpMock: HttpTestingController;
