@@ -1,4 +1,10 @@
-import { Component, inject, OnInit } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  inject,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LoadBooksResourcesService } from '../../services/load-books-resources.service';
 import { Book } from '../../models/book.model';
@@ -23,6 +29,8 @@ import { LoadVerbResourcesService } from '../../../shared/services/load-verb-res
   styleUrls: ['./read-book.component.scss'],
 })
 export class ReadBookComponent implements OnInit {
+  @ViewChild('contentWrapper') contentWrapper!: ElementRef<HTMLDivElement>;
+
   private route = inject(ActivatedRoute);
   private loadService = inject(LoadBooksResourcesService);
   private loadWordsService = inject(LoadWordResourcesService);
@@ -155,14 +163,17 @@ export class ReadBookComponent implements OnInit {
     const lastRead = this.storage.get(this.getStorageKey());
     if (!lastRead) return;
     this.loadPage(+lastRead);
+    this.scrollToTop();
   }
 
   nextPage() {
     if (this.currentPage < this.totalPages) this.loadPage(this.currentPage + 1);
+    this.scrollToTop();
   }
 
   prevPage() {
     if (this.currentPage > 1) this.loadPage(this.currentPage - 1);
+    this.scrollToTop();
   }
 
   onTouchStart(event: TouchEvent) {
@@ -184,5 +195,17 @@ export class ReadBookComponent implements OnInit {
         this.prevPage();
       }
     }
+  }
+
+  private scrollToTop() {
+    if (this.contentWrapper) {
+      this.contentWrapper.nativeElement.scrollTop = 0;
+    }
+
+    this.scrollPageToTop();
+  }
+
+  private scrollPageToTop() {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }
 }
