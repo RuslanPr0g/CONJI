@@ -4,8 +4,16 @@ import { LoadBooksResourcesService } from '../../services/load-books-resources.s
 import { Book } from '../../models/book.model';
 import { CommonModule } from '@angular/common';
 import { environment } from '../../../../environments/environment';
-import { getBooksFileName } from '../../const/files.const';
+import {
+  getBooksFileName,
+  getGroupFileNames,
+  getWordsFileName,
+} from '../../../shared/const/files.const';
 import { LocalStorageService } from '../../../shared/services/local-storage.service';
+import { TranslatorService } from '../../../shared/services/translator.service';
+import { forkJoin } from 'rxjs';
+import { LoadWordResourcesService } from '../../../shared/services/load-word-resources.service';
+import { LoadVerbResourcesService } from '../../../shared/services/load-verb-resources.service';
 
 @Component({
   selector: 'app-read-book',
@@ -17,7 +25,10 @@ import { LocalStorageService } from '../../../shared/services/local-storage.serv
 export class ReadBookComponent implements OnInit {
   private route = inject(ActivatedRoute);
   private loadService = inject(LoadBooksResourcesService);
+  private loadWordsService = inject(LoadWordResourcesService);
+  private loadVerbsService = inject(LoadVerbResourcesService);
   private storage = inject(LocalStorageService);
+  private translator = inject(TranslatorService);
 
   book: Book | undefined;
   currentPage = 1;
@@ -25,6 +36,9 @@ export class ReadBookComponent implements OnInit {
   totalPages = 0;
   loading = false;
   error = '';
+
+  selection?: string;
+  translation?: string;
 
   showLastReadButton = false;
 
@@ -52,6 +66,36 @@ export class ReadBookComponent implements OnInit {
       },
       error: () => (this.error = 'Failed to load books'),
     });
+
+    forkJoin([
+      this.loadWordsService.getWords([getWordsFileName(isProd)]),
+      this.loadVerbsService.getVerbGroups(
+        getGroupFileNames(isProd).map((f) => f.file)
+      ),
+    ]).subscribe({
+      next: ([words, verbGroups]) => {
+        this.translator.init(words, verbGroups);
+      },
+    });
+  }
+
+  translateSelection() {
+    const selection = window.getSelection()?.toString().trim();
+    if (!selection) {
+      this.selection = undefined;
+      this.translation = undefined;
+      return;
+    }
+
+    const translated = this.translator.translateText(selection);
+
+    if (selection !== translated) {
+      this.selection = selection;
+      this.translation = translated;
+    } else {
+      this.selection = undefined;
+      this.translation = undefined;
+    }
   }
 
   private getStorageKey(): string {
@@ -59,7 +103,9 @@ export class ReadBookComponent implements OnInit {
   }
 
   private loadLastReadOrFirstPage() {
-    if (!this.book) return;
+    if (!this.book) {
+      return;
+    }
 
     const lastRead = this.storage.get(this.getStorageKey());
     if (lastRead && +lastRead !== this.currentPage) {
@@ -70,8 +116,12 @@ export class ReadBookComponent implements OnInit {
   }
 
   loadPage(pageNumber: number, save = true) {
-    if (!this.book) return;
-    if (pageNumber < 1 || pageNumber > this.totalPages) return;
+    if (!this.book) {
+      return;
+    }
+    if (pageNumber < 1 || pageNumber > this.totalPages) {
+      return;
+    }
 
     this.loading = true;
     this.loadService.loadBookPage(this.book, pageNumber).subscribe({

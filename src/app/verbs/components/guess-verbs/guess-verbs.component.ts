@@ -9,8 +9,8 @@ import {
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { environment } from '../../../../environments/environment';
-import { VerbGroup } from '../../models/verb-group.model';
-import { Verb } from '../../models/verb.model';
+import { VerbGroup } from '../../../shared/models/verbs/verb-group.model';
+import { Verb } from '../../../shared/models/verbs/verb.model';
 
 interface Exercise {
   question: string;

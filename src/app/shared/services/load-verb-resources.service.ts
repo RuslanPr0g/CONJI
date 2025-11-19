@@ -1,8 +1,8 @@
 import { inject, Injectable } from '@angular/core';
-import { VerbGroup } from '../models/verb-group.model';
 import { forkJoin, map, Observable, take } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { VerbInformationGroup } from '../models/verb-information-group.model';
+import { VerbGroup } from '../models/verbs/verb-group.model';
+import { VerbInformationGroup } from '../models/verbs/verb-information-group.model';
 
 @Injectable({
   providedIn: 'root',

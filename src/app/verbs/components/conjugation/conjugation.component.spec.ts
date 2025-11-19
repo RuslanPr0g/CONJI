@@ -10,7 +10,7 @@ import {
   getGroupFileNames,
   getGroupInformationFileName,
 } from '../../const/files.const';
-import { LoadVerbResourcesService } from '../../services/load-verb-resources.service';
+import { LoadVerbResourcesService } from '../../../shared/services/load-verb-resources.service';
 
 describe('ConjugationComponent', () => {
   let httpMock: HttpTestingController;

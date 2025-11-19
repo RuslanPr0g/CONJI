@@ -9,7 +9,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { environment } from '../../../../environments/environment';
-import { Word } from '../../models/word.model';
+import { Word } from '../../../shared/models/words/word.model';
 
 interface Exercise {
   question: string;

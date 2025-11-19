@@ -10,11 +10,11 @@ import { CommonModule } from '@angular/common';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { environment } from '../../../../environments/environment';
-import { LoadWordResourcesService } from '../../services/load-word-resources.service';
-import { getWordsFileName } from '../../const/files.const';
-import { Word } from '../../models/word.model';
+import { LoadWordResourcesService } from '../../../shared/services/load-word-resources.service';
+import { Word } from '../../../shared/models/words/word.model';
 import { GuessWordsComponent } from '../guess-words/guess-words.component';
 import { normalize } from '../../../shared/helpers/string.helper';
+import { getWordsFileName } from '../../../shared/const/files.const';
 
 @Component({
   selector: 'app-vocabulary',

@@ -11,20 +11,20 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule, FormControl } from '@angular/forms';
 import { environment } from '../../../../environments/environment';
 import { AddToPrefixPipe } from '../../../shared/pipes/add-to-prefix.pipe';
-import { ConjugationKey } from '../../models/conjugation-key.model';
-import { ConjugationSet } from '../../models/conjugation-set.model';
-import { ImperativConjugation } from '../../models/imperative-conjugation.model';
-import { VerbGroup } from '../../models/verb-group.model';
-import { VerbInformationGroup } from '../../models/verb-information-group.model';
-import { VerbInformationSubgroup } from '../../models/verb-information-subgroup.model';
-import { Verb } from '../../models/verb.model';
-import { GuessVerbsComponent } from '../guess-verbs/guess-verbs.component';
-import { LoadVerbResourcesService } from '../../services/load-verb-resources.service';
+import { LoadVerbResourcesService } from '../../../shared/services/load-verb-resources.service';
+import { normalize } from '../../../shared/helpers/string.helper';
 import {
   getGroupFileNames,
   getGroupInformationFileName,
-} from '../../const/files.const';
-import { normalize } from '../../../shared/helpers/string.helper';
+} from '../../../shared/const/files.const';
+import { ConjugationKey } from '../../../shared/models/verbs/conjugation-key.model';
+import { ConjugationSet } from '../../../shared/models/verbs/conjugation-set.model';
+import { ImperativConjugation } from '../../../shared/models/verbs/imperative-conjugation.model';
+import { VerbGroup } from '../../../shared/models/verbs/verb-group.model';
+import { VerbInformationGroup } from '../../../shared/models/verbs/verb-information-group.model';
+import { VerbInformationSubgroup } from '../../../shared/models/verbs/verb-information-subgroup.model';
+import { Verb } from '../../../shared/models/verbs/verb.model';
+import { GuessVerbsComponent } from '../guess-verbs/guess-verbs.component';
 
 @Component({
   selector: 'app-conjugation',

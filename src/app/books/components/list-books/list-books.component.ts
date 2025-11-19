@@ -1,7 +1,7 @@
 import { environment } from '../../../../environments/environment';
 import { Component, inject, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { getBooksFileName } from '../../const/files.const';
+import { getBooksFileName } from '../../../shared/const/files.const';
 import { LoadBooksResourcesService } from '../../services/load-books-resources.service';
 import { Book } from '../../models/book.model';
 import { NavigationConst } from '../../../shared/const/navigation.const';

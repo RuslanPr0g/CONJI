@@ -7,8 +7,8 @@ import {
 import { VocabularyComponent } from './vocabulary.component';
 import { environment } from '../../../../environments/environment';
 import { getWordsFileName } from '../../const/files.const';
-import { Word } from '../../models/word.model';
-import { LoadWordResourcesService } from '../../services/load-word-resources.service';
+import { Word } from '../../../shared/models/words/word.model';
+import { LoadWordResourcesService } from '../../../shared/services/load-word-resources.service';
 
 describe('VocabularyComponent', () => {
   let httpMock: HttpTestingController;

@@ -1,8 +1,8 @@
 import { inject, Injectable } from '@angular/core';
 import { forkJoin, map, take } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { Word } from '../models/word.model';
-import { normalize } from '../../shared/helpers/string.helper';
+import { Word } from '../models/words/word.model';
+import { normalize } from '../helpers/string.helper';
 
 @Injectable({
   providedIn: 'root',

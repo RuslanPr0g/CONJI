@@ -7,6 +7,7 @@
     [innerHTML]="pageContent"
     (touchstart)="onTouchStart($event)"
     (touchend)="onTouchEnd($event)"
+    (mouseup)="translateSelection()"
   ></div>
 
   <div class="page-navigation">
@@ -24,6 +25,10 @@
 <ng-template #loadingTpl>
   <div class="loading">...</div>
 </ng-template>
+
+<div *ngIf="translation" class="copy-toast">
+  "{{ selection }} = {{ translation }}"
+</div>
 
 <ng-template #errorTpl>
   <div class="error">{{ error || "Cartea nu a fost găsită" }}</div>
