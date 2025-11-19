@@ -93,6 +93,12 @@
   }
 }
 
+@media (max-height: 800px) {
+  .reader-container {
+    flex-direction: column-reverse;
+  }
+}
+
 .copy-toast {
   position: fixed;
   bottom: 20px;
