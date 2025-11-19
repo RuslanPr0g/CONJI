@@ -21,6 +21,12 @@
   font-weight: 600;
   letter-spacing: 0.3px;
   transition: all 0.2s ease;
+
+  &.active {
+    outline: 1px solid #a01f1fcc;
+    outline-offset: 1px;
+    box-shadow: 0 0 5px #681c1c;
+  }
 }
 
 .nav-item:hover {

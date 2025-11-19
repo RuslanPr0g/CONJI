@@ -3,31 +3,29 @@
 </div>
 <header class="app-header">
   <div class="nav-bar">
-    @if (!isVerbsPage) {
     <button
       class="nav-item verbs"
+      [class.active]="isVerbsPage"
       (click)="navigateToVerbs()"
-      (keydown.enter)="navigateToVerbs()"
     >
       Verbe
     </button>
-    } @if (!isWordsPage) {
+
     <button
       class="nav-item words"
+      [class.active]="isWordsPage"
       (click)="navigateToWords()"
-      (keydown.enter)="navigateToWords()"
     >
       Cuvinte
     </button>
-    } @if (!isBooksPage) {
+
     <button
       class="nav-item books"
+      [class.active]="isBooksPage || isBookPage"
       (click)="navigateToBooks()"
-      (keydown.enter)="navigateToBooks()"
     >
       Carte
     </button>
-    }
   </div>
 </header>
 <router-outlet></router-outlet>
