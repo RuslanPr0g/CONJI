@@ -1,1 +1,33 @@
+<div class="version">
+  {{ releaseVersion }}
+</div>
+<header class="app-header">
+  <div class="nav-bar">
+    @if (!isVerbsPage) {
+    <button
+      class="nav-item verbs"
+      (click)="navigateToVerbs()"
+      (keydown.enter)="navigateToVerbs()"
+    >
+      Verbe
+    </button>
+    } @if (!isWordsPage) {
+    <button
+      class="nav-item words"
+      (click)="navigateToWords()"
+      (keydown.enter)="navigateToWords()"
+    >
+      Cuvinte
+    </button>
+    } @if (!isBooksPage) {
+    <button
+      class="nav-item books"
+      (click)="navigateToBooks()"
+      (keydown.enter)="navigateToBooks()"
+    >
+      Carte
+    </button>
+    }
+  </div>
+</header>
 <router-outlet></router-outlet>

@@ -1,0 +1,65 @@
+:host {
+  display: block;
+  height: 100vh;
+  background: #121212;
+  color: #e0e0e0;
+  overflow-y: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  height: 100%;
+}
+
+.glass-card {
+  background: rgba(30, 30, 30, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+  height: fit-content;
+}
+
+.glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.8);
+}
+
+.book-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffcc80;
+  margin-bottom: 8px;
+}
+
+.book-description {
+  font-size: 0.95rem;
+  color: #ccc0a6;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-meta {
+  font-size: 0.85rem;
+  color: #d4b483;
+  text-align: right;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  padding: 1rem;
+}

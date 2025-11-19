@@ -1,0 +1,16 @@
+<div class="grid-container">
+  <div
+    class="glass-card"
+    *ngFor="let book of allBooks"
+    (click)="openBook(book)"
+    (keydown.enter)="openBook(book)"
+    tabindex="0"
+  >
+    <h3 class="book-title">{{ book.title }}</h3>
+    <p class="book-description">{{ book.description }}</p>
+    <div class="book-meta">Pagini: {{ book.content_length }}</div>
+  </div>
+  <div *ngIf="allBooks.length === 0" class="no-results">
+    Nu s-au găsit cărți
+  </div>
+</div>

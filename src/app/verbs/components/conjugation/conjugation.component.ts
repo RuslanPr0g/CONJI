@@ -24,8 +24,6 @@ import {
   getGroupFileNames,
   getGroupInformationFileName,
 } from '../../const/files.const';
-import { Router } from '@angular/router';
-import { NavigationConst } from '../../../shared/const/navigation.const';
 import { normalize } from '../../../shared/helpers/string.helper';
 
 @Component({
@@ -66,10 +64,6 @@ export class ConjugationComponent implements OnInit {
   isGamingMode = false;
 
   loadVerbsService = inject(LoadVerbResourcesService);
-
-  router = inject(Router);
-
-  releaseVersion = environment.releaseVersion;
 
   @HostListener('document:keydown.escape')
   onEscapePress(): void {
@@ -220,10 +214,6 @@ export class ConjugationComponent implements OnInit {
     if (this.filteredGroups.length > 0) {
       this.isGamingMode = true;
     }
-  }
-
-  navigateToWords(): void {
-    this.router.navigate([NavigationConst.Vocabulary]);
   }
 
   private getRandomVerbsGroups(groups: VerbGroup[]): VerbGroup[] {

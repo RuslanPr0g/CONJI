@@ -1,3 +1,9 @@
+:host {
+  display: block;
+  height: 100vh;
+  background: #121212;
+}
+
 input,
 select,
 textarea {
@@ -54,6 +60,10 @@ textarea {
   text-align: center;
   color: #fff;
   cursor: pointer;
+  min-height: 90px;
+  min-width: 100px;
+  max-height: 120px;
+  max-width: 400px;
 }
 
 .word-block:hover {
@@ -87,12 +97,10 @@ textarea {
 }
 
 .grid-container {
-  flex-grow: 1;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 16px;
   padding: 16px;
-  background-color: #111;
   color: #fff;
   overflow-y: auto;
 }
@@ -182,66 +190,6 @@ textarea {
   padding-bottom: 4px;
 }
 
-/* Floating button */
-.float-btn {
-  position: fixed;
-  bottom: 2%;
-  right: 2%;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  z-index: 1000;
-}
-
-.float-btn-item {
-  height: 70px;
-  width: 70px;
-  font-family: "Press Start 2P", monospace;
-  font-size: 0.4rem;
-  text-transform: uppercase;
-  line-height: 15px;
-  text-align: center;
-
-  color: #fff;
-  background: linear-gradient(145deg, #00bfff, #002d46);
-  background-size: 400% 400%;
-  border: 3px solid #fff;
-  border-radius: 12px;
-
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  box-shadow: 4px 4px 0px #000;
-  animation: gradientShift 3s ease infinite;
-}
-
-.float-btn-item:hover {
-  transform: scale(1.05);
-  box-shadow: 6px 6px 0px #000;
-}
-
-.float-btn-item:active {
-  transform: scale(0.95);
-  box-shadow: 2px 2px 0px #000;
-}
-
-.verbs-btn {
-  background: linear-gradient(145deg, #00bfff, #4a0078);
-}
-
-@keyframes gradientShift {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 .copy-toast {
   position: fixed;
   bottom: 20px;
@@ -281,15 +229,6 @@ textarea {
     opacity: 0;
     transform: translate(-50%, 20px);
   }
-}
-
-.version {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 0.75rem;
-  color: #888;
-  z-index: 1001;
 }
 
 .similar-words {

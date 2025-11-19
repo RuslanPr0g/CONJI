@@ -1,0 +1,25 @@
+<div class="reader-container" *ngIf="book; else errorTpl">
+  <h3 class="book-title">{{ book.title }}</h3>
+
+  <div
+    class="page-content"
+    *ngIf="!loading; else loadingTpl"
+    [innerHTML]="pageContent"
+  ></div>
+
+  <div class="page-navigation">
+    <button (click)="prevPage()" [disabled]="currentPage === 1">Înapoi</button>
+    <span>Pagina {{ currentPage }} / {{ totalPages }}</span>
+    <button (click)="nextPage()" [disabled]="currentPage === totalPages">
+      Înainte
+    </button>
+  </div>
+</div>
+
+<ng-template #loadingTpl>
+  <div class="loading">...</div>
+</ng-template>
+
+<ng-template #errorTpl>
+  <div class="error">{{ error || "Cartea nu a fost găsită" }}</div>
+</ng-template>

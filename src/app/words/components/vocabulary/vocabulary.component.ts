@@ -13,8 +13,6 @@ import { environment } from '../../../../environments/environment';
 import { LoadWordResourcesService } from '../../services/load-word-resources.service';
 import { getWordsFileName } from '../../const/files.const';
 import { Word } from '../../models/word.model';
-import { Router } from '@angular/router';
-import { NavigationConst } from '../../../shared/const/navigation.const';
 import { GuessWordsComponent } from '../guess-words/guess-words.component';
 import { normalize } from '../../../shared/helpers/string.helper';
 
@@ -34,13 +32,9 @@ export class VocabularyComponent implements OnInit {
   copiedText: string | null = null;
   copyTimeout: ReturnType<typeof setTimeout> | null = null;
 
-  releaseVersion = environment.releaseVersion;
-
   isGamingMode = false;
 
   private loadService = inject(LoadWordResourcesService);
-
-  private router = inject(Router);
 
   @HostListener('document:keydown.escape')
   onEscapePress(): void {
@@ -105,10 +99,6 @@ export class VocabularyComponent implements OnInit {
     if (this.filteredWords.length > 0) {
       this.isGamingMode = true;
     }
-  }
-
-  navigateToVerbs(): void {
-    this.router.navigate([NavigationConst.Conjugation]);
   }
 
   private getRandomWords(words: Word[]): Word[] {

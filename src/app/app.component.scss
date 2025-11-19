@@ -1,0 +1,56 @@
+.app-header {
+  position: static;
+  width: 100%;
+  background: #1c1c1c;
+  padding: 0.6rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-item {
+  padding: 0.45rem 1.2rem;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: all 0.2s ease;
+}
+
+.nav-item:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.nav-item.active {
+  outline: 2px solid #ffffffcc;
+  outline-offset: 3px;
+  transform: scale(1.07);
+}
+
+.nav-item.verbs {
+  background: linear-gradient(145deg, #00bfff, #4a0078);
+}
+
+.nav-item.words {
+  background: linear-gradient(145deg, #0184b0, #4a0078);
+}
+
+.nav-item.books {
+  background: linear-gradient(145deg, #006181, #4a0078);
+}
+
+.version {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 0.75rem;
+  color: #888;
+  z-index: 1001;
+}
