@@ -15,6 +15,9 @@
     <button (click)="nextPage()" [disabled]="currentPage === totalPages">
       Înainte
     </button>
+    <button *ngIf="showLastReadButton" (click)="goToLastRead()">
+      Ultima pagină citită
+    </button>
   </div>
 </div>
 

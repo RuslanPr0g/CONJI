@@ -5,6 +5,7 @@ import { Book } from '../../models/book.model';
 import { CommonModule } from '@angular/common';
 import { environment } from '../../../../environments/environment';
 import { getBooksFileName } from '../../const/files.const';
+import { LocalStorageService } from '../../../shared/services/local-storage.service';
 
 @Component({
   selector: 'app-read-book',
@@ -16,6 +17,7 @@ import { getBooksFileName } from '../../const/files.const';
 export class ReadBookComponent implements OnInit {
   private route = inject(ActivatedRoute);
   private loadService = inject(LoadBooksResourcesService);
+  private storage = inject(LocalStorageService);
 
   book: Book | undefined;
   currentPage = 1;
@@ -24,13 +26,14 @@ export class ReadBookComponent implements OnInit {
   loading = false;
   error = '';
 
+  showLastReadButton = false;
+
   private touchStartX = 0;
   private touchEndX = 0;
   private minSwipeDistance = 110;
 
   ngOnInit(): void {
     const isProd = environment.production;
-
     const bookId = this.route.snapshot.paramMap.get('id');
     if (!bookId) {
       this.error = 'Book ID not provided';
@@ -45,13 +48,28 @@ export class ReadBookComponent implements OnInit {
           return;
         }
         this.totalPages = this.book.content_length;
-        this.loadPage(this.currentPage);
+        this.loadLastReadOrFirstPage();
       },
       error: () => (this.error = 'Failed to load books'),
     });
   }
 
-  loadPage(pageNumber: number) {
+  private getStorageKey(): string {
+    return `book-${this.book?.id}-last-read`;
+  }
+
+  private loadLastReadOrFirstPage() {
+    if (!this.book) return;
+
+    const lastRead = this.storage.get(this.getStorageKey());
+    if (lastRead && +lastRead !== this.currentPage) {
+      this.showLastReadButton = true;
+    }
+
+    this.loadPage(1, false);
+  }
+
+  loadPage(pageNumber: number, save = true) {
     if (!this.book) return;
     if (pageNumber < 1 || pageNumber > this.totalPages) return;
 
@@ -61,12 +79,32 @@ export class ReadBookComponent implements OnInit {
         this.pageContent = content;
         this.currentPage = pageNumber;
         this.loading = false;
+
+        if (save) {
+          this.storage.set(this.getStorageKey(), pageNumber.toString());
+          this.updateLastReadButtonVisibility();
+        }
       },
       error: () => {
         this.error = 'Failed to load page';
         this.loading = false;
       },
     });
+  }
+
+  private updateLastReadButtonVisibility() {
+    const lastRead = this.storage.get(this.getStorageKey());
+    this.showLastReadButton =
+      !!lastRead &&
+      +lastRead !== this.currentPage &&
+      +lastRead <= this.totalPages;
+  }
+
+  goToLastRead() {
+    this.showLastReadButton = false;
+    const lastRead = this.storage.get(this.getStorageKey());
+    if (!lastRead) return;
+    this.loadPage(+lastRead);
   }
 
   nextPage() {
