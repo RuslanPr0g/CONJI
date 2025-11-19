@@ -24,6 +24,10 @@ export class ReadBookComponent implements OnInit {
   loading = false;
   error = '';
 
+  private touchStartX = 0;
+  private touchEndX = 0;
+  private minSwipeDistance = 110;
+
   ngOnInit(): void {
     const isProd = environment.production;
 
@@ -71,5 +75,26 @@ export class ReadBookComponent implements OnInit {
 
   prevPage() {
     if (this.currentPage > 1) this.loadPage(this.currentPage - 1);
+  }
+
+  onTouchStart(event: TouchEvent) {
+    this.touchStartX = event.changedTouches[0].screenX;
+  }
+
+  onTouchEnd(event: TouchEvent) {
+    this.touchEndX = event.changedTouches[0].screenX;
+    this.handleSwipe();
+  }
+
+  private handleSwipe() {
+    const distance = this.touchEndX - this.touchStartX;
+
+    if (Math.abs(distance) > this.minSwipeDistance) {
+      if (distance < 0) {
+        this.nextPage();
+      } else {
+        this.prevPage();
+      }
+    }
   }
 }

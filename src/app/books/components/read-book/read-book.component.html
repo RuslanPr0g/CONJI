@@ -5,6 +5,8 @@
     class="page-content"
     *ngIf="!loading; else loadingTpl"
     [innerHTML]="pageContent"
+    (touchstart)="onTouchStart($event)"
+    (touchend)="onTouchEnd($event)"
   ></div>
 
   <div class="page-navigation">
