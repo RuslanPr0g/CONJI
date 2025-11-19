@@ -38,6 +38,6 @@ export class LoadBooksResourcesService {
     }
 
     const url = `book-contents/${book.id}/${pageNumber}.html`;
-    return this.http.get<string>(url);
+    return this.http.get(url, { responseType: 'text' });
   }
 }

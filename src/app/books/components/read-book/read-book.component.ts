@@ -129,6 +129,7 @@ export class ReadBookComponent implements OnInit {
         this.pageContent = content;
         this.currentPage = pageNumber;
         this.loading = false;
+        console.warn(this.pageContent);
 
         if (save) {
           this.storage.set(this.getStorageKey(), pageNumber.toString());
