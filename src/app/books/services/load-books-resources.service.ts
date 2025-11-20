@@ -10,7 +10,12 @@ export class LoadBooksResourcesService {
   cache = inject(CacheService);
 
   getBooks(files: string[]) {
-    const reqs = files.map((x) => this.http.get<Book[]>(x));
+    const reqs = files.map((file) =>
+      this.cache.getOrSet(`books:${file}`, () =>
+        this.http.get<Book[]>(file).pipe(take(1))
+      )
+    );
+
     return combineLatest(reqs).pipe(
       map((x) => x.flat()),
       map((books) => {
