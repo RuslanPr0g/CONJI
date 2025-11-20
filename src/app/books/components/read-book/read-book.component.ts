@@ -42,7 +42,7 @@ export class ReadBookComponent implements OnInit {
   currentPage = 1;
   pageContent = '';
   totalPages = 0;
-  loading = false;
+  loading = true;
   error = '';
 
   selection?: string;

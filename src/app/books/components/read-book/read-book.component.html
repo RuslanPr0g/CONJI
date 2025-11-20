@@ -24,7 +24,7 @@
 </div>
 
 <ng-template #loadingTpl>
-  <div class="loading">...</div>
+  <div class="page-content skeleton"></div>
 </ng-template>
 
 <div *ngIf="translation" class="copy-toast">
@@ -32,5 +32,7 @@
 </div>
 
 <ng-template #errorTpl>
-  <div class="error">{{ error || "Cartea nu a fost găsită" }}</div>
+  <div class="error">
+    {{ error && !loading ? "Cartea nu a fost găsită" : null }}
+  </div>
 </ng-template>

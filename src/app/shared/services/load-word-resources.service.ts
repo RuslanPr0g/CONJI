@@ -3,55 +3,54 @@ import { forkJoin, map, take } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { Word } from '../models/words/word.model';
 import { normalize } from '../helpers/string.helper';
+import { CacheService } from './cache.service';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable({ providedIn: 'root' })
 export class LoadWordResourcesService {
   http = inject(HttpClient);
+  cache = inject(CacheService);
 
   getWords(files: string[]) {
-    const requests = files.map((file) =>
-      this.http.get<Word[]>(file).pipe(take(1))
+    const reqs = files.map((file) =>
+      this.cache.getOrSet(`words:${file}`, () =>
+        this.http.get<Word[]>(file).pipe(take(1))
+      )
     );
 
-    return forkJoin(requests).pipe(
+    return forkJoin(reqs).pipe(
       map((results) => {
-        const flatWords = results.flat();
+        const flat = results.flat();
         const seen = new Set<string>();
-        const uniqueWords: Word[] = [];
+        const unique: Word[] = [];
 
-        for (const word of flatWords) {
-          const key = word.value?.trim().toLowerCase();
+        for (const w of flat) {
+          const key = w.value?.trim().toLowerCase();
           if (!key || seen.has(key)) continue;
-
           seen.add(key);
-          word.translations ??= [];
-          uniqueWords.push(word);
+          w.translations ??= [];
+          unique.push(w);
         }
 
-        for (const word of uniqueWords) {
-          word.similarWords = this.findSimilarWords(word, uniqueWords);
+        for (const w of unique) {
+          w.similarWords = this.findSimilarWords(w, unique);
         }
 
-        return uniqueWords;
+        return unique;
       })
     );
   }
 
-  private findSimilarWords(word: Word, allWords: Word[]): string[] {
+  private findSimilarWords(word: Word, all: Word[]): string[] {
     if (!word.translations?.length) return [];
-
-    const related = allWords
-      .filter((other) => {
-        if (other.value === word.value) return false;
-        return other.translations.some((t) =>
-          word.translations.some((wt) => normalize(t) === normalize(wt))
-        );
-      })
+    return all
+      .filter(
+        (o) =>
+          o.value !== word.value &&
+          o.translations.some((t) =>
+            word.translations.some((wt) => normalize(t) === normalize(wt))
+          )
+      )
       .slice(0, 5)
       .map((w) => w.value);
-
-    return related;
   }
 }

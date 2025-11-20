@@ -3,19 +3,21 @@ import { forkJoin, map, Observable, take } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { VerbGroup } from '../models/verbs/verb-group.model';
 import { VerbInformationGroup } from '../models/verbs/verb-information-group.model';
+import { CacheService } from './cache.service';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable({ providedIn: 'root' })
 export class LoadVerbResourcesService {
   http = inject(HttpClient);
+  cache = inject(CacheService);
 
   getVerbGroups(files: string[]) {
-    const requests = files.map((file) =>
-      this.http.get<VerbGroup>(file).pipe(take(1))
+    const reqs = files.map((file) =>
+      this.cache.getOrSet(`verbGroup:${file}`, () =>
+        this.http.get<VerbGroup>(file).pipe(take(1))
+      )
     );
 
-    return forkJoin(requests).pipe(
+    return forkJoin(reqs).pipe(
       map((groups) =>
         groups.map((group) => {
           const seen = new Set<string>();
@@ -35,6 +37,8 @@ export class LoadVerbResourcesService {
   }
 
   getGroupInformation(file: string): Observable<VerbInformationGroup[]> {
-    return this.http.get<VerbInformationGroup[]>(file).pipe(take(1));
+    return this.cache.getOrSet(`verbInfo:${file}`, () =>
+      this.http.get<VerbInformationGroup[]>(file).pipe(take(1))
+    );
   }
 }
