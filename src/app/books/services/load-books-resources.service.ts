@@ -32,12 +32,12 @@ export class LoadBooksResourcesService {
 
   loadBookPage(book: Book, page: number): Observable<string> {
     if (!book.id) {
-      throw new Error('Book must have an id');
+      throw new Error('Book must have an id!');
     }
 
     if (page < 1 || page > book.content_length) {
       throw new Error(
-        `Page number must be between 1 and ${book.content_length}`
+        `Page number must be between 1 and ${book.content_length}!`
       );
     }
 
