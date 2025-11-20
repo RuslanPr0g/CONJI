@@ -2,6 +2,68 @@
   "group": "Grupa a III-a - terminat în -e",
   "verbs": [
     {
+      "infinitive": "a se duce",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to go"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă duc",
+          "tu": "te duci",
+          "el/ea": "se duce",
+          "noi": "ne ducem",
+          "voi": "vă duceți",
+          "ei/ele": "se duc"
+        },
+        "perfect_compus": {
+          "eu": "m-am dus",
+          "tu": "te-ai dus",
+          "el/ea": "s-a dus",
+          "noi": "ne-am dus",
+          "voi": "v-ați dus",
+          "ei/ele": "s-au dus"
+        },
+        "viitor_literar": {
+          "eu": "mă voi duce",
+          "tu": "te vei duce",
+          "el/ea": "se va duce",
+          "noi": "ne vom duce",
+          "voi": "vă veți duce",
+          "ei/ele": "se vor duce"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă duc",
+          "tu": "o să te duci",
+          "el/ea": "o să se ducă",
+          "noi": "o să ne ducem",
+          "voi": "o să vă duceți",
+          "ei/ele": "o să se ducă"
+        },
+        "conjunctiv": {
+          "eu": "să mă duc",
+          "tu": "să te duci",
+          "el/ea": "să se ducă",
+          "noi": "să ne ducem",
+          "voi": "să vă duceți",
+          "ei/ele": "să se ducă"
+        },
+        "conditional": {
+          "eu": "m-aș duce",
+          "tu": "te-ai duce",
+          "el/ea": "s-ar duce",
+          "noi": "ne-am duce",
+          "voi": "v-ați duce",
+          "ei/ele": "s-ar duce"
+        },
+        "imperativ": {
+          "tu": "du-te",
+          "voi": "duceți-vă"
+        }
+      }
+    },
+    {
       "infinitive": "a se întoarce",
       "type": "regular",
       "group": 3,

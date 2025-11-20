@@ -2,6 +2,68 @@
   "group": "Grupa I - terminat în -a",
   "verbs": [
     {
+      "infinitive": "a se distra",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to have fun"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă distrez",
+          "tu": "te distrezi",
+          "el/ea": "se distrează",
+          "noi": "ne distrăm",
+          "voi": "vă distrați",
+          "ei/ele": "se distrează"
+        },
+        "perfect_compus": {
+          "eu": "m-am distrat",
+          "tu": "te-ai distrat",
+          "el/ea": "s-a distrat",
+          "noi": "ne-am distrat",
+          "voi": "v-ați distrat",
+          "ei/ele": "s-au distrat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi distra",
+          "tu": "te vei distra",
+          "el/ea": "se va distra",
+          "noi": "ne vom distra",
+          "voi": "vă veți distra",
+          "ei/ele": "se vor distra"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă distrez",
+          "tu": "o să te distrezi",
+          "el/ea": "o să se distreze",
+          "noi": "o să ne distrăm",
+          "voi": "o să vă distrați",
+          "ei/ele": "o să se distreze"
+        },
+        "conjunctiv": {
+          "eu": "să mă distrez",
+          "tu": "să te distrezi",
+          "el/ea": "să se distreze",
+          "noi": "să ne distrăm",
+          "voi": "să vă distrați",
+          "ei/ele": "să se distreze"
+        },
+        "conditional": {
+          "eu": "m-aș distra",
+          "tu": "te-ai distra",
+          "el/ea": "s-ar distra",
+          "noi": "ne-am distra",
+          "voi": "v-ați distra",
+          "ei/ele": "s-ar distra"
+        },
+        "imperativ": {
+          "tu": "distrează-te",
+          "voi": "distracți-vă"
+        }
+      }
+    },
+    {
       "infinitive": "a se plimba",
       "type": "regular",
       "group": 1,
