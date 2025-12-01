@@ -2,6 +2,250 @@
   "group": "Grupa I - terminat în -a",
   "verbs": [
     {
+      "infinitive": "a alerga",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 3,
+      "infinitive_translated": ["to run"],
+      "conjugations": {
+        "prezent": {
+          "eu": "alerg",
+          "tu": "alergi",
+          "el/ea": "aleargă",
+          "noi": "alergăm",
+          "voi": "alergați",
+          "ei/ele": "aleargă"
+        },
+        "perfect_compus": {
+          "eu": "am alergat",
+          "tu": "ai alergat",
+          "el/ea": "a alergat",
+          "noi": "am alergat",
+          "voi": "ați alergat",
+          "ei/ele": "au alergat"
+        },
+        "viitor_literar": {
+          "eu": "voi alerga",
+          "tu": "vei alerga",
+          "el/ea": "va alerga",
+          "noi": "vom alerga",
+          "voi": "veți alerga",
+          "ei/ele": "vor alerga"
+        },
+        "viitor_familiar": {
+          "eu": "o să alerg",
+          "tu": "o să alergi",
+          "el/ea": "o să alerge",
+          "noi": "o să alergăm",
+          "voi": "o să alergați",
+          "ei/ele": "o să alerge"
+        },
+        "conjunctiv": {
+          "eu": "să alerg",
+          "tu": "să alergi",
+          "el/ea": "să alerge",
+          "noi": "să alergăm",
+          "voi": "să alergați",
+          "ei/ele": "să alerge"
+        },
+        "conditional": {
+          "eu": "aș alerga",
+          "tu": "ai alerga",
+          "el/ea": "ar alerga",
+          "noi": "am alerga",
+          "voi": "ați alerga",
+          "ei/ele": "ar alerga"
+        },
+        "imperativ": {
+          "tu": "aleargă",
+          "voi": "alergați"
+        }
+      }
+    },
+    {
+      "infinitive": "a intra",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to enter"],
+      "conjugations": {
+        "prezent": {
+          "eu": "intru",
+          "tu": "intri",
+          "el/ea": "intră",
+          "noi": "intrăm",
+          "voi": "intrați",
+          "ei/ele": "intră"
+        },
+        "perfect_compus": {
+          "eu": "am intrat",
+          "tu": "ai intrat",
+          "el/ea": "a intrat",
+          "noi": "am intrat",
+          "voi": "ați intrat",
+          "ei/ele": "au intrat"
+        },
+        "viitor_literar": {
+          "eu": "voi intra",
+          "tu": "vei intra",
+          "el/ea": "va intra",
+          "noi": "vom intra",
+          "voi": "veți intra",
+          "ei/ele": "vor intra"
+        },
+        "viitor_familiar": {
+          "eu": "o să intru",
+          "tu": "o să intri",
+          "el/ea": "o să intre",
+          "noi": "o să intrăm",
+          "voi": "o să intrați",
+          "ei/ele": "o să intre"
+        },
+        "conjunctiv": {
+          "eu": "să intru",
+          "tu": "să intri",
+          "el/ea": "să intre",
+          "noi": "să intrăm",
+          "voi": "să intrați",
+          "ei/ele": "să intre"
+        },
+        "conditional": {
+          "eu": "aș intra",
+          "tu": "ai intra",
+          "el/ea": "ar intra",
+          "noi": "am intra",
+          "voi": "ați intra",
+          "ei/ele": "ar intra"
+        },
+        "imperativ": {
+          "tu": "intră",
+          "voi": "intrați"
+        }
+      }
+    },
+    {
+      "infinitive": "a tăia",
+      "type": "irregular",
+      "group": 1,
+      "subgroup": 99,
+      "infinitive_translated": ["to cut"],
+      "conjugations": {
+        "prezent": {
+          "eu": "tai",
+          "tu": "tai",
+          "el/ea": "taie",
+          "noi": "tăiem",
+          "voi": "tăiați",
+          "ei/ele": "taie"
+        },
+        "perfect_compus": {
+          "eu": "am tăiat",
+          "tu": "ai tăiat",
+          "el/ea": "a tăiat",
+          "noi": "am tăiat",
+          "voi": "ați tăiat",
+          "ei/ele": "au tăiat"
+        },
+        "viitor_literar": {
+          "eu": "voi tăia",
+          "tu": "vei tăia",
+          "el/ea": "va tăia",
+          "noi": "vom tăia",
+          "voi": "veți tăia",
+          "ei/ele": "vor tăia"
+        },
+        "viitor_familiar": {
+          "eu": "o să tai",
+          "tu": "o să tai",
+          "el/ea": "o să taie",
+          "noi": "o să tăiem",
+          "voi": "o să tăiați",
+          "ei/ele": "o să taie"
+        },
+        "conjunctiv": {
+          "eu": "să tai",
+          "tu": "să tai",
+          "el/ea": "să taie",
+          "noi": "să tăiem",
+          "voi": "să tăiați",
+          "ei/ele": "să taie"
+        },
+        "conditional": {
+          "eu": "aș tăia",
+          "tu": "ai tăia",
+          "el/ea": "ar tăia",
+          "noi": "am tăia",
+          "voi": "ați tăia",
+          "ei/ele": "ar tăia"
+        },
+        "imperativ": {
+          "tu": "taie",
+          "voi": "tăiați"
+        }
+      }
+    },
+    {
+      "infinitive": "a întârzia",
+      "type": "irregular",
+      "group": 1,
+      "subgroup": 99,
+      "infinitive_translated": ["to be late"],
+      "conjugations": {
+        "prezent": {
+          "eu": "întârzii",
+          "tu": "întârzii",
+          "el/ea": "întârzie",
+          "noi": "întârziem",
+          "voi": "întârziați",
+          "ei/ele": "întârzie"
+        },
+        "perfect_compus": {
+          "eu": "am întârziat",
+          "tu": "ai întârziat",
+          "el/ea": "a întârziat",
+          "noi": "am întârziat",
+          "voi": "ați întârziat",
+          "ei/ele": "au întârziat"
+        },
+        "viitor_literar": {
+          "eu": "voi întârzia",
+          "tu": "vei întârzia",
+          "el/ea": "va întârzia",
+          "noi": "vom întârzia",
+          "voi": "veți întârzia",
+          "ei/ele": "vor întârzia"
+        },
+        "viitor_familiar": {
+          "eu": "o să întârzii",
+          "tu": "o să întârzii",
+          "el/ea": "o să întârzie",
+          "noi": "o să întârziem",
+          "voi": "o să întârziați",
+          "ei/ele": "o să întârzie"
+        },
+        "conjunctiv": {
+          "eu": "să întârzii",
+          "tu": "să întârzii",
+          "el/ea": "să întârzie",
+          "noi": "să întârziem",
+          "voi": "să întârziați",
+          "ei/ele": "să întârzie"
+        },
+        "conditional": {
+          "eu": "aș întârzia",
+          "tu": "ai întârzia",
+          "el/ea": "ar întârzia",
+          "noi": "am întârzia",
+          "voi": "ați întârzia",
+          "ei/ele": "ar întârzia"
+        },
+        "imperativ": {
+          "tu": "întârzie",
+          "voi": "întârziați"
+        }
+      }
+    },
+    {
       "infinitive": "a se distra",
       "type": "regular",
       "group": 1,
