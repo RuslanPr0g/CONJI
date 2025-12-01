@@ -94,6 +94,12 @@
         "examples": ["a veni → vin"]
       },
       {
+        "subgroup": 3,
+        "code": "IV-C",
+        "description": "esc -> ăsc",
+        "examples": ["a urî → urăsc", "a hotărî → hotărăsc"]
+      },
+      {
         "subgroup": 99,
         "code": "IV-Irreg",
         "description": "Verbe neregulate",

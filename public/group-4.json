@@ -2,6 +2,271 @@
   "group": "Grupa a IV-a - terminat în -i/î",
   "verbs": [
     {
+      "infinitive": "a urî",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 3,
+      "infinitive_translated": ["to hate"],
+      "conjugations": {
+        "prezent": {
+          "eu": "urăsc",
+          "tu": "urăști",
+          "el/ea": "urăște",
+          "noi": "urâm",
+          "voi": "urâți",
+          "ei/ele": "urăsc"
+        },
+        "perfect_compus": {
+          "eu": "am urât",
+          "tu": "ai urât",
+          "el/ea": "a urât",
+          "noi": "am urât",
+          "voi": "ați urât",
+          "ei/ele": "au urât"
+        },
+        "viitor_literar": {
+          "eu": "voi urî",
+          "tu": "vei urî",
+          "el/ea": "va urî",
+          "noi": "vom urî",
+          "voi": "veți urî",
+          "ei/ele": "vor urî"
+        },
+        "conjunctiv": {
+          "eu": "să urăsc",
+          "tu": "să urăști",
+          "el/ea": "să urăște",
+          "noi": "să urâm",
+          "voi": "să urâți",
+          "ei/ele": "să urăsc"
+        },
+        "conditional": {
+          "eu": "aș urî",
+          "tu": "ai urî",
+          "el/ea": "ar urî",
+          "noi": "am urî",
+          "voi": "ați urî",
+          "ei/ele": "ar urî"
+        },
+        "imperativ": {
+          "tu": "urăște",
+          "voi": "urâți"
+        }
+      }
+    },
+    {
+      "infinitive": "a sfătui",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to advise"],
+      "conjugations": {
+        "prezent": {
+          "eu": "sfătuiesc",
+          "tu": "sfătuiești",
+          "el/ea": "sfătuiește",
+          "noi": "sfătuim",
+          "voi": "sfătuiți",
+          "ei/ele": "sfătuiesc"
+        },
+        "perfect_compus": {
+          "eu": "am sfătuit",
+          "tu": "ai sfătuit",
+          "el/ea": "a sfătuit",
+          "noi": "am sfătuit",
+          "voi": "ați sfătuit",
+          "ei/ele": "au sfătuit"
+        },
+        "viitor_literar": {
+          "eu": "voi sfătui",
+          "tu": "vei sfătui",
+          "el/ea": "va sfătui",
+          "noi": "vom sfătui",
+          "voi": "veți sfătui",
+          "ei/ele": "vor sfătui"
+        },
+        "conjunctiv": {
+          "eu": "să sfătuiesc",
+          "tu": "să sfătuiești",
+          "el/ea": "să sfătuiască",
+          "noi": "să sfătuim",
+          "voi": "să sfătuiți",
+          "ei/ele": "să sfătuiască"
+        },
+        "conditional": {
+          "eu": "aș sfătui",
+          "tu": "ai sfătui",
+          "el/ea": "ar sfătui",
+          "noi": "am sfătui",
+          "voi": "ați sfătui",
+          "ei/ele": "ar sfătui"
+        },
+        "imperativ": {
+          "tu": "sfătuiește",
+          "voi": "sfătuiți"
+        }
+      }
+    },
+    {
+      "infinitive": "a primi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to receive"],
+      "conjugations": {
+        "prezent": {
+          "eu": "primesc",
+          "tu": "primești",
+          "el/ea": "primește",
+          "noi": "primim",
+          "voi": "primiți",
+          "ei/ele": "primesc"
+        },
+        "perfect_compus": {
+          "eu": "am primit",
+          "tu": "ai primit",
+          "el/ea": "a primit",
+          "noi": "am primit",
+          "voi": "ați primit",
+          "ei/ele": "au primit"
+        },
+        "viitor_literar": {
+          "eu": "voi primi",
+          "tu": "vei primi",
+          "el/ea": "va primi",
+          "noi": "vom primi",
+          "voi": "veți primi",
+          "ei/ele": "vor primi"
+        },
+        "conjunctiv": {
+          "eu": "să primesc",
+          "tu": "să primești",
+          "el/ea": "să primească",
+          "noi": "să primim",
+          "voi": "să primiți",
+          "ei/ele": "să primească"
+        },
+        "conditional": {
+          "eu": "aș primi",
+          "tu": "ai primi",
+          "el/ea": "ar primi",
+          "noi": "am primi",
+          "voi": "ați primi",
+          "ei/ele": "ar primi"
+        },
+        "imperativ": {
+          "tu": "primește",
+          "voi": "primiți"
+        }
+      }
+    },
+    {
+      "infinitive": "a îndeplini",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to accomplish", "to fulfill"],
+      "conjugations": {
+        "prezent": {
+          "eu": "îndeplinesc",
+          "tu": "îndeplinești",
+          "el/ea": "îndeplinește",
+          "noi": "îndeplinim",
+          "voi": "îndepliniți",
+          "ei/ele": "îndeplinesc"
+        },
+        "perfect_compus": {
+          "eu": "am îndeplinit",
+          "tu": "ai îndeplinit",
+          "el/ea": "a îndeplinit",
+          "noi": "am îndeplinit",
+          "voi": "ați îndeplinit",
+          "ei/ele": "au îndeplinit"
+        },
+        "viitor_literar": {
+          "eu": "voi îndeplini",
+          "tu": "vei îndeplini",
+          "el/ea": "va îndeplini",
+          "noi": "vom îndeplini",
+          "voi": "veți îndeplini",
+          "ei/ele": "vor îndeplini"
+        },
+        "conjunctiv": {
+          "eu": "să îndeplinesc",
+          "tu": "să îndeplinești",
+          "el/ea": "să îndeplinească",
+          "noi": "să îndeplinim",
+          "voi": "să îndepliniți",
+          "ei/ele": "să îndeplinească"
+        },
+        "conditional": {
+          "eu": "aș îndeplini",
+          "tu": "ai îndeplini",
+          "el/ea": "ar îndeplini",
+          "noi": "am îndeplini",
+          "voi": "ați îndeplini",
+          "ei/ele": "ar îndeplini"
+        },
+        "imperativ": {
+          "tu": "îndeplinește",
+          "voi": "îndepliniți"
+        }
+      }
+    },
+    {
+      "infinitive": "a iubi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to love"],
+      "conjugations": {
+        "prezent": {
+          "eu": "iubesc",
+          "tu": "iubești",
+          "el/ea": "iubește",
+          "noi": "iubim",
+          "voi": "iubiți",
+          "ei/ele": "iubesc"
+        },
+        "perfect_compus": {
+          "eu": "am iubit",
+          "tu": "ai iubit",
+          "el/ea": "a iubit",
+          "noi": "am iubit",
+          "voi": "ați iubit",
+          "ei/ele": "au iubit"
+        },
+        "viitor_literar": {
+          "eu": "voi iubi",
+          "tu": "vei iubi",
+          "el/ea": "va iubi",
+          "noi": "vom iubi",
+          "voi": "veți iubi",
+          "ei/ele": "vor iubi"
+        },
+        "conjunctiv": {
+          "eu": "să iubesc",
+          "tu": "să iubești",
+          "el/ea": "să iubească",
+          "noi": "să iubim",
+          "voi": "să iubiți",
+          "ei/ele": "să iubească"
+        },
+        "conditional": {
+          "eu": "aș iubi",
+          "tu": "ai iubi",
+          "el/ea": "ar iubi",
+          "noi": "am iubi",
+          "voi": "ați iubi",
+          "ei/ele": "ar iubi"
+        },
+        "imperativ": {
+          "tu": "iubește",
+          "voi": "iubiți"
+        }
+      }
+    },
+    {
       "infinitive": "a sări",
       "type": "regular",
       "group": 4,
@@ -58,7 +323,7 @@
       "infinitive": "a hotărî",
       "type": "regular",
       "group": 4,
-      "subgroup": 1,
+      "subgroup": 3,
       "infinitive_translated": ["to decide"],
       "conjugations": {
         "prezent": {
