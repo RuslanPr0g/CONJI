@@ -2,6 +2,271 @@
   "group": "Grupa a IV-a - terminat în -i/î",
   "verbs": [
     {
+      "infinitive": "a sări",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 2,
+      "infinitive_translated": ["to jump"],
+      "conjugations": {
+        "prezent": {
+          "eu": "sar",
+          "tu": "sari",
+          "el/ea": "sare",
+          "noi": "sărim",
+          "voi": "săriți",
+          "ei/ele": "sar"
+        },
+        "perfect_compus": {
+          "eu": "am sărit",
+          "tu": "ai sărit",
+          "el/ea": "a sărit",
+          "noi": "am sărit",
+          "voi": "ați sărit",
+          "ei/ele": "au sărit"
+        },
+        "viitor_literar": {
+          "eu": "voi sări",
+          "tu": "vei sări",
+          "el/ea": "va sări",
+          "noi": "vom sări",
+          "voi": "veți sări",
+          "ei/ele": "vor sări"
+        },
+        "conjunctiv": {
+          "eu": "să sar",
+          "tu": "să sari",
+          "el/ea": "să sară",
+          "noi": "să sărim",
+          "voi": "să săriți",
+          "ei/ele": "să sară"
+        },
+        "conditional": {
+          "eu": "aș sări",
+          "tu": "ai sări",
+          "el/ea": "ar sări",
+          "noi": "am sări",
+          "voi": "ați sări",
+          "ei/ele": "ar sări"
+        },
+        "imperativ": {
+          "tu": "sari",
+          "voi": "săriți"
+        }
+      }
+    },
+    {
+      "infinitive": "a hotărî",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to decide"],
+      "conjugations": {
+        "prezent": {
+          "eu": "hotărăsc",
+          "tu": "hotărăști",
+          "el/ea": "hotărăște",
+          "noi": "hotărâm",
+          "voi": "hotărâți",
+          "ei/ele": "hotărăsc"
+        },
+        "perfect_compus": {
+          "eu": "am hotărât",
+          "tu": "ai hotărât",
+          "el/ea": "a hotărât",
+          "noi": "am hotărât",
+          "voi": "ați hotărât",
+          "ei/ele": "au hotărât"
+        },
+        "viitor_literar": {
+          "eu": "voi hotărî",
+          "tu": "vei hotărî",
+          "el/ea": "va hotărî",
+          "noi": "vom hotărî",
+          "voi": "veți hotărî",
+          "ei/ele": "vor hotărî"
+        },
+        "conjunctiv": {
+          "eu": "să hotărăsc",
+          "tu": "să hotărăști",
+          "el/ea": "să hotărască",
+          "noi": "să hotărâm",
+          "voi": "să hotărâți",
+          "ei/ele": "să hotărască"
+        },
+        "conditional": {
+          "eu": "aș hotărî",
+          "tu": "ai hotărî",
+          "el/ea": "ar hotărî",
+          "noi": "am hotărî",
+          "voi": "ați hotărî",
+          "ei/ele": "ar hotărî"
+        },
+        "imperativ": {
+          "tu": "hotărăște",
+          "voi": "hotărâți"
+        }
+      }
+    },
+    {
+      "infinitive": "a fugi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 2,
+      "infinitive_translated": ["to run", "to flee"],
+      "conjugations": {
+        "prezent": {
+          "eu": "fug",
+          "tu": "fugi",
+          "el/ea": "fuge",
+          "noi": "fugim",
+          "voi": "fugiți",
+          "ei/ele": "fug"
+        },
+        "perfect_compus": {
+          "eu": "am fugit",
+          "tu": "ai fugit",
+          "el/ea": "a fugit",
+          "noi": "am fugit",
+          "voi": "ați fugit",
+          "ei/ele": "au fugit"
+        },
+        "viitor_literar": {
+          "eu": "voi fugi",
+          "tu": "vei fugi",
+          "el/ea": "va fugi",
+          "noi": "vom fugi",
+          "voi": "veți fugi",
+          "ei/ele": "vor fugi"
+        },
+        "conjunctiv": {
+          "eu": "să fug",
+          "tu": "să fugi",
+          "el/ea": "să fugă",
+          "noi": "să fugim",
+          "voi": "să fugiți",
+          "ei/ele": "să fugă"
+        },
+        "conditional": {
+          "eu": "aș fugi",
+          "tu": "ai fugi",
+          "el/ea": "ar fugi",
+          "noi": "am fugi",
+          "voi": "ați fugi",
+          "ei/ele": "ar fugi"
+        },
+        "imperativ": {
+          "tu": "fugi",
+          "voi": "fugiți"
+        }
+      }
+    },
+    {
+      "infinitive": "a citi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to read"],
+      "conjugations": {
+        "prezent": {
+          "eu": "citesc",
+          "tu": "citești",
+          "el/ea": "citește",
+          "noi": "citim",
+          "voi": "citiți",
+          "ei/ele": "citesc"
+        },
+        "perfect_compus": {
+          "eu": "am citit",
+          "tu": "ai citit",
+          "el/ea": "a citit",
+          "noi": "am citit",
+          "voi": "ați citit",
+          "ei/ele": "au citit"
+        },
+        "viitor_literar": {
+          "eu": "voi citi",
+          "tu": "vei citi",
+          "el/ea": "va citi",
+          "noi": "vom citi",
+          "voi": "veți citi",
+          "ei/ele": "vor citi"
+        },
+        "conjunctiv": {
+          "eu": "să citesc",
+          "tu": "să citești",
+          "el/ea": "să citească",
+          "noi": "să citim",
+          "voi": "să citiți",
+          "ei/ele": "să citească"
+        },
+        "conditional": {
+          "eu": "aș citi",
+          "tu": "ai citi",
+          "el/ea": "ar citi",
+          "noi": "am citi",
+          "voi": "ați citi",
+          "ei/ele": "ar citi"
+        },
+        "imperativ": {
+          "tu": "citește",
+          "voi": "citiți"
+        }
+      }
+    },
+    {
+      "infinitive": "a reuși",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to succeed"],
+      "conjugations": {
+        "prezent": {
+          "eu": "reușesc",
+          "tu": "reușești",
+          "el/ea": "reușește",
+          "noi": "reușim",
+          "voi": "reușiți",
+          "ei/ele": "reușesc"
+        },
+        "perfect_compus": {
+          "eu": "am reușit",
+          "tu": "ai reușit",
+          "el/ea": "a reușit",
+          "noi": "am reușit",
+          "voi": "ați reușit",
+          "ei/ele": "au reușit"
+        },
+        "viitor_literar": {
+          "eu": "voi reuși",
+          "tu": "vei reuși",
+          "el/ea": "va reuși",
+          "noi": "vom reuși",
+          "voi": "veți reuși",
+          "ei/ele": "vor reuși"
+        },
+        "conjunctiv": {
+          "eu": "să reușesc",
+          "tu": "să reușești",
+          "el/ea": "să reușească",
+          "noi": "să reușim",
+          "voi": "să reușiți",
+          "ei/ele": "să reușească"
+        },
+        "conditional": {
+          "eu": "aș reuși",
+          "tu": "ai reuși",
+          "el/ea": "ar reuși",
+          "noi": "am reuși",
+          "voi": "ați reuși",
+          "ei/ele": "ar reuși"
+        },
+        "imperativ": {
+          "tu": "reușește",
+          "voi": "reușiți"
+        }
+      }
+    },
+    {
       "infinitive": "a se odihni",
       "type": "regular",
       "group": 4,
@@ -253,7 +518,7 @@
       "infinitive": "a ieși",
       "type": "irregular",
       "group": 4,
-      "subgroup": 1,
+      "subgroup": 99,
       "infinitive_translated": ["to go out", "to exit"],
       "conjugations": {
         "prezent": {
@@ -314,7 +579,7 @@
       "infinitive": "a se simți",
       "type": "regular",
       "group": 4,
-      "subgroup": 1,
+      "subgroup": 2,
       "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to feel"],
       "conjugations": {
