@@ -2,6 +2,250 @@
   "group": "Grupa a III-a - terminat în -e",
   "verbs": [
     {
+      "infinitive": "a plânge",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to cry"],
+      "conjugations": {
+        "prezent": {
+          "eu": "plâng",
+          "tu": "plângi",
+          "el/ea": "plânge",
+          "noi": "plângem",
+          "voi": "plângeți",
+          "ei/ele": "plâng"
+        },
+        "perfect_compus": {
+          "eu": "am plâns",
+          "tu": "ai plâns",
+          "el/ea": "a plâns",
+          "noi": "am plâns",
+          "voi": "ați plâns",
+          "ei/ele": "au plâns"
+        },
+        "viitor_literar": {
+          "eu": "voi plânge",
+          "tu": "vei plânge",
+          "el/ea": "va plânge",
+          "noi": "vom plânge",
+          "voi": "veți plânge",
+          "ei/ele": "vor plânge"
+        },
+        "viitor_familiar": {
+          "eu": "o să plâng",
+          "tu": "o să plângi",
+          "el/ea": "o să plângă",
+          "noi": "o să plângem",
+          "voi": "o să plângeți",
+          "ei/ele": "o să plângă"
+        },
+        "conjunctiv": {
+          "eu": "să plâng",
+          "tu": "să plângi",
+          "el/ea": "să plângă",
+          "noi": "să plângem",
+          "voi": "să plângeți",
+          "ei/ele": "să plângă"
+        },
+        "conditional": {
+          "eu": "aș plânge",
+          "tu": "ai plânge",
+          "el/ea": "ar plânge",
+          "noi": "am plânge",
+          "voi": "ați plânge",
+          "ei/ele": "ar plânge"
+        },
+        "imperativ": {
+          "tu": "plânge",
+          "voi": "plângeți"
+        }
+      }
+    },
+    {
+      "infinitive": "a împinge",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to push"],
+      "conjugations": {
+        "prezent": {
+          "eu": "împing",
+          "tu": "împingi",
+          "el/ea": "împinge",
+          "noi": "împingem",
+          "voi": "împingeți",
+          "ei/ele": "împing"
+        },
+        "perfect_compus": {
+          "eu": "am împins",
+          "tu": "ai împins",
+          "el/ea": "a împins",
+          "noi": "am împins",
+          "voi": "ați împins",
+          "ei/ele": "au împins"
+        },
+        "viitor_literar": {
+          "eu": "voi împinge",
+          "tu": "vei împinge",
+          "el/ea": "va împinge",
+          "noi": "vom împinge",
+          "voi": "veți împinge",
+          "ei/ele": "vor împinge"
+        },
+        "viitor_familiar": {
+          "eu": "o să împing",
+          "tu": "o să împingi",
+          "el/ea": "o să împingă",
+          "noi": "o să împingem",
+          "voi": "o să împingeți",
+          "ei/ele": "o să împingă"
+        },
+        "conjunctiv": {
+          "eu": "să împing",
+          "tu": "să împingi",
+          "el/ea": "să împingă",
+          "noi": "să împingem",
+          "voi": "să împingeți",
+          "ei/ele": "să împingă"
+        },
+        "conditional": {
+          "eu": "aș împinge",
+          "tu": "ai împinge",
+          "el/ea": "ar împinge",
+          "noi": "am împinge",
+          "voi": "ați împinge",
+          "ei/ele": "ar împinge"
+        },
+        "imperativ": {
+          "tu": "împinge",
+          "voi": "împingeți"
+        }
+      }
+    },
+    {
+      "infinitive": "a prinde",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to catch"],
+      "conjugations": {
+        "prezent": {
+          "eu": "prind",
+          "tu": "prinzi",
+          "el/ea": "prinde",
+          "noi": "prindem",
+          "voi": "prindeți",
+          "ei/ele": "prind"
+        },
+        "perfect_compus": {
+          "eu": "am prins",
+          "tu": "ai prins",
+          "el/ea": "a prins",
+          "noi": "am prins",
+          "voi": "ați prins",
+          "ei/ele": "au prins"
+        },
+        "viitor_literar": {
+          "eu": "voi prinde",
+          "tu": "vei prinde",
+          "el/ea": "va prinde",
+          "noi": "vom prinde",
+          "voi": "veți prinde",
+          "ei/ele": "vor prinde"
+        },
+        "viitor_familiar": {
+          "eu": "o să prind",
+          "tu": "o să prinzi",
+          "el/ea": "o să prindă",
+          "noi": "o să prindem",
+          "voi": "o să prindeți",
+          "ei/ele": "o să prindă"
+        },
+        "conjunctiv": {
+          "eu": "să prind",
+          "tu": "să prinzi",
+          "el/ea": "să prindă",
+          "noi": "să prindem",
+          "voi": "să prindeți",
+          "ei/ele": "să prindă"
+        },
+        "conditional": {
+          "eu": "aș prinde",
+          "tu": "ai prinde",
+          "el/ea": "ar prinde",
+          "noi": "am prinde",
+          "voi": "ați prinde",
+          "ei/ele": "ar prinde"
+        },
+        "imperativ": {
+          "tu": "prinde",
+          "voi": "prindeți"
+        }
+      }
+    },
+    {
+      "infinitive": "a trage",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to pull"],
+      "conjugations": {
+        "prezent": {
+          "eu": "trag",
+          "tu": "tragi",
+          "el/ea": "trage",
+          "noi": "tragem",
+          "voi": "trageți",
+          "ei/ele": "trag"
+        },
+        "perfect_compus": {
+          "eu": "am tras",
+          "tu": "ai tras",
+          "el/ea": "a tras",
+          "noi": "am tras",
+          "voi": "ați tras",
+          "ei/ele": "au tras"
+        },
+        "viitor_literar": {
+          "eu": "voi trage",
+          "tu": "vei trage",
+          "el/ea": "va trage",
+          "noi": "vom trage",
+          "voi": "veți trage",
+          "ei/ele": "vor trage"
+        },
+        "viitor_familiar": {
+          "eu": "o să trag",
+          "tu": "o să tragi",
+          "el/ea": "o să tragă",
+          "noi": "o să tragem",
+          "voi": "o să trageți",
+          "ei/ele": "o să tragă"
+        },
+        "conjunctiv": {
+          "eu": "să trag",
+          "tu": "să tragi",
+          "el/ea": "să tragă",
+          "noi": "să tragem",
+          "voi": "să trageți",
+          "ei/ele": "să tragă"
+        },
+        "conditional": {
+          "eu": "aș trage",
+          "tu": "ai trage",
+          "el/ea": "ar trage",
+          "noi": "am trage",
+          "voi": "ați trage",
+          "ei/ele": "ar trage"
+        },
+        "imperativ": {
+          "tu": "trage",
+          "voi": "trageți"
+        }
+      }
+    },
+    {
       "infinitive": "a se duce",
       "type": "regular",
       "group": 3,
