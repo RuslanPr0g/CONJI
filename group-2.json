@@ -2,6 +2,247 @@
   "group": "Grupa a II-a - terminat în -ea",
   "verbs": [
     {
+      "infinitive": "a-l plăcea",
+      "type": "irregular",
+      "group": 2,
+      "subgroup": 99,
+      "ignoreInGames": ["conjugation"],
+      "infinitive_translated": ["to like"],
+      "conjugations": {
+        "prezent": {
+          "eu": "îmi place",
+          "tu": "îți place",
+          "el/ea": "îi place",
+          "noi": "ne place",
+          "voi": "vă place",
+          "ei/ele": "le place"
+        },
+        "perfect_compus": {
+          "eu": "mi-a plăcut",
+          "tu": "ți-a plăcut",
+          "el/ea": "i-a plăcut",
+          "noi": "ne-a plăcut",
+          "voi": "v-a plăcut",
+          "ei/ele": "le-a plăcut"
+        },
+        "viitor_literar": {
+          "eu": "îmi va plăcea",
+          "tu": "îți va plăcea",
+          "el/ea": "îi va plăcea",
+          "noi": "ne va plăcea",
+          "voi": "vă va plăcea",
+          "ei/ele": "le va plăcea"
+        },
+        "viitor_familiar": {
+          "eu": "o să-mi placă",
+          "tu": "o să-ți placă",
+          "el/ea": "o să-i placă",
+          "noi": "o să ne placă",
+          "voi": "o să vă placă",
+          "ei/ele": "o să le placă"
+        },
+        "conjunctiv": {
+          "eu": "să-mi placă",
+          "tu": "să-ți placă",
+          "el/ea": "să-i placă",
+          "noi": "să ne placă",
+          "voi": "să vă placă",
+          "ei/ele": "să le placă"
+        },
+        "conditional": {
+          "eu": "mi-ar plăcea",
+          "tu": "ți-ar plăcea",
+          "el/ea": "i-ar plăcea",
+          "noi": "ne-ar plăcea",
+          "voi": "v-ar plăcea",
+          "ei/ele": "le-ar plăcea"
+        }
+      }
+    },
+    {
+      "infinitive": "a supraveghea",
+      "type": "regular",
+      "group": 2,
+      "subgroup": 1,
+      "infinitive_translated": ["to supervise"],
+      "conjugations": {
+        "prezent": {
+          "eu": "supraveghez",
+          "tu": "supraveghezi",
+          "el/ea": "supraveghează",
+          "noi": "supraveghem",
+          "voi": "supravegheați",
+          "ei/ele": "supraveghează"
+        },
+        "perfect_compus": {
+          "eu": "am supravegheat",
+          "tu": "ai supravegheat",
+          "el/ea": "a supravegheat",
+          "noi": "am supravegheat",
+          "voi": "ați supravegheat",
+          "ei/ele": "au supravegheat"
+        },
+        "viitor_literar": {
+          "eu": "voi supraveghea",
+          "tu": "vei supraveghea",
+          "el/ea": "va supraveghea",
+          "noi": "vom supraveghea",
+          "voi": "veți supraveghea",
+          "ei/ele": "vor supraveghea"
+        },
+        "viitor_familiar": {
+          "eu": "o să supraveghez",
+          "tu": "o să supraveghezi",
+          "el/ea": "o să supravegheze",
+          "noi": "o să supraveghem",
+          "voi": "o să supravegheați",
+          "ei/ele": "o să supravegheze"
+        },
+        "conjunctiv": {
+          "eu": "să supraveghez",
+          "tu": "să supraveghezi",
+          "el/ea": "să supravegheze",
+          "noi": "să supraveghem",
+          "voi": "să supravegheați",
+          "ei/ele": "să supravegheze"
+        },
+        "conditional": {
+          "eu": "aș supraveghea",
+          "tu": "ai supraveghea",
+          "el/ea": "ar supraveghea",
+          "noi": "am supraveghea",
+          "voi": "ați supraveghea",
+          "ei/ele": "ar supraveghea"
+        },
+        "imperativ": {
+          "tu": "supraveghează",
+          "voi": "supravegheați"
+        }
+      }
+    },
+    {
+      "infinitive": "a veghea",
+      "type": "regular",
+      "group": 2,
+      "subgroup": 1,
+      "infinitive_translated": ["to watch over", "to stay awake"],
+      "conjugations": {
+        "prezent": {
+          "eu": "veghez",
+          "tu": "veghezi",
+          "el/ea": "veghează",
+          "noi": "veghem",
+          "voi": "vegheați",
+          "ei/ele": "veghează"
+        },
+        "perfect_compus": {
+          "eu": "am vegheat",
+          "tu": "ai vegheat",
+          "el/ea": "a vegheat",
+          "noi": "am vegheat",
+          "voi": "ați vegheat",
+          "ei/ele": "au vegheat"
+        },
+        "viitor_literar": {
+          "eu": "voi veghea",
+          "tu": "vei veghea",
+          "el/ea": "va veghea",
+          "noi": "vom veghea",
+          "voi": "veți veghea",
+          "ei/ele": "vor veghea"
+        },
+        "viitor_familiar": {
+          "eu": "o să veghez",
+          "tu": "o să veghezi",
+          "el/ea": "o să vegheze",
+          "noi": "o să veghem",
+          "voi": "o să vegheați",
+          "ei/ele": "o să vegheze"
+        },
+        "conjunctiv": {
+          "eu": "să veghez",
+          "tu": "să veghezi",
+          "el/ea": "să vegheze",
+          "noi": "să veghem",
+          "voi": "să vegheați",
+          "ei/ele": "să vegheze"
+        },
+        "conditional": {
+          "eu": "aș veghea",
+          "tu": "ai veghea",
+          "el/ea": "ar veghea",
+          "noi": "am veghea",
+          "voi": "ați veghea",
+          "ei/ele": "ar veghea"
+        },
+        "imperativ": {
+          "tu": "veghează",
+          "voi": "vegheați"
+        }
+      }
+    },
+    {
+      "infinitive": "a tăcea",
+      "type": "regular",
+      "group": 2,
+      "subgroup": 2,
+      "infinitive_translated": ["to be silent", "to keep quiet"],
+      "conjugations": {
+        "prezent": {
+          "eu": "tac",
+          "tu": "taci",
+          "el/ea": "tace",
+          "noi": "tăcem",
+          "voi": "tăceți",
+          "ei/ele": "tac"
+        },
+        "perfect_compus": {
+          "eu": "am tăcut",
+          "tu": "ai tăcut",
+          "el/ea": "a tăcut",
+          "noi": "am tăcut",
+          "voi": "ați tăcut",
+          "ei/ele": "au tăcut"
+        },
+        "viitor_literar": {
+          "eu": "voi tăcea",
+          "tu": "vei tăcea",
+          "el/ea": "va tăcea",
+          "noi": "vom tăcea",
+          "voi": "veți tăcea",
+          "ei/ele": "vor tăcea"
+        },
+        "viitor_familiar": {
+          "eu": "o să tac",
+          "tu": "o să taci",
+          "el/ea": "o să tacă",
+          "noi": "o să tăcem",
+          "voi": "o să tăceți",
+          "ei/ele": "o să tacă"
+        },
+        "conjunctiv": {
+          "eu": "să tac",
+          "tu": "să taci",
+          "el/ea": "să tacă",
+          "noi": "să tăcem",
+          "voi": "să tăceți",
+          "ei/ele": "să tacă"
+        },
+        "conditional": {
+          "eu": "aș tăcea",
+          "tu": "ai tăcea",
+          "el/ea": "ar tăcea",
+          "noi": "am tăcea",
+          "voi": "ați tăcea",
+          "ei/ele": "ar tăcea"
+        },
+        "imperativ": {
+          "tu": "taci",
+          "voi": "tăceți"
+        }
+      }
+    },
+    {
       "infinitive": "a-l durea",
       "type": "irregular",
       "group": 2,
