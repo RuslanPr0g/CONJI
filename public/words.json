@@ -41,7 +41,7 @@
   { "value": "ploaie", "translations": ["rain"] },
   { "value": "zăpadă", "translations": ["snow"] },
   { "value": "vânt", "translations": ["wind"] },
-  { "value": "mare", "translations": ["sea"] },
+  { "value": "mare", "translations": ["sea", "big"] },
   { "value": "râu", "translations": ["river"] },
   { "value": "munte", "translations": ["mountain"] },
   { "value": "drum", "translations": ["road"] },
@@ -69,5 +69,173 @@
   { "value": "avion", "translations": ["plane"] },
   { "value": "bicicletă", "translations": ["bicycle"] },
   { "value": "autobuz", "translations": ["bus"] },
-  { "value": "stație", "translations": ["station"] }
+  { "value": "stație", "translations": ["station"] },
+  {
+    "value": "la",
+    "translations": ["to", "at"]
+  },
+  {
+    "value": "centrul",
+    "translations": ["the center"]
+  },
+  {
+    "value": "de",
+    "translations": ["of", "from"]
+  },
+  {
+    "value": "natură",
+    "translations": ["nature"]
+  },
+  {
+    "value": "din",
+    "translations": ["from", "out of"]
+  },
+  {
+    "value": "în",
+    "translations": ["in", "into"]
+  },
+  {
+    "value": "fiecare",
+    "translations": ["each", "every"]
+  },
+  {
+    "value": "dimineață",
+    "translations": ["morning"]
+  },
+  {
+    "value": "se",
+    "translations": ["oneself", "reflexive pronoun (used with verbs)"]
+  },
+  {
+    "value": "și",
+    "translations": ["and", "also"]
+  },
+  {
+    "value": "pe",
+    "translations": ["on", "at"]
+  },
+  {
+    "value": "jos",
+    "translations": ["down", "below"]
+  },
+  {
+    "value": "pe jos",
+    "translations": ["on foot"]
+  },
+  {
+    "value": "lucru",
+    "translations": ["thing", "work"]
+  },
+  {
+    "value": "aer",
+    "translations": ["air"]
+  },
+  {
+    "value": "aerul",
+    "translations": ["the air"]
+  },
+  {
+    "value": "curat",
+    "translations": ["clean"]
+  },
+  {
+    "value": "iar",
+    "translations": ["and", "again"]
+  },
+  {
+    "value": "strada",
+    "translations": ["the street"]
+  },
+  {
+    "value": "liniștită",
+    "translations": ["quiet", "peaceful"]
+  },
+  {
+    "value": "pentru",
+    "translations": ["for"]
+  },
+  {
+    "value": "că",
+    "translations": ["that", "because"]
+  },
+  {
+    "value": "pentru că",
+    "translations": ["because"]
+  },
+  {
+    "value": "îi place",
+    "translations": ["he/she likes", "likes to him/her"]
+  },
+  {
+    "value": "mult",
+    "translations": ["much", "a lot"]
+  },
+  {
+    "value": "ce",
+    "translations": ["what", "that", "which"]
+  },
+  {
+    "value": "el",
+    "translations": ["he"]
+  },
+  {
+    "value": "ea",
+    "translations": ["she"]
+  },
+  {
+    "value": "animalele",
+    "translations": ["the animals"]
+  },
+  {
+    "value": "animale",
+    "translations": ["animals"]
+  },
+  {
+    "value": "copiilor",
+    "translations": ["to the children", "of the children"]
+  },
+  {
+    "value": "copii",
+    "translations": ["children", "kids"]
+  },
+  {
+    "value": "unde",
+    "translations": ["where"]
+  },
+  {
+    "value": "cum",
+    "translations": ["how"]
+  },
+  {
+    "value": "deodată",
+    "translations": ["suddenly", "all of a sudden"]
+  },
+  {
+    "value": "înăuntru",
+    "translations": ["inside"]
+  },
+  {
+    "value": "câteva",
+    "translations": ["a few", "some"]
+  },
+  {
+    "value": "cutii",
+    "translations": ["boxes"]
+  },
+  {
+    "value": "lucruri",
+    "translations": ["things"]
+  },
+  {
+    "value": "lecții",
+    "translations": ["lessons"]
+  },
+  {
+    "value": "capitolul",
+    "translations": ["chapter"]
+  },
+  {
+    "value": "capitol",
+    "translations": ["chapter"]
+  }
 ]

@@ -7,11 +7,10 @@
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 16px;
+  display: flex;
   padding: 16px;
   height: 100%;
+  flex-direction: column;
 }
 
 .glass-card {
@@ -28,6 +27,7 @@
   justify-content: space-between;
   min-height: 180px;
   height: fit-content;
+  margin-top: 16px;
 }
 
 .glass-card:hover {

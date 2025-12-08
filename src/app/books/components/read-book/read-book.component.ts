@@ -89,7 +89,10 @@ export class ReadBookComponent implements OnInit {
 
   translateSelection() {
     const selection = window.getSelection()?.toString().trim();
-    if (!selection || selection.includes(' ')) {
+    if (
+      !selection ||
+      (selection.includes(' ') && selection.split(' ').length > 2)
+    ) {
       this.selection = undefined;
       this.translation = undefined;
       return;

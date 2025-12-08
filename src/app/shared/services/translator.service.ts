@@ -16,7 +16,7 @@ export class TranslatorService {
   init(words: Word[], verbGroups: VerbGroup[]) {
     words.forEach((w) => {
       if (w.value && w.translations?.length) {
-        this.wordDict.set(w.value.toLowerCase(), w.translations[0]);
+        this.wordDict.set(w.value.toLowerCase(), w.translations.join(', '));
       }
     });
 
@@ -25,7 +25,7 @@ export class TranslatorService {
         if (verb.infinitive && verb.infinitive_translated?.length) {
           this.verbDict.set(
             verb.infinitive.toLowerCase(),
-            verb.infinitive_translated[0]
+            verb.infinitive_translated.join(', ')
           );
         }
 
@@ -35,7 +35,7 @@ export class TranslatorService {
               const f = form as string;
               this.verbDict.set(
                 f.toLowerCase(),
-                verb.infinitive_translated?.[0] ?? '-'
+                verb.infinitive_translated?.join(', ') ?? '-'
               );
             });
           });
