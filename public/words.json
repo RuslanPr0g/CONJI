@@ -421,5 +421,41 @@
   {
     "value": "bună",
     "translations": ["good"]
+  },
+  {
+    "value": "lecție",
+    "translations": ["lesson"]
+  },
+  {
+    "value": "lecția",
+    "translations": ["the lesson"]
+  },
+  {
+    "value": "azi",
+    "translations": ["today"]
+  },
+  {
+    "value": "astazi",
+    "translations": ["today"]
+  },
+  {
+    "value": "astăzi",
+    "translations": ["today"]
+  },
+  {
+    "value": "să",
+    "translations": ["to", "let", "may"]
+  },
+  {
+    "value": "da",
+    "translations": ["yes"]
+  },
+  {
+    "value": "nu",
+    "translations": ["no"]
+  },
+  {
+    "value": "gata",
+    "translations": ["ready"]
   }
 ]

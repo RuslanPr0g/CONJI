@@ -63,6 +63,67 @@
       }
     },
     {
+      "infinitive": "a pregăti",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to prepare"],
+      "conjugations": {
+        "prezent": {
+          "eu": "pregătesc",
+          "tu": "pregătești",
+          "el/ea": "pregătește",
+          "noi": "pregătim",
+          "voi": "pregătiți",
+          "ei/ele": "pregătesc"
+        },
+        "perfect_compus": {
+          "eu": "am pregătit",
+          "tu": "ai pregătit",
+          "el/ea": "a pregătit",
+          "noi": "am pregătit",
+          "voi": "ați pregătit",
+          "ei/ele": "au pregătit"
+        },
+        "viitor_literar": {
+          "eu": "voi pregăti",
+          "tu": "vei pregăti",
+          "el/ea": "va pregăti",
+          "noi": "vom pregăti",
+          "voi": "veți pregăti",
+          "ei/ele": "vor pregăti"
+        },
+        "viitor_familiar": {
+          "eu": "o să pregătesc",
+          "tu": "o să pregătești",
+          "el/ea": "o să pregătească",
+          "noi": "o să pregătim",
+          "voi": "o să pregătiți",
+          "ei/ele": "o să pregătească"
+        },
+        "conjunctiv": {
+          "eu": "să pregătesc",
+          "tu": "să pregătești",
+          "el/ea": "să pregătească",
+          "noi": "să pregătim",
+          "voi": "să pregătiți",
+          "ei/ele": "să pregătească"
+        },
+        "conditional": {
+          "eu": "aș pregăti",
+          "tu": "ai pregăti",
+          "el/ea": "ar pregăti",
+          "noi": "am pregăti",
+          "voi": "ați pregăti",
+          "ei/ele": "ar pregăti"
+        },
+        "imperativ": {
+          "tu": "pregătește",
+          "voi": "pregătiți"
+        }
+      }
+    },
+    {
       "infinitive": "a urî",
       "type": "regular",
       "group": 4,
