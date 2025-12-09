@@ -2,6 +2,67 @@
   "group": "Grupa a IV-a - terminat în -i/î",
   "verbs": [
     {
+      "infinitive": "a zâmbi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to smile"],
+      "conjugations": {
+        "prezent": {
+          "eu": "zâmbesc",
+          "tu": "zâmbești",
+          "el/ea": "zâmbește",
+          "noi": "zâmbim",
+          "voi": "zâmbiți",
+          "ei/ele": "zâmbesc"
+        },
+        "perfect_compus": {
+          "eu": "am zâmbit",
+          "tu": "ai zâmbit",
+          "el/ea": "a zâmbit",
+          "noi": "am zâmbit",
+          "voi": "ați zâmbit",
+          "ei/ele": "au zâmbit"
+        },
+        "viitor_literar": {
+          "eu": "voi zâmbi",
+          "tu": "vei zâmbi",
+          "el/ea": "va zâmbi",
+          "noi": "vom zâmbi",
+          "voi": "veți zâmbi",
+          "ei/ele": "vor zâmbi"
+        },
+        "viitor_familiar": {
+          "eu": "o să zâmbesc",
+          "tu": "o să zâmbești",
+          "el/ea": "o să zâmbească",
+          "noi": "o să zâmbim",
+          "voi": "o să zâmbiți",
+          "ei/ele": "o să zâmbească"
+        },
+        "conjunctiv": {
+          "eu": "să zâmbesc",
+          "tu": "să zâmbești",
+          "el/ea": "să zâmbească",
+          "noi": "să zâmbim",
+          "voi": "să zâmbiți",
+          "ei/ele": "să zâmbească"
+        },
+        "conditional": {
+          "eu": "aș zâmbi",
+          "tu": "ai zâmbi",
+          "el/ea": "ar zâmbi",
+          "noi": "am zâmbi",
+          "voi": "ați zâmbi",
+          "ei/ele": "ar zâmbi"
+        },
+        "imperativ": {
+          "tu": "zâmbește",
+          "voi": "zâmbiți"
+        }
+      }
+    },
+    {
       "infinitive": "a urî",
       "type": "regular",
       "group": 4,
