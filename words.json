@@ -220,7 +220,7 @@
   },
   {
     "value": "o",
-    "translations": ["her", "it"]
+    "translations": ["her", "it", "a", "a (article)"]
   },
   {
     "value": "îl",
@@ -285,5 +285,141 @@
   {
     "value": "capitol",
     "translations": ["chapter"]
+  },
+  {
+    "value": "clădire",
+    "translations": ["building"]
+  },
+  {
+    "value": "clădirea",
+    "translations": ["the building"]
+  },
+  {
+    "value": "mică",
+    "translations": ["small"]
+  },
+  {
+    "value": "mica",
+    "translations": ["the small one"]
+  },
+  {
+    "value": "simplă",
+    "translations": ["simple"]
+  },
+  {
+    "value": "simpla",
+    "translations": ["the simple one"]
+  },
+  {
+    "value": "frumoasă",
+    "translations": ["beautiful"]
+  },
+  {
+    "value": "frumoasa",
+    "translations": ["the beautiful one"]
+  },
+  {
+    "value": "hărți",
+    "translations": ["maps"]
+  },
+  {
+    "value": "harta",
+    "translations": ["the map"]
+  },
+  {
+    "value": "hartă",
+    "translations": ["map"]
+  },
+  {
+    "value": "poze",
+    "translations": ["pictures", "photos"]
+  },
+  {
+    "value": "poză",
+    "translations": ["picture", "photo"]
+  },
+  {
+    "value": "poza",
+    "translations": ["the picture", "the photo"]
+  },
+  {
+    "value": "cu",
+    "translations": ["with"]
+  },
+  {
+    "value": "ușa",
+    "translations": ["the door"]
+  },
+  {
+    "value": "ușă",
+    "translations": ["door"]
+  },
+  {
+    "value": "miros",
+    "translations": ["smell", "scent"]
+  },
+  {
+    "value": "mirosul",
+    "translations": ["the smell"]
+  },
+  {
+    "value": "lemn",
+    "translations": ["wood"]
+  },
+  {
+    "value": "lemnul",
+    "translations": ["the wood"]
+  },
+  {
+    "value": "hârtie",
+    "translations": ["paper"]
+  },
+  {
+    "value": "hârtia",
+    "translations": ["the paper"]
+  },
+  {
+    "value": "nouă",
+    "translations": ["new"]
+  },
+  {
+    "value": "noua",
+    "translations": ["the new one"]
+  },
+  {
+    "value": "colega",
+    "translations": ["the colleague"]
+  },
+  {
+    "value": "colegă",
+    "translations": ["colleague"]
+  },
+  {
+    "value": "lui",
+    "translations": ["his", "of him"]
+  },
+  {
+    "value": "deja",
+    "translations": ["already"]
+  },
+  {
+    "value": "acolo",
+    "translations": ["there"]
+  },
+  {
+    "value": "caiete",
+    "translations": ["notebooks"]
+  },
+  {
+    "value": "caiet",
+    "translations": ["notebook"]
+  },
+  {
+    "value": "caietul",
+    "translations": ["the notebook"]
+  },
+  {
+    "value": "bună",
+    "translations": ["good"]
   }
 ]
