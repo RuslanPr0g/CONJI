@@ -69,7 +69,7 @@ export class ConjugationComponent implements OnInit {
   onEscapePress(): void {
     if (!this.isGamingMode) {
       this.closePopup();
-      this.inputRef.nativeElement.blur();
+      this.inputRef?.nativeElement?.blur();
     }
   }
 
@@ -82,7 +82,7 @@ export class ConjugationComponent implements OnInit {
         return;
       }
 
-      this.inputRef.nativeElement.focus();
+      this.inputRef?.nativeElement?.focus();
     } else if (event.ctrlKey && event.key === 'p') {
       event.preventDefault();
 

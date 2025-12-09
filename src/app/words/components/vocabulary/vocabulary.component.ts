@@ -38,7 +38,7 @@ export class VocabularyComponent implements OnInit {
 
   @HostListener('document:keydown.escape')
   onEscapePress(): void {
-    this.inputRef?.nativeElement.blur();
+    this.inputRef?.nativeElement?.blur();
   }
 
   @HostListener('document:keydown', ['$event'])
@@ -46,7 +46,7 @@ export class VocabularyComponent implements OnInit {
     if (event.ctrlKey && event.key === 'f') {
       event.preventDefault();
 
-      this.inputRef.nativeElement.focus();
+      this.inputRef?.nativeElement?.focus();
     } else if (event.ctrlKey && event.key === 'p') {
       event.preventDefault();
 

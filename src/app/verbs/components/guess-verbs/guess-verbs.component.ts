@@ -174,8 +174,8 @@ export class GuessVerbsComponent implements OnInit {
     this.loading = false;
 
     setTimeout(() => {
-      this.inputRef.nativeElement.focus();
-      this.inputRef.nativeElement.select();
+      this.inputRef?.nativeElement?.focus();
+      this.inputRef?.nativeElement?.select();
     }, 300);
   }
 

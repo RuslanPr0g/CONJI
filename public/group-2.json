@@ -6,7 +6,6 @@
       "type": "irregular",
       "group": 2,
       "subgroup": 99,
-      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to like"],
       "conjugations": {
         "prezent": {
@@ -247,7 +246,6 @@
       "type": "irregular",
       "group": 2,
       "subgroup": 2,
-      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to hurt", "to ache"],
       "conjugations": {
         "prezent": {
