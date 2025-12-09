@@ -1198,6 +1198,112 @@
       }
     },
     {
+      "infinitive": "a se comporta",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to behave"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă comport",
+          "tu": "te comporți",
+          "el/ea": "se comportă",
+          "noi": "ne comportăm",
+          "voi": "vă comportați",
+          "ei/ele": "se comportă"
+        },
+        "perfect_compus": {
+          "eu": "m-am comportat",
+          "tu": "te-ai comportat",
+          "el/ea": "s-a comportat",
+          "noi": "ne-am comportat",
+          "voi": "v-ați comportat",
+          "ei/ele": "s-au comportat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi comporta",
+          "tu": "te vei comporta",
+          "el/ea": "se va comporta",
+          "noi": "ne vom comporta",
+          "voi": "vă veți comporta",
+          "ei/ele": "se vor comporta"
+        },
+        "conjunctiv": {
+          "eu": "să mă comport",
+          "tu": "să te comporți",
+          "el/ea": "să se comporte",
+          "noi": "să ne comportăm",
+          "voi": "să vă comportați",
+          "ei/ele": "să se comporte"
+        },
+        "conditional": {
+          "eu": "m-aș comporta",
+          "tu": "te-ai comporta",
+          "el/ea": "s-ar comporta",
+          "noi": "ne-am comporta",
+          "voi": "v-ați comporta",
+          "ei/ele": "s-ar comporta"
+        },
+        "imperativ": {
+          "tu": "comportă-te",
+          "voi": "comportați-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a arăta",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to show", "to indicate", "to look like"],
+      "conjugations": {
+        "prezent": {
+          "eu": "arat",
+          "tu": "arați",
+          "el/ea": "arată",
+          "noi": "arătăm",
+          "voi": "arătați",
+          "ei/ele": "arată"
+        },
+        "perfect_compus": {
+          "eu": "am arătat",
+          "tu": "ai arătat",
+          "el/ea": "a arătat",
+          "noi": "am arătat",
+          "voi": "ați arătat",
+          "ei/ele": "au arătat"
+        },
+        "viitor_literar": {
+          "eu": "voi arăta",
+          "tu": "vei arăta",
+          "el/ea": "va arăta",
+          "noi": "vom arăta",
+          "voi": "veți arăta",
+          "ei/ele": "vor arăta"
+        },
+        "conjunctiv": {
+          "eu": "să arăt",
+          "tu": "să arați",
+          "el/ea": "să arate",
+          "noi": "să arătăm",
+          "voi": "să arătați",
+          "ei/ele": "să arate"
+        },
+        "conditional": {
+          "eu": "aș arăta",
+          "tu": "ai arăta",
+          "el/ea": "ar arăta",
+          "noi": "am arăta",
+          "voi": "ați arăta",
+          "ei/ele": "ar arăta"
+        },
+        "imperativ": {
+          "tu": "arată",
+          "voi": "arătați"
+        }
+      }
+    },
+    {
       "infinitive": "a se caza",
       "type": "regular",
       "group": 1,
