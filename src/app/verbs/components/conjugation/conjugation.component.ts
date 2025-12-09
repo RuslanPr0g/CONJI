@@ -10,7 +10,7 @@ import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule, FormControl } from '@angular/forms';
 import { environment } from '../../../../environments/environment';
-import { AddToPrefixPipe } from '../../../shared/pipes/add-to-prefix.pipe';
+import { AddPrefixPipe } from '../../../shared/pipes/add-prefix/add-prefix.pipe';
 import { LoadVerbResourcesService } from '../../../shared/services/load-verb-resources.service';
 import { normalize } from '../../../shared/helpers/string.helper';
 import {
@@ -30,7 +30,7 @@ import { GuessVerbsComponent } from '../guess-verbs/guess-verbs.component';
   selector: 'app-conjugation',
   standalone: true,
   imports: [
-    AddToPrefixPipe,
+    AddPrefixPipe,
     CommonModule,
     FormsModule,
     ReactiveFormsModule,

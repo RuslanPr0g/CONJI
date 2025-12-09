@@ -70,7 +70,10 @@ export class GuessVerbsComponent implements OnInit {
           type: 'translate-to-ro',
         });
         exs.push({
-          question: `Traducere în engleză: a ${verb.infinitive}`,
+          question: `Traducere în engleză: a ${verb.infinitive.replace(
+            'a ',
+            ''
+          )}`,
           correctAnswers: verb.infinitive_translated.map((t) =>
             t.toLowerCase().trim()
           ),

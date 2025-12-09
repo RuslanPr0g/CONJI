@@ -22,7 +22,9 @@
             tabindex="0"
             role="button"
           >
-            <div class="verb-infinitive">{{ verb.infinitive }}</div>
+            <div class="verb-infinitive">
+              {{ verb.infinitive | addPrefix : "a" }}
+            </div>
 
             <div
               class="verb-translations"
@@ -39,7 +41,7 @@
                     let last = last
                   "
                 >
-                  {{ translation | addToPrefix }}<span *ngIf="!last"> • </span>
+                  {{ translation | addPrefix }}<span *ngIf="!last"> • </span>
                 </span>
               </small>
             </div>
@@ -48,7 +50,7 @@
             </ng-template>
 
             <div class="verb-meta-grid">
-              <div class="verb-forms" *ngIf="verb.conjugations?.prezent">
+              <div class="verb-forms" *ngIf="verb.conjugations.prezent">
                 <div>
                   <strong>eu:</strong> {{ verb.conjugations.prezent.eu || "—" }}
                 </div>
@@ -195,7 +197,7 @@
                 let last = last
               "
             >
-              {{ translation | addToPrefix }}<span *ngIf="!last"> • </span>
+              {{ translation | addPrefix }}<span *ngIf="!last"> • </span>
             </span>
           </small>
         </div>
