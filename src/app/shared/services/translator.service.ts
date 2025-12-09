@@ -32,11 +32,15 @@ export class TranslatorService {
         if (verb.conjugations) {
           Object.values(verb.conjugations).forEach((tense: ConjugationKey) => {
             Object.values(tense).forEach((form) => {
-              const f = form as string;
-              this.verbDict.set(
-                f.toLowerCase(),
-                verb.infinitive_translated?.join(', ') ?? '-'
-              );
+              const formParts = (form as string).split(' ');
+
+              formParts.forEach((_, index) => {
+                const formedPart = formParts.slice(index).join(' ');
+                this.verbDict.set(
+                  formedPart.toLowerCase(),
+                  verb.infinitive_translated?.join(', ') ?? '-'
+                );
+              });
             });
           });
         }
@@ -59,6 +63,11 @@ export class TranslatorService {
    */
   translateText(text: string): string {
     if (!text) return '';
+
+    const tryTranslateWholeSentence = this.translateWord(text);
+    if (tryTranslateWholeSentence != text) {
+      return tryTranslateWholeSentence;
+    }
 
     return text
       .split(/(\s+|[.,;!?])/)
