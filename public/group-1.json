@@ -1198,6 +1198,59 @@
       }
     },
     {
+      "infinitive": "a aranja",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to arrange", "to organize", "to set up"],
+      "conjugations": {
+        "prezent": {
+          "eu": "aranjez",
+          "tu": "aranjezi",
+          "el/ea": "aranjează",
+          "noi": "aranjăm",
+          "voi": "aranjați",
+          "ei/ele": "aranjează"
+        },
+        "perfect_compus": {
+          "eu": "am aranjat",
+          "tu": "ai aranjat",
+          "el/ea": "a aranjat",
+          "noi": "am aranjat",
+          "voi": "ați aranjat",
+          "ei/ele": "au aranjat"
+        },
+        "viitor_literar": {
+          "eu": "voi aranja",
+          "tu": "vei aranja",
+          "el/ea": "va aranja",
+          "noi": "vom aranja",
+          "voi": "veți aranja",
+          "ei/ele": "vor aranja"
+        },
+        "conjunctiv": {
+          "eu": "să aranjez",
+          "tu": "să aranjezi",
+          "el/ea": "să aranjeze",
+          "noi": "să aranjăm",
+          "voi": "să aranjați",
+          "ei/ele": "să aranjeze"
+        },
+        "conditional": {
+          "eu": "aș aranja",
+          "tu": "ai aranja",
+          "el/ea": "ar aranja",
+          "noi": "am aranja",
+          "voi": "ați aranja",
+          "ei/ele": "ar aranja"
+        },
+        "imperativ": {
+          "tu": "aranjează",
+          "voi": "aranjați"
+        }
+      }
+    },
+    {
       "infinitive": "a se comporta",
       "type": "regular",
       "group": 1,
