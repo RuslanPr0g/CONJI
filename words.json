@@ -183,6 +183,54 @@
     "translations": ["she"]
   },
   {
+    "value": "îi",
+    "translations": ["to him", "to her", "to them"]
+  },
+  {
+    "value": "îmi",
+    "translations": ["to me", "for me"]
+  },
+  {
+    "value": "îți",
+    "translations": ["to you", "for you"]
+  },
+  {
+    "value": "ne",
+    "translations": ["us", "to us", "ourselves"]
+  },
+  {
+    "value": "vă",
+    "translations": ["you", "to you (plural)", "yourselves", "you (plural)"]
+  },
+  {
+    "value": "le",
+    "translations": ["to them", "for them"]
+  },
+  {
+    "value": "se",
+    "translations": ["himself", "herself", "itself", "themselves"]
+  },
+  {
+    "value": "mă",
+    "translations": ["me", "myself"]
+  },
+  {
+    "value": "te",
+    "translations": ["you", "yourself"]
+  },
+  {
+    "value": "o",
+    "translations": ["her", "it"]
+  },
+  {
+    "value": "îl",
+    "translations": ["him", "it"]
+  },
+  {
+    "value": "le",
+    "translations": ["them", "them (f.)"]
+  },
+  {
     "value": "animalele",
     "translations": ["the animals"]
   },
