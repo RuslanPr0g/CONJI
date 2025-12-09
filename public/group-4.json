@@ -63,6 +63,67 @@
       }
     },
     {
+      "infinitive": "a privi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to look", "to watch"],
+      "conjugations": {
+        "prezent": {
+          "eu": "privesc",
+          "tu": "privești",
+          "el/ea": "privește",
+          "noi": "privim",
+          "voi": "priviți",
+          "ei/ele": "privesc"
+        },
+        "perfect_compus": {
+          "eu": "am privit",
+          "tu": "ai privit",
+          "el/ea": "a privit",
+          "noi": "am privit",
+          "voi": "ați privit",
+          "ei/ele": "au privit"
+        },
+        "viitor_literar": {
+          "eu": "voi privi",
+          "tu": "vei privi",
+          "el/ea": "va privi",
+          "noi": "vom privi",
+          "voi": "veți privi",
+          "ei/ele": "vor privi"
+        },
+        "viitor_familiar": {
+          "eu": "o să privesc",
+          "tu": "o să privești",
+          "el/ea": "o să privească",
+          "noi": "o să privim",
+          "voi": "o să priviți",
+          "ei/ele": "o să privească"
+        },
+        "conjunctiv": {
+          "eu": "să privesc",
+          "tu": "să privești",
+          "el/ea": "să privească",
+          "noi": "să privim",
+          "voi": "să priviți",
+          "ei/ele": "să privească"
+        },
+        "conditional": {
+          "eu": "aș privi",
+          "tu": "ai privi",
+          "el/ea": "ar privi",
+          "noi": "am privi",
+          "voi": "ați privi",
+          "ei/ele": "ar privi"
+        },
+        "imperativ": {
+          "tu": "privește",
+          "voi": "priviți"
+        }
+      }
+    },
+    {
       "infinitive": "a pregăti",
       "type": "regular",
       "group": 1,

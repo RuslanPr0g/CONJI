@@ -457,5 +457,137 @@
   {
     "value": "gata",
     "translations": ["ready"]
+  },
+  {
+    "value": "masa",
+    "translations": ["the table"]
+  },
+  {
+    "value": "frumos",
+    "translations": ["beautiful"]
+  },
+  {
+    "value": "una",
+    "translations": ["one"]
+  },
+  {
+    "value": "alta",
+    "translations": ["another"]
+  },
+  {
+    "value": "lângă",
+    "translations": ["next to", "besides", "close to"]
+  },
+  {
+    "value": "apoi",
+    "translations": ["then", "later"]
+  },
+  {
+    "value": "perete",
+    "translations": ["wall"]
+  },
+  {
+    "value": "Într-un",
+    "translations": ["in", "inside"]
+  },
+  {
+    "value": "mic",
+    "translations": ["small"]
+  },
+  {
+    "value": "apa",
+    "translations": ["the water"]
+  },
+  {
+    "value": "care",
+    "translations": ["which"]
+  },
+  {
+    "value": "încet",
+    "translations": ["slowly", "slow"]
+  },
+  {
+    "value": "despre",
+    "translations": ["about"]
+  },
+  {
+    "value": "vulpi",
+    "translations": ["foxes"]
+  },
+  {
+    "value": "un",
+    "translations": ["one", "a (article)"]
+  },
+  {
+    "value": "poster",
+    "translations": ["poster"]
+  },
+  {
+    "value": "nou",
+    "translations": ["new"]
+  },
+  {
+    "value": "clare",
+    "translations": ["clear"]
+  },
+  {
+    "value": "vulpea",
+    "translations": ["the fox"]
+  },
+  {
+    "value": "animalul",
+    "translations": ["the animal"]
+  },
+  {
+    "value": "pădure",
+    "translations": ["forest"]
+  },
+  {
+    "value": "roșcată",
+    "translations": ["redhead"]
+  },
+  {
+    "value": "rapidă",
+    "translations": ["fast", "quick"]
+  },
+  {
+    "value": "colț",
+    "translations": ["corner"]
+  },
+  {
+    "value": "acvariu",
+    "translations": ["aquarium"]
+  },
+  {
+    "value": "vulpe",
+    "translations": ["fox"]
+  },
+  {
+    "value": "tânără",
+    "translations": ["young"]
+  },
+  {
+    "value": "noaptea",
+    "translations": ["the night"]
+  },
+  {
+    "value": "atentă",
+    "translations": ["careful"]
+  },
+  {
+    "value": "zgomote",
+    "translations": ["noises"]
+  },
+  {
+    "value": "toate",
+    "translations": ["everything"]
+  },
+  {
+    "value": "acestea",
+    "translations": ["this"]
+  },
+  {
+    "value": "simple",
+    "translations": ["simple"]
   }
 ]

@@ -1320,6 +1320,67 @@
       }
     },
     {
+      "infinitive": "pune",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 2,
+      "infinitive_translated": ["to put", "to place"],
+      "conjugations": {
+        "prezent": {
+          "eu": "pun",
+          "tu": "pui",
+          "el/ea": "pune",
+          "noi": "punem",
+          "voi": "puneți",
+          "ei/ele": "pun"
+        },
+        "perfect_compus": {
+          "eu": "am pus",
+          "tu": "ai pus",
+          "el/ea": "a pus",
+          "noi": "am pus",
+          "voi": "ați pus",
+          "ei/ele": "au pus"
+        },
+        "viitor_literar": {
+          "eu": "voi pune",
+          "tu": "vei pune",
+          "el/ea": "va pune",
+          "noi": "vom pune",
+          "voi": "veți pune",
+          "ei/ele": "vor pune"
+        },
+        "viitor_familiar": {
+          "eu": "o să pun",
+          "tu": "o să pui",
+          "el/ea": "o să pună",
+          "noi": "o să punem",
+          "voi": "o să puneți",
+          "ei/ele": "o să pună"
+        },
+        "conjunctiv": {
+          "eu": "să pun",
+          "tu": "să pui",
+          "el/ea": "să pună",
+          "noi": "să punem",
+          "voi": "să puneți",
+          "ei/ele": "să pună"
+        },
+        "conditional": {
+          "eu": "aș pune",
+          "tu": "ai pune",
+          "el/ea": "ar pune",
+          "noi": "am pune",
+          "voi": "ați pune",
+          "ei/ele": "ar pune"
+        },
+        "imperativ": {
+          "tu": "pune",
+          "voi": "puneți"
+        }
+      }
+    },
+    {
       "infinitive": "crede",
       "type": "regular",
       "group": 3,

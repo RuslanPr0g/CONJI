@@ -1198,6 +1198,67 @@
       }
     },
     {
+      "infinitive": "a așeza",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to place", "to arrange", "to set"],
+      "conjugations": {
+        "prezent": {
+          "eu": "așez",
+          "tu": "așezi",
+          "el/ea": "așază",
+          "noi": "așezăm",
+          "voi": "așezați",
+          "ei/ele": "așază"
+        },
+        "perfect_compus": {
+          "eu": "am așezat",
+          "tu": "ai așezat",
+          "el/ea": "a așezat",
+          "noi": "am așezat",
+          "voi": "ați așezat",
+          "ei/ele": "au așezat"
+        },
+        "viitor_literar": {
+          "eu": "voi așeza",
+          "tu": "vei așeza",
+          "el/ea": "va așeza",
+          "noi": "vom așeza",
+          "voi": "veți așeza",
+          "ei/ele": "vor așeza"
+        },
+        "viitor_familiar": {
+          "eu": "o să așez",
+          "tu": "o să așezi",
+          "el/ea": "o să așeze",
+          "noi": "o să așezăm",
+          "voi": "o să așezați",
+          "ei/ele": "o să așeze"
+        },
+        "conjunctiv": {
+          "eu": "să așez",
+          "tu": "să așezi",
+          "el/ea": "să așeze",
+          "noi": "să așezăm",
+          "voi": "să așezați",
+          "ei/ele": "să așeze"
+        },
+        "conditional": {
+          "eu": "aș așeza",
+          "tu": "ai așeza",
+          "el/ea": "ar așeza",
+          "noi": "am așeza",
+          "voi": "ați așeza",
+          "ei/ele": "ar așeza"
+        },
+        "imperativ": {
+          "tu": "așază",
+          "voi": "așezați"
+        }
+      }
+    },
+    {
       "infinitive": "a aranja",
       "type": "regular",
       "group": 1,
