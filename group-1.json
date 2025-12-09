@@ -616,7 +616,6 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to have fun"],
       "conjugations": {
         "prezent": {
@@ -678,7 +677,6 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to take a walk"],
       "conjugations": {
         "prezent": {
@@ -740,7 +738,6 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to wash oneself"],
       "conjugations": {
         "prezent": {
@@ -802,7 +799,6 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to get dressed"],
       "conjugations": {
         "prezent": {
@@ -864,7 +860,6 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to go to bed"],
       "conjugations": {
         "prezent": {
@@ -926,7 +921,6 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to look", "to watch"],
       "conjugations": {
         "prezent": {
@@ -1208,7 +1202,6 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to check in", "to lodge"],
       "conjugations": {
         "prezent": {

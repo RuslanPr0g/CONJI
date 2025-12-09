@@ -250,7 +250,6 @@
       "type": "regular",
       "group": 3,
       "subgroup": 1,
-      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to go"],
       "conjugations": {
         "prezent": {
@@ -312,7 +311,6 @@
       "type": "regular",
       "group": 3,
       "subgroup": 1,
-      "ignoreInGames": ["conjugation"],
       "infinitive_translated": ["to return"],
       "conjugations": {
         "prezent": {
