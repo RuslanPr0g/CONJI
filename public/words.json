@@ -587,7 +587,23 @@
     "translations": ["this"]
   },
   {
-    "value": "simple",
-    "translations": ["simple"]
+    "value": "brad",
+    "translations": ["fir"]
+  },
+  {
+    "value": "pomul de crăciun",
+    "translations": ["christmas tree"]
+  },
+  {
+    "value": "cadouri",
+    "translations": ["presents", "gifts"]
+  },
+  {
+    "value": "târgul de crăciun",
+    "translations": ["the christmas market"]
+  },
+  {
+    "value": "foc de artificii",
+    "translations": ["fireworks"]
   }
 ]
