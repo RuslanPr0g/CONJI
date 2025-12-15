@@ -94,6 +94,19 @@ export class GuessVerbsComponent implements OnInit {
           correctAnswers: [verb.conjugations.perfect_compus[p]],
           type: 'conjugate-past',
         });
+        exs.push({
+          question: `(Viitor familiar): ${p} ___ (${verb.infinitive})`,
+          correctAnswers: Array.from(
+            new Set([
+              ...p
+                .split('/')
+                .map((sp) => `${sp} ${verb.conjugations.viitor_familiar[p]}`),
+              `${p} ${verb.conjugations.viitor_familiar[p]}`,
+              `${verb.conjugations.viitor_familiar[p]}`,
+            ])
+          ),
+          type: 'conjugate-viitor-familiar',
+        });
 
         const vrea = this.getVerb('vrea');
         if (vrea) {
