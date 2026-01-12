@@ -63,6 +63,67 @@
       }
     },
     {
+      "infinitive": "a afla",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to find out", "to learn", "to discover"],
+      "conjugations": {
+        "prezent": {
+          "eu": "aflu",
+          "tu": "afli",
+          "el/ea": "află",
+          "noi": "aflăm",
+          "voi": "aflați",
+          "ei/ele": "află"
+        },
+        "perfect_compus": {
+          "eu": "am aflat",
+          "tu": "ai aflat",
+          "el/ea": "a aflat",
+          "noi": "am aflat",
+          "voi": "ați aflat",
+          "ei/ele": "au aflat"
+        },
+        "viitor_literar": {
+          "eu": "voi afla",
+          "tu": "vei afla",
+          "el/ea": "va afla",
+          "noi": "vom afla",
+          "voi": "veți afla",
+          "ei/ele": "vor afla"
+        },
+        "viitor_familiar": {
+          "eu": "o să aflu",
+          "tu": "o să afli",
+          "el/ea": "o să afle",
+          "noi": "o să aflăm",
+          "voi": "o să aflați",
+          "ei/ele": "o să afle"
+        },
+        "conjunctiv": {
+          "eu": "să aflu",
+          "tu": "să afli",
+          "el/ea": "să afle",
+          "noi": "să aflăm",
+          "voi": "să aflați",
+          "ei/ele": "să afle"
+        },
+        "conditional": {
+          "eu": "aș afla",
+          "tu": "ai afla",
+          "el/ea": "ar afla",
+          "noi": "am afla",
+          "voi": "ați afla",
+          "ei/ele": "ar afla"
+        },
+        "imperativ": {
+          "tu": "află",
+          "voi": "aflați"
+        }
+      }
+    },
+    {
       "infinitive": "a păstra",
       "type": "regular",
       "group": 1,
