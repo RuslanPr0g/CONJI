@@ -567,6 +567,38 @@
     "translations": ["young"]
   },
   {
+    "value": "un ghișeu",
+    "translations": ["a counter", "a service desk"]
+  },
+  {
+    "value": "un orar",
+    "translations": ["a timetable", "a schedule"]
+  },
+  {
+    "value": "o revistă",
+    "translations": ["a magazine"]
+  },
+  {
+    "value": "un ziar",
+    "translations": ["a newspaper"]
+  },
+  {
+    "value": "merită să mergi",
+    "translations": ["it's worth going", "worth a trip"]
+  },
+  {
+    "value": "nici",
+    "translations": ["neither", "nor", "not even"]
+  },
+  {
+    "value": "chiar",
+    "translations": ["even", "really", "actually"]
+  },
+  {
+    "value": "saci de dormit",
+    "translations": ["sleeping bags"]
+  },
+  {
     "value": "noaptea",
     "translations": ["the night"]
   },
