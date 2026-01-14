@@ -637,5 +637,29 @@
   {
     "value": "foc de artificii",
     "translations": ["fireworks"]
+  },
+  {
+    "value": "încă",
+    "translations": ["still", "yet"]
+  },
+  {
+    "value": "pari grăbită",
+    "translations": ["you seem hurried", "you look rushed"]
+  },
+  {
+    "value": "o pereche de ghete",
+    "translations": ["a pair of boots"]
+  },
+  {
+    "value": "dezavantaje",
+    "translations": ["disadvantages", "drawbacks"]
+  },
+  {
+    "value": "avantaje",
+    "translations": ["advantages", "benefits"]
+  },
+  {
+    "value": "de obicei",
+    "translations": ["usually", "normally"]
   }
 ]
