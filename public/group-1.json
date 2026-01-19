@@ -66,7 +66,7 @@
       "infinitive": "a urca",
       "type": "regular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 2,
       "infinitive_translated": ["to go up", "to climb"],
       "conjugations": {
         "prezent": {
@@ -127,7 +127,7 @@
       "infinitive": "a afla",
       "type": "regular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 2,
       "infinitive_translated": ["to find out", "to learn", "to discover"],
       "conjugations": {
         "prezent": {
