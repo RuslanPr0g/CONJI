@@ -63,6 +63,67 @@
       }
     },
     {
+      "infinitive": "a urca",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to go up", "to climb"],
+      "conjugations": {
+        "prezent": {
+          "eu": "urc",
+          "tu": "urci",
+          "el/ea": "urcă",
+          "noi": "urcăm",
+          "voi": "urcați",
+          "ei/ele": "urcă"
+        },
+        "perfect_compus": {
+          "eu": "am urcat",
+          "tu": "ai urcat",
+          "el/ea": "a urcat",
+          "noi": "am urcat",
+          "voi": "ați urcat",
+          "ei/ele": "au urcat"
+        },
+        "viitor_literar": {
+          "eu": "voi urca",
+          "tu": "vei urca",
+          "el/ea": "va urca",
+          "noi": "vom urca",
+          "voi": "veți urca",
+          "ei/ele": "vor urca"
+        },
+        "viitor_familiar": {
+          "eu": "o să urc",
+          "tu": "o să urci",
+          "el/ea": "o să urce",
+          "noi": "o să urcăm",
+          "voi": "o să urcați",
+          "ei/ele": "o să urce"
+        },
+        "conjunctiv": {
+          "eu": "să urc",
+          "tu": "să urci",
+          "el/ea": "să urce",
+          "noi": "să urcăm",
+          "voi": "să urcați",
+          "ei/ele": "să urce"
+        },
+        "conditional": {
+          "eu": "aș urca",
+          "tu": "ai urca",
+          "el/ea": "ar urca",
+          "noi": "am urca",
+          "voi": "ați urca",
+          "ei/ele": "ar urca"
+        },
+        "imperativ": {
+          "tu": "urcă",
+          "voi": "urcați"
+        }
+      }
+    },
+    {
       "infinitive": "a afla",
       "type": "regular",
       "group": 1,
