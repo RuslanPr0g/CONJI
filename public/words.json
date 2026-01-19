@@ -661,5 +661,25 @@
   {
     "value": "de obicei",
     "translations": ["usually", "normally"]
+  },
+  {
+    "value": "înălțime",
+    "translations": ["height"]
+  },
+  {
+    "value": "părul îngrijit",
+    "translations": ["well-groomed hair"]
+  },
+  {
+    "value": "îngrijit",
+    "translations": ["well-groomed", "neat", "tidy"]
+  },
+  {
+    "value": "un zâmbet",
+    "translations": ["a smile"]
+  },
+  {
+    "value": "zâmbet",
+    "translations": ["a smile"]
   }
 ]
