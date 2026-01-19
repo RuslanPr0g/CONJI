@@ -63,6 +63,67 @@
       }
     },
     {
+      "infinitive": "a îngriji",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to take care of", "to care for"],
+      "conjugations": {
+        "prezent": {
+          "eu": "îngrijesc",
+          "tu": "îngrijești",
+          "el/ea": "îngrijește",
+          "noi": "îngrijim",
+          "voi": "îngrijiți",
+          "ei/ele": "îngrijesc"
+        },
+        "perfect_compus": {
+          "eu": "am îngrijit",
+          "tu": "ai îngrijit",
+          "el/ea": "a îngrijit",
+          "noi": "am îngrijit",
+          "voi": "ați îngrijit",
+          "ei/ele": "au îngrijit"
+        },
+        "viitor_literar": {
+          "eu": "voi îngriji",
+          "tu": "vei îngriji",
+          "el/ea": "va îngriji",
+          "noi": "vom îngriji",
+          "voi": "veți îngriji",
+          "ei/ele": "vor îngriji"
+        },
+        "viitor_familiar": {
+          "eu": "o să îngrijesc",
+          "tu": "o să îngrijești",
+          "el/ea": "o să îngrijească",
+          "noi": "o să îngrijim",
+          "voi": "o să îngrijiți",
+          "ei/ele": "o să îngrijească"
+        },
+        "conjunctiv": {
+          "eu": "să îngrijesc",
+          "tu": "să îngrijești",
+          "el/ea": "să îngrijească",
+          "noi": "să îngrijim",
+          "voi": "să îngrijiți",
+          "ei/ele": "să îngrijească"
+        },
+        "conditional": {
+          "eu": "aș îngriji",
+          "tu": "ai îngriji",
+          "el/ea": "ar îngriji",
+          "noi": "am îngriji",
+          "voi": "ați îngriji",
+          "ei/ele": "ar îngriji"
+        },
+        "imperativ": {
+          "tu": "îngrijește",
+          "voi": "îngrijiți"
+        }
+      }
+    },
+    {
       "infinitive": "a privi",
       "type": "regular",
       "group": 4,
