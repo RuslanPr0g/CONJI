@@ -63,10 +63,132 @@
       }
     },
     {
+      "infinitive": "a purta",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to wear", "to carry"],
+      "conjugations": {
+        "prezent": {
+          "eu": "port",
+          "tu": "porți",
+          "el/ea": "poartă",
+          "noi": "purtăm",
+          "voi": "purtați",
+          "ei/ele": "poartă"
+        },
+        "perfect_compus": {
+          "eu": "am purtat",
+          "tu": "ai purtat",
+          "el/ea": "a purtat",
+          "noi": "am purtat",
+          "voi": "ați purtat",
+          "ei/ele": "au purtat"
+        },
+        "viitor_literar": {
+          "eu": "voi purta",
+          "tu": "vei purta",
+          "el/ea": "va purta",
+          "noi": "vom purta",
+          "voi": "veți purta",
+          "ei/ele": "vor purta"
+        },
+        "viitor_familiar": {
+          "eu": "o să port",
+          "tu": "o să porți",
+          "el/ea": "o să poarte",
+          "noi": "o să purtăm",
+          "voi": "o să purtați",
+          "ei/ele": "o să poarte"
+        },
+        "conjunctiv": {
+          "eu": "să port",
+          "tu": "să porți",
+          "el/ea": "să poarte",
+          "noi": "să purtăm",
+          "voi": "să purtați",
+          "ei/ele": "să poarte"
+        },
+        "conditional": {
+          "eu": "aș purta",
+          "tu": "ai purta",
+          "el/ea": "ar purta",
+          "noi": "am purta",
+          "voi": "ați purta",
+          "ei/ele": "ar purta"
+        },
+        "imperativ": {
+          "tu": "poartă",
+          "voi": "purtați"
+        }
+      }
+    },
+    {
+      "infinitive": "a urca",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to go up", "to climb"],
+      "conjugations": {
+        "prezent": {
+          "eu": "urc",
+          "tu": "urci",
+          "el/ea": "urcă",
+          "noi": "urcăm",
+          "voi": "urcați",
+          "ei/ele": "urcă"
+        },
+        "perfect_compus": {
+          "eu": "am urcat",
+          "tu": "ai urcat",
+          "el/ea": "a urcat",
+          "noi": "am urcat",
+          "voi": "ați urcat",
+          "ei/ele": "au urcat"
+        },
+        "viitor_literar": {
+          "eu": "voi urca",
+          "tu": "vei urca",
+          "el/ea": "va urca",
+          "noi": "vom urca",
+          "voi": "veți urca",
+          "ei/ele": "vor urca"
+        },
+        "viitor_familiar": {
+          "eu": "o să urc",
+          "tu": "o să urci",
+          "el/ea": "o să urce",
+          "noi": "o să urcăm",
+          "voi": "o să urcați",
+          "ei/ele": "o să urce"
+        },
+        "conjunctiv": {
+          "eu": "să urc",
+          "tu": "să urci",
+          "el/ea": "să urce",
+          "noi": "să urcăm",
+          "voi": "să urcați",
+          "ei/ele": "să urce"
+        },
+        "conditional": {
+          "eu": "aș urca",
+          "tu": "ai urca",
+          "el/ea": "ar urca",
+          "noi": "am urca",
+          "voi": "ați urca",
+          "ei/ele": "ar urca"
+        },
+        "imperativ": {
+          "tu": "urcă",
+          "voi": "urcați"
+        }
+      }
+    },
+    {
       "infinitive": "a afla",
       "type": "regular",
       "group": 1,
-      "subgroup": 1,
+      "subgroup": 2,
       "infinitive_translated": ["to find out", "to learn", "to discover"],
       "conjugations": {
         "prezent": {
