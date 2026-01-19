@@ -681,5 +681,173 @@
   {
     "value": "zâmbet",
     "translations": ["a smile"]
+  },
+  {
+    "value": "lungime",
+    "translations": ["length"]
+  },
+  {
+    "value": "greutate",
+    "translations": ["weight"]
+  },
+  {
+    "value": "o culoare",
+    "translations": ["a color"]
+  },
+  {
+    "value": "culori",
+    "translations": ["colors"]
+  },
+  {
+    "value": "cap",
+    "translations": ["head"]
+  },
+  {
+    "value": "păr",
+    "translations": ["hair"]
+  },
+  {
+    "value": "picior",
+    "translations": ["leg", "foot"]
+  },
+  {
+    "value": "picioare",
+    "translations": ["legs", "feet"]
+  },
+  {
+    "value": "ochi",
+    "translations": ["eyes"]
+  },
+  {
+    "value": "față",
+    "translations": ["face"]
+  },
+  {
+    "value": "nas",
+    "translations": ["nose"]
+  },
+  {
+    "value": "genunchi",
+    "translations": ["knee"]
+  },
+  {
+    "value": "gât",
+    "translations": ["neck", "throat"]
+  },
+  {
+    "value": "umăr",
+    "translations": ["shoulder"]
+  },
+  {
+    "value": "mână",
+    "translations": ["hand", "arm"]
+  },
+  {
+    "value": "mâini",
+    "translations": ["hands", "arms"]
+  },
+  {
+    "value": "deget",
+    "translations": ["finger", "toe"]
+  },
+  {
+    "value": "degete",
+    "translations": ["fingers", "toes"]
+  },
+  {
+    "value": "spate",
+    "translations": ["back"]
+  },
+  {
+    "value": "statele",
+    "translations": ["the states"]
+  },
+  {
+    "value": "ureche",
+    "translations": ["ear"]
+  },
+  {
+    "value": "urechi",
+    "translations": ["ears"]
+  },
+  {
+    "value": "gură",
+    "translations": ["mouth"]
+  },
+  {
+    "value": "înalt",
+    "translations": ["tall"]
+  },
+  {
+    "value": "înaltă",
+    "translations": ["tall"]
+  },
+  {
+    "value": "scund",
+    "translations": ["short"]
+  },
+  {
+    "value": "scundă",
+    "translations": ["short"]
+  },
+  {
+    "value": "lung",
+    "translations": ["long"]
+  },
+  {
+    "value": "scurt",
+    "translations": ["short"]
+  },
+  {
+    "value": "drept",
+    "translations": ["straight"]
+  },
+  {
+    "value": "ondulat",
+    "translations": ["wavy"]
+  },
+  {
+    "value": "cârunt",
+    "translations": ["gray-haired"]
+  },
+  {
+    "value": "roșcat",
+    "translations": ["red-haired", "ginger"]
+  },
+  {
+    "value": "căprui",
+    "translations": ["brown"]
+  },
+  {
+    "value": "părul",
+    "translations": ["the hair"]
+  },
+  {
+    "value": "albastru",
+    "translations": ["blue"]
+  },
+  {
+    "value": "verzi",
+    "translations": ["green"]
+  },
+  {
+    "value": "gri",
+    "translations": ["gray"]
+  },
+  {
+    "value": "negri",
+    "translations": ["black"]
+  },
+  {
+    "value": "ochelari",
+    "translations": ["glasses"]
+  },
+  {
+    "value": "mustață",
+    "translations": ["mustache"]
+  },
+  {
+    "value": "barbă",
+    "translations": ["beard"]
   }
 ]
