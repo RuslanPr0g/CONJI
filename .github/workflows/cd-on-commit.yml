@@ -28,7 +28,21 @@ jobs:
           COMMIT_MSG=$(git log -1 --pretty=%B)
           if [[ $COMMIT_MSG =~ v([0-9]+\.[0-9]+\.[0-9]+) ]]; then
             NEW_TAG="v${BASH_REMATCH[1]}"
-            echo "tag=$NEW_TAG" >> $GITHUB_OUTPUT
+            LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
+            NEW_VERSION=${NEW_TAG#v}
+            LATEST_VERSION=${LATEST_TAG#v}
+
+            IFS='.' read -r NEW_MAJOR NEW_MINOR NEW_PATCH <<< "$NEW_VERSION"
+            IFS='.' read -r LATEST_MAJOR LATEST_MINOR LATEST_PATCH <<< "$LATEST_VERSION"
+
+            if (( NEW_MAJOR < LATEST_MAJOR )) || \
+              (( NEW_MAJOR == LATEST_MAJOR && NEW_MINOR < LATEST_MINOR )) || \
+              (( NEW_MAJOR == LATEST_MAJOR && NEW_MINOR == LATEST_MINOR && NEW_PATCH <= LATEST_PATCH )); then
+              echo "New version ($NEW_TAG) is not greater than latest tag ($LATEST_TAG), skipping deployment."
+              echo "tag=" >> $GITHUB_OUTPUT
+            else
+              echo "tag=$NEW_TAG" >> $GITHUB_OUTPUT
+            fi
           else
             echo "tag=" >> $GITHUB_OUTPUT
           fi
