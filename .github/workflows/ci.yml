@@ -7,7 +7,7 @@ on:
     branches: ["master"]
 
 jobs:
-  angular:
+  ci:
     name: Angular Build & Test
     runs-on: ubuntu-latest
     strategy:

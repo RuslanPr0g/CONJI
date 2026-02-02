@@ -12,13 +12,14 @@ jobs:
   deploy-on-commit:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout the source code
         uses: actions/checkout@v3
 
       - name: Configure Git
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
       - name: Determine new tag from commit message
         id: newtag
@@ -30,7 +31,6 @@ jobs:
           else
             echo "No version found in commit message, skipping deployment."
             exit 0
-          fi
 
       - name: Push new tag
         run: |
