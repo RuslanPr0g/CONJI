@@ -63,6 +63,128 @@
       }
     },
     {
+      "infinitive": "a descălța",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 3,
+      "infinitive_translated": ["to take off shoes"],
+      "conjugations": {
+        "prezent": {
+          "eu": "descalț",
+          "tu": "descalți",
+          "el/ea": "descalță",
+          "noi": "descălțăm",
+          "voi": "descălțați",
+          "ei/ele": "descalță"
+        },
+        "perfect_compus": {
+          "eu": "am descălțat",
+          "tu": "ai descălțat",
+          "el/ea": "a descălțat",
+          "noi": "am descălțat",
+          "voi": "ați descălțat",
+          "ei/ele": "au descălțat"
+        },
+        "viitor_literar": {
+          "eu": "voi descălța",
+          "tu": "vei descălța",
+          "el/ea": "va descălța",
+          "noi": "vom descălța",
+          "voi": "veți descălța",
+          "ei/ele": "vor descălța"
+        },
+        "viitor_familiar": {
+          "eu": "o să descalț",
+          "tu": "o să descalți",
+          "el/ea": "o să descalțe",
+          "noi": "o să descălțăm",
+          "voi": "o să descălțați",
+          "ei/ele": "o să descalțe"
+        },
+        "conjunctiv": {
+          "eu": "să descalț",
+          "tu": "să descalți",
+          "el/ea": "să descalțe",
+          "noi": "să descălțăm",
+          "voi": "să descălțați",
+          "ei/ele": "să descalțe"
+        },
+        "conditional": {
+          "eu": "aș descălța",
+          "tu": "ai descălța",
+          "el/ea": "ar descălța",
+          "noi": "am descălța",
+          "voi": "ați descălța",
+          "ei/ele": "ar descălța"
+        },
+        "imperativ": {
+          "tu": "descalță",
+          "voi": "descălțați"
+        }
+      }
+    },
+    {
+      "infinitive": "a încălța",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 3,
+      "infinitive_translated": ["to put on shoes"],
+      "conjugations": {
+        "prezent": {
+          "eu": "încalț",
+          "tu": "încalți",
+          "el/ea": "încalță",
+          "noi": "încălțăm",
+          "voi": "încălțați",
+          "ei/ele": "încalță"
+        },
+        "perfect_compus": {
+          "eu": "am încălțat",
+          "tu": "ai încălțat",
+          "el/ea": "a încălțat",
+          "noi": "am încălțat",
+          "voi": "ați încălțat",
+          "ei/ele": "au încălțat"
+        },
+        "viitor_literar": {
+          "eu": "voi încălța",
+          "tu": "vei încălța",
+          "el/ea": "va încălța",
+          "noi": "vom încălța",
+          "voi": "veți încălța",
+          "ei/ele": "vor încălța"
+        },
+        "viitor_familiar": {
+          "eu": "o să încalț",
+          "tu": "o să încalți",
+          "el/ea": "o să încalțe",
+          "noi": "o să încălțăm",
+          "voi": "o să încălțați",
+          "ei/ele": "o să încalțe"
+        },
+        "conjunctiv": {
+          "eu": "să încalț",
+          "tu": "să încalți",
+          "el/ea": "să încalțe",
+          "noi": "să încălțăm",
+          "voi": "să încălțați",
+          "ei/ele": "să încalțe"
+        },
+        "conditional": {
+          "eu": "aș încălța",
+          "tu": "ai încălța",
+          "el/ea": "ar încălța",
+          "noi": "am încălța",
+          "voi": "ați încălța",
+          "ei/ele": "ar încălța"
+        },
+        "imperativ": {
+          "tu": "încalță",
+          "voi": "încălțați"
+        }
+      }
+    },
+    {
       "infinitive": "a purta",
       "type": "regular",
       "group": 1,
