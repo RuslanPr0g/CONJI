@@ -15,26 +15,22 @@ jobs:
       - name: Checkout the source code
         uses: actions/checkout@v3
 
-      - name: Configure Git
-        run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "GitHub Actions"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-
       - name: Determine new tag from commit message
         id: newtag
         shell: bash
         run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           COMMIT_MSG=$(git log -1 --pretty=%B)
           if [[ $COMMIT_MSG =~ v([0-9]+\.[0-9]+\.[0-9]+) ]]; then
             NEW_TAG="v${BASH_REMATCH[1]}"
             echo "tag=$NEW_TAG" >> $GITHUB_OUTPUT
           else
-            echo "No version found in commit message, skipping deployment."
-            exit 0
-          fi
+            echo "tag=" >> $GITHUB_OUTPUT
 
       - name: Push new tag
+        if: ${{ steps.newtag.outputs.tag != '' }}
         run: |
           git tag ${{ steps.newtag.outputs.tag }}
           git push origin ${{ steps.newtag.outputs.tag }}
@@ -52,6 +48,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
+        if: ${{ steps.newtag.outputs.tag != '' }}
         uses: actions/setup-node@v3
         with:
           node-version: 20
@@ -59,11 +56,14 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Install dependencies
+        if: ${{ steps.newtag.outputs.tag != '' }}
         run: npm install
 
       - name: Set release version in Angular environment
+        if: ${{ steps.newtag.outputs.tag != '' }}
         run: |
           sed "s/__RELEASE_VERSION__/${{ steps.newtag.outputs.tag }}/" src/environments/environment.prod.ts.template > src/environments/environment.prod.ts
 
       - name: Run deployment
+        if: ${{ steps.newtag.outputs.tag != '' }}
         run: npm run deploy
