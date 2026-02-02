@@ -1,4 +1,4 @@
-name: Auto Tag on Commit
+name: Auto Tag and Release
 
 on:
   push:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  tag:
+  tag-and-release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -30,8 +30,6 @@ jobs:
         id: newtag
         run: |
           COMMIT_MSG=$(git log -1 --pretty=%B)
-          echo "Commit message: $COMMIT_MSG"
-
           if [[ $COMMIT_MSG =~ v([0-9]+\.[0-9]+\.[0-9]+) ]]; then
             NEW_TAG="v${BASH_REMATCH[1]}"
           else
@@ -41,11 +39,20 @@ jobs:
             PATCH=$((PATCH + 1))
             NEW_TAG="v$MAJOR.$MINOR.$PATCH"
           fi
-
           echo "tag=$NEW_TAG" >> $GITHUB_OUTPUT
-          echo "New tag determined: $NEW_TAG"
 
       - name: Push new tag
         run: |
           git tag ${{ steps.newtag.outputs.tag }}
           git push origin ${{ steps.newtag.outputs.tag }}
+
+      - name: Create GitHub Release
+        uses: actions/create-release@v1
+        with:
+          tag_name: ${{ steps.newtag.outputs.tag }}
+          release_name: ${{ steps.newtag.outputs.tag }}
+          body: "Automated release generated from commit."
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
