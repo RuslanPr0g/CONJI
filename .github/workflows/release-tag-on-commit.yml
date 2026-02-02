@@ -1,0 +1,39 @@
+name: Auto Tag on Commit
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get latest tag
+        id: tag
+        run: |
+          LATEST_TAG=$(git describe --tags --abbrev=0 || echo "v0.0.0")
+          echo "latest=$LATEST_TAG" >> $GITHUB_OUTPUT
+
+      - name: Determine new tag from commit message
+        id: newtag
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          echo "Commit message: $COMMIT_MSG"
+
+          if [[ $COMMIT_MSG =~ v([0-9]+\.[0-9]+\.[0-9]+) ]]; then
+            NEW_TAG="v${BASH_REMATCH[1]}"
+          else
+            IFS='.' read -r MAJOR MINOR PATCH <<< "${{ steps.tag.outputs.latest#v }}"
+            PATCH=$((PATCH+1))
+            NEW_TAG="v$MAJOR.$MINOR.$PATCH"
+          fi
+
+          echo "tag=$NEW_TAG" >> $GITHUB_OUTPUT
+
+      - name: Push new tag
+        run: |
+          git tag ${{ steps.newtag.outputs.tag }}
+          git push origin ${{ steps.newtag.outputs.tag }}
