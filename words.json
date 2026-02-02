@@ -849,5 +849,17 @@
   {
     "value": "barbă",
     "translations": ["beard"]
+  },
+  {
+    "value": "strâmți",
+    "translations": ["tight", "narrow"]
+  },
+  {
+    "value": "iată",
+    "translations": ["here is", "here are", "look", "behold"]
+  },
+  {
+    "value": "subțire",
+    "translations": ["thin", "slim"]
   }
 ]
