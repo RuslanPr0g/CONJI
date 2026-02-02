@@ -1,18 +1,13 @@
-name: CD
+name: CD On Tag
 
 on:
   push:
     tags:
       - "v*"
-  workflow_run:
-    workflows: ["Auto Tag and Release"]
-    types:
-      - completed
 
 jobs:
-  deploy:
+  deploy-on-tag:
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
     steps:
       - name: Checkout the source code
         uses: actions/checkout@v3

@@ -1,18 +1,15 @@
-name: Auto Tag and Release
+name: CD On Commit
 
 on:
   push:
     branches:
       - master
-    tags:
-      - "v*"
-  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  tag-and-release:
+  deploy-on-commit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -23,26 +20,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Get latest tag
-        id: tag
-        run: |
-          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
-          echo "latest=$LATEST_TAG" >> $GITHUB_OUTPUT
-
       - name: Determine new tag from commit message
         id: newtag
         run: |
           COMMIT_MSG=$(git log -1 --pretty=%B)
           if [[ $COMMIT_MSG =~ v([0-9]+\.[0-9]+\.[0-9]+) ]]; then
             NEW_TAG="v${BASH_REMATCH[1]}"
+            echo "tag=$NEW_TAG" >> $GITHUB_OUTPUT
           else
-            LATEST=${{ steps.tag.outputs.latest }}
-            LATEST=${LATEST#v}
-            IFS='.' read -r MAJOR MINOR PATCH <<< "$LATEST"
-            PATCH=$((PATCH + 1))
-            NEW_TAG="v$MAJOR.$MINOR.$PATCH"
+            echo "No version found in commit message, skipping deployment."
+            exit 0
           fi
-          echo "tag=$NEW_TAG" >> $GITHUB_OUTPUT
 
       - name: Push new tag
         run: |
@@ -59,3 +47,20 @@ jobs:
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: "npm"
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Set release version in Angular environment
+        run: |
+          sed "s/__RELEASE_VERSION__/${{ steps.newtag.outputs.tag }}/" src/environments/environment.prod.ts.template > src/environments/environment.prod.ts
+
+      - name: Run deployment
+        run: npm run deploy
