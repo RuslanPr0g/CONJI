@@ -4,12 +4,12 @@ on:
   push:
     branches:
       - master
+    tags:
+      - "v*"
+  workflow_dispatch:
 
 permissions:
   contents: write
-
-outputs:
-  new_tag: ${{ steps.newtag.outputs.tag }}
 
 jobs:
   tag-and-release:
