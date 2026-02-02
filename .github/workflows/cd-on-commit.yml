@@ -40,6 +40,7 @@ jobs:
           git push origin ${{ steps.newtag.outputs.tag }}
 
       - name: Create GitHub Release
+        if: ${{ steps.newtag.outputs.tag != '' }}
         uses: actions/create-release@v1
         with:
           tag_name: ${{ steps.newtag.outputs.tag }}
