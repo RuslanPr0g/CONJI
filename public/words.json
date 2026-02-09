@@ -861,5 +861,13 @@
   {
     "value": "subțire",
     "translations": ["thin", "slim"]
+  },
+  {
+    "value": "Destul de bine",
+    "translations": ["quite well", "pretty well"]
+  },
+  {
+    "value": "Mă bucur să vă văd",
+    "translations": ["I am glad to see you", "Nice to see you"]
   }
 ]
