@@ -1,7 +1,6 @@
 :host {
   display: block;
   height: 100vh;
-  background: #121212;
   color: #e0e0e0;
   overflow-y: auto;
 }
@@ -9,12 +8,11 @@
 .grid-container {
   display: flex;
   padding: 16px;
-  height: 100%;
   flex-direction: column;
 }
 
 .glass-card {
-  background: rgba(30, 30, 30, 0.7);
+  background: rgba(30, 30, 30, 0.4);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 16px;

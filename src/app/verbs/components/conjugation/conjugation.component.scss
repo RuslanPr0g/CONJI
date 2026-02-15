@@ -22,11 +22,12 @@ textarea {
 }
 
 .group-column {
-  background-color: #1e1e1e;
+  background: rgba(255, 255, 255, 0.03);
   padding: 8px;
   border-radius: 16px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.3s ease;
+  backdrop-filter: blur(6px) saturate(120%);
 }
 
 .group-title {
@@ -123,7 +124,6 @@ textarea {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 16px;
   padding: 16px;
-  background-color: #111;
   color: #fff;
   overflow-y: auto;
 }

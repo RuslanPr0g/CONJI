@@ -1,0 +1,26 @@
+<div class="diagnostics-main">
+  <div class="sidebar">
+    <header>
+      <h1>Diagnostics</h1>
+      <p>Choose a diagnostic tool</p>
+    </header>
+
+    <nav class="menu">
+      <a
+        routerLink="/diagnostics/books"
+        routerLinkActive="active"
+        class="menu-item"
+      >
+        <span class="icon">📊</span>
+        <div class="menu-content">
+          <h3>Books Diagnostics</h3>
+          <p>Analyze book contents and vocabulary translation coverage.</p>
+        </div>
+      </a>
+    </nav>
+  </div>
+
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

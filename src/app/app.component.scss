@@ -60,3 +60,13 @@
   color: #888;
   z-index: 1001;
 }
+
+.diagnostics {
+  background-color: #681c1c;
+}
+
+@media (max-width: 768px) {
+  .diagnostics {
+    display: none;
+  }
+}

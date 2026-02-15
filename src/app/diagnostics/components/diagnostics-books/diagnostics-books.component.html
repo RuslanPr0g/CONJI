@@ -1,0 +1,82 @@
+<div class="diagnostics-root">
+  <span *ngIf="loading" class="loading">Running…</span>
+
+  <div class="right-side">
+    <section *ngIf="!loading && totalWords">
+      <div class="summary-block">
+        <div class="summary">
+          <div class="stat">
+            <strong>Total words:</strong>
+            <span>{{ totalWords }}</span>
+          </div>
+          <div class="stat">
+            <strong>Translated:</strong>
+            <span>{{ translated }}</span>
+          </div>
+          <div class="stat">
+            <strong>Not translated:</strong>
+            <span>{{ notTranslated }}</span>
+          </div>
+        </div>
+
+        <div class="chart-row">
+          <div class="pie">
+            <svg viewBox="0 0 120 120" width="200" height="200">
+              <defs>
+                <linearGradient
+                  id="translated-gradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop
+                    offset="0%"
+                    style="stop-color: #81c784; stop-opacity: 1"
+                  />
+                  <stop
+                    offset="100%"
+                    style="stop-color: #64b5f6; stop-opacity: 1"
+                  />
+                </linearGradient>
+              </defs>
+              <circle cx="60" cy="60" r="50" class="pie-bg" />
+              <circle
+                cx="60"
+                cy="60"
+                r="50"
+                class="pie-arc"
+                [attr.stroke-dasharray]="
+                  2 * Math.PI * 50 * (percentTranslated / 100) +
+                  ' ' +
+                  2 * Math.PI * 50
+                "
+                transform="rotate(-90 60 60)"
+              />
+              <text x="60" y="65" text-anchor="middle" class="pie-label">
+                {{ percentTranslated }}%
+              </text>
+            </svg>
+            <div class="legend">
+              <div><span class="sw translated"></span>Translated</div>
+              <div><span class="sw nottranslated"></span>Not translated</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="not-list">
+        <h3>Words not translated ({{ notTranslatedList.length }})</h3>
+        <div class="list-scroll">
+          <ul>
+            <li *ngFor="let w of notTranslatedList">{{ w }}</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section *ngIf="!loading && !totalWords">
+      <p>No diagnostics run yet. Click "Run Diagnostics" to start.</p>
+    </section>
+  </div>
+</div>
