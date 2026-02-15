@@ -22,7 +22,6 @@ export class DiagnosticsBooksComponent implements OnInit {
   loading = false;
   totalWords = 0;
   translated = 0;
-  notTranslated = 0;
   uniqueNotTranslated = new Set<string>();
   notTranslatedList: string[] = [];
   Math = Math;
@@ -33,7 +32,7 @@ export class DiagnosticsBooksComponent implements OnInit {
 
   async runDiagnostics(): Promise<void> {
     this.loading = true;
-    this.totalWords = this.translated = this.notTranslated = 0;
+    this.totalWords = this.translated = 0;
     this.uniqueNotTranslated.clear();
     this.notTranslatedList = [];
 
@@ -80,7 +79,6 @@ export class DiagnosticsBooksComponent implements OnInit {
 
         const translated = this.translator.translateText(word);
         if (translated === word) {
-          this.notTranslated++;
           this.uniqueNotTranslated.add(word);
         } else {
           this.translated++;
