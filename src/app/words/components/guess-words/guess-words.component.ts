@@ -107,7 +107,7 @@ export class GuessWordsComponent implements OnInit {
     if (!userInput || this.loading) return false;
 
     const isCorrect = this.currentExercise.correctAnswers.some(
-      (ans) => this.normalize(ans) === userInput
+      (ans) => this.normalize(ans) === userInput,
     );
 
     if (isCorrect) this.guessTheWord();
@@ -125,7 +125,7 @@ export class GuessWordsComponent implements OnInit {
     if (isCorrect) return;
 
     if (this.lastTried !== this.currentExercise.question) this.missed++;
-    this.message = `Greșit! Try again.`;
+    this.message = `Greșit!`;
     this.lastTried = this.currentExercise.question;
   }
 

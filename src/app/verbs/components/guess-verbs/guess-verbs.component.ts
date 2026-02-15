@@ -72,10 +72,10 @@ export class GuessVerbsComponent implements OnInit {
         exs.push({
           question: `Traducere în engleză: a ${verb.infinitive.replace(
             'a ',
-            ''
+            '',
           )}`,
           correctAnswers: verb.infinitive_translated.map((t) =>
-            t.toLowerCase().trim()
+            t.toLowerCase().trim(),
           ),
           type: 'translate-to-en',
         });
@@ -105,7 +105,7 @@ export class GuessVerbsComponent implements OnInit {
                   .map((sp) => `${sp} ${verb.conjugations.viitor_familiar[p]}`),
                 `${p} ${verb.conjugations.viitor_familiar[p]}`,
                 `${verb.conjugations.viitor_familiar[p]}`,
-              ])
+              ]),
             ),
             type: 'conjugate-viitor-familiar',
           });
@@ -121,7 +121,7 @@ export class GuessVerbsComponent implements OnInit {
                   .split('/')
                   .map(
                     (splitted) =>
-                      `${splitted} ${vrea.conjugations.prezent[p]} ${verb.conjugations.conjunctiv[p]}`
+                      `${splitted} ${vrea.conjugations.prezent[p]} ${verb.conjugations.conjunctiv[p]}`,
                   ),
                 `${p} ${vrea.conjugations.prezent[p]} ${verb.conjugations.conjunctiv[p]}`,
                 `${vrea.conjugations.prezent[p]}${verb.conjugations.conjunctiv[
@@ -130,7 +130,7 @@ export class GuessVerbsComponent implements OnInit {
                   .replace('să', '')
                   .replace('  ', ' ')}`,
                 `${vrea.conjugations.prezent[p]} ${verb.conjugations.conjunctiv[p]}`,
-              ])
+              ]),
             ),
             type: 'vrea-prezent',
           });
@@ -143,7 +143,7 @@ export class GuessVerbsComponent implements OnInit {
                   .split('/')
                   .map(
                     (splitted) =>
-                      `${splitted} ${vrea.conjugations.perfect_compus[p]} ${verb.conjugations.conjunctiv[p]}`
+                      `${splitted} ${vrea.conjugations.perfect_compus[p]} ${verb.conjugations.conjunctiv[p]}`,
                   ),
                 `${p} ${vrea.conjugations.perfect_compus[p]} ${verb.conjugations.conjunctiv[p]}`,
                 `${
@@ -152,7 +152,7 @@ export class GuessVerbsComponent implements OnInit {
                   .replace('să', '')
                   .replace('  ', ' ')}`,
                 `${vrea.conjugations.perfect_compus[p]} ${verb.conjugations.conjunctiv[p]}`,
-              ])
+              ]),
             ),
             type: 'vrea-past',
           });
@@ -211,7 +211,7 @@ export class GuessVerbsComponent implements OnInit {
     const userInput = this.normalize(this.guess);
     if (!userInput || this.loading) return false;
     const isCorrect = this.currentExercise.correctAnswers.some(
-      (ans) => this.normalize(ans) === userInput
+      (ans) => this.normalize(ans) === userInput,
     );
     if (isCorrect) this.guessTheWord();
     return isCorrect;
@@ -226,7 +226,7 @@ export class GuessVerbsComponent implements OnInit {
     const isCorrect = this.trySubmit();
     if (isCorrect) return;
     if (this.lastTried !== this.currentExercise.question) this.missed++;
-    this.message = `Greșit! Try again.`;
+    this.message = `Greșit!`;
     this.lastTried = this.currentExercise.question;
   }
 
