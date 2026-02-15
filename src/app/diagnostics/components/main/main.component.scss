@@ -1,6 +1,5 @@
 .diagnostics-main {
   padding: 2rem;
-  background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
   min-height: 100vh;
   color: #e8e8ff;
   display: flex;
@@ -17,7 +16,11 @@
     h1 {
       margin: 0 0 0.5rem 0;
       font-size: 2rem;
-      background: linear-gradient(135deg, #64b5f6 0%, #81c784 100%);
+      background: linear-gradient(
+        135deg,
+        rgba(239, 68, 68, 0.35),
+        rgba(124, 58, 237, 0.35)
+      );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -59,10 +62,10 @@
     }
 
     &.active {
-      background: rgba(100, 181, 246, 0.15);
-      border-color: rgba(100, 181, 246, 0.4);
+      background: rgba(239, 68, 68, 0.15);
+      border-color: rgba(239, 68, 68, 0.4);
       box-shadow:
-        0 8px 25px rgba(100, 181, 246, 0.2),
+        0 8px 25px rgba(239, 68, 68, 0.2),
         inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
 

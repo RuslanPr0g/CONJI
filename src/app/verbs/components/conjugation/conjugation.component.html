@@ -1,5 +1,5 @@
 <div class="app-wrapper">
-  <div class="search-bar glass-card">
+  <div class="search-bar">
     <input
       #searchInput
       type="text"
@@ -23,7 +23,7 @@
             role="button"
           >
             <div class="verb-infinitive">
-              {{ verb.infinitive | addPrefix : "a" }}
+              {{ verb.infinitive | addPrefix: "a" }}
             </div>
 
             <div
@@ -231,7 +231,7 @@
                   viitor_familiar: "Future (Familiar)",
                   conjunctiv: "Subjunctive",
                   conditional: "Conditional",
-                  imperativ: "Imperative"
+                  imperativ: "Imperative",
                 }[tense]
               }}
             </span>

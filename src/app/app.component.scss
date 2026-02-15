@@ -1,68 +1,98 @@
 .app-header {
-  position: static;
+  position: sticky;
+  top: 0;
   width: 100%;
-  background: #1c1c1c;
-  padding: 0.6rem 0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 1rem 0;
+  backdrop-filter: blur(1px) saturate(160%);
+  -webkit-backdrop-filter: blur(1px) saturate(160%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
 }
 
 .nav-bar {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.8rem;
 }
 
 .nav-item {
-  padding: 0.45rem 1.2rem;
-  border-radius: 8px;
-  color: #fff;
+  position: relative;
+  padding: 0.6rem 1.6rem;
+  border-radius: 16px;
+  color: #f5f7ff;
   text-decoration: none;
   font-weight: 600;
-  letter-spacing: 0.3px;
-  transition: all 0.2s ease;
-
-  &.active {
-    outline: 1px solid #a01f1fcc;
-    outline-offset: 1px;
-    box-shadow: 0 0 5px #681c1c;
-  }
+  letter-spacing: 0.4px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  transition: all 0.25s ease;
 }
 
 .nav-item:hover {
-  transform: scale(1.05);
-  opacity: 0.9;
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45);
 }
 
 .nav-item.active {
-  outline: 2px solid #ffffffcc;
-  outline-offset: 3px;
-  transform: scale(1.07);
+  color: #ffffff;
+  background: linear-gradient(
+    135deg,
+    rgba(239, 68, 68, 0.35),
+    rgba(124, 58, 237, 0.35)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.15),
+    0 16px 40px rgba(99, 102, 241, 0.45);
+  transform: translateY(-2px) scale(1.04);
 }
 
 .nav-item.verbs {
-  background: linear-gradient(145deg, #00bfff, #4a0078);
+  background: linear-gradient(
+    135deg,
+    rgba(23, 185, 153, 0.35),
+    rgba(99, 102, 241, 0.35)
+  );
 }
 
 .nav-item.words {
-  background: linear-gradient(145deg, #0184b0, #4a0078);
+  background: linear-gradient(
+    135deg,
+    rgba(13, 80, 187, 0.35),
+    rgba(99, 102, 241, 0.35)
+  );
 }
 
 .nav-item.books {
-  background: linear-gradient(145deg, #006181, #4a0078);
+  background: linear-gradient(
+    135deg,
+    rgba(244, 114, 182, 0.35),
+    rgba(168, 85, 247, 0.35)
+  );
 }
 
 .version {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 12px;
+  left: 16px;
   font-size: 0.75rem;
-  color: #888;
-  z-index: 1001;
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: 0.6px;
+  z-index: 9999;
 }
 
 .diagnostics {
-  background-color: #681c1c;
+  background: linear-gradient(
+    135deg,
+    rgba(239, 68, 68, 0.35),
+    rgba(124, 58, 237, 0.35)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 @media (max-width: 768px) {

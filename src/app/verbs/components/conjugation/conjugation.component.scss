@@ -6,7 +6,8 @@ textarea {
 
 .search-bar {
   padding: 8px;
-  background: #232323;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(1px);
   text-align: center;
   flex-shrink: 0;
 }
