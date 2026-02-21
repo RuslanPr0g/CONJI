@@ -27,8 +27,11 @@ interface ShootingStar {
 export class SpaceBackgroundComponent implements OnInit {
   stars: Star[] = [];
   shootingStars: ShootingStar[] = [];
+  isMobile = false;
 
   ngOnInit(): void {
+    this.isMobile = window.innerWidth < 700;
+    if (this.isMobile) return;
     this.stars = this.generateStars(50);
     this.shootingStars = this.generateShootingStars(2);
   }
