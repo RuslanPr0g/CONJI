@@ -15,7 +15,7 @@
       [class.active]="selectedGroup === group.group"
       [disabled]="isSearching && !availableGroups.includes(group.group)"
     >
-      {{ group.group }}
+      {{ getGroupDisplayName(group.group) }}
     </button>
   </div>
 

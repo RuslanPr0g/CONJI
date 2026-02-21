@@ -150,6 +150,14 @@ export class ConjugationComponent implements OnInit {
       });
   }
 
+  getGroupDisplayName(group: string): string {
+    const isMobile = window.innerWidth < 700;
+    const displayName = isMobile
+      ? group.replace('Grupa', 'Gr.').split(' - ')[0].replace('Gr. a', 'Gr.')
+      : group;
+    return displayName;
+  }
+
   getOtherExamples(verb: Verb): string[] {
     const subgroup = this.getSubgroupInfo(verb);
     if (!subgroup || !subgroup.examples) return [];
@@ -264,7 +272,8 @@ export class ConjugationComponent implements OnInit {
 
   loadMore(group: string): void {
     const current = this.loadedCount.get(group) || 0;
-    this.loadedCount.set(group, current + 25);
+    const isMobile = window.innerWidth < 700;
+    this.loadedCount.set(group, current + (isMobile ? 10 : 25));
   }
 
   getDisplayedVerbs(group: VerbGroup): Verb[] {
@@ -281,7 +290,8 @@ export class ConjugationComponent implements OnInit {
       );
     }
     for (const g of this.groupedVerbs) {
-      this.loadedCount.set(g.group, 25);
+      const isMobile = window.innerWidth < 700;
+      this.loadedCount.set(g.group, isMobile ? 10 : 25);
     }
   }
 

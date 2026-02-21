@@ -29,10 +29,6 @@ textarea {
   padding: 12px;
   justify-content: center;
 
-  & button {
-    width: 205px;
-  }
-
   @media (max-width: 768px) {
     padding: 8px;
     gap: 6px;
