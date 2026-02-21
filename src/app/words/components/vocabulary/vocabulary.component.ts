@@ -34,6 +34,8 @@ export class VocabularyComponent implements OnInit {
 
   isGamingMode = false;
 
+  loadedCount = 35;
+
   private loadService = inject(LoadWordResourcesService);
 
   @HostListener('document:keydown.escape')
@@ -61,6 +63,7 @@ export class VocabularyComponent implements OnInit {
       next: (words: Word[]) => {
         this.allWords = words;
         this.filteredWords = this.getRandomWords(words);
+        this.loadedCount = 20;
       },
     });
 
@@ -69,6 +72,7 @@ export class VocabularyComponent implements OnInit {
       .subscribe((search) => {
         if (!search?.trim()) {
           this.filteredWords = this.getRandomWords(this.allWords);
+          this.loadedCount = 20;
           return;
         }
 
@@ -78,8 +82,9 @@ export class VocabularyComponent implements OnInit {
             normalize(w.value).includes(norm) ||
             w.translations
               .map((t) => normalize(t))
-              .some((t) => t.includes(norm))
+              .some((t) => t.includes(norm)),
         );
+        this.loadedCount = this.filteredWords.length;
       });
   }
 
@@ -99,6 +104,14 @@ export class VocabularyComponent implements OnInit {
     if (this.filteredWords.length > 0) {
       this.isGamingMode = true;
     }
+  }
+
+  loadMore(): void {
+    this.loadedCount += 20;
+  }
+
+  getDisplayedWords(): Word[] {
+    return this.filteredWords.slice(0, this.loadedCount);
   }
 
   private getRandomWords(words: Word[]): Word[] {

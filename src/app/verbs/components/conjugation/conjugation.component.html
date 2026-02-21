@@ -8,88 +8,109 @@
     />
   </div>
 
+  <div class="tabs">
+    <button
+      *ngFor="let group of groupedVerbs"
+      (click)="selectGroup(group.group)"
+      [class.active]="selectedGroup === group.group"
+      [disabled]="isSearching && !availableGroups.includes(group.group)"
+    >
+      {{ group.group }}
+    </button>
+  </div>
+
   <div class="grid-container">
     <ng-container *ngIf="filteredGroups.length > 0; else noResults">
       <div class="group-column" *ngFor="let group of filteredGroups">
-        <div class="group-title glass-card">{{ group.group }}</div>
-
         <ng-container *ngIf="group.verbs.length > 0; else noGroupVerbs">
-          <div
-            class="verb-block glass-card"
-            *ngFor="let verb of group.verbs"
-            (click)="openPopup(verb)"
-            (keydown.enter)="openPopup(verb)"
-            tabindex="0"
-            role="button"
-          >
-            <div class="verb-infinitive">
-              {{ verb.infinitive | addPrefix: "a" }}
-            </div>
-
+          <div class="verbs-grid">
             <div
-              class="verb-translations"
-              *ngIf="
-                !verb.infinitive_translated ||
-                  verb.infinitive_translated.length > 0;
-                else noTranslations
-              "
+              class="verb-block glass-card"
+              *ngFor="let verb of getDisplayedVerbs(group)"
+              (click)="openPopup(verb)"
+              (keydown.enter)="openPopup(verb)"
+              tabindex="0"
+              role="button"
             >
-              <small>
-                <span
-                  *ngFor="
-                    let translation of verb.infinitive_translated;
-                    let last = last
-                  "
-                >
-                  {{ translation | addPrefix }}<span *ngIf="!last"> • </span>
-                </span>
-              </small>
-            </div>
-            <ng-template #noTranslations>
-              <small><em>—</em></small>
-            </ng-template>
-
-            <div class="verb-meta-grid">
-              <div class="verb-forms" *ngIf="verb.conjugations.prezent">
-                <div>
-                  <strong>eu:</strong> {{ verb.conjugations.prezent.eu || "—" }}
-                </div>
-                <div>
-                  <strong>tu:</strong> {{ verb.conjugations.prezent.tu || "—" }}
-                </div>
-                <div>
-                  <strong>el/ea:</strong>
-                  {{ verb.conjugations.prezent["el/ea"] || "—" }}
-                </div>
+              <div class="verb-infinitive">
+                {{ verb.infinitive | addPrefix: "a" }}
               </div>
 
               <div
-                class="verb-group-info"
-                *ngIf="getGroupInfo(verb) as groupInfo"
-                [ngClass]="getSubgroupColorClass(verb)"
+                class="verb-translations"
+                *ngIf="
+                  !verb.infinitive_translated ||
+                    verb.infinitive_translated.length > 0;
+                  else noTranslations
+                "
               >
-                <div
-                  *ngIf="getSubgroupInfo(verb) as subgroupInfo"
-                  class="subgroup-desc"
-                >
-                  <strong>{{ subgroupInfo.code }}</strong>
-                  &#x2022;
-                  <span *ngIf="subgroupInfo.description">{{
-                    subgroupInfo.description
-                  }}</span>
+                <small>
+                  <span
+                    *ngFor="
+                      let translation of verb.infinitive_translated;
+                      let last = last
+                    "
+                  >
+                    {{ translation | addPrefix }}<span *ngIf="!last"> • </span>
+                  </span>
+                </small>
+              </div>
+              <ng-template #noTranslations>
+                <small><em>—</em></small>
+              </ng-template>
+
+              <div class="verb-meta-grid">
+                <div class="verb-forms" *ngIf="verb.conjugations.prezent">
+                  <div>
+                    <strong>eu:</strong>
+                    {{ verb.conjugations.prezent.eu || "—" }}
+                  </div>
+                  <div>
+                    <strong>tu:</strong>
+                    {{ verb.conjugations.prezent.tu || "—" }}
+                  </div>
+                  <div>
+                    <strong>el/ea:</strong>
+                    {{ verb.conjugations.prezent["el/ea"] || "—" }}
+                  </div>
                 </div>
 
-                <ng-container *ngIf="getOtherExamples(verb) as otherExamples">
-                  <div class="examples" *ngIf="otherExamples.length > 0">
-                    <em>Alte:</em>
-                    <span *ngFor="let ex of otherExamples; let last = last">
-                      {{ ex }}<span *ngIf="!last">, </span>
-                    </span>
+                <div
+                  class="verb-group-info"
+                  *ngIf="getGroupInfo(verb) as groupInfo"
+                  [ngClass]="getSubgroupColorClass(verb)"
+                >
+                  <div
+                    *ngIf="getSubgroupInfo(verb) as subgroupInfo"
+                    class="subgroup-desc"
+                  >
+                    <strong>{{ subgroupInfo.code }}</strong>
+                    &#x2022;
+                    <span *ngIf="subgroupInfo.description">{{
+                      subgroupInfo.description
+                    }}</span>
                   </div>
-                </ng-container>
+
+                  <ng-container *ngIf="getOtherExamples(verb) as otherExamples">
+                    <div class="examples" *ngIf="otherExamples.length > 0">
+                      <em>Alte:</em>
+                      <span *ngFor="let ex of otherExamples; let last = last">
+                        {{ ex }}<span *ngIf="!last">, </span>
+                      </span>
+                    </div>
+                  </ng-container>
+                </div>
               </div>
             </div>
           </div>
+
+          <button
+            *ngIf="group.verbs.length > (loadedCount.get(group.group) || 0)"
+            class="load-more"
+            (click)="loadMore(group.group)"
+          >
+            Încarcă mai multe
+          </button>
         </ng-container>
 
         <ng-template #noGroupVerbs>

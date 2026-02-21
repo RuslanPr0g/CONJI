@@ -63,6 +63,12 @@ export class ConjugationComponent implements OnInit {
 
   isGamingMode = false;
 
+  selectedGroup: string | null = null;
+  loadedCount: Map<string, number> = new Map<string, number>();
+
+  isSearching = false;
+  availableGroups: string[] = [];
+
   loadVerbsService = inject(LoadVerbResourcesService);
 
   @HostListener('document:keydown.escape')
@@ -101,7 +107,12 @@ export class ConjugationComponent implements OnInit {
       .getVerbGroups(getGroupFileNames(isProd).map((f) => f.file))
       .subscribe((groups: VerbGroup[]) => {
         this.groupedVerbs = groups;
-        this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs);
+        this.availableGroups = groups.map((g) => g.group);
+        for (const g of groups) {
+          this.loadedCount.set(g.group, 5);
+        }
+        this.selectedGroup = this.groupedVerbs[0].group;
+        this.updateFilteredGroups();
       });
 
     this.loadVerbsService
@@ -114,13 +125,28 @@ export class ConjugationComponent implements OnInit {
       .pipe(debounceTime(300), distinctUntilChanged())
       .subscribe((search: string | null) => {
         if (!search?.trim()) {
-          this.filteredGroups = this.getRandomVerbsGroups(this.groupedVerbs);
+          this.isSearching = false;
+          this.availableGroups = this.groupedVerbs.map((g) => g.group);
+          this.updateFilteredGroups();
           return;
         }
 
+        this.isSearching = true;
         const filtered = this.filterGroups(this.groupedVerbs, search);
-        const limited = this.limitVerbs(filtered, 15);
-        this.filteredGroups = this.regroupVerbs(limited);
+        this.availableGroups = filtered.map((g) => g.group);
+        if (!this.availableGroups.includes(this.selectedGroup!)) {
+          this.selectedGroup = this.availableGroups[0] || null;
+        }
+        if (this.selectedGroup) {
+          this.filteredGroups = filtered.filter(
+            (g) => g.group === this.selectedGroup,
+          );
+        } else {
+          this.filteredGroups = [];
+        }
+        for (const g of this.filteredGroups) {
+          this.loadedCount.set(g.group, g.verbs.length);
+        }
       });
   }
 
@@ -128,7 +154,7 @@ export class ConjugationComponent implements OnInit {
     const subgroup = this.getSubgroupInfo(verb);
     if (!subgroup || !subgroup.examples) return [];
     return subgroup.examples.filter(
-      (ex) => !ex.includes(verb.infinitive) && !verb.infinitive.includes(ex)
+      (ex) => !ex.includes(verb.infinitive) && !verb.infinitive.includes(ex),
     );
   }
 
@@ -152,13 +178,13 @@ export class ConjugationComponent implements OnInit {
   getConjugationAsString(tense: ConjugationKey, person: string): string {
     return this.getConjugation(
       tense,
-      person as keyof ConjugationSet | keyof ImperativConjugation
+      person as keyof ConjugationSet | keyof ImperativConjugation,
     );
   }
 
   getConjugation(
     tense: ConjugationKey,
-    person: keyof ConjugationSet | keyof ImperativConjugation
+    person: keyof ConjugationSet | keyof ImperativConjugation,
   ): string {
     const tenseSet = this.selectedVerb?.conjugations[tense];
     if (!tenseSet) return '—';
@@ -216,61 +242,47 @@ export class ConjugationComponent implements OnInit {
     }
   }
 
-  private getRandomVerbsGroups(groups: VerbGroup[]): VerbGroup[] {
-    const allVerbs = groups.flatMap((g) =>
-      g.verbs.map((v) => ({ group: g.group, verb: v }))
-    );
-    const shuffled = [...allVerbs].sort(() => Math.random() - 0.5);
-    const selected = shuffled;
-    return this.regroupVerbs(selected);
-  }
-
-  private limitVerbs(groups: VerbGroup[], maxCount: number): Verb[] {
-    if (maxCount > 500) {
-      console.warn('maxCount too high, limiting to 500');
-      maxCount = 500;
+  selectGroup(group: string): void {
+    if (this.isSearching && this.selectedGroup === group) {
+      return;
     }
 
-    const all = groups.flatMap((g) => g.verbs);
-    return all;
-  }
-
-  private regroupVerbs(
-    items: { group: string; verb: Verb }[] | Verb[]
-  ): VerbGroup[] {
-    let pairs: { group: string; verb: Verb }[] = [];
-
-    if (
-      items.length &&
-      typeof items[0] === 'object' &&
-      'group' in items[0] &&
-      'verb' in items[0]
-    ) {
-      pairs = items as { group: string; verb: Verb }[];
-    } else {
-      pairs = [];
-      for (const verb of items as Verb[]) {
-        for (const g of this.groupedVerbs) {
-          if (g.verbs.includes(verb)) {
-            pairs.push({ group: g.group, verb });
-            break;
-          }
-        }
+    this.selectedGroup = group;
+    if (this.isSearching) {
+      const search = this.searchControl.value;
+      const filtered = this.filterGroups(this.groupedVerbs, search!);
+      this.filteredGroups = filtered.filter(
+        (g) => g.group === this.selectedGroup,
+      );
+      for (const g of this.filteredGroups) {
+        this.loadedCount.set(g.group, g.verbs.length);
       }
+    } else {
+      this.updateFilteredGroups();
     }
+  }
 
-    const map = new Map<string, Verb[]>();
-    for (const { group, verb } of pairs) {
-      if (!map.has(group)) map.set(group, []);
-      map.get(group)!.push(verb);
+  loadMore(group: string): void {
+    const current = this.loadedCount.get(group) || 0;
+    this.loadedCount.set(group, current + 25);
+  }
+
+  getDisplayedVerbs(group: VerbGroup): Verb[] {
+    const count = this.loadedCount.get(group.group) || 0;
+    return group.verbs.slice(0, count);
+  }
+
+  updateFilteredGroups(): void {
+    if (this.selectedGroup === 'all') {
+      this.filteredGroups = this.groupedVerbs;
+    } else {
+      this.filteredGroups = this.groupedVerbs.filter(
+        (g) => g.group === this.selectedGroup,
+      );
     }
-
-    return this.groupedVerbs
-      .filter((g) => map.has(g.group))
-      .map((g) => ({
-        group: g.group,
-        verbs: map.get(g.group)!,
-      }));
+    for (const g of this.groupedVerbs) {
+      this.loadedCount.set(g.group, 25);
+    }
   }
 
   private verbMatchesSearch(verb: Verb, search: string): boolean {
@@ -279,7 +291,7 @@ export class ConjugationComponent implements OnInit {
       normalize(verb.infinitive).includes(normSearch) ||
       (verb.infinitive_translated &&
         verb.infinitive_translated.some((t) =>
-          normalize(t).includes(normSearch)
+          normalize(t).includes(normSearch),
         ))
     ) {
       return true;
@@ -313,7 +325,7 @@ export class ConjugationComponent implements OnInit {
       .map((group) => ({
         group: group.group,
         verbs: group.verbs.filter((verb) =>
-          this.verbMatchesSearch(verb, normSearch)
+          this.verbMatchesSearch(verb, normSearch),
         ),
       }))
       .filter((group) => group.verbs.length > 0);

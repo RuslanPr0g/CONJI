@@ -12,7 +12,7 @@
     <ng-container *ngIf="filteredWords.length > 0; else noResults">
       <div
         class="word-block glass-card"
-        *ngFor="let word of filteredWords"
+        *ngFor="let word of getDisplayedWords()"
         (click)="copyToClipboard(word.value)"
         tabindex="0"
         role="button"
@@ -54,6 +54,14 @@
       <p class="no-results"><em>Niciun rezultat găsit</em></p>
     </ng-template>
   </div>
+
+  <button
+    *ngIf="filteredWords.length > loadedCount"
+    class="load-more"
+    (click)="loadMore()"
+  >
+    Încarcă mai multe
+  </button>
 </div>
 
 <div
