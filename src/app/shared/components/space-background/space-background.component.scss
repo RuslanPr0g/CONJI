@@ -10,11 +10,14 @@
 
 .star {
   position: absolute;
-  background: rgba(235, 235, 235, 0.6);
-  backdrop-filter: blur(12px);
+  background: white;
   border-radius: 50%;
   opacity: 0.8;
+  box-shadow:
+    0 0 2px white,
+    0 0 4px white;
   animation: twinkle linear infinite;
+  will-change: opacity;
 }
 
 @keyframes twinkle {
@@ -31,11 +34,11 @@
   position: absolute;
   width: 2px;
   height: 80px;
-  background: linear-gradient(rgb(100, 94, 4), transparent);
-  backdrop-filter: blur(12px);
+  background: linear-gradient(white, transparent);
   transform: rotate(135deg);
   opacity: 0;
   animation: shoot linear infinite;
+  will-change: transform, opacity;
 }
 
 @keyframes shoot {
