@@ -64,6 +64,23 @@ export class VocabularyComponent implements OnInit {
         this.allWords = words;
         this.filteredWords = this.getRandomWords(words);
         this.loadedCount = 20;
+
+        setTimeout(() => {
+          const seen = new Set<string>();
+          const unique: Word[] = [];
+
+          for (const w of words) {
+            const key = w.value?.trim().toLowerCase();
+            if (!key || seen.has(key)) continue;
+            seen.add(key);
+            w.translations ??= [];
+            unique.push(w);
+          }
+
+          for (const w of unique) {
+            w.similarWords = this.findSimilarWords(w, unique);
+          }
+        }, 500);
       },
     });
 
@@ -116,5 +133,19 @@ export class VocabularyComponent implements OnInit {
 
   private getRandomWords(words: Word[]): Word[] {
     return [...words].sort(() => Math.random() - 0.5);
+  }
+
+  private findSimilarWords(word: Word, all: Word[]): string[] {
+    if (!word.translations?.length) return [];
+    return all
+      .filter(
+        (o) =>
+          o.value !== word.value &&
+          o.translations.some((t) =>
+            word.translations.some((wt) => normalize(t) === normalize(wt)),
+          ),
+      )
+      .slice(0, 5)
+      .map((w) => w.value);
   }
 }
