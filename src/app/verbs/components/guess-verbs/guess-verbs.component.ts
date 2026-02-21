@@ -2,6 +2,7 @@ import {
   Component,
   ElementRef,
   HostListener,
+  inject,
   Input,
   OnInit,
   ViewChild,
@@ -11,6 +12,7 @@ import { CommonModule } from '@angular/common';
 import { environment } from '../../../../environments/environment';
 import { VerbGroup } from '../../../shared/models/verbs/verb-group.model';
 import { Verb } from '../../../shared/models/verbs/verb.model';
+import { LocalStorageService } from '../../../shared/services/local-storage.service';
 
 interface Exercise {
   question: string;
@@ -28,6 +30,10 @@ interface Exercise {
 export class GuessVerbsComponent implements OnInit {
   @ViewChild('guessInput') inputRef!: ElementRef<HTMLInputElement>;
 
+  private readonly STORAGE_KEY = 'guess-verbs-progress';
+
+  private storage = inject(LocalStorageService);
+
   exercises: Exercise[] = [];
   currentExercise!: Exercise;
   guess = '';
@@ -36,10 +42,14 @@ export class GuessVerbsComponent implements OnInit {
   missed = 0;
   loading = false;
   lastTried: string | null = null;
+  hasExercises = false;
+
+  solvedQuestions = new Set<string>();
 
   @Input() groups: VerbGroup[] = [];
 
   ngOnInit() {
+    this.loadProgress();
     this.buildExercises();
     this.nextExercise();
   }
@@ -54,6 +64,40 @@ export class GuessVerbsComponent implements OnInit {
 
   get exercisesLeftAmount() {
     return this.exercises.length;
+  }
+
+  get solvedText(): string {
+    if (!this.currentExercise) return '';
+
+    return this.solvedQuestions.has(this.currentExercise.question)
+      ? 'Rezolvat'
+      : 'Nerezolvat';
+  }
+
+  clearProgress() {
+    this.storage.remove(this.STORAGE_KEY);
+    this.solvedQuestions.clear();
+    this.buildExercises();
+    this.nextExercise();
+  }
+
+  private saveProgress() {
+    this.storage.set(
+      this.STORAGE_KEY,
+      JSON.stringify(Array.from(this.solvedQuestions)),
+    );
+  }
+
+  private loadProgress() {
+    const raw = this.storage.get(this.STORAGE_KEY);
+    if (!raw) return;
+
+    try {
+      const parsed: string[] = JSON.parse(raw);
+      this.solvedQuestions = new Set(parsed);
+    } catch (e) {
+      console.warn('Failed to parse progress from storage', e);
+    }
   }
 
   private buildExercises() {
@@ -160,7 +204,9 @@ export class GuessVerbsComponent implements OnInit {
       }
     }
 
-    this.exercises = exs;
+    this.hasExercises = !!exs.length;
+
+    this.exercises = exs.filter((ex) => !this.solvedQuestions.has(ex.question));
   }
 
   private getVerb(infinitive: string): Verb | undefined {
@@ -171,7 +217,8 @@ export class GuessVerbsComponent implements OnInit {
 
   private nextExercise(shouldRemove = false) {
     if (!this.exercises.length) {
-      this.buildExercises();
+      this.currentExercise = undefined!;
+      return;
     }
 
     const index = Math.floor(Math.random() * this.exercises.length);
@@ -232,8 +279,12 @@ export class GuessVerbsComponent implements OnInit {
 
   private guessTheWord() {
     this.guessed++;
-    this.message = 'Corect!';
+    this.message = 'Corect';
     this.loading = true;
+
+    this.solvedQuestions.add(this.currentExercise.question);
+    this.saveProgress();
+
     setTimeout(() => this.nextExercise(true), 1500);
   }
 }

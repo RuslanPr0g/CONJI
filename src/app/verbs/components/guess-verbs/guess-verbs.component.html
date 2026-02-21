@@ -27,8 +27,24 @@
       </div>
 
       <div class="counter">Rămas de rezolvat: {{ exercisesLeftAmount }}</div>
+
+      <div class="status">
+        <a href="#" (click)="clearProgress(); $event.preventDefault()">
+          începe din nou
+        </a>
+      </div>
     } @else {
-      Nu au fost găsite exerciții.
+      @if (!hasExercises) {
+        Nu au fost găsite exerciții.
+      } @else {
+        Felicitări, ai rezolvat toate exercițiile!
+
+        <div class="status">
+          <a href="#" (click)="clearProgress(); $event.preventDefault()">
+            începe din nou
+          </a>
+        </div>
+      }
     }
   </div>
 </div>

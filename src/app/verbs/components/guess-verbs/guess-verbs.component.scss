@@ -8,99 +8,140 @@ $color-wrong: #f87171;
 $color-counter: #e0e0e0;
 $shadow-card: rgba(0, 0, 0, 0.5);
 $shadow-card-hover: rgba(0, 0, 0, 0.7);
-$font-family-main: 'Segoe UI', 'Roboto', sans-serif;
+$font-family-main: "Segoe UI", "Roboto", sans-serif;
 
 .game-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 50vh;
-    background: linear-gradient(135deg, $color-bg-gradient-start, $color-bg-gradient-end);
-    font-family: $font-family-main;
-    padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background: linear-gradient(
+    135deg,
+    $color-bg-gradient-start,
+    $color-bg-gradient-end
+  );
+  font-family: $font-family-main;
+  padding: 1rem;
 
-    @media (max-width: 480px) {
-        padding: 4px;
-    }
+  @media (max-width: 480px) {
+    padding: 4px;
+  }
 }
 
 .card {
-    background: $color-card-bg;
-    backdrop-filter: blur(15px);
-    border-radius: 1rem;
-    padding: 2rem 2rem;
-    text-align: center;
-    width: 100%;
-    max-width: 400px;
-    box-shadow: 0 10px 40px $shadow-card;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  background: $color-card-bg;
+  backdrop-filter: blur(15px);
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 40px $shadow-card;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 
-    &:hover {
-        box-shadow: 0 15px 50px $shadow-card-hover;
-    }
+  &:hover {
+    box-shadow: 0 15px 50px $shadow-card-hover;
+  }
 
-    @media (max-width: 480px) {
-        padding: 1rem 1rem;
-    }
+  @media (max-width: 480px) {
+    padding: 1rem 1rem;
+  }
 }
 
 .verb-display {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-    color: $color-text-main;
-    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: $color-text-main;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .guess-input {
-    width: 70%;
-    padding: 0.7rem 1rem;
-    border-radius: 0.6rem;
-    border: none;
-    outline: none;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    background: rgba(255, 255, 255, 0.1);
-    color: $color-text-main;
-    text-align: center;
-    transition: background 0.2s ease, box-shadow 0.2s ease;
+  width: 70%;
+  padding: 0.7rem 1rem;
+  border-radius: 0.6rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: $color-text-main;
+  text-align: center;
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease;
 
-    &::placeholder {
-        color: $color-text-placeholder;
-    }
+  &::placeholder {
+    color: $color-text-placeholder;
+  }
 
-    &:focus {
-        background: rgba(255, 255, 255, 0.15);
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-    }
+  &:focus {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
 
-    @media (max-width: 480px) {
-        font-size: 0.9rem;
-    }
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+  }
 }
 
 .message {
-    font-weight: 700;
-    margin-bottom: 1rem;
-    min-height: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  min-height: 1.5rem;
 
-    &.correct {
-        color: $color-correct;
-    }
+  &.correct {
+    color: $color-correct;
+  }
 
-    &.wrong {
-        color: $color-wrong;
-    }
+  &.wrong {
+    color: $color-wrong;
+  }
 }
 
 .counter {
-    font-size: 0.95rem;
-    color: $color-counter;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+  font-size: 0.95rem;
+  color: $color-counter;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 
-    @media (max-width: 480px) {
-        font-size: 0.85rem;
-    }
+  @media (max-width: 480px) {
+    font-size: 0.85rem;
+  }
+}
+
+a {
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+  color: $color-correct;
+  padding: 4px 10px;
+  border-radius: 8px;
+  transition: all 0.18s ease;
+  background: rgba(125, 211, 252, 0.08);
+  border: 1px solid rgba(125, 211, 252, 0.18);
+  backdrop-filter: blur(4px);
+}
+
+a:hover {
+  color: $color-correct;
+  background: rgba(125, 211, 252, 0.18);
+  border-color: rgba(125, 211, 252, 0.35);
+}
+
+a:active {
+  transform: translateY(1px);
+  background: rgba(125, 211, 252, 0.25);
+}
+
+a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(125, 211, 252, 0.35);
+}
+
+.status {
+  margin-top: 16px;
 }
