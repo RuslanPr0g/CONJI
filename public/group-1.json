@@ -63,6 +63,189 @@
       }
     },
     {
+      "infinitive": "a da",
+      "type": "irregular",
+      "group": 1,
+      "subgroup": 99,
+      "infinitive_translated": ["to give"],
+      "conjugations": {
+        "prezent": {
+          "eu": "dau",
+          "tu": "dai",
+          "el/ea": "dă",
+          "noi": "dăm",
+          "voi": "dați",
+          "ei/ele": "dau"
+        },
+        "perfect_compus": {
+          "eu": "am dat",
+          "tu": "ai dat",
+          "el/ea": "a dat",
+          "noi": "am dat",
+          "voi": "ați dat",
+          "ei/ele": "au dat"
+        },
+        "viitor_literar": {
+          "eu": "voi da",
+          "tu": "vei da",
+          "el/ea": "va da",
+          "noi": "vom da",
+          "voi": "veți da",
+          "ei/ele": "vor da"
+        },
+        "viitor_familiar": {
+          "eu": "o să dau",
+          "tu": "o să dai",
+          "el/ea": "o să dea",
+          "noi": "o să dăm",
+          "voi": "o să dați",
+          "ei/ele": "o să dea"
+        },
+        "conjunctiv": {
+          "eu": "să dau",
+          "tu": "să dai",
+          "el/ea": "să dea",
+          "noi": "să dăm",
+          "voi": "să dați",
+          "ei/ele": "să dea"
+        },
+        "conditional": {
+          "eu": "aș da",
+          "tu": "ai da",
+          "el/ea": "ar da",
+          "noi": "am da",
+          "voi": "ați da",
+          "ei/ele": "ar da"
+        },
+        "imperativ": {
+          "tu": "dă",
+          "voi": "dați"
+        }
+      }
+    },
+    {
+      "infinitive": "a aplica",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 3,
+      "infinitive_translated": ["to apply"],
+      "conjugations": {
+        "prezent": {
+          "eu": "aplic",
+          "tu": "aplici",
+          "el/ea": "aplică",
+          "noi": "aplicăm",
+          "voi": "aplicați",
+          "ei/ele": "aplică"
+        },
+        "perfect_compus": {
+          "eu": "am aplicat",
+          "tu": "ai aplicat",
+          "el/ea": "a aplicat",
+          "noi": "am aplicat",
+          "voi": "ați aplicat",
+          "ei/ele": "au aplicat"
+        },
+        "viitor_literar": {
+          "eu": "voi aplica",
+          "tu": "vei aplica",
+          "el/ea": "va aplica",
+          "noi": "vom aplica",
+          "voi": "veți aplica",
+          "ei/ele": "vor aplica"
+        },
+        "viitor_familiar": {
+          "eu": "o să aplic",
+          "tu": "o să aplici",
+          "el/ea": "o să aplice",
+          "noi": "o să aplicăm",
+          "voi": "o să aplicați",
+          "ei/ele": "o să aplice"
+        },
+        "conjunctiv": {
+          "eu": "să aplic",
+          "tu": "să aplici",
+          "el/ea": "să aplice",
+          "noi": "să aplicăm",
+          "voi": "să aplicați",
+          "ei/ele": "să aplice"
+        },
+        "conditional": {
+          "eu": "aș aplica",
+          "tu": "ai aplica",
+          "el/ea": "ar aplica",
+          "noi": "am aplica",
+          "voi": "ați aplica",
+          "ei/ele": "ar aplica"
+        },
+        "imperativ": {
+          "tu": "aplică",
+          "voi": "aplicați"
+        }
+      }
+    },
+    {
+      "infinitive": "a câștiga",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 3,
+      "infinitive_translated": ["to win", "to earn"],
+      "conjugations": {
+        "prezent": {
+          "eu": "câștig",
+          "tu": "câștigi",
+          "el/ea": "câștigă",
+          "noi": "câștigăm",
+          "voi": "câștigați",
+          "ei/ele": "câștigă"
+        },
+        "perfect_compus": {
+          "eu": "am câștigat",
+          "tu": "ai câștigat",
+          "el/ea": "a câștigat",
+          "noi": "am câștigat",
+          "voi": "ați câștigat",
+          "ei/ele": "au câștigat"
+        },
+        "viitor_literar": {
+          "eu": "voi câștiga",
+          "tu": "vei câștiga",
+          "el/ea": "va câștiga",
+          "noi": "vom câștiga",
+          "voi": "veți câștiga",
+          "ei/ele": "vor câștiga"
+        },
+        "viitor_familiar": {
+          "eu": "o să câștig",
+          "tu": "o să câștigi",
+          "el/ea": "o să câștige",
+          "noi": "o să câștigăm",
+          "voi": "o să câștigați",
+          "ei/ele": "o să câștige"
+        },
+        "conjunctiv": {
+          "eu": "să câștig",
+          "tu": "să câștigi",
+          "el/ea": "să câștige",
+          "noi": "să câștigăm",
+          "voi": "să câștigați",
+          "ei/ele": "să câștige"
+        },
+        "conditional": {
+          "eu": "aș câștiga",
+          "tu": "ai câștiga",
+          "el/ea": "ar câștiga",
+          "noi": "am câștiga",
+          "voi": "ați câștiga",
+          "ei/ele": "ar câștiga"
+        },
+        "imperativ": {
+          "tu": "câștigă",
+          "voi": "câștigați"
+        }
+      }
+    },
+    {
       "infinitive": "a descălța",
       "type": "regular",
       "group": 1,
