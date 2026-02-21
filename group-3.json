@@ -2,6 +2,67 @@
   "group": "Grupa a III-a - terminat în -e",
   "verbs": [
     {
+      "infinitive": "a interzice",
+      "type": "regular",
+      "group": 3,
+      "subgroup": 1,
+      "infinitive_translated": ["to forbid", "to prohibit"],
+      "conjugations": {
+        "prezent": {
+          "eu": "interzic",
+          "tu": "interzici",
+          "el/ea": "interzice",
+          "noi": "interzicem",
+          "voi": "interziceți",
+          "ei/ele": "interzic"
+        },
+        "perfect_compus": {
+          "eu": "am interzis",
+          "tu": "ai interzis",
+          "el/ea": "a interzis",
+          "noi": "am interzis",
+          "voi": "ați interzis",
+          "ei/ele": "au interzis"
+        },
+        "viitor_literar": {
+          "eu": "voi interzice",
+          "tu": "vei interzice",
+          "el/ea": "va interzice",
+          "noi": "vom interzice",
+          "voi": "veți interzice",
+          "ei/ele": "vor interzice"
+        },
+        "viitor_familiar": {
+          "eu": "o să interzic",
+          "tu": "o să interzici",
+          "el/ea": "o să interzică",
+          "noi": "o să interzicem",
+          "voi": "o să interziceți",
+          "ei/ele": "o să interzică"
+        },
+        "conjunctiv": {
+          "eu": "să interzic",
+          "tu": "să interzici",
+          "el/ea": "să interzică",
+          "noi": "să interzicem",
+          "voi": "să interziceți",
+          "ei/ele": "să interzică"
+        },
+        "conditional": {
+          "eu": "aș interzice",
+          "tu": "ai interzice",
+          "el/ea": "ar interzice",
+          "noi": "am interzice",
+          "voi": "ați interzice",
+          "ei/ele": "ar interzice"
+        },
+        "imperativ": {
+          "tu": "interzice",
+          "voi": "interziceți"
+        }
+      }
+    },
+    {
       "infinitive": "a plânge",
       "type": "regular",
       "group": 3,
