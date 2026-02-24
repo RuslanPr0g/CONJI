@@ -127,6 +127,9 @@ export class ConjugationComponent implements OnInit {
         if (!search?.trim()) {
           this.isSearching = false;
           this.availableGroups = this.groupedVerbs.map((g) => g.group);
+
+          this.selectedGroup = this.groupedVerbs[0]?.group;
+
           this.updateFilteredGroups();
           return;
         }
