@@ -63,6 +63,67 @@
       }
     },
     {
+      "infinitive": "a adora",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 3,
+      "infinitive_translated": ["to adore"],
+      "conjugations": {
+        "prezent": {
+          "eu": "ador",
+          "tu": "adori",
+          "el/ea": "adoră",
+          "noi": "adorăm",
+          "voi": "adorați",
+          "ei/ele": "adoră"
+        },
+        "perfect_compus": {
+          "eu": "am adorat",
+          "tu": "ai adorat",
+          "el/ea": "a adorat",
+          "noi": "am adorat",
+          "voi": "ați adorat",
+          "ei/ele": "au adorat"
+        },
+        "viitor_literar": {
+          "eu": "voi adora",
+          "tu": "vei adora",
+          "el/ea": "va adora",
+          "noi": "vom adora",
+          "voi": "veți adora",
+          "ei/ele": "vor adora"
+        },
+        "viitor_familiar": {
+          "eu": "o să ador",
+          "tu": "o să adori",
+          "el/ea": "o să adore",
+          "noi": "o să adorăm",
+          "voi": "o să adorați",
+          "ei/ele": "o să adore"
+        },
+        "conjunctiv": {
+          "eu": "să ador",
+          "tu": "să adori",
+          "el/ea": "să adore",
+          "noi": "să adorăm",
+          "voi": "să adorați",
+          "ei/ele": "să adore"
+        },
+        "conditional": {
+          "eu": "aș adora",
+          "tu": "ai adora",
+          "el/ea": "ar adora",
+          "noi": "am adora",
+          "voi": "ați adora",
+          "ei/ele": "ar adora"
+        },
+        "imperativ": {
+          "tu": "adoră",
+          "voi": "adorați"
+        }
+      }
+    },
+    {
       "infinitive": "a da",
       "type": "irregular",
       "group": 1,

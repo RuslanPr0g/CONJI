@@ -63,6 +63,67 @@
       }
     },
     {
+      "infinitive": "a găsi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to find"],
+      "conjugations": {
+        "prezent": {
+          "eu": "găsesc",
+          "tu": "găsești",
+          "el/ea": "găsește",
+          "noi": "găsim",
+          "voi": "găsiți",
+          "ei/ele": "găsesc"
+        },
+        "perfect_compus": {
+          "eu": "am găsit",
+          "tu": "ai găsit",
+          "el/ea": "a găsit",
+          "noi": "am găsit",
+          "voi": "ați găsit",
+          "ei/ele": "au găsit"
+        },
+        "viitor_literar": {
+          "eu": "voi găsi",
+          "tu": "vei găsi",
+          "el/ea": "va găsi",
+          "noi": "vom găsi",
+          "voi": "veți găsi",
+          "ei/ele": "vor găsi"
+        },
+        "viitor_familiar": {
+          "eu": "o să găsesc",
+          "tu": "o să găsești",
+          "el/ea": "o să găsească",
+          "noi": "o să găsim",
+          "voi": "o să găsiți",
+          "ei/ele": "o să găsească"
+        },
+        "conjunctiv": {
+          "eu": "să găsesc",
+          "tu": "să găsești",
+          "el/ea": "să găsească",
+          "noi": "să găsim",
+          "voi": "să găsiți",
+          "ei/ele": "să găsească"
+        },
+        "conditional": {
+          "eu": "aș găsi",
+          "tu": "ai găsi",
+          "el/ea": "ar găsi",
+          "noi": "am găsi",
+          "voi": "ați găsi",
+          "ei/ele": "ar găsi"
+        },
+        "imperativ": {
+          "tu": "găsește",
+          "voi": "găsiți"
+        }
+      }
+    },
+    {
       "infinitive": "a îngriji",
       "type": "regular",
       "group": 4,
