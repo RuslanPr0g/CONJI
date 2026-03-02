@@ -52,7 +52,7 @@ describe('VocabularyComponent', () => {
     const req = httpMock.expectOne(expectedFile);
     req.flush(mockWords);
 
-    tick();
+    tick(500);
     fixture.detectChanges();
 
     expect(component.allWords.length).toBe(3);
@@ -75,7 +75,7 @@ describe('VocabularyComponent', () => {
     const req = httpMock.expectOne(expectedFile);
     req.flush(mockWords);
 
-    tick();
+    tick(500);
     fixture.detectChanges();
 
     component.searchControl.setValue('floare');
