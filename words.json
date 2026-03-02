@@ -1125,5 +1125,8 @@
   { "value": "trecut", "translations": ["past", "previous"] },
   { "value": "întrebări", "translations": ["questions"] },
   { "value": "învățat", "translations": ["learned", "studied"] },
-  { "value": "explice", "translations": ["explanation"] }
+  { "value": "explice", "translations": ["explanation"] },
+  { "value": "soluție", "translations": ["solution"] },
+  { "value": "deloc", "translations": ["at all", "not at all"] },
+  { "value": "cantină", "translations": ["canteen", "cafeteria"] }
 ]
