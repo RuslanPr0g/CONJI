@@ -117,3 +117,36 @@ $font-family-main: "Segoe UI", "Roboto", sans-serif;
     font-size: 0.85rem;
   }
 }
+
+a {
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+  color: $color-correct;
+  padding: 4px 10px;
+  border-radius: 8px;
+  transition: all 0.18s ease;
+  background: rgba(125, 211, 252, 0.08);
+  border: 1px solid rgba(125, 211, 252, 0.18);
+  backdrop-filter: blur(4px);
+}
+
+a:hover {
+  color: $color-correct;
+  background: rgba(125, 211, 252, 0.18);
+  border-color: rgba(125, 211, 252, 0.35);
+}
+
+a:active {
+  transform: translateY(1px);
+  background: rgba(125, 211, 252, 0.25);
+}
+
+a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(125, 211, 252, 0.35);
+}
+
+.status {
+  margin-top: 16px;
+}
