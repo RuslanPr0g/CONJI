@@ -26,6 +26,21 @@
         {{ message }}
       </div>
 
+      <div class="stats" aria-label="Statistici exercițiu">
+        <div class="stat">
+          <span class="stat-value">{{ currentStreak }}</span>
+          <span class="stat-label">serie</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">{{ bestStreak }}</span>
+          <span class="stat-label">record</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">{{ accuracy }}%</span>
+          <span class="stat-label">acuratețe</span>
+        </div>
+      </div>
+
       <div class="counter">Rămas de rezolvat: {{ exercisesLeftAmount }}</div>
 
       <div class="status">

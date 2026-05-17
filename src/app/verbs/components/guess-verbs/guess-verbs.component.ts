@@ -40,6 +40,8 @@ export class GuessVerbsComponent implements OnInit {
   message = '';
   guessed = 0;
   missed = 0;
+  currentStreak = 0;
+  bestStreak = 0;
   loading = false;
   lastTried: string | null = null;
   hasExercises = false;
@@ -66,6 +68,16 @@ export class GuessVerbsComponent implements OnInit {
     return this.exercises.length;
   }
 
+  get totalAttempts() {
+    return this.guessed + this.missed;
+  }
+
+  get accuracy() {
+    if (!this.totalAttempts) return 0;
+
+    return Math.round((this.guessed / this.totalAttempts) * 100);
+  }
+
   get solvedText(): string {
     if (!this.currentExercise) return '';
 
@@ -77,6 +89,10 @@ export class GuessVerbsComponent implements OnInit {
   clearProgress() {
     this.storage.remove(this.STORAGE_KEY);
     this.solvedQuestions.clear();
+    this.guessed = 0;
+    this.missed = 0;
+    this.currentStreak = 0;
+    this.bestStreak = 0;
     this.buildExercises();
     this.nextExercise();
   }
@@ -272,13 +288,19 @@ export class GuessVerbsComponent implements OnInit {
     }
     const isCorrect = this.trySubmit();
     if (isCorrect) return;
-    if (this.lastTried !== this.currentExercise.question) this.missed++;
+    if (this.lastTried !== this.currentExercise.question) {
+      this.missed++;
+      this.currentStreak = 0;
+    }
+
     this.message = `Greșit!`;
     this.lastTried = this.currentExercise.question;
   }
 
   private guessTheWord() {
     this.guessed++;
+    this.currentStreak++;
+    this.bestStreak = Math.max(this.bestStreak, this.currentStreak);
     this.message = 'Corect';
     this.loading = true;
 
