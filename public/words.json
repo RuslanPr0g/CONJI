@@ -343,10 +343,6 @@
     "translations": ["the door"]
   },
   {
-    "value": "ușă",
-    "translations": ["door"]
-  },
-  {
     "value": "miros",
     "translations": ["smell", "scent"]
   },
@@ -1128,5 +1124,15 @@
   { "value": "explice", "translations": ["explanation"] },
   { "value": "soluție", "translations": ["solution"] },
   { "value": "deloc", "translations": ["at all", "not at all"] },
-  { "value": "cantină", "translations": ["canteen", "cafeteria"] }
+  { "value": "cantină", "translations": ["canteen", "cafeteria"] },
+  { "value": "în primul rând", "translations": ["first of all", "in the first place", "firstly"] },
+  { "value": "în plus", "translations": ["moreover", "in addition", "furthermore", "besides"] },
+  { "value": "pe de altă parte", "translations": ["on the other hand"] },
+  { "value": "dacă mă gândesc bine", "translations": ["come to think of it", "if I think about it carefully", "on second thought"] },
+  { "value": "totuși", "translations": ["however", "yet", "still", "nevertheless"] },
+  { "value": "de aceea", "translations": ["therefore", "that's why", "for that reason"] },
+  { "value": "probabil", "translations": ["probably", "likely"] },
+  { "value": "în cazul acesta", "translations": ["in that case", "in this case"] },
+  { "value": "ar fi", "translations": ["would be", "it would be"] },
+  { "value": "putea merge", "translations": ["could go", "could work"] }
 ]
