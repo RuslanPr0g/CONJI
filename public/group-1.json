@@ -6,7 +6,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to dance"],
+      "infinitive_translated": [
+        "to dance"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "dansez",
@@ -67,7 +69,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": ["to adore"],
+      "infinitive_translated": [
+        "to adore"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "ador",
@@ -128,7 +132,9 @@
       "type": "irregular",
       "group": 1,
       "subgroup": 99,
-      "infinitive_translated": ["to give"],
+      "infinitive_translated": [
+        "to give"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "dau",
@@ -189,7 +195,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": ["to apply"],
+      "infinitive_translated": [
+        "to apply"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "aplic",
@@ -250,7 +258,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": ["to win", "to earn"],
+      "infinitive_translated": [
+        "to win",
+        "to earn"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "câștig",
@@ -311,7 +322,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": ["to take off shoes"],
+      "infinitive_translated": [
+        "to take off shoes"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "descalț",
@@ -372,7 +385,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": ["to put on shoes"],
+      "infinitive_translated": [
+        "to put on shoes"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "încalț",
@@ -433,7 +448,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to wear", "to carry"],
+      "infinitive_translated": [
+        "to wear",
+        "to carry"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "port",
@@ -494,7 +512,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to go up", "to climb"],
+      "infinitive_translated": [
+        "to go up",
+        "to climb"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "urc",
@@ -555,7 +576,11 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to find out", "to learn", "to discover"],
+      "infinitive_translated": [
+        "to find out",
+        "to learn",
+        "to discover"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "aflu",
@@ -616,7 +641,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to keep", "to preserve"],
+      "infinitive_translated": [
+        "to keep",
+        "to preserve"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "păstrez",
@@ -677,7 +705,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to paint"],
+      "infinitive_translated": [
+        "to paint"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "pictez",
@@ -738,7 +768,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to draw"],
+      "infinitive_translated": [
+        "to draw"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "desenez",
@@ -799,7 +831,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to move"],
+      "infinitive_translated": [
+        "to move"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "mișc",
@@ -860,7 +894,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to breathe"],
+      "infinitive_translated": [
+        "to breathe"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "respir",
@@ -921,7 +957,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": ["to run"],
+      "infinitive_translated": [
+        "to run"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "alerg",
@@ -982,7 +1020,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to enter"],
+      "infinitive_translated": [
+        "to enter"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "intru",
@@ -1043,7 +1083,9 @@
       "type": "irregular",
       "group": 1,
       "subgroup": 99,
-      "infinitive_translated": ["to cut"],
+      "infinitive_translated": [
+        "to cut"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "tai",
@@ -1104,7 +1146,9 @@
       "type": "irregular",
       "group": 1,
       "subgroup": 99,
-      "infinitive_translated": ["to be late"],
+      "infinitive_translated": [
+        "to be late"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "întârzii",
@@ -1165,7 +1209,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to have fun"],
+      "infinitive_translated": [
+        "to have fun"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "mă distrez",
@@ -1226,7 +1272,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to take a walk"],
+      "infinitive_translated": [
+        "to take a walk"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "mă plimb",
@@ -1287,7 +1335,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to wash oneself"],
+      "infinitive_translated": [
+        "to wash oneself"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "mă spăl",
@@ -1348,7 +1398,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to get dressed"],
+      "infinitive_translated": [
+        "to get dressed"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "mă îmbrac",
@@ -1409,7 +1461,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to go to bed"],
+      "infinitive_translated": [
+        "to go to bed"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "mă culc",
@@ -1470,7 +1524,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to look", "to watch"],
+      "infinitive_translated": [
+        "to look",
+        "to watch"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "mă uit",
@@ -1531,7 +1588,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to pay", "to settle (a payment)"],
+      "infinitive_translated": [
+        "to pay",
+        "to settle (a payment)"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "achit",
@@ -1592,7 +1652,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to leave", "to let"],
+      "infinitive_translated": [
+        "to leave",
+        "to let"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "las",
@@ -1645,7 +1708,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to ask"],
+      "infinitive_translated": [
+        "to ask"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "întreb",
@@ -1698,7 +1763,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to park"],
+      "infinitive_translated": [
+        "to park"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "parchez",
@@ -1751,7 +1818,11 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to place", "to arrange", "to set"],
+      "infinitive_translated": [
+        "to place",
+        "to arrange",
+        "to set"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "așez",
@@ -1812,7 +1883,11 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to arrange", "to organize", "to set up"],
+      "infinitive_translated": [
+        "to arrange",
+        "to organize",
+        "to set up"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "aranjez",
@@ -1865,7 +1940,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to behave"],
+      "infinitive_translated": [
+        "to behave"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "mă comport",
@@ -1918,7 +1995,11 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to show", "to indicate", "to look like"],
+      "infinitive_translated": [
+        "to show",
+        "to indicate",
+        "to look like"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "arat",
@@ -1971,7 +2052,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to check in", "to lodge"],
+      "infinitive_translated": [
+        "to check in",
+        "to lodge"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "mă cazez",
@@ -2024,7 +2108,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to release", "to free"],
+      "infinitive_translated": [
+        "to release",
+        "to free"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "eliberez",
@@ -2077,7 +2164,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to cancel"],
+      "infinitive_translated": [
+        "to cancel"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "anulez",
@@ -2130,7 +2219,11 @@
       "type": "irregular",
       "group": 1,
       "subgroup": 99,
-      "infinitive_translated": ["to stay", "to stand", "to live"],
+      "infinitive_translated": [
+        "to stay",
+        "to stand",
+        "to live"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "stau",
@@ -2191,7 +2284,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to eat"],
+      "infinitive_translated": [
+        "to eat"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "mănânc",
@@ -2252,7 +2347,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["work"],
+      "infinitive_translated": [
+        "work"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "lucrez",
@@ -2313,7 +2410,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["sing"],
+      "infinitive_translated": [
+        "sing"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "cânt",
@@ -2374,7 +2473,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to buy"],
+      "infinitive_translated": [
+        "to buy"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "cumpăr",
@@ -2435,7 +2536,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["to study"],
+      "infinitive_translated": [
+        "to study"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "studiez",
@@ -2496,7 +2599,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to search", "to look for"],
+      "infinitive_translated": [
+        "to search",
+        "to look for"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "caut",
@@ -2557,7 +2663,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["visit"],
+      "infinitive_translated": [
+        "visit"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "vizitez",
@@ -2618,7 +2726,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": ["fly"],
+      "infinitive_translated": [
+        "fly"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "zbor",
@@ -2679,7 +2789,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["discuss"],
+      "infinitive_translated": [
+        "discuss"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "discut",
@@ -2740,7 +2852,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["climb"],
+      "infinitive_translated": [
+        "climb"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "escaladez",
@@ -2801,7 +2915,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["prefer"],
+      "infinitive_translated": [
+        "prefer"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "prefer",
@@ -2862,7 +2978,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": ["to wait"],
+      "infinitive_translated": [
+        "to wait"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "aștept",
@@ -2923,7 +3041,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 3,
-      "infinitive_translated": ["leave", "go"],
+      "infinitive_translated": [
+        "leave",
+        "go"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "plec",
@@ -2984,7 +3105,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 1,
-      "infinitive_translated": ["cross"],
+      "infinitive_translated": [
+        "cross"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "traversez",
@@ -3045,7 +3168,9 @@
       "type": "irregular",
       "group": 1,
       "subgroup": 99,
-      "infinitive_translated": ["to take"],
+      "infinitive_translated": [
+        "to take"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "iau",
@@ -3106,7 +3231,9 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to verify"],
+      "infinitive_translated": [
+        "to verify"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "verific",
@@ -3167,7 +3294,10 @@
       "type": "regular",
       "group": 1,
       "subgroup": 2,
-      "infinitive_translated": ["to finish", "to terminate"],
+      "infinitive_translated": [
+        "to finish",
+        "to terminate"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "termin",
@@ -3228,7 +3358,9 @@
       "type": "irregular",
       "group": 1,
       "subgroup": 99,
-      "infinitive_translated": ["to swim"],
+      "infinitive_translated": [
+        "to swim"
+      ],
       "conjugations": {
         "prezent": {
           "eu": "înot",
@@ -3281,6 +3413,70 @@
         "imperativ": {
           "tu": "înoată",
           "voi": "înotați"
+        }
+      }
+    },
+    {
+      "infinitive": "a încerca",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": [
+        "to try",
+        "to attempt"
+      ],
+      "conjugations": {
+        "prezent": {
+          "eu": "încerc",
+          "tu": "încerci",
+          "el/ea": "încearcă",
+          "noi": "încercăm",
+          "voi": "încercați",
+          "ei/ele": "încearcă"
+        },
+        "perfect_compus": {
+          "eu": "am încercat",
+          "tu": "ai încercat",
+          "el/ea": "a încercat",
+          "noi": "am încercat",
+          "voi": "ați încercat",
+          "ei/ele": "au încercat"
+        },
+        "viitor_literar": {
+          "eu": "voi încerca",
+          "tu": "vei încerca",
+          "el/ea": "va încerca",
+          "noi": "vom încerca",
+          "voi": "veți încerca",
+          "ei/ele": "vor încerca"
+        },
+        "viitor_familiar": {
+          "eu": "o să încerc",
+          "tu": "o să încerci",
+          "el/ea": "o să încerce",
+          "noi": "o să încercăm",
+          "voi": "o să încercați",
+          "ei/ele": "o să încerce"
+        },
+        "conjunctiv": {
+          "eu": "să încerc",
+          "tu": "să încerci",
+          "el/ea": "să încerce",
+          "noi": "să încercăm",
+          "voi": "să încercați",
+          "ei/ele": "să încerce"
+        },
+        "conditional": {
+          "eu": "aș încerca",
+          "tu": "ai încerca",
+          "el/ea": "ar încerca",
+          "noi": "am încerca",
+          "voi": "ați încerca",
+          "ei/ele": "ar încerca"
+        },
+        "imperativ": {
+          "tu": "încearcă",
+          "voi": "încercați"
         }
       }
     }

@@ -1134,5 +1134,8 @@
   { "value": "probabil", "translations": ["probably", "likely"] },
   { "value": "în cazul acesta", "translations": ["in that case", "in this case"] },
   { "value": "ar fi", "translations": ["would be", "it would be"] },
-  { "value": "putea merge", "translations": ["could go", "could work"] }
+  { "value": "putea merge", "translations": ["could go", "could work"] },
+  { "value": "deocamdată", "translations": ["for now", "for the time being"] },
+  { "value": "propria afacere", "translations": ["own business"] },
+  { "value": "mediu plăcut", "translations": ["pleasant environment"] }
 ]

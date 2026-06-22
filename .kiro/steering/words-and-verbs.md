@@ -32,16 +32,15 @@ All entries are objects in a flat JSON array. Every entry requires both fields:
 - `translations` — array of English equivalents, ordered from most common to least. Always at least one item.
 - Multi-word phrases are allowed (e.g. `"pe de altă parte"`, `"de obicei"`).
 - Definite article forms get their own entry when the article changes the learning value (e.g. `"carte"` + `"cartea"`).
-- Conjugated verb forms (e.g. `"merg"`, `"mergi"`) belong here when they appear in reading texts and need lookup. The full verb's conjugation table lives in the group files.
+- Do NOT add verbs (bare infinitives or conjugated forms) to words.json — they belong in group files.
+- Exception: a verb embedded in a fixed idiom/phrase where the phrase is the vocabulary unit (e.g. `"dacă mă gândesc bine"`) may go in words.json as a phrase.
 - Do NOT add the bare infinitive (e.g. `"a merge"`) to words.json — that belongs only in the verb group files.
 
 **Examples:**
 
 ```json
 { "value": "totuși", "translations": ["however", "yet", "still", "nevertheless"] },
-{ "value": "în primul rând", "translations": ["first of all", "in the first place", "firstly"] },
-{ "value": "merg", "translations": ["I go", "I walk"] },
-{ "value": "preferam", "translations": ["I preferred", "I used to prefer"] }
+{ "value": "în primul rând", "translations": ["first of all", "in the first place", "firstly"] }
 ```
 
 ---
@@ -101,13 +100,15 @@ Each verb object:
 ## Decision: words.json vs group file
 
 ```
-Is it a bare infinitive (a face, a merge)?
-  YES → group-N.json only
-  NO  → Is it a conjugated form, connector, noun, adjective, adverb?
-          YES → words.json
+Is it a verb (bare infinitive OR any conjugated/compound form)?
+  YES → Is it inside a fixed idiom/phrase (e.g. "dacă mă gândesc bine")?
+          YES → words.json (as a phrase)
+          NO  → group-N.json only
+                (if parent infinitive missing, add it first)
+  NO  → words.json
 ```
 
-Conjugated forms like `"merg"`, `"gândesc"`, `"prefer"` go in **words.json** because they appear as vocabulary in reading texts. Their full conjugation table lives in the group file under the parent infinitive.
+**Duplicate check applies to both files.** Run `#duplicate-check` before adding anything.
 
 ---
 
