@@ -25,7 +25,11 @@ jobs:
         id: newtag
         shell: bash
         run: |
-          COMMIT_MSG=$(git log -1 --pretty=%B)
+          # Scan recent history, not just the tip commit: a non-squash PR merge
+          # puts a "Merge pull request ..." commit at the tip, which never carries
+          # the version bump itself. Recent commits are newest-first, so the
+          # leftmost match is the most recent version bump.
+          COMMIT_MSG=$(git log -20 --pretty=%B)
           if [[ $COMMIT_MSG =~ v([0-9]+\.[0-9]+\.[0-9]+) ]]; then
             NEW_TAG="v${BASH_REMATCH[1]}"
             LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
