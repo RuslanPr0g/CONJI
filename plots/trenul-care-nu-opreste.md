@@ -95,12 +95,18 @@ unlike in the dream — does, quietly and unremarkably, end.
     into each other; the train loses its shape entirely; everything goes
     white, cut through by a calm, ordinary station announcement that
     doesn't belong to anything that came before.
-11. **The reveal: he fell asleep** (Ch. 25) — Alex wakes up with a start on
-    an entirely ordinary evening train, which has just arrived at his real
-    stop. A nearby passenger mentions, kindly, that he'd dozed off and was
-    muttering. Every impossible detail — the endless night, the missing
-    conductor, the frozen time, the shifting carriages — is recontextualized
-    as a dream assembled from ordinary anxiety, memory, and exhaustion.
+11. **The reveal: he fell asleep** (Ch. 25) — never stated outright. The
+    chapter opens on the same ordinary train, the same window, the same
+    stray details as Chapter 1's opening lines, so the *reader* recognizes
+    the loop before anything confirms it. Alex's stiff neck, an
+    unfinished text message, a barely-cooled coffee, and a departure board
+    still showing the train he originally boarded all imply almost no real
+    time has passed. No one comments on him sleeping; the only dialogue is
+    a mundane station announcement naming his real stop. Every impossible
+    detail — the endless night, the missing conductor, the frozen time,
+    the shifting carriages — is left for the reader to recontextualize as
+    a dream, unconfirmed by narration, closing on one small carryover
+    detail from the dream that never gets explained.
 
 ## Misdirection Strategy (Sci-Fi Red Herring)
 
@@ -154,24 +160,48 @@ dream. This only works if the misdirection is deliberate and consistent:
   (no "his brain was simulating a signal glitch" over-explanation) — it
   simply reveals the dream, full stop, with no bridge between the two
   genres beyond the fact that it's over.
+- **The reveal itself must be shown, not told.** No character says "you
+  fell asleep" or "it was a dream," and the narration never states that
+  Alex wakes up. Chapter 25 works by mirroring Chapter 1's opening closely
+  enough that the reader recognizes the loop themselves, backed by small
+  physical continuity clues (stiff neck, unfinished text message, still-
+  warm coffee, an unchanged departure board) implying almost no real time
+  passed. The chapter closes on one small, unexplained object or sensation
+  carried over from inside the dream — never resolved — so the ending
+  surprises through implication instead of announcing itself.
+- **Chapter titles are diegetic — they must not spoil the reveal.** Titles
+  appear as real headings in the shipped book, so none of them may use
+  words like "sleep," "dream," or "waking" before Chapter 25 (see Ch. 19's
+  retitling from "Somnul din somn" to "Resetarea," and Ch. 25's retitling
+  from "Trezirea" to "Ultima oprire," which pays off the book's own title
+  instead of naming the twist).
 
 ## Ending (planned)
 
-Chapter 25 resolves the entire book: Alex wakes up on a completely normal
-commuter train just as it reaches his actual station. The endless night was
-only the time it took him to doze off on a delayed evening train; the
-missing conductor, the frozen watch, the impossible carriages, and the
-increasingly personal, dreamlike rooms were all his sleeping mind
-recombining fragments of his real life — his job, his childhood, a half-
-remembered wedding, his father's study — into a single, ever-lengthening
-nightmare. The final scene is deliberately small and grounding: a fellow
-passenger's gentle comment that he'd been talking in his sleep, an ordinary
-phone showing the real time, and Alex stepping off into an unremarkable
-night that, unlike the one in his dream, actually ends. The last beat is a
-single lingering thread of unease — for a moment, stepping onto the
-platform, Alex isn't entirely sure which train he just got off of — kept
-brief enough not to undercut the "just a dream" resolution, but present
-enough to leave a small chill.
+Chapter 25 resolves the entire book, but **indirectly — through recognition,
+not exposition.** It never states that Alex was asleep or dreaming; the
+reveal works by mirroring, not telling:
+
+- The chapter opens with the same window, the same half-heard cough from a
+  nearby stranger, the same phrasing used to describe the night in
+  Chapter 1's opening lines — close enough that an attentive reader
+  recognizes it as the *same moment*, not a new one, before any character
+  says a word about it.
+- Small physical continuity details (a stiff neck, a text message left
+  mid-sentence on his phone, coffee still faintly warm, the departure board
+  still showing the train he originally boarded) imply that almost no real
+  time has passed — the entire journey was the length of a doze, not a
+  night.
+- **No one comments on him having slept.** The only dialogue is a
+  completely mundane station announcement naming his real stop. The
+  "reveal" is left entirely to the reader connecting Chapter 25 back to
+  Chapter 1 themselves.
+- The book closes on Alex stepping onto the platform into an ordinary
+  night that, unlike the one in the dream, actually ends — followed by one
+  small, unresolved carryover detail from deep inside the dream (e.g., a
+  physical trace from one of the earlier carriages that has no business
+  being real) that is never explained, so the ending lands as unsettling
+  and surprising rather than tidy or announced.
 
 ## Detailed Chapter Breakdown
 
@@ -324,13 +354,17 @@ enough to leave a small chill.
 - Ends on: Alex no longer trusts that any of the doors, or the train, are
   solid.
 
-### Chapter 19 — Somnul din somn (Sleep Within Sleep)
+### Chapter 19 — Resetarea (The Reset)
 - Setting: Back in a train seat, exhausted.
-- Beats: Out of options, Alex tries to sleep, hoping that closing his eyes
-  inside this world might wake him from it; the faint voice from the dark
-  car returns, closer than before.
+- Beats: Out of ideas, Alex forces himself to sit still and shut his eyes
+  for a moment, the way you'd try to reboot something that's stopped
+  responding, half-hoping something will be different when he opens them;
+  the faint voice from the dark car returns, closer than before.
 - Characters: Alex.
-- Ends on: Alex can no longer tell whether he's asleep or awake.
+- Ends on: Alex can no longer tell how long his eyes were closed.
+- Title note: deliberately avoids naming sleep/dreams directly (the earlier
+  working title "Somnul din somn" gave away the ending) — "reset" keeps the
+  sci-fi misdirection intact while still setting up the eventual reveal.
 
 ### Chapter 20 — Drumul înapoi (The Way Back)
 - Setting: Running back through the carriages.
@@ -364,24 +398,37 @@ enough to leave a small chill.
 - Ends on: Everything goes white.
 
 ### Chapter 24 — Anunțul (The Announcement)
-- Setting: Indeterminate — the moment just before waking.
+- Setting: Indeterminate — the white left over from Chapter 23.
 - Beats: A calm, ordinary voice cuts through the white with a normal train
   announcement, naming a real station; it doesn't fit anything that came
-  before.
+  before, and the chapter ends before confirming what it means — still
+  reads as another anomaly, not yet as an answer.
 - Characters: Alex, an unseen announcer.
-- Ends on: The white light resolves into the interior of an entirely
-  ordinary train car.
+- Ends on: The white hasn't resolved into anything yet — held deliberately
+  unclear, a breath before the cut to Chapter 25.
 
-### Chapter 25 — Trezirea (The Waking)
+### Chapter 25 — Ultima oprire (The Last Stop)
 - Setting: An ordinary evening commuter train, present day, arriving at
-  Alex's real stop.
-- Beats: Alex wakes with a start in his actual seat; a nearby passenger
-  gently mentions he'd dozed off and was muttering; his phone shows the
-  real, moving time; he gathers his things and steps off the train.
-- Characters: Alex, a fellow passenger.
-- Ends on (final ending of the book): Alex walking home under a normal
-  night sky, quietly relieved — with one small, lingering unease: for a
-  moment, he isn't sure which train he just got off of.
+  Alex's real stop — opens in medias res, mirroring Chapter 1's opening
+  lines closely enough (same window, same stray cough from a stranger
+  nearby) that the reader recognizes it before any character explains
+  anything.
+- Beats: No line states that Alex woke up or was dreaming. Physical
+  continuity details do the work instead: his neck is stiff from leaning
+  at an odd angle; his phone shows a text message left mid-sentence; his
+  coffee is only just cooling; the departure board still shows the same
+  train and time he originally boarded under. The only dialogue is a
+  mundane station announcement naming his real stop — no one mentions him
+  sleeping. He gathers his things and steps off.
+- Characters: Alex, background passengers (no one who remarks on anything).
+- Ends on (final ending of the book, title now pays off the book's own
+  title — the train that never stopped, finally does): Alex walking onto
+  the platform into an ordinary night that actually ends, undercut by one
+  small, unexplained carryover detail from deep in the dream (e.g., his
+  fingers faintly smelling of salt water from the beach car, or the blank
+  notebook from Chapter 5 sitting in his coat pocket) — left completely
+  unresolved, so the ending surprises through implication rather than
+  announcing itself.
 
 ## Characters
 
@@ -449,9 +496,10 @@ the `write-book` skill, in order, respecting:
 - **Chapters 20-21** must reuse concrete details from Chapter 1 (the same
   seats, the same original passengers now missing, Alex's own bag) so the
   "return" reads as a callback, not a new location.
-- **Chapter 25** must stay grounded and quiet — no supernatural coda beyond
-  the single closing line about not knowing which train he just left;
-  resist the urge to over-explain the dream's symbolism.
+- **Chapter 25** must stay grounded and quiet, and must reveal by
+  implication (mirrored opening + physical continuity + one unresolved
+  carryover detail), not by exposition or dialogue confirming he was
+  asleep — resist the urge to over-explain the dream's symbolism.
 
 ## Language Note
 
