@@ -1,11 +1,13 @@
 # Conji
 
-Conji is an Angular app for practicing Romanian vocabulary and verb conjugation. Vocabulary and verb data live in `public/` as JSON (`words.json`, `group-1.json`..`group-4.json`, `group-information.json`).
+Conji is an Angular app for practicing Romanian vocabulary and verb conjugation. Vocabulary and verb data live in `public/` as JSON (`words.json`, `group-1.json`..`group-4.json`, `group-information.json`). Conji also has an in-app reader with short Romanian books, stored as `public/books.json` (metadata) and `public/book-contents/<book-id>/<chapter>.html` (content), each with a plot outline in `plots/`.
 
 ## Available Skills
 
 - **words-and-verbs** — data format and rules for adding vocabulary/verbs to `public/`. Auto-triggers when adding words or verbs.
 - **find-duplicates** — checks `words.json` and verb group files for duplicate entries. Run before adding any new entry.
+- **book-plot** — create a plot outline for a new book, or review/update an existing one. Plots live in `plots/*.md`.
+- **write-book** — write actual book prose from a plot, one chapter/page at a time by default.
 
 ## Caveman Mode
 
