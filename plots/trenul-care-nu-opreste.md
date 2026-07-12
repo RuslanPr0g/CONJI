@@ -14,30 +14,39 @@ content_path: public/book-contents/4e8b43b0-25a2-44bb-ad5f-20199e9c075b/
 
 ## Logline
 
-A man boards a night train home, and as the train refuses to stop and the
-world around him grows stranger and more personal, it slowly turns out he
-never really left his seat at all — he fell asleep on an ordinary commute,
-and the whole nightmare was a dream.
+A man boards a night train home that seems to have slipped into something
+science-fictional — a malfunction, a signal anomaly, maybe another
+dimension entirely — and only at the very end does it turn out there was
+no anomaly at all: he fell asleep on an ordinary commute, and the whole
+thing was a dream.
 
 ## High-Level Arc
 
-A slow-burn mystery/uncanny thriller that turns out, in the end, to be a
-dream narrative. It opens as an ordinary commute, then methodically strips
+A slow-burn mystery that is deliberately dressed as science fiction for
+almost its entire length, and only reveals itself as a dream narrative on
+the final page. It opens as an ordinary commute, then methodically strips
 away every normal reassurance: the night never turns to day, the train
 never reaches a station, the conductor turns out not to exist, and the
-train itself may be endless. From there the story shifts from "wrongness
-happening to Alex" to "the train reflecting Alex" — carriage after
-carriage turns into a fragment of his own life (his workplace, his
-childhood room, his father's study, a half-remembered wedding), each one a
-different, vivid setting, each one slightly wrong in a way that never quite
-resolves into a clear explanation. As Alex pushes further — into
-increasingly personal and surreal carriages, through a pitch-dark car, past
-doors that open onto glimpses of ordinary life — reality itself begins to
-fray, until the whole train dissolves into white light cut through by an
-ordinary station announcement. Alex wakes up: he simply fell asleep on his
-real commuter train, which has just pulled into his actual stop. Every
-uncanny detail was his own sleeping mind, and the night — unlike in the
-dream — does, quietly and unremarkably, end.
+train itself may be endless. Every one of these wrongnesses is left open
+to a technological or scientific reading — other passengers speculate
+about malfunctions, signal loss, time dilation, "another frequency" — so
+the reader is steered toward expecting a sci-fi explanation (a broken
+train system, a dimensional rift, a simulation) rather than a
+psychological one. From there the story shifts from "wrongness happening
+to Alex" to "the train reflecting Alex" — carriage after carriage turns
+into a fragment of his own life (his workplace, his childhood room, his
+father's study, a half-remembered wedding), each one a different, vivid
+setting, each one slightly wrong in a way that still reads as
+anomaly-of-the-week sci-fi rather than dream logic. As Alex pushes further
+— into increasingly personal and surreal carriages, through a pitch-dark
+car, past doors that open onto glimpses of ordinary life — reality itself
+begins to fray in ways that still look technological (static, signal
+loss, screens breaking apart), until the whole train dissolves into white
+light cut through by an ordinary station announcement. Only then does the
+genre flip: Alex wakes up, he simply fell asleep on his real commuter
+train, which has just pulled into his actual stop. Every uncanny detail
+was his own sleeping mind, not a malfunction or a rift, and the night —
+unlike in the dream — does, quietly and unremarkably, end.
 
 ## Key Twists / Turning Points
 
@@ -92,6 +101,59 @@ dream — does, quietly and unremarkably, end.
     muttering. Every impossible detail — the endless night, the missing
     conductor, the frozen time, the shifting carriages — is recontextualized
     as a dream assembled from ordinary anxiety, memory, and exhaustion.
+
+## Misdirection Strategy (Sci-Fi Red Herring)
+
+The book must read as science fiction for almost its entire length — a
+malfunctioning train system, a signal/dimensional anomaly, maybe a
+simulation — and only reveal on the final page that it was, simply, a
+dream. This only works if the misdirection is deliberate and consistent:
+
+- **No dream-tells, ever, before Chapter 25.** No yawning, heavy eyelids,
+  drifting attention, or narration calling anything "surreal" or
+  "dreamlike." Alex treats every carriage as literally, physically real
+  and reacts with the urgency of someone who believes he's in danger — not
+  someone half-aware he's dreaming.
+- **Sci-fi theories come from other characters, never the narration.**
+  Passengers guess at technical or scientific causes — a malfunction, a
+  signal problem, "another frequency," time dilation, a wormhole, a
+  simulation glitch — as their own speculation, which Alex neither
+  confirms nor fully accepts. This keeps the genre framing active without
+  the book ever committing to it as literal fact, so nothing has to be
+  walked back at the reveal.
+- **Per-chapter red herring dressing** (same underlying beats as the
+  Detailed Chapter Breakdown below, described with technological rather
+  than supernatural imagery):
+  - Ch. 3 (already written): "maybe modern trains drive themselves" is
+    already tech-coded — keep leaning this direction, not toward ghosts or
+    magic.
+  - Ch. 5 (Library): the blank pages flicker faintly at the edges, like a
+    screen with a bad refresh rate, not like a magical blankness.
+  - Ch. 7 (Office): frozen coworkers' monitors show a looping "reconnecting"
+    or error message instead of anything supernatural.
+  - Ch. 11 (Clocks): a passenger mutters about "time dilation," half-joking
+    — the first character to say a real scientific-sounding term aloud.
+  - Ch. 12 (Cinema): the screen's glitches look like corrupted video
+    playback or compression artifacts, not ghostly images.
+  - Ch. 14 (Mirrors): a passenger jokes the train must be "duplicating
+    people, like a bad copy" — a duplication/simulation reading, not a
+    haunting.
+  - Ch. 17 (Dark car): the faint voice arrives distorted, like a weak radio
+    signal cutting in and out, not an otherworldly whisper.
+  - Ch. 18 (Doors): someone suggests the train has "crossed into another
+    frequency" or "a different dimension" — the most explicit sci-fi
+    theory stated in the whole book, still never confirmed.
+  - Ch. 22 (Voice): the voice briefly sounds like it's coming through an
+    intercom or speaker, reinforcing the technological reading right up to
+    the reveal.
+- **The genre flip must be clean, not explained.** Chapter 23's unraveling
+  should still look technological (static, signal loss, screens breaking
+  apart) right up until Chapter 24's ordinary station announcement — the
+  whiplash from "sci-fi anomaly" to "completely normal train" *is* the
+  twist. Chapter 25 must not retroactively justify the sci-fi dressing
+  (no "his brain was simulating a signal glitch" over-explanation) — it
+  simply reveals the dream, full stop, with no bridge between the two
+  genres beyond the fact that it's over.
 
 ## Ending (planned)
 
@@ -346,14 +408,17 @@ enough to leave a small chill.
 
 Begins as a single night train on an indeterminate route, contemporary/
 unspecified setting, with a tone of quiet, tense uncanniness built through
-absence (no stations, no staff, no time). From Chapter 5 onward, the
-setting becomes deliberately varied and dreamlike — a library, a flooded
-car, an office, a wedding, a forest, a childhood room, a wall of clocks, a
-cinema, a hospital corridor, a hall of mirrors, a beach, a father's study, a
-pitch-dark car, a corridor of doors — each a distinct, vivid location that
-still belongs recognizably to the same train. Chapter 25 resolves into a
-plain, realistic commuter train at night, deliberately unremarkable in
-contrast to everything before it.
+absence (no stations, no staff, no time) and framed throughout as a
+technological or dimensional anomaly rather than anything supernatural or
+dreamlike. From Chapter 5 onward, the setting becomes deliberately varied
+— a library, a flooded car, an office, a wedding, a forest, a childhood
+room, a wall of clocks, a cinema, a hospital corridor, a hall of mirrors, a
+beach, a father's study, a pitch-dark car, a corridor of doors — each a
+distinct, vivid location dressed with sci-fi-coded details (screen static,
+signal loss, "frequency," "dilation") rather than magical or dreamlike
+imagery, so the genre reads as science fiction until Chapter 25 resolves
+into a plain, realistic commuter train at night, deliberately unremarkable
+in contrast to everything before it.
 
 ## Themes
 
@@ -369,9 +434,11 @@ The plot is now fully planned end-to-end (`plot_status: complete`), but
 only Chapters 1-4 are actually written (`chapters_written: 4` of
 `chapters_planned: 25`). Chapters 5-25 should be written one at a time via
 the `write-book` skill, in order, respecting:
-- **Don't reveal the dream early.** Chapters 5-22 should stay ambiguous —
-  uncanny and personal, but never explicitly framed as "a dream" — so the
-  Chapter 23-25 reveal keeps its impact.
+- **Don't reveal the dream early, and don't break the sci-fi framing.**
+  Chapters 5-22 should stay ambiguous — uncanny, personal, and
+  technologically/scientifically coded (see "Misdirection Strategy" above)
+  — never explicitly framed as "a dream," so the Chapter 23-25 reveal keeps
+  its impact and its genre-flip.
 - **Each dream-carriage (Ch. 5-16) needs one clear sensory hook** (blank
   books, rising water, ringing phone, an owl, a warm tree trunk, a window
   onto the same endless night) — that's the whole scene; don't over-explain
