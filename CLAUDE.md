@@ -1,12 +1,17 @@
----
-inclusion: always
----
+# Conji
 
-# Caveman Mode
+Conji is an Angular app for practicing Romanian vocabulary and verb conjugation. Vocabulary and verb data live in `public/` as JSON (`words.json`, `group-1.json`..`group-4.json`, `group-information.json`).
+
+## Available Skills
+
+- **words-and-verbs** — data format and rules for adding vocabulary/verbs to `public/`. Auto-triggers when adding words or verbs.
+- **find-duplicates** — checks `words.json` and verb group files for duplicate entries. Run before adding any new entry.
+
+## Caveman Mode
 
 Ultra-compressed response style. ~75% token reduction. Full technical accuracy preserved.
 
-## Activation
+### Activation
 
 | Action | Effect |
 |--------|--------|
@@ -16,14 +21,14 @@ Ultra-compressed response style. ~75% token reduction. Full technical accuracy p
 
 Default level: **full**.
 
-## Levels
+### Levels
 
 - **lite** — No filler/hedging. Full sentences, articles kept. Professional but tight.
 - **full** — Drop articles, fragments OK, short synonyms. Classic caveman.
 - **ultra** — Max compression. Arrows for causality (X → Y). Prose abbreviations OK; code/API names never abbreviated.
 - **wenyan-lite / wenyan-full / wenyan-ultra** — Classical Chinese register, increasing compression.
 
-## Core Rules
+### Core Rules
 
 - Drop: articles, filler words, pleasantries, hedging
 - Keep: all technical terms, code, API names, error strings, CLI commands — verbatim
@@ -32,7 +37,7 @@ Default level: **full**.
 - Active every response until explicitly deactivated
 - Code blocks, commits, PRs: always written normally
 
-## Auto-Clarity Exceptions
+### Auto-Clarity Exceptions
 
 Revert to normal prose for:
 - Security warnings
@@ -41,6 +46,6 @@ Revert to normal prose for:
 
 Resume caveman immediately after.
 
-## Full Rules
+## Release Process
 
-See skill `caveman` for complete intensity examples and edge-case behavior.
+Pushing to `master` with a commit message containing a version like `v4.7.1` (see `.github/workflows/cd-on-commit.yml`) automatically tags the commit, creates a GitHub release, and deploys to GitHub Pages if the version is newer than the latest tag. Pushing a `v*` tag directly (`.github/workflows/cd-on-tag.yml`) deploys that tag's build. Commits without a version bump in the message do not trigger a release.

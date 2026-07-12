@@ -1,7 +1,6 @@
 ---
-inclusion: auto
-name: adding new words or verbs
-description: When adding a new word or verb use this steering
+name: words-and-verbs
+description: Use when adding a new Romanian word, phrase, or verb to CONJI's data files (public/words.json, public/group-1..4.json). Explains entry format, which file a new entry belongs in, and the required duplicate check.
 ---
 
 # Adding Words and Verbs to CONJI
@@ -108,21 +107,15 @@ Is it a verb (bare infinitive OR any conjugated/compound form)?
   NO  → words.json
 ```
 
-**Duplicate check applies to both files.** Run `#duplicate-check` before adding anything.
+**Duplicate check applies to both files.** Use the `find-duplicates` skill before adding anything.
 
 ---
 
 ## Avoiding Duplicates
 
-Before adding any entry, run the duplicate-check skill:
+Before adding any entry, run the `find-duplicates` skill (`node .claude/skills/find-duplicates/scripts/find-duplicates.js`) and review any existing `value` collisions in `words.json` or `infinitive` collisions across the group files.
 
-```
-#duplicate-check
-```
-
-This runs `node .kiro/skills/scripts/find-duplicates.js` and prints any existing `value` collisions in `words.json` and any `infinitive` collisions across all group files.
-
-See `.kiro/skills/find-duplicates.md` for full usage.
+See `.claude/skills/find-duplicates/SKILL.md` for full usage.
 
 ---
 

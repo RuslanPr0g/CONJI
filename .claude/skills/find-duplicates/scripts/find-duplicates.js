@@ -3,16 +3,16 @@
  * Scans words.json and group-1..4.json for duplicate entries.
  *
  * Usage:
- *   node .kiro/skills/scripts/find-duplicates.js
- *   node .kiro/skills/scripts/find-duplicates.js --words-only
- *   node .kiro/skills/scripts/find-duplicates.js --verbs-only
- *   node .kiro/skills/scripts/find-duplicates.js --check "merg"
+ *   node .claude/skills/find-duplicates/scripts/find-duplicates.js
+ *   node .claude/skills/find-duplicates/scripts/find-duplicates.js --words-only
+ *   node .claude/skills/find-duplicates/scripts/find-duplicates.js --verbs-only
+ *   node .claude/skills/find-duplicates/scripts/find-duplicates.js --check "merg"
  */
 
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = path.resolve(__dirname, '../../../public');
+const ROOT = path.resolve(__dirname, '../../../../public');
 
 const WORDS_FILE = path.join(ROOT, 'words.json');
 const VERB_FILES = [
