@@ -1,9 +1,6 @@
 [
   { "value": "fiindcă", "translations": ["because", "since"] },
-  {
-    "value": "din cauză că",
-    "translations": ["because", "due to the fact that"]
-  },
+  { "value": "din cauză că", "translations": ["because", "due to the fact that"] },
   { "value": "deoarece", "translations": ["because", "as", "since"] },
   { "value": "deasupra", "translations": ["above", "over", "on top of"] },
   { "value": "seara", "translations": ["evening"] },
@@ -70,798 +67,204 @@
   { "value": "bicicletă", "translations": ["bicycle"] },
   { "value": "autobuz", "translations": ["bus"] },
   { "value": "stație", "translations": ["station"] },
-  {
-    "value": "la",
-    "translations": ["to", "at"]
-  },
-  {
-    "value": "centrul",
-    "translations": ["the center"]
-  },
-  {
-    "value": "de",
-    "translations": ["of", "from"]
-  },
-  {
-    "value": "natură",
-    "translations": ["nature"]
-  },
-  {
-    "value": "din",
-    "translations": ["from", "out of"]
-  },
-  {
-    "value": "în",
-    "translations": ["in", "into"]
-  },
-  {
-    "value": "fiecare",
-    "translations": ["each", "every"]
-  },
-  {
-    "value": "dimineață",
-    "translations": ["morning"]
-  },
-  {
-    "value": "se",
-    "translations": ["oneself", "reflexive pronoun (used with verbs)"]
-  },
-  {
-    "value": "și",
-    "translations": ["and", "also"]
-  },
-  {
-    "value": "pe",
-    "translations": ["on", "at"]
-  },
-  {
-    "value": "jos",
-    "translations": ["down", "below"]
-  },
-  {
-    "value": "pe jos",
-    "translations": ["on foot"]
-  },
-  {
-    "value": "lucru",
-    "translations": ["thing", "work"]
-  },
-  {
-    "value": "aer",
-    "translations": ["air"]
-  },
-  {
-    "value": "aerul",
-    "translations": ["the air"]
-  },
-  {
-    "value": "curat",
-    "translations": ["clean"]
-  },
-  {
-    "value": "iar",
-    "translations": ["and", "again"]
-  },
-  {
-    "value": "strada",
-    "translations": ["the street"]
-  },
-  {
-    "value": "liniștită",
-    "translations": ["quiet", "peaceful"]
-  },
-  {
-    "value": "pentru",
-    "translations": ["for"]
-  },
-  {
-    "value": "că",
-    "translations": ["that", "because"]
-  },
-  {
-    "value": "pentru că",
-    "translations": ["because"]
-  },
-  {
-    "value": "îi place",
-    "translations": ["he/she likes", "likes to him/her"]
-  },
-  {
-    "value": "mult",
-    "translations": ["much", "a lot"]
-  },
-  {
-    "value": "ce",
-    "translations": ["what", "that", "which"]
-  },
-  {
-    "value": "el",
-    "translations": ["he"]
-  },
-  {
-    "value": "ea",
-    "translations": ["she"]
-  },
-  {
-    "value": "îi",
-    "translations": ["to him", "to her", "to them"]
-  },
-  {
-    "value": "îmi",
-    "translations": ["to me", "for me"]
-  },
-  {
-    "value": "îți",
-    "translations": ["to you", "for you"]
-  },
-  {
-    "value": "ne",
-    "translations": ["us", "to us", "ourselves"]
-  },
-  {
-    "value": "vă",
-    "translations": ["you", "to you (plural)", "yourselves", "you (plural)"]
-  },
-  {
-    "value": "mă",
-    "translations": ["me", "myself"]
-  },
-  {
-    "value": "te",
-    "translations": ["you", "yourself"]
-  },
-  {
-    "value": "o",
-    "translations": ["her", "it", "a", "a (article)"]
-  },
-  {
-    "value": "îl",
-    "translations": ["him", "it"]
-  },
-  {
-    "value": "le",
-    "translations": ["them", "them (f.)"]
-  },
-  {
-    "value": "animalele",
-    "translations": ["the animals"]
-  },
-  {
-    "value": "animale",
-    "translations": ["animals"]
-  },
-  {
-    "value": "copiilor",
-    "translations": ["to the children", "of the children"]
-  },
-  {
-    "value": "copii",
-    "translations": ["children", "kids"]
-  },
-  {
-    "value": "unde",
-    "translations": ["where"]
-  },
-  {
-    "value": "cum",
-    "translations": ["how"]
-  },
-  {
-    "value": "deodată",
-    "translations": ["suddenly", "all of a sudden"]
-  },
-  {
-    "value": "înăuntru",
-    "translations": ["inside"]
-  },
-  {
-    "value": "câteva",
-    "translations": ["a few", "some"]
-  },
-  {
-    "value": "cutii",
-    "translations": ["boxes"]
-  },
-  {
-    "value": "lucruri",
-    "translations": ["things"]
-  },
-  {
-    "value": "lecții",
-    "translations": ["lessons"]
-  },
-  {
-    "value": "capitolul",
-    "translations": ["chapter"]
-  },
-  {
-    "value": "capitol",
-    "translations": ["chapter"]
-  },
-  {
-    "value": "clădire",
-    "translations": ["building"]
-  },
-  {
-    "value": "clădirea",
-    "translations": ["the building"]
-  },
-  {
-    "value": "mică",
-    "translations": ["small"]
-  },
-  {
-    "value": "mica",
-    "translations": ["the small one"]
-  },
-  {
-    "value": "simplă",
-    "translations": ["simple"]
-  },
-  {
-    "value": "simpla",
-    "translations": ["the simple one"]
-  },
-  {
-    "value": "frumoasă",
-    "translations": ["beautiful"]
-  },
-  {
-    "value": "frumoasa",
-    "translations": ["the beautiful one"]
-  },
-  {
-    "value": "hărți",
-    "translations": ["maps"]
-  },
-  {
-    "value": "harta",
-    "translations": ["the map"]
-  },
-  {
-    "value": "hartă",
-    "translations": ["map"]
-  },
-  {
-    "value": "poze",
-    "translations": ["pictures", "photos"]
-  },
-  {
-    "value": "poză",
-    "translations": ["picture", "photo"]
-  },
-  {
-    "value": "poza",
-    "translations": ["the picture", "the photo"]
-  },
-  {
-    "value": "cu",
-    "translations": ["with"]
-  },
-  {
-    "value": "ușa",
-    "translations": ["the door"]
-  },
-  {
-    "value": "miros",
-    "translations": ["smell", "scent"]
-  },
-  {
-    "value": "mirosul",
-    "translations": ["the smell"]
-  },
-  {
-    "value": "lemn",
-    "translations": ["wood"]
-  },
-  {
-    "value": "lemnul",
-    "translations": ["the wood"]
-  },
-  {
-    "value": "hârtie",
-    "translations": ["paper"]
-  },
-  {
-    "value": "hârtia",
-    "translations": ["the paper"]
-  },
-  {
-    "value": "nouă",
-    "translations": ["new"]
-  },
-  {
-    "value": "noua",
-    "translations": ["the new one"]
-  },
-  {
-    "value": "colega",
-    "translations": ["the colleague"]
-  },
-  {
-    "value": "colegă",
-    "translations": ["colleague"]
-  },
-  {
-    "value": "lui",
-    "translations": ["his", "of him"]
-  },
-  {
-    "value": "deja",
-    "translations": ["already"]
-  },
-  {
-    "value": "acolo",
-    "translations": ["there"]
-  },
-  {
-    "value": "caiete",
-    "translations": ["notebooks"]
-  },
-  {
-    "value": "caiet",
-    "translations": ["notebook"]
-  },
-  {
-    "value": "caietul",
-    "translations": ["the notebook"]
-  },
-  {
-    "value": "bună",
-    "translations": ["good"]
-  },
-  {
-    "value": "lecție",
-    "translations": ["lesson"]
-  },
-  {
-    "value": "lecția",
-    "translations": ["the lesson"]
-  },
-  {
-    "value": "azi",
-    "translations": ["today"]
-  },
-  {
-    "value": "astazi",
-    "translations": ["today"]
-  },
-  {
-    "value": "astăzi",
-    "translations": ["today"]
-  },
-  {
-    "value": "să",
-    "translations": ["to", "let", "may"]
-  },
-  {
-    "value": "da",
-    "translations": ["yes"]
-  },
-  {
-    "value": "nu",
-    "translations": ["no"]
-  },
-  {
-    "value": "gata",
-    "translations": ["ready"]
-  },
-  {
-    "value": "masa",
-    "translations": ["the table"]
-  },
-  {
-    "value": "frumos",
-    "translations": ["beautiful"]
-  },
-  {
-    "value": "una",
-    "translations": ["one"]
-  },
-  {
-    "value": "alta",
-    "translations": ["another"]
-  },
-  {
-    "value": "lângă",
-    "translations": ["next to", "besides", "close to"]
-  },
-  {
-    "value": "apoi",
-    "translations": ["then", "later"]
-  },
-  {
-    "value": "perete",
-    "translations": ["wall"]
-  },
-  {
-    "value": "Într-un",
-    "translations": ["in", "inside"]
-  },
-  {
-    "value": "mic",
-    "translations": ["small"]
-  },
-  {
-    "value": "apa",
-    "translations": ["the water"]
-  },
-  {
-    "value": "care",
-    "translations": ["which"]
-  },
-  {
-    "value": "încet",
-    "translations": ["slowly", "slow"]
-  },
-  {
-    "value": "despre",
-    "translations": ["about"]
-  },
-  {
-    "value": "vulpi",
-    "translations": ["foxes"]
-  },
-  {
-    "value": "un",
-    "translations": ["one", "a (article)"]
-  },
-  {
-    "value": "nou",
-    "translations": ["new"]
-  },
-  {
-    "value": "clare",
-    "translations": ["clear"]
-  },
-  {
-    "value": "vulpea",
-    "translations": ["the fox"]
-  },
-  {
-    "value": "animalul",
-    "translations": ["the animal"]
-  },
-  {
-    "value": "pădure",
-    "translations": ["forest"]
-  },
-  {
-    "value": "roșcată",
-    "translations": ["redhead"]
-  },
-  {
-    "value": "rapidă",
-    "translations": ["fast", "quick"]
-  },
-  {
-    "value": "colț",
-    "translations": ["corner"]
-  },
-  {
-    "value": "acvariu",
-    "translations": ["aquarium"]
-  },
-  {
-    "value": "vulpe",
-    "translations": ["fox"]
-  },
-  {
-    "value": "tânără",
-    "translations": ["young"]
-  },
-  {
-    "value": "un ghișeu",
-    "translations": ["a counter", "a service desk"]
-  },
-  {
-    "value": "un orar",
-    "translations": ["a timetable", "a schedule"]
-  },
-  {
-    "value": "o revistă",
-    "translations": ["a magazine"]
-  },
-  {
-    "value": "un ziar",
-    "translations": ["a newspaper"]
-  },
-  {
-    "value": "merită să mergi",
-    "translations": ["it's worth going", "worth a trip"]
-  },
-  {
-    "value": "nici",
-    "translations": ["neither", "nor", "not even"]
-  },
-  {
-    "value": "chiar",
-    "translations": ["even", "really", "actually"]
-  },
-  {
-    "value": "saci de dormit",
-    "translations": ["sleeping bags"]
-  },
-  {
-    "value": "noaptea",
-    "translations": ["the night"]
-  },
-  {
-    "value": "atentă",
-    "translations": ["careful"]
-  },
-  {
-    "value": "zgomote",
-    "translations": ["noises"]
-  },
-  {
-    "value": "toate",
-    "translations": ["everything"]
-  },
-  {
-    "value": "acestea",
-    "translations": ["this"]
-  },
-  {
-    "value": "brad",
-    "translations": ["fir"]
-  },
-  {
-    "value": "pomul de crăciun",
-    "translations": ["christmas tree"]
-  },
-  {
-    "value": "cadouri",
-    "translations": ["presents", "gifts"]
-  },
-  {
-    "value": "târgul de crăciun",
-    "translations": ["the christmas market"]
-  },
-  {
-    "value": "foc de artificii",
-    "translations": ["fireworks"]
-  },
-  {
-    "value": "încă",
-    "translations": ["still", "yet"]
-  },
-  {
-    "value": "pari grăbită",
-    "translations": ["you seem hurried", "you look rushed"]
-  },
-  {
-    "value": "o pereche de ghete",
-    "translations": ["a pair of boots"]
-  },
-  {
-    "value": "dezavantaje",
-    "translations": ["disadvantages", "drawbacks"]
-  },
-  {
-    "value": "avantaje",
-    "translations": ["advantages", "benefits"]
-  },
-  {
-    "value": "de obicei",
-    "translations": ["usually", "normally"]
-  },
-  {
-    "value": "înălțime",
-    "translations": ["height"]
-  },
-  {
-    "value": "părul îngrijit",
-    "translations": ["well-groomed hair"]
-  },
-  {
-    "value": "îngrijit",
-    "translations": ["well-groomed", "neat", "tidy"]
-  },
-  {
-    "value": "un zâmbet",
-    "translations": ["a smile"]
-  },
-  {
-    "value": "zâmbet",
-    "translations": ["a smile"]
-  },
-  {
-    "value": "lungime",
-    "translations": ["length"]
-  },
-  {
-    "value": "greutate",
-    "translations": ["weight"]
-  },
-  {
-    "value": "o culoare",
-    "translations": ["a color"]
-  },
-  {
-    "value": "culori",
-    "translations": ["colors"]
-  },
-  {
-    "value": "cap",
-    "translations": ["head"]
-  },
-  {
-    "value": "păr",
-    "translations": ["hair"]
-  },
-  {
-    "value": "picior",
-    "translations": ["leg", "foot"]
-  },
-  {
-    "value": "picioare",
-    "translations": ["legs", "feet"]
-  },
-  {
-    "value": "ochi",
-    "translations": ["eyes"]
-  },
-  {
-    "value": "față",
-    "translations": ["face"]
-  },
-  {
-    "value": "nas",
-    "translations": ["nose"]
-  },
-  {
-    "value": "genunchi",
-    "translations": ["knee"]
-  },
-  {
-    "value": "gât",
-    "translations": ["neck", "throat"]
-  },
-  {
-    "value": "umăr",
-    "translations": ["shoulder"]
-  },
-  {
-    "value": "mână",
-    "translations": ["hand", "arm"]
-  },
-  {
-    "value": "mâini",
-    "translations": ["hands", "arms"]
-  },
-  {
-    "value": "deget",
-    "translations": ["finger", "toe"]
-  },
-  {
-    "value": "degete",
-    "translations": ["fingers", "toes"]
-  },
-  {
-    "value": "spate",
-    "translations": ["back"]
-  },
-  {
-    "value": "statele",
-    "translations": ["the states"]
-  },
-  {
-    "value": "ureche",
-    "translations": ["ear"]
-  },
-  {
-    "value": "urechi",
-    "translations": ["ears"]
-  },
-  {
-    "value": "gură",
-    "translations": ["mouth"]
-  },
-  {
-    "value": "înalt",
-    "translations": ["tall"]
-  },
-  {
-    "value": "înaltă",
-    "translations": ["tall"]
-  },
-  {
-    "value": "scund",
-    "translations": ["short"]
-  },
-  {
-    "value": "scundă",
-    "translations": ["short"]
-  },
-  {
-    "value": "lung",
-    "translations": ["long"]
-  },
-  {
-    "value": "scurt",
-    "translations": ["short"]
-  },
-  {
-    "value": "drept",
-    "translations": ["straight"]
-  },
-  {
-    "value": "ondulat",
-    "translations": ["wavy"]
-  },
-  {
-    "value": "cârunt",
-    "translations": ["gray-haired"]
-  },
-  {
-    "value": "roșcat",
-    "translations": ["red-haired", "ginger"]
-  },
-  {
-    "value": "căprui",
-    "translations": ["brown"]
-  },
-  {
-    "value": "părul",
-    "translations": ["the hair"]
-  },
-  {
-    "value": "albastru",
-    "translations": ["blue"]
-  },
-  {
-    "value": "verzi",
-    "translations": ["green"]
-  },
-  {
-    "value": "gri",
-    "translations": ["gray"]
-  },
-  {
-    "value": "negri",
-    "translations": ["black"]
-  },
-  {
-    "value": "ochelari",
-    "translations": ["glasses"]
-  },
-  {
-    "value": "mustață",
-    "translations": ["mustache"]
-  },
-  {
-    "value": "barbă",
-    "translations": ["beard"]
-  },
-  {
-    "value": "strâmți",
-    "translations": ["tight", "narrow"]
-  },
-  {
-    "value": "iată",
-    "translations": ["here is", "here are", "look", "behold"]
-  },
-  {
-    "value": "subțire",
-    "translations": ["thin", "slim"]
-  },
-  {
-    "value": "Destul de bine",
-    "translations": ["quite well", "pretty well"]
-  },
-  {
-    "value": "Mă bucur să vă văd",
-    "translations": ["I am glad to see you", "Nice to see you"]
-  },
-  {
-    "value": "-",
-    "translations": ["dash", "hyphen"]
-  },
-  {
-    "value": "a",
-    "translations": ["infinitive"]
-  },
+  { "value": "la", "translations": ["to", "at"] },
+  { "value": "centrul", "translations": ["the center"] },
+  { "value": "de", "translations": ["of", "from"] },
+  { "value": "natură", "translations": ["nature"] },
+  { "value": "din", "translations": ["from", "out of"] },
+  { "value": "în", "translations": ["in", "into"] },
+  { "value": "fiecare", "translations": ["each", "every"] },
+  { "value": "dimineață", "translations": ["morning"] },
+  { "value": "se", "translations": ["oneself", "reflexive pronoun (used with verbs)"] },
+  { "value": "și", "translations": ["and", "also"] },
+  { "value": "pe", "translations": ["on", "at"] },
+  { "value": "jos", "translations": ["down", "below"] },
+  { "value": "pe jos", "translations": ["on foot"] },
+  { "value": "lucru", "translations": ["thing", "work"] },
+  { "value": "aer", "translations": ["air"] },
+  { "value": "aerul", "translations": ["the air"] },
+  { "value": "curat", "translations": ["clean"] },
+  { "value": "iar", "translations": ["and", "again"] },
+  { "value": "strada", "translations": ["the street"] },
+  { "value": "liniștită", "translations": ["quiet", "peaceful"] },
+  { "value": "pentru", "translations": ["for"] },
+  { "value": "că", "translations": ["that", "because"] },
+  { "value": "pentru că", "translations": ["because"] },
+  { "value": "îi place", "translations": ["he/she likes", "likes to him/her"] },
+  { "value": "mult", "translations": ["much", "a lot"] },
+  { "value": "ce", "translations": ["what", "that", "which"] },
+  { "value": "el", "translations": ["he"] },
+  { "value": "ea", "translations": ["she"] },
+  { "value": "îi", "translations": ["to him", "to her", "to them"] },
+  { "value": "îmi", "translations": ["to me", "for me"] },
+  { "value": "îți", "translations": ["to you", "for you"] },
+  { "value": "ne", "translations": ["us", "to us", "ourselves"] },
+  { "value": "vă", "translations": ["you", "to you (plural)", "yourselves", "you (plural)"] },
+  { "value": "mă", "translations": ["me", "myself"] },
+  { "value": "te", "translations": ["you", "yourself"] },
+  { "value": "o", "translations": ["her", "it", "a", "a (article)"] },
+  { "value": "îl", "translations": ["him", "it"] },
+  { "value": "le", "translations": ["them", "them (f.)"] },
+  { "value": "animalele", "translations": ["the animals"] },
+  { "value": "animale", "translations": ["animals"] },
+  { "value": "copiilor", "translations": ["to the children", "of the children"] },
+  { "value": "copii", "translations": ["children", "kids"] },
+  { "value": "unde", "translations": ["where"] },
+  { "value": "cum", "translations": ["how"] },
+  { "value": "deodată", "translations": ["suddenly", "all of a sudden"] },
+  { "value": "înăuntru", "translations": ["inside"] },
+  { "value": "câteva", "translations": ["a few", "some"] },
+  { "value": "cutii", "translations": ["boxes"] },
+  { "value": "lucruri", "translations": ["things"] },
+  { "value": "lecții", "translations": ["lessons"] },
+  { "value": "capitolul", "translations": ["chapter"] },
+  { "value": "capitol", "translations": ["chapter"] },
+  { "value": "clădire", "translations": ["building"] },
+  { "value": "clădirea", "translations": ["the building"] },
+  { "value": "mică", "translations": ["small"] },
+  { "value": "mica", "translations": ["the small one"] },
+  { "value": "simplă", "translations": ["simple"] },
+  { "value": "simpla", "translations": ["the simple one"] },
+  { "value": "frumoasă", "translations": ["beautiful"] },
+  { "value": "frumoasa", "translations": ["the beautiful one"] },
+  { "value": "hărți", "translations": ["maps"] },
+  { "value": "harta", "translations": ["the map"] },
+  { "value": "hartă", "translations": ["map"] },
+  { "value": "poze", "translations": ["pictures", "photos"] },
+  { "value": "poză", "translations": ["picture", "photo"] },
+  { "value": "poza", "translations": ["the picture", "the photo"] },
+  { "value": "cu", "translations": ["with"] },
+  { "value": "ușa", "translations": ["the door"] },
+  { "value": "miros", "translations": ["smell", "scent"] },
+  { "value": "mirosul", "translations": ["the smell"] },
+  { "value": "lemn", "translations": ["wood"] },
+  { "value": "lemnul", "translations": ["the wood"] },
+  { "value": "hârtie", "translations": ["paper"] },
+  { "value": "hârtia", "translations": ["the paper"] },
+  { "value": "nouă", "translations": ["new"] },
+  { "value": "noua", "translations": ["the new one"] },
+  { "value": "colega", "translations": ["the colleague"] },
+  { "value": "colegă", "translations": ["colleague"] },
+  { "value": "lui", "translations": ["his", "of him"] },
+  { "value": "deja", "translations": ["already"] },
+  { "value": "acolo", "translations": ["there"] },
+  { "value": "caiete", "translations": ["notebooks"] },
+  { "value": "caiet", "translations": ["notebook"] },
+  { "value": "caietul", "translations": ["the notebook"] },
+  { "value": "bună", "translations": ["good"] },
+  { "value": "lecție", "translations": ["lesson"] },
+  { "value": "lecția", "translations": ["the lesson"] },
+  { "value": "azi", "translations": ["today"] },
+  { "value": "astazi", "translations": ["today"] },
+  { "value": "astăzi", "translations": ["today"] },
+  { "value": "să", "translations": ["to", "let", "may"] },
+  { "value": "da", "translations": ["yes"] },
+  { "value": "nu", "translations": ["no"] },
+  { "value": "gata", "translations": ["ready"] },
+  { "value": "masa", "translations": ["the table"] },
+  { "value": "frumos", "translations": ["beautiful"] },
+  { "value": "una", "translations": ["one"] },
+  { "value": "alta", "translations": ["another"] },
+  { "value": "lângă", "translations": ["next to", "besides", "close to"] },
+  { "value": "apoi", "translations": ["then", "later"] },
+  { "value": "perete", "translations": ["wall"] },
+  { "value": "Într-un", "translations": ["in", "inside"] },
+  { "value": "mic", "translations": ["small"] },
+  { "value": "apa", "translations": ["the water"] },
+  { "value": "care", "translations": ["which"] },
+  { "value": "încet", "translations": ["slowly", "slow"] },
+  { "value": "despre", "translations": ["about"] },
+  { "value": "vulpi", "translations": ["foxes"] },
+  { "value": "un", "translations": ["one", "a (article)"] },
+  { "value": "nou", "translations": ["new"] },
+  { "value": "clare", "translations": ["clear"] },
+  { "value": "vulpea", "translations": ["the fox"] },
+  { "value": "animalul", "translations": ["the animal"] },
+  { "value": "pădure", "translations": ["forest"] },
+  { "value": "roșcată", "translations": ["redhead"] },
+  { "value": "rapidă", "translations": ["fast", "quick"] },
+  { "value": "colț", "translations": ["corner"] },
+  { "value": "acvariu", "translations": ["aquarium"] },
+  { "value": "vulpe", "translations": ["fox"] },
+  { "value": "tânără", "translations": ["young"] },
+  { "value": "un ghișeu", "translations": ["a counter", "a service desk"] },
+  { "value": "un orar", "translations": ["a timetable", "a schedule"] },
+  { "value": "o revistă", "translations": ["a magazine"] },
+  { "value": "un ziar", "translations": ["a newspaper"] },
+  { "value": "merită să mergi", "translations": ["it's worth going", "worth a trip"] },
+  { "value": "nici", "translations": ["neither", "nor", "not even"] },
+  { "value": "chiar", "translations": ["even", "really", "actually"] },
+  { "value": "saci de dormit", "translations": ["sleeping bags"] },
+  { "value": "noaptea", "translations": ["the night"] },
+  { "value": "atentă", "translations": ["careful"] },
+  { "value": "zgomote", "translations": ["noises"] },
+  { "value": "toate", "translations": ["everything"] },
+  { "value": "acestea", "translations": ["this"] },
+  { "value": "brad", "translations": ["fir"] },
+  { "value": "pomul de crăciun", "translations": ["christmas tree"] },
+  { "value": "cadouri", "translations": ["presents", "gifts"] },
+  { "value": "târgul de crăciun", "translations": ["the christmas market"] },
+  { "value": "foc de artificii", "translations": ["fireworks"] },
+  { "value": "încă", "translations": ["still", "yet"] },
+  { "value": "pari grăbită", "translations": ["you seem hurried", "you look rushed"] },
+  { "value": "o pereche de ghete", "translations": ["a pair of boots"] },
+  { "value": "dezavantaje", "translations": ["disadvantages", "drawbacks"] },
+  { "value": "avantaje", "translations": ["advantages", "benefits"] },
+  { "value": "de obicei", "translations": ["usually", "normally"] },
+  { "value": "înălțime", "translations": ["height"] },
+  { "value": "părul îngrijit", "translations": ["well-groomed hair"] },
+  { "value": "îngrijit", "translations": ["well-groomed", "neat", "tidy"] },
+  { "value": "un zâmbet", "translations": ["a smile"] },
+  { "value": "zâmbet", "translations": ["a smile"] },
+  { "value": "lungime", "translations": ["length"] },
+  { "value": "greutate", "translations": ["weight"] },
+  { "value": "o culoare", "translations": ["a color"] },
+  { "value": "culori", "translations": ["colors"] },
+  { "value": "cap", "translations": ["head"] },
+  { "value": "păr", "translations": ["hair"] },
+  { "value": "picior", "translations": ["leg", "foot"] },
+  { "value": "picioare", "translations": ["legs", "feet"] },
+  { "value": "ochi", "translations": ["eyes"] },
+  { "value": "față", "translations": ["face"] },
+  { "value": "nas", "translations": ["nose"] },
+  { "value": "genunchi", "translations": ["knee"] },
+  { "value": "gât", "translations": ["neck", "throat"] },
+  { "value": "umăr", "translations": ["shoulder"] },
+  { "value": "mână", "translations": ["hand", "arm"] },
+  { "value": "mâini", "translations": ["hands", "arms"] },
+  { "value": "deget", "translations": ["finger", "toe"] },
+  { "value": "degete", "translations": ["fingers", "toes"] },
+  { "value": "spate", "translations": ["back"] },
+  { "value": "statele", "translations": ["the states"] },
+  { "value": "ureche", "translations": ["ear"] },
+  { "value": "urechi", "translations": ["ears"] },
+  { "value": "gură", "translations": ["mouth"] },
+  { "value": "înalt", "translations": ["tall"] },
+  { "value": "înaltă", "translations": ["tall"] },
+  { "value": "scund", "translations": ["short"] },
+  { "value": "scundă", "translations": ["short"] },
+  { "value": "lung", "translations": ["long"] },
+  { "value": "scurt", "translations": ["short"] },
+  { "value": "drept", "translations": ["straight"] },
+  { "value": "ondulat", "translations": ["wavy"] },
+  { "value": "cârunt", "translations": ["gray-haired"] },
+  { "value": "roșcat", "translations": ["red-haired", "ginger"] },
+  { "value": "căprui", "translations": ["brown"] },
+  { "value": "părul", "translations": ["the hair"] },
+  { "value": "albastru", "translations": ["blue"] },
+  { "value": "verzi", "translations": ["green"] },
+  { "value": "gri", "translations": ["gray"] },
+  { "value": "negri", "translations": ["black"] },
+  { "value": "ochelari", "translations": ["glasses"] },
+  { "value": "mustață", "translations": ["mustache"] },
+  { "value": "barbă", "translations": ["beard"] },
+  { "value": "strâmți", "translations": ["tight", "narrow"] },
+  { "value": "iată", "translations": ["here is", "here are", "look", "behold"] },
+  { "value": "subțire", "translations": ["thin", "slim"] },
+  { "value": "Destul de bine", "translations": ["quite well", "pretty well"] },
+  { "value": "Mă bucur să vă văd", "translations": ["I am glad to see you", "Nice to see you"] },
+  { "value": "-", "translations": ["dash", "hyphen"] },
+  { "value": "a", "translations": ["infinitive"] },
   { "value": "Aceasta", "translations": ["this"] },
   { "value": "Aceeași", "translations": ["same"] },
   { "value": "Afară", "translations": ["outside"] },
@@ -1138,5 +541,118 @@
   { "value": "deocamdată", "translations": ["for now", "for the time being"] },
   { "value": "propria afacere", "translations": ["own business"] },
   { "value": "mediu plăcut", "translations": ["pleasant environment"] },
-  { "value": "nu în ultimul rând", "translations": ["last but not least"] }
+  { "value": "nu în ultimul rând", "translations": ["last but not least"] },
+  { "value": "acum", "translations": ["now"] },
+  { "value": "adevărat", "translations": ["true", "real"] },
+  { "value": "altfel", "translations": ["otherwise", "differently"] },
+  { "value": "angajat", "translations": ["employee", "employed"] },
+  { "value": "anunț", "translations": ["announcement"] },
+  { "value": "asistentă", "translations": ["nurse"] },
+  { "value": "atât", "translations": ["so much", "that much"] },
+  { "value": "atâta", "translations": ["that much"] },
+  { "value": "atâtea", "translations": ["that many"] },
+  { "value": "birou", "translations": ["desk", "office"] },
+  { "value": "brusc", "translations": ["suddenly"] },
+  { "value": "bufniță", "translations": ["owl"] },
+  { "value": "buzunar", "translations": ["pocket"] },
+  { "value": "calendar", "translations": ["calendar"] },
+  { "value": "cameră", "translations": ["room"] },
+  { "value": "capăt", "translations": ["end", "endpoint"] },
+  { "value": "casetă", "translations": ["cassette", "tape"] },
+  { "value": "cât", "translations": ["how much", "as much"] },
+  { "value": "cearșaf", "translations": ["bedsheet"] },
+  { "value": "cheie", "translations": ["key"] },
+  { "value": "cinema", "translations": ["cinema", "movie theater"] },
+  { "value": "coajă", "translations": ["bark", "peel"] },
+  { "value": "coleg", "translations": ["colleague"] },
+  { "value": "complet", "translations": ["complete", "completely"] },
+  { "value": "coridor", "translations": ["corridor", "hallway"] },
+  { "value": "cunoscut", "translations": ["known", "familiar"] },
+  { "value": "cuvânt", "translations": ["word"] },
+  { "value": "cântec", "translations": ["song"] },
+  { "value": "decât", "translations": ["than"] },
+  { "value": "desigur", "translations": ["of course"] },
+  { "value": "dezinfectant", "translations": ["disinfectant"] },
+  { "value": "diferit", "translations": ["different"] },
+  { "value": "dimensiune", "translations": ["dimension"] },
+  { "value": "direct", "translations": ["direct", "directly"] },
+  { "value": "discuție", "translations": ["discussion"] },
+  { "value": "doctor", "translations": ["doctor"] },
+  { "value": "ecou", "translations": ["echo"] },
+  { "value": "ecran", "translations": ["screen"] },
+  { "value": "exact", "translations": ["exact", "exactly"] },
+  { "value": "expresie", "translations": ["expression"] },
+  { "value": "familie", "translations": ["family"] },
+  { "value": "formă", "translations": ["shape", "form"] },
+  { "value": "fotografie", "translations": ["photograph"] },
+  { "value": "frecvență", "translations": ["frequency"] },
+  { "value": "frunză", "translations": ["leaf"] },
+  { "value": "galben", "translations": ["yellow"] },
+  { "value": "geantă", "translations": ["bag"] },
+  { "value": "glumă", "translations": ["joke"] },
+  { "value": "gol", "translations": ["empty"] },
+  { "value": "greu", "translations": ["heavy", "difficult"] },
+  { "value": "haină", "translations": ["coat", "clothing"] },
+  { "value": "imediat", "translations": ["immediately"] },
+  { "value": "imposibil", "translations": ["impossible"] },
+  { "value": "indiferent", "translations": ["indifferent", "regardless"] },
+  { "value": "inimă", "translations": ["heart"] },
+  { "value": "jucărie", "translations": ["toy"] },
+  { "value": "lampă", "translations": ["lamp"] },
+  { "value": "literă", "translations": ["letter (of the alphabet)"] },
+  { "value": "locomotivă", "translations": ["locomotive"] },
+  { "value": "mireasă", "translations": ["bride"] },
+  { "value": "monitor", "translations": ["monitor"] },
+  { "value": "necunoscut", "translations": ["unknown"] },
+  { "value": "nicăieri", "translations": ["nowhere"] },
+  { "value": "niciodată", "translations": ["never"] },
+  { "value": "nor", "translations": ["cloud"] },
+  { "value": "nume", "translations": ["name"] },
+  { "value": "numai", "translations": ["only"] },
+  { "value": "nuntă", "translations": ["wedding"] },
+  { "value": "obișnuit", "translations": ["usual", "ordinary"] },
+  { "value": "oglindă", "translations": ["mirror"] },
+  { "value": "pagină", "translations": ["page"] },
+  { "value": "pasager", "translations": ["passenger"] },
+  { "value": "pat", "translations": ["bed"] },
+  { "value": "peron", "translations": ["platform"] },
+  { "value": "petrecere", "translations": ["party"] },
+  { "value": "plajă", "translations": ["beach"] },
+  { "value": "plin", "translations": ["full"] },
+  { "value": "post", "translations": ["station (radio/TV)", "position"] },
+  { "value": "privire", "translations": ["look", "gaze"] },
+  { "value": "problemă", "translations": ["problem"] },
+  { "value": "radio", "translations": ["radio"] },
+  { "value": "real", "translations": ["real"] },
+  { "value": "rețea", "translations": ["network"] },
+  { "value": "rochie", "translations": ["dress"] },
+  { "value": "roșu", "translations": ["red"] },
+  { "value": "scenă", "translations": ["scene"] },
+  { "value": "scrisoare", "translations": ["letter (mail)"] },
+  { "value": "semn", "translations": ["sign"] },
+  { "value": "sens", "translations": ["meaning", "direction"] },
+  { "value": "serios", "translations": ["serious"] },
+  { "value": "sigur", "translations": ["sure", "certain"] },
+  { "value": "slab", "translations": ["weak", "faint"] },
+  { "value": "solid", "translations": ["solid"] },
+  { "value": "spital", "translations": ["hospital"] },
+  { "value": "static", "translations": ["static", "motionless"] },
+  { "value": "tabelă", "translations": ["board", "chart"] },
+  { "value": "tavan", "translations": ["ceiling"] },
+  { "value": "teamă", "translations": ["fear"] },
+  { "value": "telefon", "translations": ["telephone"] },
+  { "value": "televiziune", "translations": ["television"] },
+  { "value": "tocmai", "translations": ["just", "exactly"] },
+  { "value": "toast", "translations": ["toast (to someone's health)"] },
+  { "value": "treptat", "translations": ["gradually"] },
+  { "value": "trunchi", "translations": ["trunk (of a tree)"] },
+  { "value": "undeva", "translations": ["somewhere"] },
+  { "value": "ursuleț", "translations": ["teddy bear"] },
+  { "value": "val", "translations": ["wave"] },
+  { "value": "vară", "translations": ["summer"] },
+  { "value": "vechi", "translations": ["old"] },
+  { "value": "voce", "translations": ["voice"] },
+  { "value": "vreodată", "translations": ["ever"] },
+  { "value": "înainte", "translations": ["before"] },
+  { "value": "înapoi", "translations": ["back", "backwards"] }
 ]
