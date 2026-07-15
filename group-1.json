@@ -3479,6 +3479,1592 @@
           "voi": "încercați"
         }
       }
+    },
+    {
+      "infinitive": "a ridica",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to lift", "to raise"],
+      "conjugations": {
+        "prezent": {
+          "eu": "ridic",
+          "tu": "ridici",
+          "el/ea": "ridică",
+          "noi": "ridicăm",
+          "voi": "ridicați",
+          "ei/ele": "ridică"
+        },
+        "perfect_compus": {
+          "eu": "am ridicat",
+          "tu": "ai ridicat",
+          "el/ea": "a ridicat",
+          "noi": "am ridicat",
+          "voi": "ați ridicat",
+          "ei/ele": "au ridicat"
+        },
+        "viitor_literar": {
+          "eu": "voi ridica",
+          "tu": "vei ridica",
+          "el/ea": "va ridica",
+          "noi": "vom ridica",
+          "voi": "veți ridica",
+          "ei/ele": "vor ridica"
+        },
+        "viitor_familiar": {
+          "eu": "o să ridic",
+          "tu": "o să ridici",
+          "el/ea": "o să ridice",
+          "noi": "o să ridicăm",
+          "voi": "o să ridicați",
+          "ei/ele": "o să ridice"
+        },
+        "conjunctiv": {
+          "eu": "să ridic",
+          "tu": "să ridici",
+          "el/ea": "să ridice",
+          "noi": "să ridicăm",
+          "voi": "să ridicați",
+          "ei/ele": "să ridice"
+        },
+        "conditional": {
+          "eu": "aș ridica",
+          "tu": "ai ridica",
+          "el/ea": "ar ridica",
+          "noi": "am ridica",
+          "voi": "ați ridica",
+          "ei/ele": "ar ridica"
+        },
+        "imperativ": {
+          "tu": "ridică",
+          "voi": "ridicați"
+        }
+      }
+    },
+    {
+      "infinitive": "a continua",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to continue"],
+      "conjugations": {
+        "prezent": {
+          "eu": "continui",
+          "tu": "continui",
+          "el/ea": "continuă",
+          "noi": "continuăm",
+          "voi": "continuați",
+          "ei/ele": "continuă"
+        },
+        "perfect_compus": {
+          "eu": "am continuat",
+          "tu": "ai continuat",
+          "el/ea": "a continuat",
+          "noi": "am continuat",
+          "voi": "ați continuat",
+          "ei/ele": "au continuat"
+        },
+        "viitor_literar": {
+          "eu": "voi continua",
+          "tu": "vei continua",
+          "el/ea": "va continua",
+          "noi": "vom continua",
+          "voi": "veți continua",
+          "ei/ele": "vor continua"
+        },
+        "viitor_familiar": {
+          "eu": "o să continui",
+          "tu": "o să continui",
+          "el/ea": "o să continue",
+          "noi": "o să continuăm",
+          "voi": "o să continuați",
+          "ei/ele": "o să continue"
+        },
+        "conjunctiv": {
+          "eu": "să continui",
+          "tu": "să continui",
+          "el/ea": "să continue",
+          "noi": "să continuăm",
+          "voi": "să continuați",
+          "ei/ele": "să continue"
+        },
+        "conditional": {
+          "eu": "aș continua",
+          "tu": "ai continua",
+          "el/ea": "ar continua",
+          "noi": "am continua",
+          "voi": "ați continua",
+          "ei/ele": "ar continua"
+        },
+        "imperativ": {
+          "tu": "continuă",
+          "voi": "continuați"
+        }
+      }
+    },
+    {
+      "infinitive": "a deranja",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to bother", "to disturb"],
+      "conjugations": {
+        "prezent": {
+          "eu": "deranjez",
+          "tu": "deranjezi",
+          "el/ea": "deranjează",
+          "noi": "deranjăm",
+          "voi": "deranjați",
+          "ei/ele": "deranjează"
+        },
+        "perfect_compus": {
+          "eu": "am deranjat",
+          "tu": "ai deranjat",
+          "el/ea": "a deranjat",
+          "noi": "am deranjat",
+          "voi": "ați deranjat",
+          "ei/ele": "au deranjat"
+        },
+        "viitor_literar": {
+          "eu": "voi deranja",
+          "tu": "vei deranja",
+          "el/ea": "va deranja",
+          "noi": "vom deranja",
+          "voi": "veți deranja",
+          "ei/ele": "vor deranja"
+        },
+        "viitor_familiar": {
+          "eu": "o să deranjez",
+          "tu": "o să deranjezi",
+          "el/ea": "o să deranjeze",
+          "noi": "o să deranjăm",
+          "voi": "o să deranjați",
+          "ei/ele": "o să deranjeze"
+        },
+        "conjunctiv": {
+          "eu": "să deranjez",
+          "tu": "să deranjezi",
+          "el/ea": "să deranjeze",
+          "noi": "să deranjăm",
+          "voi": "să deranjați",
+          "ei/ele": "să deranjeze"
+        },
+        "conditional": {
+          "eu": "aș deranja",
+          "tu": "ai deranja",
+          "el/ea": "ar deranja",
+          "noi": "am deranja",
+          "voi": "ați deranja",
+          "ei/ele": "ar deranja"
+        },
+        "imperativ": {
+          "tu": "deranjează",
+          "voi": "deranjați"
+        }
+      }
+    },
+    {
+      "infinitive": "a schimba",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to change"],
+      "conjugations": {
+        "prezent": {
+          "eu": "schimb",
+          "tu": "schimbi",
+          "el/ea": "schimbă",
+          "noi": "schimbăm",
+          "voi": "schimbați",
+          "ei/ele": "schimbă"
+        },
+        "perfect_compus": {
+          "eu": "am schimbat",
+          "tu": "ai schimbat",
+          "el/ea": "a schimbat",
+          "noi": "am schimbat",
+          "voi": "ați schimbat",
+          "ei/ele": "au schimbat"
+        },
+        "viitor_literar": {
+          "eu": "voi schimba",
+          "tu": "vei schimba",
+          "el/ea": "va schimba",
+          "noi": "vom schimba",
+          "voi": "veți schimba",
+          "ei/ele": "vor schimba"
+        },
+        "viitor_familiar": {
+          "eu": "o să schimb",
+          "tu": "o să schimbi",
+          "el/ea": "o să schimbe",
+          "noi": "o să schimbăm",
+          "voi": "o să schimbați",
+          "ei/ele": "o să schimbe"
+        },
+        "conjunctiv": {
+          "eu": "să schimb",
+          "tu": "să schimbi",
+          "el/ea": "să schimbe",
+          "noi": "să schimbăm",
+          "voi": "să schimbați",
+          "ei/ele": "să schimbe"
+        },
+        "conditional": {
+          "eu": "aș schimba",
+          "tu": "ai schimba",
+          "el/ea": "ar schimba",
+          "noi": "am schimba",
+          "voi": "ați schimba",
+          "ei/ele": "ar schimba"
+        },
+        "imperativ": {
+          "tu": "schimbă",
+          "voi": "schimbați"
+        }
+      }
+    },
+    {
+      "infinitive": "a observa",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to observe", "to notice"],
+      "conjugations": {
+        "prezent": {
+          "eu": "observ",
+          "tu": "observi",
+          "el/ea": "observă",
+          "noi": "observăm",
+          "voi": "observați",
+          "ei/ele": "observă"
+        },
+        "perfect_compus": {
+          "eu": "am observat",
+          "tu": "ai observat",
+          "el/ea": "a observat",
+          "noi": "am observat",
+          "voi": "ați observat",
+          "ei/ele": "au observat"
+        },
+        "viitor_literar": {
+          "eu": "voi observa",
+          "tu": "vei observa",
+          "el/ea": "va observa",
+          "noi": "vom observa",
+          "voi": "veți observa",
+          "ei/ele": "vor observa"
+        },
+        "viitor_familiar": {
+          "eu": "o să observ",
+          "tu": "o să observi",
+          "el/ea": "o să observe",
+          "noi": "o să observăm",
+          "voi": "o să observați",
+          "ei/ele": "o să observe"
+        },
+        "conjunctiv": {
+          "eu": "să observ",
+          "tu": "să observi",
+          "el/ea": "să observe",
+          "noi": "să observăm",
+          "voi": "să observați",
+          "ei/ele": "să observe"
+        },
+        "conditional": {
+          "eu": "aș observa",
+          "tu": "ai observa",
+          "el/ea": "ar observa",
+          "noi": "am observa",
+          "voi": "ați observa",
+          "ei/ele": "ar observa"
+        },
+        "imperativ": {
+          "tu": "observă",
+          "voi": "observați"
+        }
+      }
+    },
+    {
+      "infinitive": "a apăsa",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 3,
+      "infinitive_translated": ["to press"],
+      "conjugations": {
+        "prezent": {
+          "eu": "apăs",
+          "tu": "apeși",
+          "el/ea": "apasă",
+          "noi": "apăsăm",
+          "voi": "apăsați",
+          "ei/ele": "apasă"
+        },
+        "perfect_compus": {
+          "eu": "am apăsat",
+          "tu": "ai apăsat",
+          "el/ea": "a apăsat",
+          "noi": "am apăsat",
+          "voi": "ați apăsat",
+          "ei/ele": "au apăsat"
+        },
+        "viitor_literar": {
+          "eu": "voi apăsa",
+          "tu": "vei apăsa",
+          "el/ea": "va apăsa",
+          "noi": "vom apăsa",
+          "voi": "veți apăsa",
+          "ei/ele": "vor apăsa"
+        },
+        "viitor_familiar": {
+          "eu": "o să apăs",
+          "tu": "o să apeși",
+          "el/ea": "o să apese",
+          "noi": "o să apăsăm",
+          "voi": "o să apăsați",
+          "ei/ele": "o să apese"
+        },
+        "conjunctiv": {
+          "eu": "să apăs",
+          "tu": "să apeși",
+          "el/ea": "să apese",
+          "noi": "să apăsăm",
+          "voi": "să apăsați",
+          "ei/ele": "să apese"
+        },
+        "conditional": {
+          "eu": "aș apăsa",
+          "tu": "ai apăsa",
+          "el/ea": "ar apăsa",
+          "noi": "am apăsa",
+          "voi": "ați apăsa",
+          "ei/ele": "ar apăsa"
+        },
+        "imperativ": {
+          "tu": "apasă",
+          "voi": "apăsați"
+        }
+      }
+    },
+    {
+      "infinitive": "a copia",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to copy"],
+      "conjugations": {
+        "prezent": {
+          "eu": "copiez",
+          "tu": "copiezi",
+          "el/ea": "copiază",
+          "noi": "copiem",
+          "voi": "copiați",
+          "ei/ele": "copiază"
+        },
+        "perfect_compus": {
+          "eu": "am copiat",
+          "tu": "ai copiat",
+          "el/ea": "a copiat",
+          "noi": "am copiat",
+          "voi": "ați copiat",
+          "ei/ele": "au copiat"
+        },
+        "viitor_literar": {
+          "eu": "voi copia",
+          "tu": "vei copia",
+          "el/ea": "va copia",
+          "noi": "vom copia",
+          "voi": "veți copia",
+          "ei/ele": "vor copia"
+        },
+        "viitor_familiar": {
+          "eu": "o să copiez",
+          "tu": "o să copiezi",
+          "el/ea": "o să copieze",
+          "noi": "o să copiem",
+          "voi": "o să copiați",
+          "ei/ele": "o să copieze"
+        },
+        "conjunctiv": {
+          "eu": "să copiez",
+          "tu": "să copiezi",
+          "el/ea": "să copieze",
+          "noi": "să copiem",
+          "voi": "să copiați",
+          "ei/ele": "să copieze"
+        },
+        "conditional": {
+          "eu": "aș copia",
+          "tu": "ai copia",
+          "el/ea": "ar copia",
+          "noi": "am copia",
+          "voi": "ați copia",
+          "ei/ele": "ar copia"
+        },
+        "imperativ": {
+          "tu": "copiază",
+          "voi": "copiați"
+        }
+      }
+    },
+    {
+      "infinitive": "a funcționa",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to function", "to work"],
+      "conjugations": {
+        "prezent": {
+          "eu": "funcționez",
+          "tu": "funcționezi",
+          "el/ea": "funcționează",
+          "noi": "funcționăm",
+          "voi": "funcționați",
+          "ei/ele": "funcționează"
+        },
+        "perfect_compus": {
+          "eu": "am funcționat",
+          "tu": "ai funcționat",
+          "el/ea": "a funcționat",
+          "noi": "am funcționat",
+          "voi": "ați funcționat",
+          "ei/ele": "au funcționat"
+        },
+        "viitor_literar": {
+          "eu": "voi funcționa",
+          "tu": "vei funcționa",
+          "el/ea": "va funcționa",
+          "noi": "vom funcționa",
+          "voi": "veți funcționa",
+          "ei/ele": "vor funcționa"
+        },
+        "viitor_familiar": {
+          "eu": "o să funcționez",
+          "tu": "o să funcționezi",
+          "el/ea": "o să funcționeze",
+          "noi": "o să funcționăm",
+          "voi": "o să funcționați",
+          "ei/ele": "o să funcționeze"
+        },
+        "conjunctiv": {
+          "eu": "să funcționez",
+          "tu": "să funcționezi",
+          "el/ea": "să funcționeze",
+          "noi": "să funcționăm",
+          "voi": "să funcționați",
+          "ei/ele": "să funcționeze"
+        },
+        "conditional": {
+          "eu": "aș funcționa",
+          "tu": "ai funcționa",
+          "el/ea": "ar funcționa",
+          "noi": "am funcționa",
+          "voi": "ați funcționa",
+          "ei/ele": "ar funcționa"
+        },
+        "imperativ": {
+          "tu": "funcționează",
+          "voi": "funcționați"
+        }
+      }
+    },
+    {
+      "infinitive": "a transforma",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to transform"],
+      "conjugations": {
+        "prezent": {
+          "eu": "transform",
+          "tu": "transformi",
+          "el/ea": "transformă",
+          "noi": "transformăm",
+          "voi": "transformați",
+          "ei/ele": "transformă"
+        },
+        "perfect_compus": {
+          "eu": "am transformat",
+          "tu": "ai transformat",
+          "el/ea": "a transformat",
+          "noi": "am transformat",
+          "voi": "ați transformat",
+          "ei/ele": "au transformat"
+        },
+        "viitor_literar": {
+          "eu": "voi transforma",
+          "tu": "vei transforma",
+          "el/ea": "va transforma",
+          "noi": "vom transforma",
+          "voi": "veți transforma",
+          "ei/ele": "vor transforma"
+        },
+        "viitor_familiar": {
+          "eu": "o să transform",
+          "tu": "o să transformi",
+          "el/ea": "o să transforme",
+          "noi": "o să transformăm",
+          "voi": "o să transformați",
+          "ei/ele": "o să transforme"
+        },
+        "conjunctiv": {
+          "eu": "să transform",
+          "tu": "să transformi",
+          "el/ea": "să transforme",
+          "noi": "să transformăm",
+          "voi": "să transformați",
+          "ei/ele": "să transforme"
+        },
+        "conditional": {
+          "eu": "aș transforma",
+          "tu": "ai transforma",
+          "el/ea": "ar transforma",
+          "noi": "am transforma",
+          "voi": "ați transforma",
+          "ei/ele": "ar transforma"
+        },
+        "imperativ": {
+          "tu": "transformă",
+          "voi": "transformați"
+        }
+      }
+    },
+    {
+      "infinitive": "a amesteca",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to mix"],
+      "conjugations": {
+        "prezent": {
+          "eu": "amestec",
+          "tu": "amesteci",
+          "el/ea": "amestecă",
+          "noi": "amestecăm",
+          "voi": "amestecați",
+          "ei/ele": "amestecă"
+        },
+        "perfect_compus": {
+          "eu": "am amestecat",
+          "tu": "ai amestecat",
+          "el/ea": "a amestecat",
+          "noi": "am amestecat",
+          "voi": "ați amestecat",
+          "ei/ele": "au amestecat"
+        },
+        "viitor_literar": {
+          "eu": "voi amesteca",
+          "tu": "vei amesteca",
+          "el/ea": "va amesteca",
+          "noi": "vom amesteca",
+          "voi": "veți amesteca",
+          "ei/ele": "vor amesteca"
+        },
+        "viitor_familiar": {
+          "eu": "o să amestec",
+          "tu": "o să amesteci",
+          "el/ea": "o să amestece",
+          "noi": "o să amestecăm",
+          "voi": "o să amestecați",
+          "ei/ele": "o să amestece"
+        },
+        "conjunctiv": {
+          "eu": "să amestec",
+          "tu": "să amesteci",
+          "el/ea": "să amestece",
+          "noi": "să amestecăm",
+          "voi": "să amestecați",
+          "ei/ele": "să amestece"
+        },
+        "conditional": {
+          "eu": "aș amesteca",
+          "tu": "ai amesteca",
+          "el/ea": "ar amesteca",
+          "noi": "am amesteca",
+          "voi": "ați amesteca",
+          "ei/ele": "ar amesteca"
+        },
+        "imperativ": {
+          "tu": "amestecă",
+          "voi": "amestecați"
+        }
+      }
+    },
+    {
+      "infinitive": "a se întâmpla",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to happen"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă întâmpl",
+          "tu": "te întâmpli",
+          "el/ea": "se întâmplă",
+          "noi": "ne întâmplăm",
+          "voi": "vă întâmplați",
+          "ei/ele": "se întâmplă"
+        },
+        "perfect_compus": {
+          "eu": "m-am întâmplat",
+          "tu": "te-ai întâmplat",
+          "el/ea": "s-a întâmplat",
+          "noi": "ne-am întâmplat",
+          "voi": "v-ați întâmplat",
+          "ei/ele": "s-au întâmplat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi întâmpla",
+          "tu": "te vei întâmpla",
+          "el/ea": "se va întâmpla",
+          "noi": "ne vom întâmpla",
+          "voi": "vă veți întâmpla",
+          "ei/ele": "se vor întâmpla"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă întâmpl",
+          "tu": "o să te întâmpli",
+          "el/ea": "o să se întâmple",
+          "noi": "o să ne întâmplăm",
+          "voi": "o să vă întâmplați",
+          "ei/ele": "o să se întâmple"
+        },
+        "conjunctiv": {
+          "eu": "să mă întâmpl",
+          "tu": "să te întâmpli",
+          "el/ea": "să se întâmple",
+          "noi": "să ne întâmplăm",
+          "voi": "să vă întâmplați",
+          "ei/ele": "să se întâmple"
+        },
+        "conditional": {
+          "eu": "m-aș întâmpla",
+          "tu": "te-ai întâmpla",
+          "el/ea": "s-ar întâmpla",
+          "noi": "ne-am întâmpla",
+          "voi": "v-ați întâmpla",
+          "ei/ele": "s-ar întâmpla"
+        },
+        "imperativ": {
+          "tu": "întâmplă-te",
+          "voi": "întâmplați-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a se destrăma",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to unravel", "to fall apart"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă destram",
+          "tu": "te destrami",
+          "el/ea": "se destramă",
+          "noi": "ne destrămăm",
+          "voi": "vă destrămați",
+          "ei/ele": "se destramă"
+        },
+        "perfect_compus": {
+          "eu": "m-am destrămat",
+          "tu": "te-ai destrămat",
+          "el/ea": "s-a destrămat",
+          "noi": "ne-am destrămat",
+          "voi": "v-ați destrămat",
+          "ei/ele": "s-au destrămat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi destrăma",
+          "tu": "te vei destrăma",
+          "el/ea": "se va destrăma",
+          "noi": "ne vom destrăma",
+          "voi": "vă veți destrăma",
+          "ei/ele": "se vor destrăma"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă destram",
+          "tu": "o să te destrami",
+          "el/ea": "o să se destrame",
+          "noi": "o să ne destrămăm",
+          "voi": "o să vă destrămați",
+          "ei/ele": "o să se destrame"
+        },
+        "conjunctiv": {
+          "eu": "să mă destram",
+          "tu": "să te destrami",
+          "el/ea": "să se destrame",
+          "noi": "să ne destrămăm",
+          "voi": "să vă destrămați",
+          "ei/ele": "să se destrame"
+        },
+        "conditional": {
+          "eu": "m-aș destrăma",
+          "tu": "te-ai destrăma",
+          "el/ea": "s-ar destrăma",
+          "noi": "ne-am destrăma",
+          "voi": "v-ați destrăma",
+          "ei/ele": "s-ar destrăma"
+        },
+        "imperativ": {
+          "tu": "destramă-te",
+          "voi": "destrămați-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a realiza",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to realize"],
+      "conjugations": {
+        "prezent": {
+          "eu": "realizez",
+          "tu": "realizezi",
+          "el/ea": "realizează",
+          "noi": "realizăm",
+          "voi": "realizați",
+          "ei/ele": "realizează"
+        },
+        "perfect_compus": {
+          "eu": "am realizat",
+          "tu": "ai realizat",
+          "el/ea": "a realizat",
+          "noi": "am realizat",
+          "voi": "ați realizat",
+          "ei/ele": "au realizat"
+        },
+        "viitor_literar": {
+          "eu": "voi realiza",
+          "tu": "vei realiza",
+          "el/ea": "va realiza",
+          "noi": "vom realiza",
+          "voi": "veți realiza",
+          "ei/ele": "vor realiza"
+        },
+        "viitor_familiar": {
+          "eu": "o să realizez",
+          "tu": "o să realizezi",
+          "el/ea": "o să realizeze",
+          "noi": "o să realizăm",
+          "voi": "o să realizați",
+          "ei/ele": "o să realizeze"
+        },
+        "conjunctiv": {
+          "eu": "să realizez",
+          "tu": "să realizezi",
+          "el/ea": "să realizeze",
+          "noi": "să realizăm",
+          "voi": "să realizați",
+          "ei/ele": "să realizeze"
+        },
+        "conditional": {
+          "eu": "aș realiza",
+          "tu": "ai realiza",
+          "el/ea": "ar realiza",
+          "noi": "am realiza",
+          "voi": "ați realiza",
+          "ei/ele": "ar realiza"
+        },
+        "imperativ": {
+          "tu": "realizează",
+          "voi": "realizați"
+        }
+      }
+    },
+    {
+      "infinitive": "a se stabiliza",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to stabilize"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă stabilizez",
+          "tu": "te stabilizezi",
+          "el/ea": "se stabilizează",
+          "noi": "ne stabilizăm",
+          "voi": "vă stabilizați",
+          "ei/ele": "se stabilizează"
+        },
+        "perfect_compus": {
+          "eu": "m-am stabilizat",
+          "tu": "te-ai stabilizat",
+          "el/ea": "s-a stabilizat",
+          "noi": "ne-am stabilizat",
+          "voi": "v-ați stabilizat",
+          "ei/ele": "s-au stabilizat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi stabiliza",
+          "tu": "te vei stabiliza",
+          "el/ea": "se va stabiliza",
+          "noi": "ne vom stabiliza",
+          "voi": "vă veți stabiliza",
+          "ei/ele": "se vor stabiliza"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă stabilizez",
+          "tu": "o să te stabilizezi",
+          "el/ea": "o să se stabilizeze",
+          "noi": "o să ne stabilizăm",
+          "voi": "o să vă stabilizați",
+          "ei/ele": "o să se stabilizeze"
+        },
+        "conjunctiv": {
+          "eu": "să mă stabilizez",
+          "tu": "să te stabilizezi",
+          "el/ea": "să se stabilizeze",
+          "noi": "să ne stabilizăm",
+          "voi": "să vă stabilizați",
+          "ei/ele": "să se stabilizeze"
+        },
+        "conditional": {
+          "eu": "m-aș stabiliza",
+          "tu": "te-ai stabiliza",
+          "el/ea": "s-ar stabiliza",
+          "noi": "ne-am stabiliza",
+          "voi": "v-ați stabiliza",
+          "ei/ele": "s-ar stabiliza"
+        },
+        "imperativ": {
+          "tu": "stabilizează-te",
+          "voi": "stabilizați-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a băga",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to put in", "to insert"],
+      "conjugations": {
+        "prezent": {
+          "eu": "bag",
+          "tu": "bagi",
+          "el/ea": "bagă",
+          "noi": "băgăm",
+          "voi": "băgați",
+          "ei/ele": "bagă"
+        },
+        "perfect_compus": {
+          "eu": "am băgat",
+          "tu": "ai băgat",
+          "el/ea": "a băgat",
+          "noi": "am băgat",
+          "voi": "ați băgat",
+          "ei/ele": "au băgat"
+        },
+        "viitor_literar": {
+          "eu": "voi băga",
+          "tu": "vei băga",
+          "el/ea": "va băga",
+          "noi": "vom băga",
+          "voi": "veți băga",
+          "ei/ele": "vor băga"
+        },
+        "viitor_familiar": {
+          "eu": "o să bag",
+          "tu": "o să bagi",
+          "el/ea": "o să bage",
+          "noi": "o să băgăm",
+          "voi": "o să băgați",
+          "ei/ele": "o să bage"
+        },
+        "conjunctiv": {
+          "eu": "să bag",
+          "tu": "să bagi",
+          "el/ea": "să bage",
+          "noi": "să băgăm",
+          "voi": "să băgați",
+          "ei/ele": "să bage"
+        },
+        "conditional": {
+          "eu": "aș băga",
+          "tu": "ai băga",
+          "el/ea": "ar băga",
+          "noi": "am băga",
+          "voi": "ați băga",
+          "ei/ele": "ar băga"
+        },
+        "imperativ": {
+          "tu": "bagă",
+          "voi": "băgați"
+        }
+      }
+    },
+    {
+      "infinitive": "a suna",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to ring", "to sound"],
+      "conjugations": {
+        "prezent": {
+          "eu": "sun",
+          "tu": "suni",
+          "el/ea": "sună",
+          "noi": "sunăm",
+          "voi": "sunați",
+          "ei/ele": "sună"
+        },
+        "perfect_compus": {
+          "eu": "am sunat",
+          "tu": "ai sunat",
+          "el/ea": "a sunat",
+          "noi": "am sunat",
+          "voi": "ați sunat",
+          "ei/ele": "au sunat"
+        },
+        "viitor_literar": {
+          "eu": "voi suna",
+          "tu": "vei suna",
+          "el/ea": "va suna",
+          "noi": "vom suna",
+          "voi": "veți suna",
+          "ei/ele": "vor suna"
+        },
+        "viitor_familiar": {
+          "eu": "o să sun",
+          "tu": "o să suni",
+          "el/ea": "o să sune",
+          "noi": "o să sunăm",
+          "voi": "o să sunați",
+          "ei/ele": "o să sune"
+        },
+        "conjunctiv": {
+          "eu": "să sun",
+          "tu": "să suni",
+          "el/ea": "să sune",
+          "noi": "să sunăm",
+          "voi": "să sunați",
+          "ei/ele": "să sune"
+        },
+        "conditional": {
+          "eu": "aș suna",
+          "tu": "ai suna",
+          "el/ea": "ar suna",
+          "noi": "am suna",
+          "voi": "ați suna",
+          "ei/ele": "ar suna"
+        },
+        "imperativ": {
+          "tu": "sună",
+          "voi": "sunați"
+        }
+      }
+    },
+    {
+      "infinitive": "a speria",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to scare", "to frighten"],
+      "conjugations": {
+        "prezent": {
+          "eu": "sperii",
+          "tu": "sperii",
+          "el/ea": "sperie",
+          "noi": "speriem",
+          "voi": "speriați",
+          "ei/ele": "sperie"
+        },
+        "perfect_compus": {
+          "eu": "am speriat",
+          "tu": "ai speriat",
+          "el/ea": "a speriat",
+          "noi": "am speriat",
+          "voi": "ați speriat",
+          "ei/ele": "au speriat"
+        },
+        "viitor_literar": {
+          "eu": "voi speria",
+          "tu": "vei speria",
+          "el/ea": "va speria",
+          "noi": "vom speria",
+          "voi": "veți speria",
+          "ei/ele": "vor speria"
+        },
+        "viitor_familiar": {
+          "eu": "o să sperii",
+          "tu": "o să sperii",
+          "el/ea": "o să sperie",
+          "noi": "o să speriem",
+          "voi": "o să speriați",
+          "ei/ele": "o să sperie"
+        },
+        "conjunctiv": {
+          "eu": "să sperii",
+          "tu": "să sperii",
+          "el/ea": "să sperie",
+          "noi": "să speriem",
+          "voi": "să speriați",
+          "ei/ele": "să sperie"
+        },
+        "conditional": {
+          "eu": "aș speria",
+          "tu": "ai speria",
+          "el/ea": "ar speria",
+          "noi": "am speria",
+          "voi": "ați speria",
+          "ei/ele": "ar speria"
+        },
+        "imperativ": {
+          "tu": "sperie",
+          "voi": "speriați"
+        }
+      }
+    },
+    {
+      "infinitive": "a conta",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to count", "to matter"],
+      "conjugations": {
+        "prezent": {
+          "eu": "contez",
+          "tu": "contezi",
+          "el/ea": "contează",
+          "noi": "contăm",
+          "voi": "contați",
+          "ei/ele": "contează"
+        },
+        "perfect_compus": {
+          "eu": "am contat",
+          "tu": "ai contat",
+          "el/ea": "a contat",
+          "noi": "am contat",
+          "voi": "ați contat",
+          "ei/ele": "au contat"
+        },
+        "viitor_literar": {
+          "eu": "voi conta",
+          "tu": "vei conta",
+          "el/ea": "va conta",
+          "noi": "vom conta",
+          "voi": "veți conta",
+          "ei/ele": "vor conta"
+        },
+        "viitor_familiar": {
+          "eu": "o să contez",
+          "tu": "o să contezi",
+          "el/ea": "o să conteze",
+          "noi": "o să contăm",
+          "voi": "o să contați",
+          "ei/ele": "o să conteze"
+        },
+        "conjunctiv": {
+          "eu": "să contez",
+          "tu": "să contezi",
+          "el/ea": "să conteze",
+          "noi": "să contăm",
+          "voi": "să contați",
+          "ei/ele": "să conteze"
+        },
+        "conditional": {
+          "eu": "aș conta",
+          "tu": "ai conta",
+          "el/ea": "ar conta",
+          "noi": "am conta",
+          "voi": "ați conta",
+          "ei/ele": "ar conta"
+        },
+        "imperativ": {
+          "tu": "contează",
+          "voi": "contați"
+        }
+      }
+    },
+    {
+      "infinitive": "a număra",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 3,
+      "infinitive_translated": ["to count"],
+      "conjugations": {
+        "prezent": {
+          "eu": "număr",
+          "tu": "numeri",
+          "el/ea": "numără",
+          "noi": "numărăm",
+          "voi": "numărați",
+          "ei/ele": "numără"
+        },
+        "perfect_compus": {
+          "eu": "am numărat",
+          "tu": "ai numărat",
+          "el/ea": "a numărat",
+          "noi": "am numărat",
+          "voi": "ați numărat",
+          "ei/ele": "au numărat"
+        },
+        "viitor_literar": {
+          "eu": "voi număra",
+          "tu": "vei număra",
+          "el/ea": "va număra",
+          "noi": "vom număra",
+          "voi": "veți număra",
+          "ei/ele": "vor număra"
+        },
+        "viitor_familiar": {
+          "eu": "o să număr",
+          "tu": "o să numeri",
+          "el/ea": "o să numere",
+          "noi": "o să numărăm",
+          "voi": "o să numărați",
+          "ei/ele": "o să numere"
+        },
+        "conjunctiv": {
+          "eu": "să număr",
+          "tu": "să numeri",
+          "el/ea": "să numere",
+          "noi": "să numărăm",
+          "voi": "să numărați",
+          "ei/ele": "să numere"
+        },
+        "conditional": {
+          "eu": "aș număra",
+          "tu": "ai număra",
+          "el/ea": "ar număra",
+          "noi": "am număra",
+          "voi": "ați număra",
+          "ei/ele": "ar număra"
+        },
+        "imperativ": {
+          "tu": "numără",
+          "voi": "numărați"
+        }
+      }
+    },
+    {
+      "infinitive": "a explica",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to explain"],
+      "conjugations": {
+        "prezent": {
+          "eu": "explic",
+          "tu": "explici",
+          "el/ea": "explică",
+          "noi": "explicăm",
+          "voi": "explicați",
+          "ei/ele": "explică"
+        },
+        "perfect_compus": {
+          "eu": "am explicat",
+          "tu": "ai explicat",
+          "el/ea": "a explicat",
+          "noi": "am explicat",
+          "voi": "ați explicat",
+          "ei/ele": "au explicat"
+        },
+        "viitor_literar": {
+          "eu": "voi explica",
+          "tu": "vei explica",
+          "el/ea": "va explica",
+          "noi": "vom explica",
+          "voi": "veți explica",
+          "ei/ele": "vor explica"
+        },
+        "viitor_familiar": {
+          "eu": "o să explic",
+          "tu": "o să explici",
+          "el/ea": "o să explice",
+          "noi": "o să explicăm",
+          "voi": "o să explicați",
+          "ei/ele": "o să explice"
+        },
+        "conjunctiv": {
+          "eu": "să explic",
+          "tu": "să explici",
+          "el/ea": "să explice",
+          "noi": "să explicăm",
+          "voi": "să explicați",
+          "ei/ele": "să explice"
+        },
+        "conditional": {
+          "eu": "aș explica",
+          "tu": "ai explica",
+          "el/ea": "ar explica",
+          "noi": "am explica",
+          "voi": "ați explica",
+          "ei/ele": "ar explica"
+        },
+        "imperativ": {
+          "tu": "explică",
+          "voi": "explicați"
+        }
+      }
+    },
+    {
+      "infinitive": "a asculta",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to listen"],
+      "conjugations": {
+        "prezent": {
+          "eu": "ascult",
+          "tu": "asculți",
+          "el/ea": "ascultă",
+          "noi": "ascultăm",
+          "voi": "ascultați",
+          "ei/ele": "ascultă"
+        },
+        "perfect_compus": {
+          "eu": "am ascultat",
+          "tu": "ai ascultat",
+          "el/ea": "a ascultat",
+          "noi": "am ascultat",
+          "voi": "ați ascultat",
+          "ei/ele": "au ascultat"
+        },
+        "viitor_literar": {
+          "eu": "voi asculta",
+          "tu": "vei asculta",
+          "el/ea": "va asculta",
+          "noi": "vom asculta",
+          "voi": "veți asculta",
+          "ei/ele": "vor asculta"
+        },
+        "viitor_familiar": {
+          "eu": "o să ascult",
+          "tu": "o să asculți",
+          "el/ea": "o să asculte",
+          "noi": "o să ascultăm",
+          "voi": "o să ascultați",
+          "ei/ele": "o să asculte"
+        },
+        "conjunctiv": {
+          "eu": "să ascult",
+          "tu": "să asculți",
+          "el/ea": "să asculte",
+          "noi": "să ascultăm",
+          "voi": "să ascultați",
+          "ei/ele": "să asculte"
+        },
+        "conditional": {
+          "eu": "aș asculta",
+          "tu": "ai asculta",
+          "el/ea": "ar asculta",
+          "noi": "am asculta",
+          "voi": "ați asculta",
+          "ei/ele": "ar asculta"
+        },
+        "imperativ": {
+          "tu": "ascultă",
+          "voi": "ascultați"
+        }
+      }
+    },
+    {
+      "infinitive": "a se apleca",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 3,
+      "infinitive_translated": ["to lean", "to bend over"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă aplec",
+          "tu": "te apleci",
+          "el/ea": "se apleacă",
+          "noi": "ne aplecăm",
+          "voi": "vă aplecați",
+          "ei/ele": "se apleacă"
+        },
+        "perfect_compus": {
+          "eu": "m-am aplecat",
+          "tu": "te-ai aplecat",
+          "el/ea": "s-a aplecat",
+          "noi": "ne-am aplecat",
+          "voi": "v-ați aplecat",
+          "ei/ele": "s-au aplecat"
+        },
+        "viitor_literar": {
+          "eu": "mă voi apleca",
+          "tu": "te vei apleca",
+          "el/ea": "se va apleca",
+          "noi": "ne vom apleca",
+          "voi": "vă veți apleca",
+          "ei/ele": "se vor apleca"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă aplec",
+          "tu": "o să te apleci",
+          "el/ea": "o să se aplece",
+          "noi": "o să ne aplecăm",
+          "voi": "o să vă aplecați",
+          "ei/ele": "o să se aplece"
+        },
+        "conjunctiv": {
+          "eu": "să mă aplec",
+          "tu": "să te apleci",
+          "el/ea": "să se aplece",
+          "noi": "să ne aplecăm",
+          "voi": "să vă aplecați",
+          "ei/ele": "să se aplece"
+        },
+        "conditional": {
+          "eu": "m-aș apleca",
+          "tu": "te-ai apleca",
+          "el/ea": "s-ar apleca",
+          "noi": "ne-am apleca",
+          "voi": "v-ați apleca",
+          "ei/ele": "s-ar apleca"
+        },
+        "imperativ": {
+          "tu": "apleacă-te",
+          "voi": "aplecați-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a ajuta",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to help"],
+      "conjugations": {
+        "prezent": {
+          "eu": "ajut",
+          "tu": "ajuți",
+          "el/ea": "ajută",
+          "noi": "ajutăm",
+          "voi": "ajutați",
+          "ei/ele": "ajută"
+        },
+        "perfect_compus": {
+          "eu": "am ajutat",
+          "tu": "ai ajutat",
+          "el/ea": "a ajutat",
+          "noi": "am ajutat",
+          "voi": "ați ajutat",
+          "ei/ele": "au ajutat"
+        },
+        "viitor_literar": {
+          "eu": "voi ajuta",
+          "tu": "vei ajuta",
+          "el/ea": "va ajuta",
+          "noi": "vom ajuta",
+          "voi": "veți ajuta",
+          "ei/ele": "vor ajuta"
+        },
+        "viitor_familiar": {
+          "eu": "o să ajut",
+          "tu": "o să ajuți",
+          "el/ea": "o să ajute",
+          "noi": "o să ajutăm",
+          "voi": "o să ajutați",
+          "ei/ele": "o să ajute"
+        },
+        "conjunctiv": {
+          "eu": "să ajut",
+          "tu": "să ajuți",
+          "el/ea": "să ajute",
+          "noi": "să ajutăm",
+          "voi": "să ajutați",
+          "ei/ele": "să ajute"
+        },
+        "conditional": {
+          "eu": "aș ajuta",
+          "tu": "ai ajuta",
+          "el/ea": "ar ajuta",
+          "noi": "am ajuta",
+          "voi": "ați ajuta",
+          "ei/ele": "ar ajuta"
+        },
+        "imperativ": {
+          "tu": "ajută",
+          "voi": "ajutați"
+        }
+      }
+    },
+    {
+      "infinitive": "a tremura",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 2,
+      "infinitive_translated": ["to tremble", "to shake"],
+      "conjugations": {
+        "prezent": {
+          "eu": "tremur",
+          "tu": "tremuri",
+          "el/ea": "tremură",
+          "noi": "tremurăm",
+          "voi": "tremurați",
+          "ei/ele": "tremură"
+        },
+        "perfect_compus": {
+          "eu": "am tremurat",
+          "tu": "ai tremurat",
+          "el/ea": "a tremurat",
+          "noi": "am tremurat",
+          "voi": "ați tremurat",
+          "ei/ele": "au tremurat"
+        },
+        "viitor_literar": {
+          "eu": "voi tremura",
+          "tu": "vei tremura",
+          "el/ea": "va tremura",
+          "noi": "vom tremura",
+          "voi": "veți tremura",
+          "ei/ele": "vor tremura"
+        },
+        "viitor_familiar": {
+          "eu": "o să tremur",
+          "tu": "o să tremuri",
+          "el/ea": "o să tremure",
+          "noi": "o să tremurăm",
+          "voi": "o să tremurați",
+          "ei/ele": "o să tremure"
+        },
+        "conjunctiv": {
+          "eu": "să tremur",
+          "tu": "să tremuri",
+          "el/ea": "să tremure",
+          "noi": "să tremurăm",
+          "voi": "să tremurați",
+          "ei/ele": "să tremure"
+        },
+        "conditional": {
+          "eu": "aș tremura",
+          "tu": "ai tremura",
+          "el/ea": "ar tremura",
+          "noi": "am tremura",
+          "voi": "ați tremura",
+          "ei/ele": "ar tremura"
+        },
+        "imperativ": {
+          "tu": "tremură",
+          "voi": "tremurați"
+        }
+      }
+    },
+    {
+      "infinitive": "a tricota",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to knit"],
+      "conjugations": {
+        "prezent": {
+          "eu": "tricotez",
+          "tu": "tricotezi",
+          "el/ea": "tricotează",
+          "noi": "tricotăm",
+          "voi": "tricotați",
+          "ei/ele": "tricotează"
+        },
+        "perfect_compus": {
+          "eu": "am tricotat",
+          "tu": "ai tricotat",
+          "el/ea": "a tricotat",
+          "noi": "am tricotat",
+          "voi": "ați tricotat",
+          "ei/ele": "au tricotat"
+        },
+        "viitor_literar": {
+          "eu": "voi tricota",
+          "tu": "vei tricota",
+          "el/ea": "va tricota",
+          "noi": "vom tricota",
+          "voi": "veți tricota",
+          "ei/ele": "vor tricota"
+        },
+        "viitor_familiar": {
+          "eu": "o să tricotez",
+          "tu": "o să tricotezi",
+          "el/ea": "o să tricoteze",
+          "noi": "o să tricotăm",
+          "voi": "o să tricotați",
+          "ei/ele": "o să tricoteze"
+        },
+        "conjunctiv": {
+          "eu": "să tricotez",
+          "tu": "să tricotezi",
+          "el/ea": "să tricoteze",
+          "noi": "să tricotăm",
+          "voi": "să tricotați",
+          "ei/ele": "să tricoteze"
+        },
+        "conditional": {
+          "eu": "aș tricota",
+          "tu": "ai tricota",
+          "el/ea": "ar tricota",
+          "noi": "am tricota",
+          "voi": "ați tricota",
+          "ei/ele": "ar tricota"
+        },
+        "imperativ": {
+          "tu": "tricotează",
+          "voi": "tricotați"
+        }
+      }
+    },
+    {
+      "infinitive": "a urma",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to follow"],
+      "conjugations": {
+        "prezent": {
+          "eu": "urmez",
+          "tu": "urmezi",
+          "el/ea": "urmează",
+          "noi": "urmăm",
+          "voi": "urmați",
+          "ei/ele": "urmează"
+        },
+        "perfect_compus": {
+          "eu": "am urmat",
+          "tu": "ai urmat",
+          "el/ea": "a urmat",
+          "noi": "am urmat",
+          "voi": "ați urmat",
+          "ei/ele": "au urmat"
+        },
+        "viitor_literar": {
+          "eu": "voi urma",
+          "tu": "vei urma",
+          "el/ea": "va urma",
+          "noi": "vom urma",
+          "voi": "veți urma",
+          "ei/ele": "vor urma"
+        },
+        "viitor_familiar": {
+          "eu": "o să urmez",
+          "tu": "o să urmezi",
+          "el/ea": "o să urmeze",
+          "noi": "o să urmăm",
+          "voi": "o să urmați",
+          "ei/ele": "o să urmeze"
+        },
+        "conjunctiv": {
+          "eu": "să urmez",
+          "tu": "să urmezi",
+          "el/ea": "să urmeze",
+          "noi": "să urmăm",
+          "voi": "să urmați",
+          "ei/ele": "să urmeze"
+        },
+        "conditional": {
+          "eu": "aș urma",
+          "tu": "ai urma",
+          "el/ea": "ar urma",
+          "noi": "am urma",
+          "voi": "ați urma",
+          "ei/ele": "ar urma"
+        },
+        "imperativ": {
+          "tu": "urmează",
+          "voi": "urmați"
+        }
+      }
     }
   ]
 }
