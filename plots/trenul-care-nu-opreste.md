@@ -3,8 +3,8 @@ book_id: 4e8b43b0-25a2-44bb-ad5f-20199e9c075b
 title: "Trenul care nu oprește"
 language: ro
 level: intermediate (A2-B1), simplified from Ch. 4 onward (see Language Note)
-status: ongoing
-chapters_written: 24
+status: complete
+chapters_written: 25
 chapters_planned: 25
 plot_status: complete
 content_path: public/book-contents/4e8b43b0-25a2-44bb-ad5f-20199e9c075b/
