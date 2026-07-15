@@ -95,3 +95,19 @@ keep every chapter internally consistent with the ones before it.
 7. **Report back** which chapter was written and what naturally comes
    next, but stop there — wait for the user before writing further
    chapters.
+
+## Checking Vocabulary Coverage
+
+To see which words in a book aren't yet covered by `words.json` or the verb
+group files, use the repo's `find-missing-words.js` (run from the repo
+root):
+
+```bash
+node find-missing-words.js              # scans every book
+node find-missing-words.js <book-id>    # scans just one book
+```
+
+It writes results to `missing.json` (gitignored, not committed). Note that
+Romanian's inflected forms (definite articles, plurals, cases) mean many
+"missing" entries are just different forms of words already covered —
+review the list rather than adding everything verbatim.
