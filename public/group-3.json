@@ -1872,7 +1872,7 @@
       "infinitive": "a atinge",
       "type": "regular",
       "group": 3,
-      "subgroup": 2,
+      "subgroup": 1,
       "infinitive_translated": ["to touch"],
       "conjugations": {
         "prezent": {
@@ -1994,7 +1994,7 @@
       "infinitive": "a stinge",
       "type": "regular",
       "group": 3,
-      "subgroup": 2,
+      "subgroup": 1,
       "infinitive_translated": ["to extinguish", "to turn off"],
       "conjugations": {
         "prezent": {
@@ -2114,9 +2114,9 @@
     },
     {
       "infinitive": "a trece",
-      "type": "irregular",
+      "type": "regular",
       "group": 3,
-      "subgroup": 99,
+      "subgroup": 1,
       "infinitive_translated": ["to pass"],
       "conjugations": {
         "prezent": {
@@ -2175,9 +2175,9 @@
     },
     {
       "infinitive": "a bate",
-      "type": "irregular",
+      "type": "regular",
       "group": 3,
-      "subgroup": 99,
+      "subgroup": 1,
       "infinitive_translated": ["to beat", "to knock"],
       "conjugations": {
         "prezent": {
@@ -2238,7 +2238,7 @@
       "infinitive": "a strânge",
       "type": "regular",
       "group": 3,
-      "subgroup": 2,
+      "subgroup": 1,
       "infinitive_translated": ["to gather", "to tighten"],
       "conjugations": {
         "prezent": {
@@ -2421,7 +2421,7 @@
       "infinitive": "a sparge",
       "type": "regular",
       "group": 3,
-      "subgroup": 2,
+      "subgroup": 1,
       "infinitive_translated": ["to break"],
       "conjugations": {
         "prezent": {
