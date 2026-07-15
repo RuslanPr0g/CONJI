@@ -654,5 +654,14 @@
   { "value": "voce", "translations": ["voice"] },
   { "value": "vreodată", "translations": ["ever"] },
   { "value": "înainte", "translations": ["before"] },
-  { "value": "înapoi", "translations": ["back", "backwards"] }
+  { "value": "înapoi", "translations": ["back", "backwards"] },
+  { "value": "al", "translations": ["of the (genitive article)"] },
+  { "value": "ar", "translations": ["would (conditional auxiliary)"] },
+  { "value": "aș", "translations": ["I would (conditional auxiliary)"] },
+  { "value": "ca", "translations": ["as", "like"] },
+  { "value": "e", "translations": ["is (colloquial for 'este')"] },
+  { "value": "va", "translations": ["will (future auxiliary)"] },
+  { "value": "ori", "translations": ["or", "times (multiplication)"] },
+  { "value": "pur", "translations": ["pure", "purely", "simply"] },
+  { "value": "alb-negru", "translations": ["black and white"] }
 ]

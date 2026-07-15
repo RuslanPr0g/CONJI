@@ -2137,6 +2137,738 @@
           "voi": "știți"
         }
       }
+    },
+    {
+      "infinitive": "a clipi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to blink"],
+      "conjugations": {
+        "prezent": {
+          "eu": "clipesc",
+          "tu": "clipești",
+          "el/ea": "clipește",
+          "noi": "clipim",
+          "voi": "clipiți",
+          "ei/ele": "clipesc"
+        },
+        "perfect_compus": {
+          "eu": "am clipit",
+          "tu": "ai clipit",
+          "el/ea": "a clipit",
+          "noi": "am clipit",
+          "voi": "ați clipit",
+          "ei/ele": "au clipit"
+        },
+        "viitor_literar": {
+          "eu": "voi clipi",
+          "tu": "vei clipi",
+          "el/ea": "va clipi",
+          "noi": "vom clipi",
+          "voi": "veți clipi",
+          "ei/ele": "vor clipi"
+        },
+        "viitor_familiar": {
+          "eu": "o să clipesc",
+          "tu": "o să clipești",
+          "el/ea": "o să clipească",
+          "noi": "o să clipim",
+          "voi": "o să clipiți",
+          "ei/ele": "o să clipească"
+        },
+        "conjunctiv": {
+          "eu": "să clipesc",
+          "tu": "să clipești",
+          "el/ea": "să clipească",
+          "noi": "să clipim",
+          "voi": "să clipiți",
+          "ei/ele": "să clipească"
+        },
+        "conditional": {
+          "eu": "aș clipi",
+          "tu": "ai clipi",
+          "el/ea": "ar clipi",
+          "noi": "am clipi",
+          "voi": "ați clipi",
+          "ei/ele": "ar clipi"
+        },
+        "imperativ": {
+          "tu": "clipește",
+          "voi": "clipiți"
+        }
+      }
+    },
+    {
+      "infinitive": "a se căsători",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to marry", "to get married"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă căsătoresc",
+          "tu": "te căsătorești",
+          "el/ea": "se căsătorește",
+          "noi": "ne căsătorim",
+          "voi": "vă căsătoriți",
+          "ei/ele": "se căsătoresc"
+        },
+        "perfect_compus": {
+          "eu": "m-am căsătorit",
+          "tu": "te-ai căsătorit",
+          "el/ea": "s-a căsătorit",
+          "noi": "ne-am căsătorit",
+          "voi": "v-ați căsătorit",
+          "ei/ele": "s-au căsătorit"
+        },
+        "viitor_literar": {
+          "eu": "mă voi căsători",
+          "tu": "te vei căsători",
+          "el/ea": "se va căsători",
+          "noi": "ne vom căsători",
+          "voi": "vă veți căsători",
+          "ei/ele": "se vor căsători"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă căsătoresc",
+          "tu": "o să te căsătorești",
+          "el/ea": "o să se căsătorească",
+          "noi": "o să ne căsătorim",
+          "voi": "o să vă căsătoriți",
+          "ei/ele": "o să se căsătorească"
+        },
+        "conjunctiv": {
+          "eu": "să mă căsătoresc",
+          "tu": "să te căsătorești",
+          "el/ea": "să se căsătorească",
+          "noi": "să ne căsătorim",
+          "voi": "să vă căsătoriți",
+          "ei/ele": "să se căsătorească"
+        },
+        "conditional": {
+          "eu": "m-aș căsători",
+          "tu": "te-ai căsători",
+          "el/ea": "s-ar căsători",
+          "noi": "ne-am căsători",
+          "voi": "v-ați căsători",
+          "ei/ele": "s-ar căsători"
+        },
+        "imperativ": {
+          "tu": "căsătorește-te",
+          "voi": "căsătoriți-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a slăbi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to weaken", "to dim"],
+      "conjugations": {
+        "prezent": {
+          "eu": "slăbesc",
+          "tu": "slăbești",
+          "el/ea": "slăbește",
+          "noi": "slăbim",
+          "voi": "slăbiți",
+          "ei/ele": "slăbesc"
+        },
+        "perfect_compus": {
+          "eu": "am slăbit",
+          "tu": "ai slăbit",
+          "el/ea": "a slăbit",
+          "noi": "am slăbit",
+          "voi": "ați slăbit",
+          "ei/ele": "au slăbit"
+        },
+        "viitor_literar": {
+          "eu": "voi slăbi",
+          "tu": "vei slăbi",
+          "el/ea": "va slăbi",
+          "noi": "vom slăbi",
+          "voi": "veți slăbi",
+          "ei/ele": "vor slăbi"
+        },
+        "viitor_familiar": {
+          "eu": "o să slăbesc",
+          "tu": "o să slăbești",
+          "el/ea": "o să slăbească",
+          "noi": "o să slăbim",
+          "voi": "o să slăbiți",
+          "ei/ele": "o să slăbească"
+        },
+        "conjunctiv": {
+          "eu": "să slăbesc",
+          "tu": "să slăbești",
+          "el/ea": "să slăbească",
+          "noi": "să slăbim",
+          "voi": "să slăbiți",
+          "ei/ele": "să slăbească"
+        },
+        "conditional": {
+          "eu": "aș slăbi",
+          "tu": "ai slăbi",
+          "el/ea": "ar slăbi",
+          "noi": "am slăbi",
+          "voi": "ați slăbi",
+          "ei/ele": "ar slăbi"
+        },
+        "imperativ": {
+          "tu": "slăbește",
+          "voi": "slăbiți"
+        }
+      }
+    },
+    {
+      "infinitive": "a se potrivi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to fit", "to match"],
+      "conjugations": {
+        "prezent": {
+          "eu": "mă potrivesc",
+          "tu": "te potrivești",
+          "el/ea": "se potrivește",
+          "noi": "ne potrivim",
+          "voi": "vă potriviți",
+          "ei/ele": "se potrivesc"
+        },
+        "perfect_compus": {
+          "eu": "m-am potrivit",
+          "tu": "te-ai potrivit",
+          "el/ea": "s-a potrivit",
+          "noi": "ne-am potrivit",
+          "voi": "v-ați potrivit",
+          "ei/ele": "s-au potrivit"
+        },
+        "viitor_literar": {
+          "eu": "mă voi potrivi",
+          "tu": "te vei potrivi",
+          "el/ea": "se va potrivi",
+          "noi": "ne vom potrivi",
+          "voi": "vă veți potrivi",
+          "ei/ele": "se vor potrivi"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă potrivesc",
+          "tu": "o să te potrivești",
+          "el/ea": "o să se potrivească",
+          "noi": "o să ne potrivim",
+          "voi": "o să vă potriviți",
+          "ei/ele": "o să se potrivească"
+        },
+        "conjunctiv": {
+          "eu": "să mă potrivesc",
+          "tu": "să te potrivești",
+          "el/ea": "să se potrivească",
+          "noi": "să ne potrivim",
+          "voi": "să vă potriviți",
+          "ei/ele": "să se potrivească"
+        },
+        "conditional": {
+          "eu": "m-aș potrivi",
+          "tu": "te-ai potrivi",
+          "el/ea": "s-ar potrivi",
+          "noi": "ne-am potrivi",
+          "voi": "v-ați potrivi",
+          "ei/ele": "s-ar potrivi"
+        },
+        "imperativ": {
+          "tu": "potrivește-te",
+          "voi": "potriviți-vă"
+        }
+      }
+    },
+    {
+      "infinitive": "a porni",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to start", "to set off"],
+      "conjugations": {
+        "prezent": {
+          "eu": "pornesc",
+          "tu": "pornești",
+          "el/ea": "pornește",
+          "noi": "pornim",
+          "voi": "porniți",
+          "ei/ele": "pornesc"
+        },
+        "perfect_compus": {
+          "eu": "am pornit",
+          "tu": "ai pornit",
+          "el/ea": "a pornit",
+          "noi": "am pornit",
+          "voi": "ați pornit",
+          "ei/ele": "au pornit"
+        },
+        "viitor_literar": {
+          "eu": "voi porni",
+          "tu": "vei porni",
+          "el/ea": "va porni",
+          "noi": "vom porni",
+          "voi": "veți porni",
+          "ei/ele": "vor porni"
+        },
+        "viitor_familiar": {
+          "eu": "o să pornesc",
+          "tu": "o să pornești",
+          "el/ea": "o să pornească",
+          "noi": "o să pornim",
+          "voi": "o să porniți",
+          "ei/ele": "o să pornească"
+        },
+        "conjunctiv": {
+          "eu": "să pornesc",
+          "tu": "să pornești",
+          "el/ea": "să pornească",
+          "noi": "să pornim",
+          "voi": "să porniți",
+          "ei/ele": "să pornească"
+        },
+        "conditional": {
+          "eu": "aș porni",
+          "tu": "ai porni",
+          "el/ea": "ar porni",
+          "noi": "am porni",
+          "voi": "ați porni",
+          "ei/ele": "ar porni"
+        },
+        "imperativ": {
+          "tu": "pornește",
+          "voi": "porniți"
+        }
+      }
+    },
+    {
+      "infinitive": "a urmări",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to watch", "to follow"],
+      "conjugations": {
+        "prezent": {
+          "eu": "urmăresc",
+          "tu": "urmărești",
+          "el/ea": "urmărește",
+          "noi": "urmărim",
+          "voi": "urmăriți",
+          "ei/ele": "urmăresc"
+        },
+        "perfect_compus": {
+          "eu": "am urmărit",
+          "tu": "ai urmărit",
+          "el/ea": "a urmărit",
+          "noi": "am urmărit",
+          "voi": "ați urmărit",
+          "ei/ele": "au urmărit"
+        },
+        "viitor_literar": {
+          "eu": "voi urmări",
+          "tu": "vei urmări",
+          "el/ea": "va urmări",
+          "noi": "vom urmări",
+          "voi": "veți urmări",
+          "ei/ele": "vor urmări"
+        },
+        "viitor_familiar": {
+          "eu": "o să urmăresc",
+          "tu": "o să urmărești",
+          "el/ea": "o să urmărească",
+          "noi": "o să urmărim",
+          "voi": "o să urmăriți",
+          "ei/ele": "o să urmărească"
+        },
+        "conjunctiv": {
+          "eu": "să urmăresc",
+          "tu": "să urmărești",
+          "el/ea": "să urmărească",
+          "noi": "să urmărim",
+          "voi": "să urmăriți",
+          "ei/ele": "să urmărească"
+        },
+        "conditional": {
+          "eu": "aș urmări",
+          "tu": "ai urmări",
+          "el/ea": "ar urmări",
+          "noi": "am urmări",
+          "voi": "ați urmări",
+          "ei/ele": "ar urmări"
+        },
+        "imperativ": {
+          "tu": "urmărește",
+          "voi": "urmăriți"
+        }
+      }
+    },
+    {
+      "infinitive": "a deveni",
+      "type": "irregular",
+      "group": 4,
+      "subgroup": 2,
+      "infinitive_translated": ["to become"],
+      "conjugations": {
+        "prezent": {
+          "eu": "devin",
+          "tu": "devii",
+          "el/ea": "devine",
+          "noi": "devenim",
+          "voi": "deveniți",
+          "ei/ele": "devin"
+        },
+        "perfect_compus": {
+          "eu": "am devenit",
+          "tu": "ai devenit",
+          "el/ea": "a devenit",
+          "noi": "am devenit",
+          "voi": "ați devenit",
+          "ei/ele": "au devenit"
+        },
+        "viitor_literar": {
+          "eu": "voi deveni",
+          "tu": "vei deveni",
+          "el/ea": "va deveni",
+          "noi": "vom deveni",
+          "voi": "veți deveni",
+          "ei/ele": "vor deveni"
+        },
+        "viitor_familiar": {
+          "eu": "o să devin",
+          "tu": "o să devii",
+          "el/ea": "o să devină",
+          "noi": "o să devenim",
+          "voi": "o să deveniți",
+          "ei/ele": "o să devină"
+        },
+        "conjunctiv": {
+          "eu": "să devin",
+          "tu": "să devii",
+          "el/ea": "să devină",
+          "noi": "să devenim",
+          "voi": "să deveniți",
+          "ei/ele": "să devină"
+        },
+        "conditional": {
+          "eu": "aș deveni",
+          "tu": "ai deveni",
+          "el/ea": "ar deveni",
+          "noi": "am deveni",
+          "voi": "ați deveni",
+          "ei/ele": "ar deveni"
+        },
+        "imperativ": {
+          "tu": "devino",
+          "voi": "deveniți"
+        }
+      }
+    },
+    {
+      "infinitive": "a opri",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to stop"],
+      "conjugations": {
+        "prezent": {
+          "eu": "opresc",
+          "tu": "oprești",
+          "el/ea": "oprește",
+          "noi": "oprim",
+          "voi": "opriți",
+          "ei/ele": "opresc"
+        },
+        "perfect_compus": {
+          "eu": "am oprit",
+          "tu": "ai oprit",
+          "el/ea": "a oprit",
+          "noi": "am oprit",
+          "voi": "ați oprit",
+          "ei/ele": "au oprit"
+        },
+        "viitor_literar": {
+          "eu": "voi opri",
+          "tu": "vei opri",
+          "el/ea": "va opri",
+          "noi": "vom opri",
+          "voi": "veți opri",
+          "ei/ele": "vor opri"
+        },
+        "viitor_familiar": {
+          "eu": "o să opresc",
+          "tu": "o să oprești",
+          "el/ea": "o să oprească",
+          "noi": "o să oprim",
+          "voi": "o să opriți",
+          "ei/ele": "o să oprească"
+        },
+        "conjunctiv": {
+          "eu": "să opresc",
+          "tu": "să oprești",
+          "el/ea": "să oprească",
+          "noi": "să oprim",
+          "voi": "să opriți",
+          "ei/ele": "să oprească"
+        },
+        "conditional": {
+          "eu": "aș opri",
+          "tu": "ai opri",
+          "el/ea": "ar opri",
+          "noi": "am opri",
+          "voi": "ați opri",
+          "ei/ele": "ar opri"
+        },
+        "imperativ": {
+          "tu": "oprește",
+          "voi": "opriți"
+        }
+      }
+    },
+    {
+      "infinitive": "a mirosi",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 2,
+      "infinitive_translated": ["to smell"],
+      "conjugations": {
+        "prezent": {
+          "eu": "miros",
+          "tu": "miroși",
+          "el/ea": "miroase",
+          "noi": "mirosim",
+          "voi": "mirosiți",
+          "ei/ele": "miros"
+        },
+        "perfect_compus": {
+          "eu": "am mirosit",
+          "tu": "ai mirosit",
+          "el/ea": "a mirosit",
+          "noi": "am mirosit",
+          "voi": "ați mirosit",
+          "ei/ele": "au mirosit"
+        },
+        "viitor_literar": {
+          "eu": "voi mirosi",
+          "tu": "vei mirosi",
+          "el/ea": "va mirosi",
+          "noi": "vom mirosi",
+          "voi": "veți mirosi",
+          "ei/ele": "vor mirosi"
+        },
+        "viitor_familiar": {
+          "eu": "o să miros",
+          "tu": "o să miroși",
+          "el/ea": "o să miroasă",
+          "noi": "o să mirosim",
+          "voi": "o să mirosiți",
+          "ei/ele": "o să miroasă"
+        },
+        "conjunctiv": {
+          "eu": "să miros",
+          "tu": "să miroși",
+          "el/ea": "să miroasă",
+          "noi": "să mirosim",
+          "voi": "să mirosiți",
+          "ei/ele": "să miroasă"
+        },
+        "conditional": {
+          "eu": "aș mirosi",
+          "tu": "ai mirosi",
+          "el/ea": "ar mirosi",
+          "noi": "am mirosi",
+          "voi": "ați mirosi",
+          "ei/ele": "ar mirosi"
+        },
+        "imperativ": {
+          "tu": "miroase",
+          "voi": "mirosiți"
+        }
+      }
+    },
+    {
+      "infinitive": "a pluti",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to float"],
+      "conjugations": {
+        "prezent": {
+          "eu": "plutesc",
+          "tu": "plutești",
+          "el/ea": "plutește",
+          "noi": "plutim",
+          "voi": "plutiți",
+          "ei/ele": "plutesc"
+        },
+        "perfect_compus": {
+          "eu": "am plutit",
+          "tu": "ai plutit",
+          "el/ea": "a plutit",
+          "noi": "am plutit",
+          "voi": "ați plutit",
+          "ei/ele": "au plutit"
+        },
+        "viitor_literar": {
+          "eu": "voi pluti",
+          "tu": "vei pluti",
+          "el/ea": "va pluti",
+          "noi": "vom pluti",
+          "voi": "veți pluti",
+          "ei/ele": "vor pluti"
+        },
+        "viitor_familiar": {
+          "eu": "o să plutesc",
+          "tu": "o să plutești",
+          "el/ea": "o să plutească",
+          "noi": "o să plutim",
+          "voi": "o să plutiți",
+          "ei/ele": "o să plutească"
+        },
+        "conjunctiv": {
+          "eu": "să plutesc",
+          "tu": "să plutești",
+          "el/ea": "să plutească",
+          "noi": "să plutim",
+          "voi": "să plutiți",
+          "ei/ele": "să plutească"
+        },
+        "conditional": {
+          "eu": "aș pluti",
+          "tu": "ai pluti",
+          "el/ea": "ar pluti",
+          "noi": "am pluti",
+          "voi": "ați pluti",
+          "ei/ele": "ar pluti"
+        },
+        "imperativ": {
+          "tu": "plutește",
+          "voi": "plutiți"
+        }
+      }
+    },
+    {
+      "infinitive": "a simți",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 2,
+      "infinitive_translated": ["to feel"],
+      "conjugations": {
+        "prezent": {
+          "eu": "simt",
+          "tu": "simți",
+          "el/ea": "simte",
+          "noi": "simțim",
+          "voi": "simțiți",
+          "ei/ele": "simt"
+        },
+        "perfect_compus": {
+          "eu": "am simțit",
+          "tu": "ai simțit",
+          "el/ea": "a simțit",
+          "noi": "am simțit",
+          "voi": "ați simțit",
+          "ei/ele": "au simțit"
+        },
+        "viitor_literar": {
+          "eu": "voi simți",
+          "tu": "vei simți",
+          "el/ea": "va simți",
+          "noi": "vom simți",
+          "voi": "veți simți",
+          "ei/ele": "vor simți"
+        },
+        "viitor_familiar": {
+          "eu": "o să simt",
+          "tu": "o să simți",
+          "el/ea": "o să simtă",
+          "noi": "o să simțim",
+          "voi": "o să simțiți",
+          "ei/ele": "o să simtă"
+        },
+        "conjunctiv": {
+          "eu": "să simt",
+          "tu": "să simți",
+          "el/ea": "să simtă",
+          "noi": "să simțim",
+          "voi": "să simțiți",
+          "ei/ele": "să simtă"
+        },
+        "conditional": {
+          "eu": "aș simți",
+          "tu": "ai simți",
+          "el/ea": "ar simți",
+          "noi": "am simți",
+          "voi": "ați simți",
+          "ei/ele": "ar simți"
+        },
+        "imperativ": {
+          "tu": "simte",
+          "voi": "simțiți"
+        }
+      }
+    },
+    {
+      "infinitive": "a trebui",
+      "type": "irregular",
+      "group": 4,
+      "subgroup": 99,
+      "infinitive_translated": ["to have to", "to need to (impersonal)"],
+      "conjugations": {
+        "prezent": {
+          "eu": "trebuie",
+          "tu": "trebuie",
+          "el/ea": "trebuie",
+          "noi": "trebuie",
+          "voi": "trebuie",
+          "ei/ele": "trebuie"
+        },
+        "perfect_compus": {
+          "eu": "a trebuit",
+          "tu": "a trebuit",
+          "el/ea": "a trebuit",
+          "noi": "a trebuit",
+          "voi": "a trebuit",
+          "ei/ele": "a trebuit"
+        },
+        "viitor_literar": {
+          "eu": "va trebui",
+          "tu": "va trebui",
+          "el/ea": "va trebui",
+          "noi": "va trebui",
+          "voi": "va trebui",
+          "ei/ele": "va trebui"
+        },
+        "viitor_familiar": {
+          "eu": "o să trebuiască",
+          "tu": "o să trebuiască",
+          "el/ea": "o să trebuiască",
+          "noi": "o să trebuiască",
+          "voi": "o să trebuiască",
+          "ei/ele": "o să trebuiască"
+        },
+        "conjunctiv": {
+          "eu": "să trebuiască",
+          "tu": "să trebuiască",
+          "el/ea": "să trebuiască",
+          "noi": "să trebuiască",
+          "voi": "să trebuiască",
+          "ei/ele": "să trebuiască"
+        },
+        "conditional": {
+          "eu": "ar trebui",
+          "tu": "ar trebui",
+          "el/ea": "ar trebui",
+          "noi": "ar trebui",
+          "voi": "ar trebui",
+          "ei/ele": "ar trebui"
+        },
+        "imperativ": {
+          "tu": "-",
+          "voi": "-"
+        }
+      }
     }
   ]
 }
