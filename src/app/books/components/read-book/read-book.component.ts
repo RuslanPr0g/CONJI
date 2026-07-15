@@ -109,6 +109,64 @@ export class ReadBookComponent implements OnInit {
     }
   }
 
+  onWordTap(event: MouseEvent) {
+    const target = event.target as HTMLElement;
+    if (!target.classList.contains('tap-word')) {
+      return;
+    }
+
+    const word = target.textContent?.trim();
+    if (!word) {
+      return;
+    }
+
+    const translated = this.translator.translateText(word);
+    if (translated !== word) {
+      this.selection = word;
+      this.translation = translated;
+    } else {
+      this.selection = undefined;
+      this.translation = undefined;
+    }
+  }
+
+  private wrapWordsInSpans(html: string): string {
+    const container = document.createElement('div');
+    container.innerHTML = html;
+
+    const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+    const textNodes: Text[] = [];
+    let node: Node | null;
+    while ((node = walker.nextNode())) {
+      textNodes.push(node as Text);
+    }
+
+    for (const textNode of textNodes) {
+      const parent = textNode.parentNode;
+      if (!parent || !textNode.textContent) {
+        continue;
+      }
+
+      const fragment = document.createDocumentFragment();
+      const parts = textNode.textContent.split(/(\s+)/);
+
+      for (const part of parts) {
+        if (part === '' || /^\s+$/.test(part)) {
+          fragment.appendChild(document.createTextNode(part));
+        } else {
+          const span = document.createElement('span');
+          span.className = 'tap-word';
+          span.textContent = part;
+          fragment.appendChild(span);
+        }
+      }
+
+      parent.replaceChild(fragment, textNode);
+    }
+
+    return container.innerHTML;
+  }
+
   private getStorageKey(): string {
     return `book-${this.book?.id}-last-read`;
   }
@@ -137,7 +195,7 @@ export class ReadBookComponent implements OnInit {
     this.loading = true;
     this.loadService.loadBookPage(this.book, pageNumber).subscribe({
       next: (content: string) => {
-        this.pageContent = content;
+        this.pageContent = this.wrapWordsInSpans(content);
         this.currentPage = pageNumber;
         this.loading = false;
 

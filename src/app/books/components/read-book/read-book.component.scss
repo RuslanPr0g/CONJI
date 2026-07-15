@@ -29,6 +29,12 @@
   overflow-y: auto;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
   color: #e8e8e8;
+
+  ::ng-deep .tap-word {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
 }
 
 .page-navigation {

@@ -1,6 +1,7 @@
 <div class="reader-container" *ngIf="book; else errorTpl">
   <h3 class="book-title">{{ book.title }}</h3>
 
+  <!-- eslint-disable-next-line @angular-eslint/template/click-events-have-key-events, @angular-eslint/template/interactive-supports-focus -->
   <div
     class="page-content"
     *ngIf="!loading; else loadingTpl"
@@ -8,6 +9,7 @@
     (touchstart)="onTouchStart($event)"
     (touchend)="onTouchEnd($event)"
     (mouseup)="translateSelection()"
+    (click)="onWordTap($event)"
     #contentWrapper
   ></div>
 
