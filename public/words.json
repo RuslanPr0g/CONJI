@@ -1137,5 +1137,6 @@
   { "value": "putea merge", "translations": ["could go", "could work"] },
   { "value": "deocamdată", "translations": ["for now", "for the time being"] },
   { "value": "propria afacere", "translations": ["own business"] },
-  { "value": "mediu plăcut", "translations": ["pleasant environment"] }
+  { "value": "mediu plăcut", "translations": ["pleasant environment"] },
+  { "value": "nu în ultimul rând", "translations": ["last but not least"] }
 ]
