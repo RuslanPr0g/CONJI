@@ -250,11 +250,20 @@ reveal works by mirroring, not telling:
 
 ### Chapter 5 — Vagonul cu cărți goale (The Car of Blank Books)
 - Setting: A carriage rearranged into a small, dusty library.
-- Beats: Alex finds shelves of books; opens one and its pages are blank;
-  another has handwriting that looks like his own, though he doesn't
-  remember writing it; a silent librarian-like figure never looks up.
+- Beats: **Opens on the hinge moment** — after so many identical carriages,
+  this next door opens onto something different for the first time, and
+  Alex hesitates before stepping through, half-relieved, half-wary, that
+  something has finally changed. Then: Alex finds shelves of books; opens
+  one and its pages are blank; another has handwriting that looks like his
+  own, though he doesn't remember writing it; a silent librarian-like
+  figure never looks up.
 - Characters: Alex, a silent librarian figure.
 - Ends on: Alex pockets a blank notebook without knowing why.
+- Note: this opening beat is the pivot the rest of the book depends on —
+  it should read as a small, welcome break from the monotony of Ch. 4,
+  not yet as something wrong. The personal/surreal quality of the room
+  should only become unsettling gradually, within the chapter, not at the
+  door.
 
 ### Chapter 6 — Vagonul cu apă (The Flooded Car)
 - Setting: A carriage with ankle-deep water covering the floor.
@@ -355,7 +364,11 @@ reveal works by mirroring, not telling:
   solid.
 
 ### Chapter 19 — Resetarea (The Reset)
-- Setting: Back in a train seat, exhausted.
+- Setting: Back in a train seat, exhausted — an ordinary, unremarkable
+  seat in whatever generic carriage he's currently in, *not* his original
+  seat from Chapter 1. That distinction matters: Ch. 21's return to his
+  actual original seat needs to land as a distinct, recognizable callback,
+  not a repeat of this scene.
 - Beats: Out of ideas, Alex forces himself to sit still and shut his eyes
   for a moment, the way you'd try to reboot something that's stopped
   responding, half-hoping something will be different when he opens them;
@@ -445,11 +458,13 @@ reveal works by mirroring, not telling:
   own multiplying reflections — all drawn from fragments of Alex's real
   life rather than being "real" characters in the story's own logic.
 - **The unseen voice** (Ch. 17, 19, 22) — never fully explained within the
-  dream; retroactively understood as someone in the waking world trying to
-  rouse Alex.
-- **A fellow passenger** (Ch. 25) — a real, ordinary person who mentions
-  Alex had fallen asleep; the first entirely "real" secondary character in
-  the book.
+  dream; retroactively understood as someone/something in the waking world
+  trying to rouse Alex. Should be written as recognizably the *same voice*
+  as the station announcer in Ch. 24 — same cadence and quality, never
+  stated outright — so the reader connects them without being told.
+- **Background passengers** (Ch. 25) — ordinary, unremarkable people on the
+  real train; none of them remark on Alex or mention him having slept. The
+  chapter's only "dialogue" is the mundane station announcement.
 
 ## Setting & Tone
 
