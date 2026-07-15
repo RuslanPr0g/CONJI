@@ -9,7 +9,8 @@
     "test": "ng test",
     "deploy": "node deploy/deploy.js",
     "prepare": "husky",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "find-missing-words": "node find-missing-words.js"
   },
   "private": true,
   "dependencies": {
