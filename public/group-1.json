@@ -1682,12 +1682,12 @@
           "ei/ele": "vor lăsa"
         },
         "viitor_familiar": {
-          "eu": "o să lăs",
-          "tu": "o să leși",
-          "el/ea": "o să lese",
+          "eu": "o să las",
+          "tu": "o să lași",
+          "el/ea": "o să lase",
           "noi": "o să lăsăm",
           "voi": "o să lăsați",
-          "ei/ele": "o să lese"
+          "ei/ele": "o să lase"
         },
         "conjunctiv": {
           "eu": "să las",
@@ -1745,7 +1745,7 @@
           "ei/ele": "vor întreba"
         },
         "viitor_familiar": {
-          "eu": "o să înreb",
+          "eu": "o să întreb",
           "tu": "o să întrebi",
           "el/ea": "o să întrebe",
           "noi": "o să întrebăm",
@@ -2002,11 +2002,11 @@
         },
         "viitor_familiar": {
           "eu": "o să mă comport",
-          "tu": "o să comporți",
-          "el/ea": "o să comporte",
-          "noi": "o să comportăm",
-          "voi": "o să comportați",
-          "ei/ele": "o să comporte"
+          "tu": "o să te comporți",
+          "el/ea": "o să se comporte",
+          "noi": "o să ne comportăm",
+          "voi": "o să vă comportați",
+          "ei/ele": "o să se comporte"
         },
         "conjunctiv": {
           "eu": "să mă comport",
@@ -2066,7 +2066,7 @@
           "ei/ele": "vor arăta"
         },
         "viitor_familiar": {
-          "eu": "arăt",
+          "eu": "o să arăt",
           "tu": "o să arăți",
           "el/ea": "o să arate",
           "noi": "o să arătăm",
@@ -2075,7 +2075,7 @@
         },
         "conjunctiv": {
           "eu": "să arăt",
-          "tu": "să arați",
+          "tu": "să arăți",
           "el/ea": "să arate",
           "noi": "să arătăm",
           "voi": "să arătați",
@@ -2130,7 +2130,7 @@
           "ei/ele": "se vor caza"
         },
         "viitor_familiar": {
-          "eu": "o să mă cazaz",
+          "eu": "o să mă cazez",
           "tu": "o să te cazezi",
           "el/ea": "o să se cazeze",
           "noi": "o să ne cazăm",
