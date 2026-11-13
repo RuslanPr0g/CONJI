@@ -2623,6 +2623,67 @@
           "voi": "creșteți"
         }
       }
+    },
+    {
+      "infinitive": "a decide",
+      "type": "irregular",
+      "group": 3,
+      "subgroup": 2,
+      "infinitive_translated": ["to decide"],
+      "conjugations": {
+        "prezent": {
+          "eu": "decid",
+          "tu": "decizi",
+          "el/ea": "decide",
+          "noi": "decidem",
+          "voi": "decideți",
+          "ei/ele": "decid"
+        },
+        "perfect_compus": {
+          "eu": "am decis",
+          "tu": "ai decis",
+          "el/ea": "a decis",
+          "noi": "am decis",
+          "voi": "ați decis",
+          "ei/ele": "au decis"
+        },
+        "viitor_literar": {
+          "eu": "voi decide",
+          "tu": "vei decide",
+          "el/ea": "va decide",
+          "noi": "vom decide",
+          "voi": "veți decide",
+          "ei/ele": "vor decide"
+        },
+        "viitor_familiar": {
+          "eu": "o să decid",
+          "tu": "o să decizi",
+          "el/ea": "o să decidă",
+          "noi": "o să decidem",
+          "voi": "o să decideți",
+          "ei/ele": "o să decidă"
+        },
+        "conjunctiv": {
+          "eu": "să decid",
+          "tu": "să decizi",
+          "el/ea": "să decidă",
+          "noi": "să decidem",
+          "voi": "să decideți",
+          "ei/ele": "să decidă"
+        },
+        "conditional": {
+          "eu": "aș decide",
+          "tu": "ai decide",
+          "el/ea": "ar decide",
+          "noi": "am decide",
+          "voi": "ați decide",
+          "ei/ele": "ar decide"
+        },
+        "imperativ": {
+          "tu": "decide",
+          "voi": "decideți"
+        }
+      }
     }
   ]
 }
