@@ -2930,6 +2930,67 @@
       }
     },
     {
+      "infinitive": "a dori",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to desire", "to wish"],
+      "conjugations": {
+        "prezent": {
+          "eu": "doresc",
+          "tu": "dorești",
+          "el/ea": "dorește",
+          "noi": "dorim",
+          "voi": "doriți",
+          "ei/ele": "doresc"
+        },
+        "perfect_compus": {
+          "eu": "am dorit",
+          "tu": "ai dorit",
+          "el/ea": "a dorit",
+          "noi": "am dorit",
+          "voi": "ați dorit",
+          "ei/ele": "au dorit"
+        },
+        "viitor_literar": {
+          "eu": "voi dori",
+          "tu": "vei dori",
+          "el/ea": "va dori",
+          "noi": "vom dori",
+          "voi": "veți dori",
+          "ei/ele": "vor dori"
+        },
+        "viitor_familiar": {
+          "eu": "o să doresc",
+          "tu": "o să dorești",
+          "el/ea": "o să dorească",
+          "noi": "o să dorim",
+          "voi": "o să doriți",
+          "ei/ele": "o să dorească"
+        },
+        "conjunctiv": {
+          "eu": "să doresc",
+          "tu": "să dorești",
+          "el/ea": "să dorească",
+          "noi": "să dorim",
+          "voi": "să doriți",
+          "ei/ele": "să dorească"
+        },
+        "conditional": {
+          "eu": "aș dori",
+          "tu": "ai dori",
+          "el/ea": "ar dori",
+          "noi": "am dori",
+          "voi": "ați dori",
+          "ei/ele": "ar dori"
+        },
+        "imperativ": {
+          "tu": "dorește",
+          "voi": "doriți"
+        }
+      }
+    },
+    {
       "infinitive": "a trebui",
       "type": "irregular",
       "group": 4,
