@@ -5178,12 +5178,12 @@
           "ei/ele": "o să recomande"
         },
         "conjunctiv": {
-          "eu": "o să recomand",
-          "tu": "o să recomanzi",
-          "el/ea": "o să recomande",
-          "noi": "o să recomandăm",
-          "voi": "o să recomandați",
-          "ei/ele": "o să recomande"
+          "eu": "să recomand",
+          "tu": "să recomanzi",
+          "el/ea": "să recomande",
+          "noi": "să recomandăm",
+          "voi": "să recomandați",
+          "ei/ele": "să recomande"
         },
         "conditional": {
           "eu": "aș recomanda",
@@ -5196,6 +5196,67 @@
         "imperativ": {
           "tu": "recomandă",
           "voi": "recomandați"
+        }
+      }
+    },
+    {
+      "infinitive": "a insista",
+      "type": "irregular",
+      "group": 1,
+      "subgroup": 4,
+      "infinitive_translated": ["to insist"],
+      "conjugations": {
+        "prezent": {
+          "eu": "insist",
+          "tu": "insiști",
+          "el/ea": "insistă",
+          "noi": "insistăm",
+          "voi": "insistați",
+          "ei/ele": "insistă"
+        },
+        "perfect_compus": {
+          "eu": "am insistat",
+          "tu": "ai insistat",
+          "el/ea": "a insistat",
+          "noi": "am insistat",
+          "voi": "ați insistat",
+          "ei/ele": "au insistat"
+        },
+        "viitor_literar": {
+          "eu": "voi insista",
+          "tu": "vei insista",
+          "el/ea": "va insista",
+          "noi": "vom insista",
+          "voi": "veți insista",
+          "ei/ele": "vor insista"
+        },
+        "viitor_familiar": {
+          "eu": "o să insist",
+          "tu": "o să insiști",
+          "el/ea": "o să insiste",
+          "noi": "o să insistăm",
+          "voi": "o să insistați",
+          "ei/ele": "o să insiste"
+        },
+        "conjunctiv": {
+          "eu": "să insist",
+          "tu": "să insiști",
+          "el/ea": "să insiste",
+          "noi": "să insistăm",
+          "voi": "să insistați",
+          "ei/ele": "să insiste"
+        },
+        "conditional": {
+          "eu": "aș insista",
+          "tu": "ai insista",
+          "el/ea": "ar insista",
+          "noi": "am insista",
+          "voi": "ați insista",
+          "ei/ele": "ar insista"
+        },
+        "imperativ": {
+          "tu": "insistă",
+          "voi": "insistați"
         }
       }
     }
