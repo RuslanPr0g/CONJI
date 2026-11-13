@@ -1681,6 +1681,14 @@
           "voi": "veți lăsa",
           "ei/ele": "vor lăsa"
         },
+        "viitor_familiar": {
+          "eu": "o să lăs",
+          "tu": "o să leși",
+          "el/ea": "o să lese",
+          "noi": "o să lăsăm",
+          "voi": "o să lăsați",
+          "ei/ele": "o să lese"
+        },
         "conjunctiv": {
           "eu": "să las",
           "tu": "să lași",
@@ -1736,6 +1744,14 @@
           "voi": "veți întreba",
           "ei/ele": "vor întreba"
         },
+        "viitor_familiar": {
+          "eu": "o să înreb",
+          "tu": "o să întrebi",
+          "el/ea": "o să întrebe",
+          "noi": "o să întrebăm",
+          "voi": "o să întrebați",
+          "ei/ele": "o să întrebe"
+        },
         "conjunctiv": {
           "eu": "să întreb",
           "tu": "să întrebi",
@@ -1790,6 +1806,14 @@
           "noi": "vom parca",
           "voi": "veți parca",
           "ei/ele": "vor parca"
+        },
+        "viitor_familiar": {
+          "eu": "o să parchez",
+          "tu": "o să parchezi",
+          "el/ea": "o să parcheze",
+          "noi": "o să parcăm",
+          "voi": "o să parcați",
+          "ei/ele": "o să parcheze"
         },
         "conjunctiv": {
           "eu": "să parchez",
@@ -1913,6 +1937,14 @@
           "voi": "veți aranja",
           "ei/ele": "vor aranja"
         },
+        "viitor_familiar": {
+          "eu": "o să aranjez",
+          "tu": "o să aranjezi",
+          "el/ea": "o să aranjeze",
+          "noi": "o să aranjăm",
+          "voi": "o să aranjați",
+          "ei/ele": "o să aranjeze"
+        },
         "conjunctiv": {
           "eu": "să aranjez",
           "tu": "să aranjezi",
@@ -1967,6 +1999,14 @@
           "noi": "ne vom comporta",
           "voi": "vă veți comporta",
           "ei/ele": "se vor comporta"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă comport",
+          "tu": "o să comporți",
+          "el/ea": "o să comporte",
+          "noi": "o să comportăm",
+          "voi": "o să comportați",
+          "ei/ele": "o să comporte"
         },
         "conjunctiv": {
           "eu": "să mă comport",
@@ -2025,6 +2065,14 @@
           "voi": "veți arăta",
           "ei/ele": "vor arăta"
         },
+        "viitor_familiar": {
+          "eu": "arăt",
+          "tu": "o să arăți",
+          "el/ea": "o să arate",
+          "noi": "o să arătăm",
+          "voi": "o să arătați",
+          "ei/ele": "o să arate"
+        },
         "conjunctiv": {
           "eu": "să arăt",
           "tu": "să arați",
@@ -2080,6 +2128,14 @@
           "noi": "ne vom caza",
           "voi": "vă veți caza",
           "ei/ele": "se vor caza"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă cazaz",
+          "tu": "o să te cazezi",
+          "el/ea": "o să se cazeze",
+          "noi": "o să ne cazăm",
+          "voi": "o să vă cazați",
+          "ei/ele": "o să se cazeze"
         },
         "conjunctiv": {
           "eu": "să mă cazez",
@@ -2137,6 +2193,14 @@
           "voi": "veți elibera",
           "ei/ele": "vor elibera"
         },
+        "viitor_familiar": {
+          "eu": "o să eliberez",
+          "tu": "o să eliberezi",
+          "el/ea": "o să elibereze",
+          "noi": "o să eliberăm",
+          "voi": "o să eliberați",
+          "ei/ele": "o să elibereze"
+        },
         "conjunctiv": {
           "eu": "să eliberez",
           "tu": "să eliberezi",
@@ -2191,6 +2255,14 @@
           "noi": "vom anula",
           "voi": "veți anula",
           "ei/ele": "vor anula"
+        },
+        "viitor_familiar": {
+          "eu": "o să anulez",
+          "tu": "o să anulezi",
+          "el/ea": "o să anuleze",
+          "noi": "o să anulăm",
+          "voi": "o să anulați",
+          "ei/ele": "o să anuleze"
         },
         "conjunctiv": {
           "eu": "să anulez",

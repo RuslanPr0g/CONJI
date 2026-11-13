@@ -55,6 +55,10 @@
           "noi": "ne-ar plăcea",
           "voi": "v-ar plăcea",
           "ei/ele": "le-ar plăcea"
+        },
+        "imperativ": {
+          "tu": "—",
+          "voi": "—"
         }
       }
     },
@@ -272,6 +276,14 @@
           "voi": "vă va durea",
           "ei/ele": "îi vor durea"
         },
+        "viitor_familiar": {
+          "eu": "o să mă doară",
+          "tu": "o să te doară",
+          "el/ea": "o să-l/o doară",
+          "noi": "o să ne doară",
+          "voi": "o să vă doară",
+          "ei/ele": "o să-i doară"
+        },
         "conjunctiv": {
           "eu": "să mă doară",
           "tu": "să te doară",
@@ -287,6 +299,10 @@
           "noi": "ne-ar durea",
           "voi": "v-ar durea",
           "ei/ele": "i-ar durea"
+        },
+        "imperativ": {
+          "tu": "—",
+          "voi": "—"
         }
       }
     },
