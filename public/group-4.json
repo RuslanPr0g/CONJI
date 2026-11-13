@@ -3067,12 +3067,12 @@
           "ei/ele": "plănuiesc"
         },
         "perfect_compus": {
-          "eu": "a plănuit",
-          "tu": "a plănuit",
+          "eu": "am plănuit",
+          "tu": "ai plănuit",
           "el/ea": "a plănuit",
-          "noi": "a plănuit",
-          "voi": "a plănuit",
-          "ei/ele": "a plănuit"
+          "noi": "am plănuit",
+          "voi": "ați plănuit",
+          "ei/ele": "au plănuit"
         },
         "viitor_literar": {
           "eu": "voi plănui",
