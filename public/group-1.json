@@ -5259,6 +5259,67 @@
           "voi": "insistați"
         }
       }
+    },
+    {
+      "infinitive": "a sugera",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to suggest", "to imply"],
+      "conjugations": {
+        "prezent": {
+          "eu": "sugerez",
+          "tu": "sugerezi",
+          "el/ea": "sugerează",
+          "noi": "sugerăm",
+          "voi": "sugerați",
+          "ei/ele": "sugerează"
+        },
+        "perfect_compus": {
+          "eu": "am sugerat",
+          "tu": "ai sugerat",
+          "el/ea": "a sugerat",
+          "noi": "am sugerat",
+          "voi": "ați sugerat",
+          "ei/ele": "au sugerat"
+        },
+        "viitor_literar": {
+          "eu": "voi sugera",
+          "tu": "vei sugera",
+          "el/ea": "va sugera",
+          "noi": "vom sugera",
+          "voi": "veți sugera",
+          "ei/ele": "vor sugera"
+        },
+        "viitor_familiar": {
+          "eu": "o să sugerez",
+          "tu": "o să sugerezi",
+          "el/ea": "o să sugereze",
+          "noi": "o să sugerăm",
+          "voi": "o să sugerați",
+          "ei/ele": "o să sugereze"
+        },
+        "conjunctiv": {
+          "eu": "să sugerez",
+          "tu": "să sugerezi",
+          "el/ea": "să sugereze",
+          "noi": "să sugerăm",
+          "voi": "să sugerați",
+          "ei/ele": "să sugereze"
+        },
+        "conditional": {
+          "eu": "aș sugera",
+          "tu": "ai sugera",
+          "el/ea": "ar sugera",
+          "noi": "am sugera",
+          "voi": "ați sugera",
+          "ei/ele": "ar sugera"
+        },
+        "imperativ": {
+          "tu": "sugerează",
+          "voi": "sugerați"
+        }
+      }
     }
   ]
 }
