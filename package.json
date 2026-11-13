@@ -10,7 +10,8 @@
     "deploy": "node deploy/deploy.js",
     "prepare": "husky",
     "lint": "ng lint",
-    "find-missing-words": "node find-missing-words.js"
+    "find-missing-words": "node find-missing-words.js",
+    "regenerate-schema": "node regenerate-schema.js"
   },
   "private": true,
   "dependencies": {
@@ -43,6 +44,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ts-json-schema-generator": "^2.9.0",
     "typescript": "~5.5.2",
     "typescript-eslint": "8.40.0"
   }
