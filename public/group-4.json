@@ -248,7 +248,7 @@
     {
       "infinitive": "a pregăti",
       "type": "regular",
-      "group": 1,
+      "group": 4,
       "subgroup": 1,
       "infinitive_translated": ["to prepare"],
       "conjugations": {
@@ -337,13 +337,21 @@
           "voi": "veți urî",
           "ei/ele": "vor urî"
         },
+        "viitor_familiar": {
+          "eu": "o să urăsc",
+          "tu": "o să urăști",
+          "el/ea": "o să urască",
+          "noi": "o să urâm",
+          "voi": "o să urâți",
+          "ei/ele": "o să urască"
+        },
         "conjunctiv": {
           "eu": "să urăsc",
           "tu": "să urăști",
-          "el/ea": "să urăște",
+          "el/ea": "să urască",
           "noi": "să urâm",
           "voi": "să urâți",
-          "ei/ele": "să urăsc"
+          "ei/ele": "să urască"
         },
         "conditional": {
           "eu": "aș urî",
@@ -389,6 +397,14 @@
           "noi": "vom sfătui",
           "voi": "veți sfătui",
           "ei/ele": "vor sfătui"
+        },
+        "viitor_familiar": {
+          "eu": "o să sfătuiesc",
+          "tu": "o să sfătuiești",
+          "el/ea": "o să sfătuiască",
+          "noi": "o să sfătuim",
+          "voi": "o să sfătuiți",
+          "ei/ele": "o să sfătuiască"
         },
         "conjunctiv": {
           "eu": "să sfătuiesc",
@@ -443,6 +459,14 @@
           "voi": "veți primi",
           "ei/ele": "vor primi"
         },
+        "viitor_familiar": {
+          "eu": "o să primesc",
+          "tu": "o să primești",
+          "el/ea": "o să primească",
+          "noi": "o să primim",
+          "voi": "o să primiți",
+          "ei/ele": "o să primească"
+        },
         "conjunctiv": {
           "eu": "să primesc",
           "tu": "să primești",
@@ -495,6 +519,14 @@
           "noi": "vom îndeplini",
           "voi": "veți îndeplini",
           "ei/ele": "vor îndeplini"
+        },
+        "viitor_familiar": {
+          "eu": "o să îndeplinesc",
+          "tu": "o să îndeplinești",
+          "el/ea": "o să îndeplinească",
+          "noi": "o să îndeplinim",
+          "voi": "o să îndepliniți",
+          "ei/ele": "o să îndeplinească"
         },
         "conjunctiv": {
           "eu": "să îndeplinesc",
@@ -549,6 +581,14 @@
           "voi": "veți iubi",
           "ei/ele": "vor iubi"
         },
+        "viitor_familiar": {
+          "eu": "o să iubesc",
+          "tu": "o să iubești",
+          "el/ea": "o să iubească",
+          "noi": "o să iubim",
+          "voi": "o să iubiți",
+          "ei/ele": "o să iubească"
+        },
         "conjunctiv": {
           "eu": "să iubesc",
           "tu": "să iubești",
@@ -601,6 +641,14 @@
           "noi": "vom sări",
           "voi": "veți sări",
           "ei/ele": "vor sări"
+        },
+        "viitor_familiar": {
+          "eu": "o să sar",
+          "tu": "o să sari",
+          "el/ea": "o să sară",
+          "noi": "o să sărim",
+          "voi": "o să săriți",
+          "ei/ele": "o să sară"
         },
         "conjunctiv": {
           "eu": "să sar",
@@ -655,6 +703,14 @@
           "voi": "veți hotărî",
           "ei/ele": "vor hotărî"
         },
+        "viitor_familiar": {
+          "eu": "o să hotărăsc",
+          "tu": "o să hotărăști",
+          "el/ea": "o să hotărască",
+          "noi": "o să hotărâm",
+          "voi": "o să hotărâți",
+          "ei/ele": "o să hotărască"
+        },
         "conjunctiv": {
           "eu": "să hotărăsc",
           "tu": "să hotărăști",
@@ -707,6 +763,14 @@
           "noi": "vom fugi",
           "voi": "veți fugi",
           "ei/ele": "vor fugi"
+        },
+        "viitor_familiar": {
+          "eu": "o să fug",
+          "tu": "o să fugi",
+          "el/ea": "o să fugă",
+          "noi": "o să fugim",
+          "voi": "o să fugiți",
+          "ei/ele": "o să fugă"
         },
         "conjunctiv": {
           "eu": "să fug",
@@ -761,6 +825,14 @@
           "voi": "veți citi",
           "ei/ele": "vor citi"
         },
+        "viitor_familiar": {
+          "eu": "o să citesc",
+          "tu": "o să citești",
+          "el/ea": "o să citească",
+          "noi": "o să citim",
+          "voi": "o să citiți",
+          "ei/ele": "o să citească"
+        },
         "conjunctiv": {
           "eu": "să citesc",
           "tu": "să citești",
@@ -813,6 +885,14 @@
           "noi": "vom reuși",
           "voi": "veți reuși",
           "ei/ele": "vor reuși"
+        },
+        "viitor_familiar": {
+          "eu": "o să reușesc",
+          "tu": "o să reușești",
+          "el/ea": "o să reușească",
+          "noi": "o să reușim",
+          "voi": "o să reușiți",
+          "ei/ele": "o să reușească"
         },
         "conjunctiv": {
           "eu": "să reușesc",
@@ -1233,6 +1313,14 @@
           "voi": "veți oferi",
           "ei/ele": "vor oferi"
         },
+        "viitor_familiar": {
+          "eu": "o să ofer",
+          "tu": "o să oferi",
+          "el/ea": "o să ofere",
+          "noi": "o să oferim",
+          "voi": "o să oferiți",
+          "ei/ele": "o să ofere"
+        },
         "conjunctiv": {
           "eu": "să ofer",
           "tu": "să oferi",
@@ -1285,6 +1373,14 @@
           "noi": "vom omorî",
           "voi": "veți omorî",
           "ei/ele": "vor omorî"
+        },
+        "viitor_familiar": {
+          "eu": "o să omor",
+          "tu": "o să omori",
+          "el/ea": "o să omoare",
+          "noi": "o să omorâm",
+          "voi": "o să omorâți",
+          "ei/ele": "o să omoare"
         },
         "conjunctiv": {
           "eu": "să omor",
@@ -1339,6 +1435,14 @@
           "voi": "veți coborî",
           "ei/ele": "vor coborî"
         },
+        "viitor_familiar": {
+          "eu": "o să cobor",
+          "tu": "o să cobori",
+          "el/ea": "o să coboare",
+          "noi": "o să coborâm",
+          "voi": "o să coborâți",
+          "ei/ele": "o să coboare"
+        },
         "conjunctiv": {
           "eu": "să cobor",
           "tu": "să cobori",
@@ -1392,6 +1496,14 @@
           "voi": "veți construi",
           "ei/ele": "vor construi"
         },
+        "viitor_familiar": {
+          "eu": "o să construiesc",
+          "tu": "o să construiești",
+          "el/ea": "o să construiască",
+          "noi": "o să construim",
+          "voi": "o să construiți",
+          "ei/ele": "o să construiască"
+        },
         "conjunctiv": {
           "eu": "să construiesc",
           "tu": "să construiești",
@@ -1444,6 +1556,14 @@
           "noi": "vom plăti",
           "voi": "veți plăti",
           "ei/ele": "vor plăti"
+        },
+        "viitor_familiar": {
+          "eu": "o să plătesc",
+          "tu": "o să plătești",
+          "el/ea": "o să plătească",
+          "noi": "o să plătim",
+          "voi": "o să plătiți",
+          "ei/ele": "o să plătească"
         },
         "conjunctiv": {
           "eu": "să plătesc",
@@ -2810,6 +2930,67 @@
       }
     },
     {
+      "infinitive": "a dori",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to desire", "to wish"],
+      "conjugations": {
+        "prezent": {
+          "eu": "doresc",
+          "tu": "dorești",
+          "el/ea": "dorește",
+          "noi": "dorim",
+          "voi": "doriți",
+          "ei/ele": "doresc"
+        },
+        "perfect_compus": {
+          "eu": "am dorit",
+          "tu": "ai dorit",
+          "el/ea": "a dorit",
+          "noi": "am dorit",
+          "voi": "ați dorit",
+          "ei/ele": "au dorit"
+        },
+        "viitor_literar": {
+          "eu": "voi dori",
+          "tu": "vei dori",
+          "el/ea": "va dori",
+          "noi": "vom dori",
+          "voi": "veți dori",
+          "ei/ele": "vor dori"
+        },
+        "viitor_familiar": {
+          "eu": "o să doresc",
+          "tu": "o să dorești",
+          "el/ea": "o să dorească",
+          "noi": "o să dorim",
+          "voi": "o să doriți",
+          "ei/ele": "o să dorească"
+        },
+        "conjunctiv": {
+          "eu": "să doresc",
+          "tu": "să dorești",
+          "el/ea": "să dorească",
+          "noi": "să dorim",
+          "voi": "să doriți",
+          "ei/ele": "să dorească"
+        },
+        "conditional": {
+          "eu": "aș dori",
+          "tu": "ai dori",
+          "el/ea": "ar dori",
+          "noi": "am dori",
+          "voi": "ați dori",
+          "ei/ele": "ar dori"
+        },
+        "imperativ": {
+          "tu": "dorește",
+          "voi": "doriți"
+        }
+      }
+    },
+    {
       "infinitive": "a trebui",
       "type": "irregular",
       "group": 4,
@@ -2867,6 +3048,67 @@
         "imperativ": {
           "tu": "-",
           "voi": "-"
+        }
+      }
+    },
+    {
+      "infinitive": "a plănui",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to plan", "to arrange"],
+      "conjugations": {
+        "prezent": {
+          "eu": "plănuiesc",
+          "tu": "plănuiești",
+          "el/ea": "plănuiește",
+          "noi": "plănuim",
+          "voi": "plănuiți",
+          "ei/ele": "plănuiesc"
+        },
+        "perfect_compus": {
+          "eu": "a plănuit",
+          "tu": "a plănuit",
+          "el/ea": "a plănuit",
+          "noi": "a plănuit",
+          "voi": "a plănuit",
+          "ei/ele": "a plănuit"
+        },
+        "viitor_literar": {
+          "eu": "voi plănui",
+          "tu": "vei plănui",
+          "el/ea": "va plănui",
+          "noi": "vom plănui",
+          "voi": "veți plănui",
+          "ei/ele": "vor plănui"
+        },
+        "viitor_familiar": {
+          "eu": "o să plănuiesc",
+          "tu": "o să plănuiești",
+          "el/ea": "o să plănuiască",
+          "noi": "o să plănuim",
+          "voi": "o să plănuiți",
+          "ei/ele": "o să plănuiască"
+        },
+        "conjunctiv": {
+          "eu": "să plănuiesc",
+          "tu": "să plănuiești",
+          "el/ea": "să plănuiască",
+          "noi": "să plănuim",
+          "voi": "să plănuiți",
+          "ei/ele": "să plănuiască"
+        },
+        "conditional": {
+          "eu": "aș plănui",
+          "tu": "ai plănui",
+          "el/ea": "ar plănui",
+          "noi": "am plănui",
+          "voi": "ați plănui",
+          "ei/ele": "ar plănui"
+        },
+        "imperativ": {
+          "tu": "plănuiește",
+          "voi": "plănuiți"
         }
       }
     }

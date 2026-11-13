@@ -1,0 +1,29 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/public/words.json"
+      ],
+      "url": "./schema/wordList.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/public/group-*.json",
+        "!/public/group-information.json"
+      ],
+      "url": "./schema/verbGroup.schema.json"
+    },
+    {
+      "fileMatch": [
+        "public/books.json",
+      ],
+      "url": "./schema/booksList.schema.json"
+    },
+    {
+      "fileMatch": [
+        "public/group-information.json"
+      ],
+      "url": "./schema/groupInformationList.schema.json"
+    }
+  ]
+}

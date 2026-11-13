@@ -28,7 +28,8 @@ Obj/
 dist/
 
 .vs/
-.vscode/
+.vscode/*
+!.vscode/settings.json
 .angular/
 
 # MSTest test Results

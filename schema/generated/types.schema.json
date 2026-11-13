@@ -1,0 +1,294 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Word": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "similarWords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "value",
+        "translations"
+      ],
+      "additionalProperties": false
+    },
+    "ConjugationSet": {
+      "type": "object",
+      "properties": {
+        "eu": {
+          "type": "string"
+        },
+        "tu": {
+          "type": "string"
+        },
+        "el/ea": {
+          "type": "string"
+        },
+        "noi": {
+          "type": "string"
+        },
+        "voi": {
+          "type": "string"
+        },
+        "ei/ele": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "eu",
+        "tu",
+        "el/ea",
+        "noi",
+        "voi",
+        "ei/ele"
+      ],
+      "additionalProperties": false
+    },
+    "ImperativConjugation": {
+      "type": "object",
+      "properties": {
+        "tu": {
+          "type": "string"
+        },
+        "voi": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "tu",
+        "voi"
+      ],
+      "additionalProperties": false
+    },
+    "Conjugations": {
+      "type": "object",
+      "properties": {
+        "prezent": {
+          "$ref": "#/definitions/ConjugationSet"
+        },
+        "perfect_compus": {
+          "$ref": "#/definitions/ConjugationSet"
+        },
+        "viitor_literar": {
+          "$ref": "#/definitions/ConjugationSet"
+        },
+        "viitor_familiar": {
+          "$ref": "#/definitions/ConjugationSet"
+        },
+        "conjunctiv": {
+          "$ref": "#/definitions/ConjugationSet"
+        },
+        "conditional": {
+          "$ref": "#/definitions/ConjugationSet"
+        },
+        "imperativ": {
+          "$ref": "#/definitions/ImperativConjugation"
+        }
+      },
+      "required": [
+        "prezent",
+        "perfect_compus",
+        "viitor_literar",
+        "viitor_familiar",
+        "conjunctiv",
+        "conditional",
+        "imperativ"
+      ],
+      "additionalProperties": false
+    },
+    "Verb": {
+      "type": "object",
+      "properties": {
+        "infinitive": {
+          "type": "string"
+        },
+        "ignoreInGames": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "const": "conjugation"
+          }
+        },
+        "infinitive_translated": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conjugations": {
+          "$ref": "#/definitions/Conjugations"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "regular",
+            "irregular"
+          ]
+        },
+        "group": {
+          "type": "number"
+        },
+        "subgroup": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "infinitive",
+        "conjugations",
+        "group",
+        "subgroup"
+      ],
+      "additionalProperties": false
+    },
+    "VerbInformationSubgroup": {
+      "type": "object",
+      "properties": {
+        "subgroup": {
+          "type": "number"
+        },
+        "code": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "subgroup",
+        "code",
+        "description",
+        "examples"
+      ],
+      "additionalProperties": false
+    },
+    "VerbInformationGroup": {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        },
+        "subgroups": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/VerbInformationSubgroup"
+          }
+        }
+      },
+      "required": [
+        "group",
+        "description",
+        "subgroups"
+      ],
+      "additionalProperties": false
+    },
+    "VerbGroup": {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "verbs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Verb"
+          }
+        }
+      },
+      "required": [
+        "group",
+        "verbs"
+      ],
+      "additionalProperties": false
+    },
+    "ConjugationKey": {
+      "type": "string",
+      "enum": [
+        "prezent",
+        "perfect_compus",
+        "viitor_literar",
+        "viitor_familiar",
+        "conjunctiv",
+        "conditional",
+        "imperativ"
+      ]
+    },
+    "Book": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "content_length": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "description",
+        "content_length"
+      ],
+      "additionalProperties": false
+    },
+    "BookContents": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/BookContent"
+          }
+        }
+      },
+      "required": [
+        "content"
+      ],
+      "additionalProperties": false
+    },
+    "BookContent": {
+      "type": "object",
+      "properties": {
+        "page": {
+          "type": "number"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "page",
+        "text"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
