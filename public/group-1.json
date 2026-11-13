@@ -5137,6 +5137,67 @@
           "voi": "urmați"
         }
       }
+    },
+    {
+      "infinitive": "a recomanda",
+      "type": "irregular",
+      "group": 1,
+      "subgroup": 4,
+      "infinitive_translated": ["to recommend", "to suggest"],
+      "conjugations": {
+        "prezent": {
+          "eu": "recomand",
+          "tu": "recomanzi",
+          "el/ea": "recomandă",
+          "noi": "recomandăm",
+          "voi": "recomandați",
+          "ei/ele": "recomandă"
+        },
+        "perfect_compus": {
+          "eu": "am recomandat",
+          "tu": "ai recomandat",
+          "el/ea": "a recomandat",
+          "noi": "am recomandat",
+          "voi": "ați recomandat",
+          "ei/ele": "au recomandat"
+        },
+        "viitor_literar": {
+          "eu": "voi recomanda",
+          "tu": "vei recomanda",
+          "el/ea": "va recomanda",
+          "noi": "vom recomanda",
+          "voi": "veți recomanda",
+          "ei/ele": "vor recomanda"
+        },
+        "viitor_familiar": {
+          "eu": "o să recomand",
+          "tu": "o să recomanzi",
+          "el/ea": "o să recomande",
+          "noi": "o să recomandăm",
+          "voi": "o să recomandați",
+          "ei/ele": "o să recomande"
+        },
+        "conjunctiv": {
+          "eu": "o să recomand",
+          "tu": "o să recomanzi",
+          "el/ea": "o să recomande",
+          "noi": "o să recomandăm",
+          "voi": "o să recomandați",
+          "ei/ele": "o să recomande"
+        },
+        "conditional": {
+          "eu": "aș recomanda",
+          "tu": "ai recomanda",
+          "el/ea": "ar recomanda",
+          "noi": "am recomanda",
+          "voi": "ați recomanda",
+          "ei/ele": "ar recomanda"
+        },
+        "imperativ": {
+          "tu": "recomandă",
+          "voi": "recomandați"
+        }
+      }
     }
   ]
 }

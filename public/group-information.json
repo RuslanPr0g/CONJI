@@ -22,6 +22,12 @@
         "examples": ["a pleca → pleacă", "a chema → cheamă"]
       },
       {
+        "subgroup": 4,
+        "code": "I-D",
+        "description": "Schimbare de consoană în rădăcină",
+        "examples": ["a recomanda → recomanzi"]
+      },
+      {
         "subgroup": 99,
         "code": "I-Irreg",
         "description": "Verbe neregulate",
