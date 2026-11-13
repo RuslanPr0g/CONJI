@@ -1681,6 +1681,14 @@
           "voi": "veți lăsa",
           "ei/ele": "vor lăsa"
         },
+        "viitor_familiar": {
+          "eu": "o să las",
+          "tu": "o să lași",
+          "el/ea": "o să lase",
+          "noi": "o să lăsăm",
+          "voi": "o să lăsați",
+          "ei/ele": "o să lase"
+        },
         "conjunctiv": {
           "eu": "să las",
           "tu": "să lași",
@@ -1736,6 +1744,14 @@
           "voi": "veți întreba",
           "ei/ele": "vor întreba"
         },
+        "viitor_familiar": {
+          "eu": "o să întreb",
+          "tu": "o să întrebi",
+          "el/ea": "o să întrebe",
+          "noi": "o să întrebăm",
+          "voi": "o să întrebați",
+          "ei/ele": "o să întrebe"
+        },
         "conjunctiv": {
           "eu": "să întreb",
           "tu": "să întrebi",
@@ -1790,6 +1806,14 @@
           "noi": "vom parca",
           "voi": "veți parca",
           "ei/ele": "vor parca"
+        },
+        "viitor_familiar": {
+          "eu": "o să parchez",
+          "tu": "o să parchezi",
+          "el/ea": "o să parcheze",
+          "noi": "o să parcăm",
+          "voi": "o să parcați",
+          "ei/ele": "o să parcheze"
         },
         "conjunctiv": {
           "eu": "să parchez",
@@ -1913,6 +1937,14 @@
           "voi": "veți aranja",
           "ei/ele": "vor aranja"
         },
+        "viitor_familiar": {
+          "eu": "o să aranjez",
+          "tu": "o să aranjezi",
+          "el/ea": "o să aranjeze",
+          "noi": "o să aranjăm",
+          "voi": "o să aranjați",
+          "ei/ele": "o să aranjeze"
+        },
         "conjunctiv": {
           "eu": "să aranjez",
           "tu": "să aranjezi",
@@ -1967,6 +1999,14 @@
           "noi": "ne vom comporta",
           "voi": "vă veți comporta",
           "ei/ele": "se vor comporta"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă comport",
+          "tu": "o să te comporți",
+          "el/ea": "o să se comporte",
+          "noi": "o să ne comportăm",
+          "voi": "o să vă comportați",
+          "ei/ele": "o să se comporte"
         },
         "conjunctiv": {
           "eu": "să mă comport",
@@ -2025,9 +2065,17 @@
           "voi": "veți arăta",
           "ei/ele": "vor arăta"
         },
+        "viitor_familiar": {
+          "eu": "o să arăt",
+          "tu": "o să arăți",
+          "el/ea": "o să arate",
+          "noi": "o să arătăm",
+          "voi": "o să arătați",
+          "ei/ele": "o să arate"
+        },
         "conjunctiv": {
           "eu": "să arăt",
-          "tu": "să arați",
+          "tu": "să arăți",
           "el/ea": "să arate",
           "noi": "să arătăm",
           "voi": "să arătați",
@@ -2080,6 +2128,14 @@
           "noi": "ne vom caza",
           "voi": "vă veți caza",
           "ei/ele": "se vor caza"
+        },
+        "viitor_familiar": {
+          "eu": "o să mă cazez",
+          "tu": "o să te cazezi",
+          "el/ea": "o să se cazeze",
+          "noi": "o să ne cazăm",
+          "voi": "o să vă cazați",
+          "ei/ele": "o să se cazeze"
         },
         "conjunctiv": {
           "eu": "să mă cazez",
@@ -2137,6 +2193,14 @@
           "voi": "veți elibera",
           "ei/ele": "vor elibera"
         },
+        "viitor_familiar": {
+          "eu": "o să eliberez",
+          "tu": "o să eliberezi",
+          "el/ea": "o să elibereze",
+          "noi": "o să eliberăm",
+          "voi": "o să eliberați",
+          "ei/ele": "o să elibereze"
+        },
         "conjunctiv": {
           "eu": "să eliberez",
           "tu": "să eliberezi",
@@ -2191,6 +2255,14 @@
           "noi": "vom anula",
           "voi": "veți anula",
           "ei/ele": "vor anula"
+        },
+        "viitor_familiar": {
+          "eu": "o să anulez",
+          "tu": "o să anulezi",
+          "el/ea": "o să anuleze",
+          "noi": "o să anulăm",
+          "voi": "o să anulați",
+          "ei/ele": "o să anuleze"
         },
         "conjunctiv": {
           "eu": "să anulez",
@@ -5063,6 +5135,250 @@
         "imperativ": {
           "tu": "urmează",
           "voi": "urmați"
+        }
+      }
+    },
+    {
+      "infinitive": "a recomanda",
+      "type": "irregular",
+      "group": 1,
+      "subgroup": 4,
+      "infinitive_translated": ["to recommend", "to suggest"],
+      "conjugations": {
+        "prezent": {
+          "eu": "recomand",
+          "tu": "recomanzi",
+          "el/ea": "recomandă",
+          "noi": "recomandăm",
+          "voi": "recomandați",
+          "ei/ele": "recomandă"
+        },
+        "perfect_compus": {
+          "eu": "am recomandat",
+          "tu": "ai recomandat",
+          "el/ea": "a recomandat",
+          "noi": "am recomandat",
+          "voi": "ați recomandat",
+          "ei/ele": "au recomandat"
+        },
+        "viitor_literar": {
+          "eu": "voi recomanda",
+          "tu": "vei recomanda",
+          "el/ea": "va recomanda",
+          "noi": "vom recomanda",
+          "voi": "veți recomanda",
+          "ei/ele": "vor recomanda"
+        },
+        "viitor_familiar": {
+          "eu": "o să recomand",
+          "tu": "o să recomanzi",
+          "el/ea": "o să recomande",
+          "noi": "o să recomandăm",
+          "voi": "o să recomandați",
+          "ei/ele": "o să recomande"
+        },
+        "conjunctiv": {
+          "eu": "să recomand",
+          "tu": "să recomanzi",
+          "el/ea": "să recomande",
+          "noi": "să recomandăm",
+          "voi": "să recomandați",
+          "ei/ele": "să recomande"
+        },
+        "conditional": {
+          "eu": "aș recomanda",
+          "tu": "ai recomanda",
+          "el/ea": "ar recomanda",
+          "noi": "am recomanda",
+          "voi": "ați recomanda",
+          "ei/ele": "ar recomanda"
+        },
+        "imperativ": {
+          "tu": "recomandă",
+          "voi": "recomandați"
+        }
+      }
+    },
+    {
+      "infinitive": "a insista",
+      "type": "irregular",
+      "group": 1,
+      "subgroup": 4,
+      "infinitive_translated": ["to insist"],
+      "conjugations": {
+        "prezent": {
+          "eu": "insist",
+          "tu": "insiști",
+          "el/ea": "insistă",
+          "noi": "insistăm",
+          "voi": "insistați",
+          "ei/ele": "insistă"
+        },
+        "perfect_compus": {
+          "eu": "am insistat",
+          "tu": "ai insistat",
+          "el/ea": "a insistat",
+          "noi": "am insistat",
+          "voi": "ați insistat",
+          "ei/ele": "au insistat"
+        },
+        "viitor_literar": {
+          "eu": "voi insista",
+          "tu": "vei insista",
+          "el/ea": "va insista",
+          "noi": "vom insista",
+          "voi": "veți insista",
+          "ei/ele": "vor insista"
+        },
+        "viitor_familiar": {
+          "eu": "o să insist",
+          "tu": "o să insiști",
+          "el/ea": "o să insiste",
+          "noi": "o să insistăm",
+          "voi": "o să insistați",
+          "ei/ele": "o să insiste"
+        },
+        "conjunctiv": {
+          "eu": "să insist",
+          "tu": "să insiști",
+          "el/ea": "să insiste",
+          "noi": "să insistăm",
+          "voi": "să insistați",
+          "ei/ele": "să insiste"
+        },
+        "conditional": {
+          "eu": "aș insista",
+          "tu": "ai insista",
+          "el/ea": "ar insista",
+          "noi": "am insista",
+          "voi": "ați insista",
+          "ei/ele": "ar insista"
+        },
+        "imperativ": {
+          "tu": "insistă",
+          "voi": "insistați"
+        }
+      }
+    },
+    {
+      "infinitive": "a sugera",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to suggest", "to imply"],
+      "conjugations": {
+        "prezent": {
+          "eu": "sugerez",
+          "tu": "sugerezi",
+          "el/ea": "sugerează",
+          "noi": "sugerăm",
+          "voi": "sugerați",
+          "ei/ele": "sugerează"
+        },
+        "perfect_compus": {
+          "eu": "am sugerat",
+          "tu": "ai sugerat",
+          "el/ea": "a sugerat",
+          "noi": "am sugerat",
+          "voi": "ați sugerat",
+          "ei/ele": "au sugerat"
+        },
+        "viitor_literar": {
+          "eu": "voi sugera",
+          "tu": "vei sugera",
+          "el/ea": "va sugera",
+          "noi": "vom sugera",
+          "voi": "veți sugera",
+          "ei/ele": "vor sugera"
+        },
+        "viitor_familiar": {
+          "eu": "o să sugerez",
+          "tu": "o să sugerezi",
+          "el/ea": "o să sugereze",
+          "noi": "o să sugerăm",
+          "voi": "o să sugerați",
+          "ei/ele": "o să sugereze"
+        },
+        "conjunctiv": {
+          "eu": "să sugerez",
+          "tu": "să sugerezi",
+          "el/ea": "să sugereze",
+          "noi": "să sugerăm",
+          "voi": "să sugerați",
+          "ei/ele": "să sugereze"
+        },
+        "conditional": {
+          "eu": "aș sugera",
+          "tu": "ai sugera",
+          "el/ea": "ar sugera",
+          "noi": "am sugera",
+          "voi": "ați sugera",
+          "ei/ele": "ar sugera"
+        },
+        "imperativ": {
+          "tu": "sugerează",
+          "voi": "sugerați"
+        }
+      }
+    },
+    {
+      "infinitive": "a utiliza",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to utilize", "to use"],
+      "conjugations": {
+        "prezent": {
+          "eu": "utilizez",
+          "tu": "utilizezi",
+          "el/ea": "utilizează",
+          "noi": "utilizăm",
+          "voi": "utilizați",
+          "ei/ele": "utilizează"
+        },
+        "perfect_compus": {
+          "eu": "am utilizat",
+          "tu": "ai utilizat",
+          "el/ea": "a utilizat",
+          "noi": "am utilizat",
+          "voi": "ați utilizat",
+          "ei/ele": "au utilizat"
+        },
+        "viitor_literar": {
+          "eu": "voi utiliza",
+          "tu": "vei utiliza",
+          "el/ea": "va utiliza",
+          "noi": "vom utiliza",
+          "voi": "veți utiliza",
+          "ei/ele": "vor utiliza"
+        },
+        "viitor_familiar": {
+          "eu": "o să utilizez",
+          "tu": "o să utilizezi",
+          "el/ea": "o să utilizeze",
+          "noi": "o să utilizăm",
+          "voi": "o să utilizați",
+          "ei/ele": "o să utilizeze"
+        },
+        "conjunctiv": {
+          "eu": "să utilizez",
+          "tu": "să utilizezi",
+          "el/ea": "să utilizeze",
+          "noi": "să utilizăm",
+          "voi": "să utilizați",
+          "ei/ele": "să utilizeze"
+        },
+        "conditional": {
+          "eu": "aș utiliza",
+          "tu": "ai utiliza",
+          "el/ea": "ar utiliza",
+          "noi": "am utiliza",
+          "voi": "ați utiliza",
+          "ei/ele": "ar utiliza"
+        },
+        "imperativ": {
+          "tu": "utilizează",
+          "voi": "utilizați"
         }
       }
     }
