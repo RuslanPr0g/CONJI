@@ -3050,6 +3050,67 @@
           "voi": "-"
         }
       }
+    },
+    {
+      "infinitive": "a plănui",
+      "type": "regular",
+      "group": 4,
+      "subgroup": 1,
+      "infinitive_translated": ["to plan", "to arrange"],
+      "conjugations": {
+        "prezent": {
+          "eu": "plănuiesc",
+          "tu": "plănuiești",
+          "el/ea": "plănuiește",
+          "noi": "plănuim",
+          "voi": "plănuiți",
+          "ei/ele": "plănuiesc"
+        },
+        "perfect_compus": {
+          "eu": "a plănuit",
+          "tu": "a plănuit",
+          "el/ea": "a plănuit",
+          "noi": "a plănuit",
+          "voi": "a plănuit",
+          "ei/ele": "a plănuit"
+        },
+        "viitor_literar": {
+          "eu": "voi plănui",
+          "tu": "vei plănui",
+          "el/ea": "va plănui",
+          "noi": "vom plănui",
+          "voi": "veți plănui",
+          "ei/ele": "vor plănui"
+        },
+        "viitor_familiar": {
+          "eu": "o să plănuiesc",
+          "tu": "o să plănuiești",
+          "el/ea": "o să plănuiască",
+          "noi": "o să plănuim",
+          "voi": "o să plănuiți",
+          "ei/ele": "o să plănuiască"
+        },
+        "conjunctiv": {
+          "eu": "să plănuiesc",
+          "tu": "să plănuiești",
+          "el/ea": "să plănuiască",
+          "noi": "să plănuim",
+          "voi": "să plănuiți",
+          "ei/ele": "să plănuiască"
+        },
+        "conditional": {
+          "eu": "aș plănui",
+          "tu": "ai plănui",
+          "el/ea": "ar plănui",
+          "noi": "am plănui",
+          "voi": "ați plănui",
+          "ei/ele": "ar plănui"
+        },
+        "imperativ": {
+          "tu": "plănuiește",
+          "voi": "plănuiți"
+        }
+      }
     }
   ]
 }
