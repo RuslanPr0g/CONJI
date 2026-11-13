@@ -5320,6 +5320,67 @@
           "voi": "sugerați"
         }
       }
+    },
+    {
+      "infinitive": "a utiliza",
+      "type": "regular",
+      "group": 1,
+      "subgroup": 1,
+      "infinitive_translated": ["to utilize", "to use"],
+      "conjugations": {
+        "prezent": {
+          "eu": "utilizez",
+          "tu": "utilizezi",
+          "el/ea": "utilizează",
+          "noi": "utilizăm",
+          "voi": "utilizați",
+          "ei/ele": "utilizează"
+        },
+        "perfect_compus": {
+          "eu": "am utilizat",
+          "tu": "ai utilizat",
+          "el/ea": "a utilizat",
+          "noi": "am utilizat",
+          "voi": "ați utilizat",
+          "ei/ele": "au utilizat"
+        },
+        "viitor_literar": {
+          "eu": "voi utiliza",
+          "tu": "vei utiliza",
+          "el/ea": "va utiliza",
+          "noi": "vom utiliza",
+          "voi": "veți utiliza",
+          "ei/ele": "vor utiliza"
+        },
+        "viitor_familiar": {
+          "eu": "o să utilizez",
+          "tu": "o să utilizezi",
+          "el/ea": "o să utilizeze",
+          "noi": "o să utilizăm",
+          "voi": "o să utilizați",
+          "ei/ele": "o să utilizeze"
+        },
+        "conjunctiv": {
+          "eu": "să utilizez",
+          "tu": "să utilizezi",
+          "el/ea": "să utilizeze",
+          "noi": "să utilizăm",
+          "voi": "să utilizați",
+          "ei/ele": "să utilizeze"
+        },
+        "conditional": {
+          "eu": "aș utiliza",
+          "tu": "ai utiliza",
+          "el/ea": "ar utiliza",
+          "noi": "am utiliza",
+          "voi": "ați utiliza",
+          "ei/ele": "ar utiliza"
+        },
+        "imperativ": {
+          "tu": "utilizează",
+          "voi": "utilizați"
+        }
+      }
     }
   ]
 }
